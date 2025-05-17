@@ -1,22 +1,30 @@
+'use client'
+
 import { AlgoliaButton } from 'pliny/search/AlgoliaButton'
-import { KBarButton } from 'pliny/search/KBarButton'
+import ChineseSearch from '@/components/search/ChineseSearch'
 import siteMetadata from '@/data/siteMetadata'
 import { Search } from 'lucide-react'
 
 const SearchButton = () => {
-  if (
-    siteMetadata.search &&
-    (siteMetadata.search.provider === 'algolia' || siteMetadata.search.provider === 'kbar')
-  ) {
-    const SearchButtonWrapper =
-      siteMetadata.search.provider === 'algolia' ? AlgoliaButton : KBarButton
-
+  if (!siteMetadata.search) {
+    return null
+  }
+  
+  // 使用我们的中文搜索组件，完全替代KBar
+  if (siteMetadata.search.provider === 'kbar') {
+    return <ChineseSearch />
+  }
+  
+  // 使用原始Algolia按钮
+  if (siteMetadata.search.provider === 'algolia') {
     return (
-      <SearchButtonWrapper aria-label="Search">
+      <AlgoliaButton aria-label="搜索">
         <Search />
-      </SearchButtonWrapper>
+      </AlgoliaButton>
     )
   }
+  
+  return null
 }
 
 export default SearchButton

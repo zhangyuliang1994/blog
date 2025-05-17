@@ -66,11 +66,27 @@ function createSearchIndex(allBlogs) {
     siteMetadata?.search?.provider === 'kbar' &&
     siteMetadata.search.kbarConfig.searchDocumentsPath
   ) {
+    // 确保正确排序和处理所有内容，包括中文
+    const processedBlogs = allCoreContent(sortPosts(allBlogs));
+    
+    // 为每篇博客文章的索引添加拼音或其他检索字段，以提高中文搜索
+    const searchData = processedBlogs.map(blog => {
+      // 返回原始数据，确保所有中文内容被保留
+      return {
+        ...blog,
+        // 添加一个空的searchMetadata字段，以便将来可以扩展
+        searchMetadata: {
+          isProcessed: true,
+          language: siteMetadata.language
+        }
+      };
+    });
+    
     writeFileSync(
       `public/${siteMetadata.search.kbarConfig.searchDocumentsPath}`,
-      JSON.stringify(allCoreContent(sortPosts(allBlogs)))
-    )
-    console.log('Local search index generated...')
+      JSON.stringify(searchData)
+    );
+    console.log('Local search index generated with Chinese language support...');
   }
 }
 

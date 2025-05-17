@@ -1,11 +1,11 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: "Prabhu's Blog",
+  title: "我的博客",
   author: 'Prabhu Kiran Konda',
-  headerTitle: "Prabhu's Blog",
-  description: 'Exploring Tech and more',
-  language: 'en-us',
-  theme: 'dark', // system, dark or light
+  headerTitle: "我的博客",
+  description: '技术探索与分享',
+  language: 'zh-CN',
+  theme: 'light', // system, dark or light
   siteUrl: 'https://prabhukirankonda.vercel.app',
   siteRepo: 'https://github.com/PrabhuKiran8790/prabhukirankonda',
   siteLogo: '/static/images/logo.png',
@@ -14,7 +14,7 @@ const siteMetadata = {
   github: 'https://github.com/PrabhuKiran8790',
   twitter: 'https://twitter.com/prabhukirantwt',
   linkedin: 'https://www.linkedin.com/in/prabhukirankonda',
-  locale: 'en-US',
+  locale: 'zh-CN',
   socialLinks: {
     github: 'https://www.github.com/prabhukiran8790',
     linkedin: 'https://www.linkedin.com/in/prabhukirankonda',
@@ -50,7 +50,12 @@ const siteMetadata = {
     // content security policy in the `next.config.js` file.
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
-    provider: 'giscus', // supported providers: giscus, utterances, disqus
+    provider: 'twikoo', // 将provider改为twikoo
+    twikooConfig: {
+      envId: 'https://twikoo.xiaofeng.show/', // 您的环境ID
+      lang: 'zh-CN',
+    },
+    // 保留旧的giscus配置，但已不再使用
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/
@@ -62,17 +67,10 @@ const siteMetadata = {
       reactions: '1', // Emoji reactions: 1 = enable / 0 = disable
       // Send discussion metadata periodically to the parent window: 1 = enable / 0 = disable
       metadata: '0',
-      // theme example: light, dark, dark_dimmed, dark_high_contrast
-      // transparent_dark, preferred_color_scheme, custom
       theme: 'light',
-      // theme when dark mode
       darkTheme: 'transparent_dark',
-      // If the theme option above is set to 'custom`
-      // please provide a link below to your custom theme css file.
-      // example: https://giscus.app/themes/custom_example.css
       themeURL: '',
-      // This corresponds to the `data-lang="en"` in giscus's configurations
-      lang: 'en',
+      lang: 'zh-CN',
     },
   },
   search: {

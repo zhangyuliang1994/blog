@@ -13,21 +13,21 @@ export default function Home({ posts }) {
       <div className="flex items-center justify-between space-y-4 mt-7">
         <div className="space-y-4">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            <span className="wave">👋🏻</span>, <span>I'm </span>
+            <span className="wave">👋🏻</span>, <span>我是 </span>
             <span className="text-sky-500 dark:text-teal-400">Prabhu Kiran Konda</span>
           </h1>
-          <p>Welcome to my blog - here I share everything that I love.</p>
+          <p>欢迎来到我的博客 - 在这里我分享我喜欢的一切。</p>
           <Link
             href="/about"
             className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-white font-bold py-2 px-4 rounded mt-4 inline-block"
           >
-            About Me
+            关于我
           </Link>
         </div>
         <div className="rounded-full md:hidden shadow-lg ">
           <Image
             src="/static/images/avatar.jpg"
-            alt="avatar"
+            alt="头像"
             width={150}
             height={150}
             className="h-50 w-50 rounded-full shadow-gray-300"
@@ -35,7 +35,7 @@ export default function Home({ posts }) {
         </div>
         <Image
           src="/static/images/avatar.jpg"
-          alt="avatar"
+          alt="头像"
           width={200}
           height={200}
           className="h-50 w-50 rounded-full hidden md:block shadow-lg shadow-gray-400"
@@ -44,14 +44,14 @@ export default function Home({ posts }) {
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-0 mt-3 md:mt-0 pb-2 pt-6 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Latest
+            最新文章
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Explore the latest posts.
+            探索最新发布的文章。
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-          {!posts.length && 'No posts found.'}
+          {!posts.length && '暂无文章。'}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
             const { slug, date, title, summary, tags } = post
             return (
@@ -59,7 +59,7 @@ export default function Home({ posts }) {
                 <article>
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <dl>
-                      <dt className="sr-only">Published on</dt>
+                      <dt className="sr-only">发布于</dt>
                       <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                         <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                       </dd>
@@ -89,9 +89,9 @@ export default function Home({ posts }) {
                         <Link
                           href={`/blog/${slug}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                          aria-label={`Read "${title}"`}
+                          aria-label={`阅读 "${title}"`}
                         >
-                          Read more &rarr;
+                          阅读更多 &rarr;
                         </Link>
                       </div>
                     </div>
@@ -107,9 +107,9 @@ export default function Home({ posts }) {
           <Link
             href="/blog"
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            aria-label="All posts"
+            aria-label="所有文章"
           >
-            All Posts &rarr;
+            所有文章 &rarr;
           </Link>
         </div>
       )}

@@ -20,6 +20,7 @@
     "esbuild": "0.18.11",
     "flowbite": "^1.8.1",
     "flowbite-react": "^0.5.0",
+    "fuse.js": "^7.1.0",
     "github-slugger": "^1.4.0",
     "gray-matter": "^4.0.2",
     "image-size": "1.0.0",
@@ -32,6 +33,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-toastify": "^9.1.3",
+    "react-use": "^17.6.0",
+    "react-use-fusejs": "^2.0.2",
     "reading-time": "1.5.0",
     "rehype-autolink-headings": "^6.1.0",
     "rehype-citation": "^1.0.2",
@@ -43,6 +46,7 @@
     "remark-gfm": "^3.0.1",
     "remark-math": "^5.1.1",
     "tailwindcss": "^3.3.3",
+    "twikoo": "^1.6.43",
     "unist-util-visit": "^4.1.0"
   },
   "devDependencies": {

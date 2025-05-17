@@ -33,7 +33,7 @@ function Pagination({ totalPages, currentPage }: PaginationProps) {
       <nav className="flex justify-between">
         {!prevPage && (
           <button className="cursor-auto disabled:opacity-50" disabled={!prevPage}>
-            Previous
+            上一页
           </button>
         )}
         {prevPage && (
@@ -41,20 +41,20 @@ function Pagination({ totalPages, currentPage }: PaginationProps) {
             href={currentPage - 1 === 1 ? `/${basePath}/` : `/${basePath}/page/${currentPage - 1}`}
             rel="prev"
           >
-            Previous
+            上一页
           </Link>
         )}
         <span>
-          {currentPage} of {totalPages}
+          {currentPage} / {totalPages}
         </span>
         {!nextPage && (
           <button className="cursor-auto disabled:opacity-50" disabled={!nextPage}>
-            Next
+            下一页
           </button>
         )}
         {nextPage && (
           <Link href={`/${basePath}/page/${currentPage + 1}`} rel="next">
-            Next
+            下一页
           </Link>
         )}
       </nav>
@@ -87,13 +87,13 @@ export default function ListLayoutWithTags({
           <div className="hidden max-h-screen h-full sm:flex flex-wrap bg-gray-100 dark:bg-zinc-800/50 shadow-lg transition-colors duration-200 pt-5 rounded min-w-[280px] max-w-[280px]">
             <div className="py-4 px-6">
               {pathname.startsWith('/blog') ? (
-                <h3 className="text-primary-500 font-bold uppercase">All Posts</h3>
+                <h3 className="text-primary-500 font-bold uppercase">所有文章</h3>
               ) : (
                 <Link
                   href={`/blog`}
                   className="font-bold uppercase text-gray-700 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-500"
                 >
-                  All Posts
+                  所有文章
                 </Link>
               )}
               <ul>
@@ -109,7 +109,7 @@ export default function ListLayoutWithTags({
                           <Link
                             href={`/tags/${slug(t)}`}
                             className="py-2 px-3 uppercase text-sm font-bold text-gray-700 dark:text-gray-300 hover:text-primary-500 dark:hover:text-green-500 hover:bg-zinc-200 rounded-md hover:dark:bg-white/10 hover:font-bold group flex p-3 w-full justify-start cursor-pointer transition ease-in-out"
-                            aria-label={`View posts tagged ${t}`}
+                            aria-label={`查看标签为 ${t} 的文章`}
                           >
                             {`${t} (${tagCounts[t]})`}
                           </Link>
@@ -129,7 +129,7 @@ export default function ListLayoutWithTags({
                   <li key={path} className="py-5 sm:-ml-6">
                     <article className="space-y-2 flex flex-col xl:space-y-0 hover:bg-gray-100 hover:dark:bg-zinc-800/90 p-2 rounded-lg">
                       <dl>
-                        <dt className="sr-only">Published on</dt>
+                        <dt className="sr-only">发布于</dt>
                         <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                           <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                         </dd>
