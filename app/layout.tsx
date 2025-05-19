@@ -2,7 +2,6 @@ import 'css/tailwind.css'
 import 'pliny/search/algolia.css'
 
 import { Noto_Sans_SC } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/react'
 import { AnalyticsConfig } from 'pliny/analytics'
 import { SearchProvider, SearchConfig } from 'pliny/search'
 import Header from '@/components/Header'
@@ -11,6 +10,8 @@ import Footer from '@/components/Footer'
 import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
+import AnalyticsWrapper from '@/components/AnalyticsWrapper'
+import ClientNavigation from '@/components/ClientNavigation'
 
 const noto_sans_sc = Noto_Sans_SC({
   subsets: ['latin'],
@@ -81,8 +82,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="flex h-screen flex-col justify-between font-sans">
               <SearchProvider searchConfig={siteMetadata.search as SearchConfig}>
                 <Header />
+                <ClientNavigation />
                 <main className="mb-auto">{children}</main>
-                <Analytics />
+                <AnalyticsWrapper />
               </SearchProvider>
               <Footer />
             </div>

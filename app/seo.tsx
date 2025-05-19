@@ -15,10 +15,10 @@ export function genPageMetadata({ title, description, image, ...rest }: PageSEOP
     openGraph: {
       title: `${title} | ${siteMetadata.title}`,
       description: description || siteMetadata.description,
-      url: './',
+      url: siteMetadata.siteUrl,
       siteName: siteMetadata.title,
       images: image ? [image] : [siteMetadata.socialBanner],
-      locale: 'en_US',
+      locale: siteMetadata.locale,
       type: 'website',
     },
     twitter: {

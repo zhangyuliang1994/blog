@@ -7,7 +7,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app analytics.umami.is twikoo.xiaofeng.show;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app analytics.umami.is twikoo.xiaofeng.show vercel.app vercel.com va.vercel-scripts.com *.vercel-scripts.com;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
   media-src *.s3.amazonaws.com;
@@ -60,30 +60,23 @@ const securityHeaders = [
 module.exports = () => {
   const plugins = [withContentlayer, withBundleAnalyzer]
   return plugins.reduce((acc, next) => next(acc), {
+    // 开启静态 HTML 导出模式
+    output: 'export',
+    // 禁用 Next.js 图片优化，支持纯静态导出
+    images: {
+      unoptimized: true,
+      domains: ['picsum.photos'],
+      remotePatterns: [
+        { protocol: 'https', hostname: '**' }
+      ],
+    },
     reactStrictMode: true,
     pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
     eslint: {
       dirs: ['app', 'components', 'layouts', 'scripts'],
     },
-    images: {
-      domains: ['picsum.photos'],
-      remotePatterns: [
-        {
-          protocol: 'https',
-          hostname: '**',
-        },
-      ],
-    },
     experimental: {
       appDir: true,
-    },
-    async headers() {
-      return [
-        {
-          source: '/(.*)',
-          headers: securityHeaders,
-        },
-      ]
     },
     webpack: (config, options) => {
       config.module.rules.push({

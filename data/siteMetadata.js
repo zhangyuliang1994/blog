@@ -1,25 +1,21 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: "我的博客",
-  author: 'Prabhu Kiran Konda',
-  headerTitle: "我的博客",
+  title: "晓风的博客",
+  author: '张晓风',
+  headerTitle: "晓风的博客",
   description: '技术探索与分享',
   language: 'zh-CN',
-  theme: 'light', // system, dark or light
-  siteUrl: 'https://prabhukirankonda.vercel.app',
-  siteRepo: 'https://github.com/PrabhuKiran8790/prabhukirankonda',
+  theme: 'system', // system, dark or light
+  siteUrl: 'https://xiaofeng.show',
+  siteRepo: 'https://github.com/zhangyuliang1994',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'prabhukiran426@gmail.com',
-  github: 'https://github.com/PrabhuKiran8790',
-  twitter: 'https://twitter.com/prabhukirantwt',
-  linkedin: 'https://www.linkedin.com/in/prabhukirankonda',
+  email: 'zhangyuliang945@gmail.com',
+  github: 'https://github.com/zhangyuliang1994',
   locale: 'zh-CN',
   socialLinks: {
-    github: 'https://www.github.com/prabhukiran8790',
-    linkedin: 'https://www.linkedin.com/in/prabhukirankonda',
-    twitter: 'https://twitter.com/prabhukirantwt',
-    mail: 'mailto:prabhukiran426@gmail.com',
+    github: 'https://www.github.com/zhangyuliang1994',
+    mail: 'mailto:zhangyuliang9425@gmail.com',
   },
   analytics: {
     // If you want to use an analytics provider you have to add it to the
