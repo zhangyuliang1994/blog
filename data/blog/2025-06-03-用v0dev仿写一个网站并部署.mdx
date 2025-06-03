@@ -1,0 +1,122 @@
+---
+title: 用v0.dev仿写一个网站并部署
+description: 使用v0.dev模仿网站页面并在vercel上部署
+summary: 从发现目标网站到完成部署的完整实战经历，详细介绍了使用v0.dev仿写哈利波特分院帽测试网站的全过程。
+date: 2025-06-03T13:45:22.033Z
+preview: "https://minio.xiaofeng.show/blog/2025/harry-potter-website.png"
+draft: false
+tags:
+    - AI编程
+    - Vercel
+categories: []
+---
+
+## 使用v0.dev仿写网站并部署
+
+这篇文章记录了我使用v0.dev仿写一个哈利波特主题网站的完整过程，从发现目标网站到最终部署上线的全部细节。
+
+### 工具的选择
+
+4月份的时候，我以教育优惠订阅了 Lenny's Newsletter，这么多产品最火的是 Cursor，其次就是 Lovable 和 v0。Cursor 我当时已经用了一个月了，帮我写了不少工作上的代码，Lovable 虽然名字好听，但我更相信 Vercel 的产品，毕竟还可以一键部署，所以把 Lovable 挂小黄鱼出掉了，留下了 v0 慢慢体验，这也是我用 v0 开发的第一个项目。
+
+### 发现目标网站
+
+我是一个哈迷，在亚马逊没退出中国前，在 kindle 商城买了全套正版的电子书。我在 Github 闲逛时，偶然发现了这个项目：https://harrypotterhousequiz.pro/ ，一下子就被它吸引住了，无论是魔法棒的光标，还是整个主题及功能，都让我有了用 v0 仿写的冲动。
+
+![原始网站截图](https://minio.xiaofeng.show/blog/2025/harry-potter-origin.png)
+
+### 什么是v0.dev
+
+v0.dev 是 Vercel 推出的基于AI的前端开发工具，能够根据描述或截图快速生成React组件和页面。它最大的优势是与 Vercel 部署平台的无缝集成，可以实现从开发到部署的一站式体验。
+
+### 详细实现过程
+
+#### 第一步：让AI分析目标网站
+
+我让 v0 先不急着写代码，先根据我的要求来分析一下，v0 根据我的要求写了一大堆分析。
+
+![第一步分析](https://minio.xiaofeng.show/blog/2025/harry-potter-step-1.png)
+
+#### 第二步：构建基础代码并部署
+
+我看分析的差不多了，便让它根据分析构建代码。构建完成后，我点击 Deploy 按钮，它便会给我部署到 vercel 上，地址是：https://harrypotter-test.vercel.app/ ，这样我便能实时查看部署后的网站。
+
+![第二步构建部署](https://minio.xiaofeng.show/blog/2025/harry-potter-step-2.png)
+
+#### 第三步：参考目标网站继续优化
+
+基本雏形有了，我便让它参考目标网站，继续调整。
+
+![第三步优化](https://minio.xiaofeng.show/blog/2025/harry-potter-step-3.png)
+
+#### 第四步：绑定Github进行版本管理
+
+当时，为了方便回滚，我还是绑定了 Github。
+
+![第四步Github绑定](https://minio.xiaofeng.show/blog/2025/harry-potter-step-4.png)
+
+### 遇到的问题和解决方案
+
+当然，v0 有时候也会达不到你想要的效果。比如光标的魔法棒效果，刚开始只是给我一个小圆点，我让 v0 调试很多次后才是现在这个效果（中间也进行了多次回滚），当然和目标网站还是有些许差距的。
+
+![调试过程](https://minio.xiaofeng.show/blog/2025/harry-potter-step-5.png)
+
+如果需要借鉴子页面，需要把子页面的链接发给 v0。
+
+![子页面分析](https://minio.xiaofeng.show/blog/2025/harry-potter-step-6.png)
+
+### 集成AI功能
+
+分院帽问答需要接入 AI 相关的 API，我这里选择了 Google 的 Gemini（因为免费），这样回答会更智能一些。
+
+![AI集成](https://minio.xiaofeng.show/blog/2025/harry-potter-step-7.png)
+
+### 自定义域名配置
+
+部署成功后，是可以用 vercel.app 的二级域名进行访问的，但是我想试试绑定域名。我在 Namesilo 上买了域名 https://www.harrypotter.cc/ （也纠结好久，买了这个相对便宜又好记的）。
+
+#### 在Vercel中添加域名
+
+在 vercel 管理页面，找到这个项目，点击 添加域名，输入自己的域名，会生成两条 NameServer。
+
+![Vercel域名设置](https://minio.xiaofeng.show/blog/2025/harry-potter-vercel-set.png)
+
+#### 在域名提供商配置DNS
+
+将这两条记录拷贝到 Namesilo 里这个域名的配置页面即可。
+
+![Namesilo DNS配置](https://minio.xiaofeng.show/blog/2025/harry-botter-namesilo.png)
+
+### 项目特色功能
+
+1. **魔法棒光标效果**：鼠标移动时会有魔法棒的视觉效果
+2. **分院帽测试**：集成了AI问答功能，可以根据用户回答分配学院
+3. **响应式设计**：适配不同设备屏幕
+4. **主题一致性**：完整还原了哈利波特的视觉风格
+
+### 技术栈
+
+- **前端框架**：React + Next.js
+- **样式方案**：Tailwind CSS
+- **AI服务**：Google Gemini API
+- **部署平台**：Vercel
+- **版本控制**：Github
+
+### 总结与思考
+
+总结一下，虽然 v0 复刻没有达到100%，但是基本上也很像了，而且对于我这个不会前端的人来说，也已经很满意了，而且总共也就用了我半个下午的时间，后面熟悉后，做网站会更快的。
+
+#### 优势
+- **上手简单**：无需深入的前端知识
+- **效率极高**：半天时间完成从开发到部署
+- **一站式体验**：从代码生成到部署无缝衔接
+- **版本管理**：支持回滚和版本控制
+
+#### 不足
+- **细节控制有限**：某些特效实现不够精确
+- **依赖AI理解**：需要多次调试才能达到预期效果
+- **定制化程度**：复杂交互可能需要人工干预
+
+通过这次实践，我深深感受到了AI工具在前端开发中的巨大潜力。对于非专业开发者来说，v0.dev确实是一个非常好的选择，让想法能够快速变成现实。
+
+**最终项目地址**：https://www.harrypotter.cc/ 

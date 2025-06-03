@@ -31,7 +31,7 @@ export default function Home({ posts }) {
             width={150}
             height={150}
             priority
-            className="h-50 w-50 rounded-full shadow-gray-300"
+            className="!w-36 !h-36 rounded-full shadow-gray-300"
           />
         </div>
         <Image
@@ -40,7 +40,7 @@ export default function Home({ posts }) {
           width={200}
           height={200}
           priority
-          className="h-50 w-50 rounded-full hidden md:block shadow-lg shadow-gray-400"
+          className="!w-48 !h-48 rounded-full hidden md:block shadow-lg shadow-gray-400"
         />
       </div>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">

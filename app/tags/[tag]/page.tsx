@@ -32,11 +32,13 @@ export const generateStaticParams = async () => {
 
 export default function TagPage({ params }: { params: { tag: string } }) {
   const { tag } = params
+  // 对URL参数进行解码
+  const decodedTag = decodeURIComponent(tag)
   // Capitalize first letter and convert space to dash
-  const title = tag[0].toUpperCase() + tag.split(' ').join('-').slice(1)
+  const title = decodedTag[0].toUpperCase() + decodedTag.split(' ').join('-').slice(1)
   const filteredPosts = allCoreContent(
     allBlogs.filter(
-      (post) => post.draft !== true && post.tags && post.tags.map((t) => slug(t)).includes(tag)
+      (post) => post.draft !== true && post.tags && post.tags.map((t) => slug(t)).includes(decodedTag)
     )
   )
   return <ListLayout posts={filteredPosts} title={title} />

@@ -81,6 +81,15 @@ module.exports = {
             strong: {
               fontWeight: '800',
             },
+            img: {
+              width: '100%',
+              maxWidth: '100%',
+              height: 'auto',
+              marginTop: theme('spacing.6'),
+              marginBottom: theme('spacing.6'),
+              borderRadius: theme('borderRadius.lg'),
+              boxShadow: theme('boxShadow.xl'),
+            },
             code: {
               color: theme('colors.black'),
               fontWeight: '700',
@@ -102,6 +111,9 @@ module.exports = {
             },
             'h1,h2,h3,h4,h5,h6': {
               color: theme('colors.gray.100'),
+            },
+            img: {
+              boxShadow: 'none',
             },
           },
         },
