@@ -253,13 +253,7 @@ export function Docker() {
         fillRule="evenodd"
         clipRule="evenodd"
         fill="#00ACD3"
-        d="M50.9 52.7h9.8v9.8h-9.8v-9.8zm.8.8h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"
-      ></path>
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        fill="#23C2EE"
-        d="M50.9 41.5h9.8v9.8h-9.8v-9.8zm.8.8h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm3.1 10.4H72v9.8h-9.8v-9.8zm.8.8h.8v8.1H63v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"
+        d="M50.9 52.7h9.8v9.8h-9.8v-9.8zm.8.8h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm3.1 10.4H72v9.8h-9.8v-9.8zm.8.8h.8v8.1H63v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"
       ></path>
       <path
         fillRule="evenodd"
@@ -558,6 +552,7 @@ export const DevIcons = {
   PyTorch: PyTorch,
   TensorFlow: TensorFlow,
   NextJS: NextJs,
+  'Next.js': NextJs,
   MySQL: MySQL,
   Git: Git,
   Streamlit: Streamlit,
@@ -565,6 +560,13 @@ export const DevIcons = {
   Firebase: Firebase,
   Prisma: Prisma,
   Drizzle: Drizzle,
+  TailwindCSS: TailwindCSS,
+  'Tailwind CSS': TailwindCSS,
+  Vercel: Vercel,
+  FramerMotion: FramerMotion,
+  'Framer Motion': FramerMotion,
+  GoogleGeminiAI: GoogleGeminiAI,
+  'Google Gemini AI': GoogleGeminiAI,
 }
 
 export function FamiliarTechStack() {
@@ -585,5 +587,52 @@ export function FamiliarTechStack() {
         )
       })}
     </div>
+  )
+}
+
+export function TailwindCSS() {
+  return (
+    <svg viewBox="0 0 128 128" height={22} width={22}>
+      <path d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.215-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64z" fill="#38bdf8" />
+    </svg>
+  )
+}
+
+export function Vercel() {
+  return (
+    <svg viewBox="0 0 128 128" height={22} width={22}>
+      <path d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64 64-28.7 64-64S99.3 0 64 0z" fill="#000" />
+      <path d="M90.8 71.9L64 39.2 37.2 71.9h53.6z" fill="#fff" />
+    </svg>
+  )
+}
+
+export function FramerMotion() {
+  return (
+    <svg viewBox="0 0 128 128" height={22} width={22}>
+      <path
+        d="M22.67 0v42.67h42.67V0zm0 42.67v42.67h42.67V42.67H22.67zm42.67 0h42.67V0H65.34zm0 42.67h42.67v42.67H65.34z"
+        fill="#0055FF"
+      />
+      <path d="M65.34 128V85.34H22.67V128z" fill="#0055FF" />
+    </svg>
+  )
+}
+
+export function GoogleGeminiAI() {
+  return (
+    <svg viewBox="0 0 128 128" height={22} width={22}>
+      <defs>
+        <linearGradient id="gemini-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#8C5CF6" />
+          <stop offset="50%" stopColor="#8C5CF6" />
+          <stop offset="100%" stopColor="#0066FF" />
+        </linearGradient>
+      </defs>
+      <path
+        d="M64 16L32 33.08v61.84L64 112l32-17.08V33.08L64 16zM48 84V44l32 20v40L48 84z"
+        fill="url(#gemini-gradient)"
+      />
+    </svg>
   )
 }

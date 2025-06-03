@@ -5,6 +5,7 @@ export type TechStack =
   | 'Java'
   | 'React'
   | 'NextJS'
+  | 'Next.js'
   | 'Svelte'
   | 'TensorFlow'
   | 'PyTorch'
@@ -18,6 +19,10 @@ export type TechStack =
   | 'Git'
   | 'Prisma'
   | 'Drizzle'
+  | 'Tailwind CSS'
+  | 'Framer Motion'
+  | 'Google Gemini AI'
+  | 'Vercel'
 
 export const techStack: TechStack[] = [
   'Python',
@@ -26,6 +31,7 @@ export const techStack: TechStack[] = [
   'Java',
   'React',
   'NextJS',
+  'Next.js',
   'Svelte',
   'TensorFlow',
   'PyTorch',
@@ -39,4 +45,8 @@ export const techStack: TechStack[] = [
   'Git',
   'Prisma',
   'Drizzle',
+  'Tailwind CSS',
+  'Framer Motion',
+  'Google Gemini AI',
+  'Vercel',
 ]
