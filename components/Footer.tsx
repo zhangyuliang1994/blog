@@ -21,6 +21,16 @@ export default function Footer() {
           <div>{` • `}</div>
           <Link href="/">{siteMetadata.title}</Link>
         </div>
+        <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
+          <a
+            href="https://beian.miit.gov.cn/"
+            className="hover:text-gray-600 dark:hover:text-gray-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            苏ICP备2023046043号
+          </a>
+        </div>
       </div>
     </footer>
   )
