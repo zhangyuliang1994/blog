@@ -1,8 +1,16 @@
-const { withContentlayer } = require('next-contentlayer')
-
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
+
+// 根据环境变量决定是否使用Contentlayer
+let withContentlayer = (config) => config
+if (process.env.SKIP_CONTENTLAYER !== 'true') {
+  try {
+    withContentlayer = require('next-contentlayer').withContentlayer
+  } catch (error) {
+    console.warn('Contentlayer not available, skipping...')
+  }
+}
 
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
