@@ -1,0 +1,97 @@
+---
+title: Claude Code使用初体验：从犹豫到心动的AI编程助手
+description: 深度体验Claude Code，从注册安装到实际使用的完整记录，以及与Cursor的对比感受
+summary: Claude Code终于对Pro用户开放，经过一番折腾成功安装后的使用体验令人惊喜。相比Cursor，它在处理复杂任务时更加严谨，不会胡说八道，值得每一个程序员尝试。
+date: 2025-06-23T10:30:00.000Z
+preview: "http://minio.xiaofeng.show/blog/2025/claude_code_success.jpeg"
+draft: false
+tags:
+    - AI编程
+categories: []
+---
+
+## Claude Code使用初体验：从犹豫到心动的AI编程助手
+
+Claude Code已经推出几个月了，但之前要么按量付费，要么仅限Max用户使用，对于普通用户来说门槛较高。最近Pro用户也可以使用了，加上墙内外都在热议它的优秀表现，不禁让人心动。虽然20美元的价格让我有些犹豫，尤其是我已经凭借教育优惠白嫖了一年的Cursor Pro。
+
+但促使我下定决心的，是Cursor近期的表现实在令人失望——从上周开始变得又慢又蠢，似乎只能处理一些简单问题了。无奈之下，我还是咬咬牙决定体验一下Claude Code。
+
+### 一、注册与安装历程
+
+#### 1.1 谨慎注册
+
+最近一周看到不少用户被封号的消息，为了保险起见，我决定注册一个全新的Google账号，使用新的Gmail邮箱来注册Claude。在付款方式上，我没有选择支付宝（担心被拒绝或封号），而是使用了野卡完成支付。
+
+#### 1.2 安装过程的波折
+
+**Windows 11 失败尝试**
+
+昨天我首先尝试在Windows 11上安装，执行npm命令时直接提示不支持Windows系统。无奈之下，我只能按照教程安装WSL，然后在WSL中安装Ubuntu，但装完后依然存在问题，只能暂时放弃。
+
+**Mac 安装成功**
+
+今天到公司后迫不及待地在Mac上进行安装，过程同样不顺利。最终在GitHub的Issue中找到了解决方案：
+
+```bash
+npm list -g --depth=0 > ~/npm-global-packages.txt
+mkdir -p ~/.npm-global
+npm config set prefix ~/.npm-global
+echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.zshrc
+source ~/.zshrc
+npm install -g @anthropic-ai/claude-code
+```
+
+安装完成后，启动时却一直报错：
+
+![Claude Code启动失败](http://minio.xiaofeng.show/blog/2025/claude_code_fail.png)
+
+折腾半天才发现是代理配置问题，执行以下命令解决：
+
+```bash
+export HTTP_PROXY="http://127.0.0.1:7890"
+export HTTPS_PROXY="http://127.0.0.1:7890"
+# 7890是我本地代理服务的端口
+```
+
+重新执行claude命令后，终于看到了期待已久的界面！
+
+![Claude Code成功启动](http://minio.xiaofeng.show/blog/2025/claude_code_success.jpeg)
+
+登录账号后，终于可以开始愉快的编程之旅了。
+
+### 二、实际使用感受
+
+今天我主要让它协助编写工作中的Java代码，使用SpringBoot框架。整体体验下来，感觉确实比Cursor要出色。虽然Cursor在编写前端代码和Golang方面表现不错，但在Java开发上给我的体验并不理想。
+
+![Claude Code工作场景](http://minio.xiaofeng.show/blog/2025/claude_code_work.png)
+
+#### 2.1 处理复杂任务：慢工出细活，绝不胡编乱造
+
+当我交给它一个复杂任务时，它会先全面扫描所有相关文件，在充分了解现有代码结构后才开始编码。虽然这个过程可能稍显缓慢，但结果却令人满意——不会出现胡编乱造的情况，也没有变量边界问题，更不会遗漏import语句（这是Cursor经常出现的错误）。
+
+#### 2.2 严谨专业：坚持代码质量，不迎合错误需求
+
+有一次，某个需求它已经完美实现，但线上运行的是旧代码，我误以为它写错了。Claude Code并没有盲目迎合我的想法，而是再次仔细检查代码，确认现有代码无误，并提供了检查历史数据的方法。这种坚持专业判断、不随意修改代码的态度让我印象深刻。
+
+#### 2.3 小瑕疵不影响整体优秀
+
+当然，Claude Code也并非完美无缺。在多次请求后，偶尔会出现一些小问题，比如类的属性引用问题，但这些在编译时就能发现，不会影响整体开发进度。另外，有时文件格式修改可能存在问题，但由于修改的文件数量有限，很容易手动定位和解决。
+
+### 三、总结：Claude Code值得拥有
+
+经过一天的深度体验，我可以肯定地说：**Claude Code绝对值得！**
+
+它采用了当前最优秀的AI模型，提供了最出色的AI编程体验，值得每一位程序员去尝试。我愿意向所有同行推荐它。正如宝玉老师所说："要用就用最好的，这是需要大方的地方。"
+
+![宝玉老师的建议](http://minio.xiaofeng.show/blog/2025/claude_code_baoyu.png)
+
+在AI编程工具快速发展的今天，选择一个优秀的助手不仅能提高开发效率，更能让我们在代码质量上更进一步。Claude Code在这方面的表现，确实让人刮目相看。
+
+#### 使用建议
+
+1. **耐心安装**：虽然安装过程可能遇到一些波折，但坚持下去一定能成功
+2. **合理预期**：它很强大，但不是万能的，配合人工判断效果更佳  
+3. **充分利用**：对于复杂项目，让它充分了解代码结构后再开始工作
+4. **持续反馈**：遇到问题及时反馈，它的学习能力很强
+
+总的来说，Claude Code是目前我用过的最令人印象深刻的AI编程助手，值得投资和长期使用。 
