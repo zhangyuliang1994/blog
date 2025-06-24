@@ -23,7 +23,17 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['var(--font-noto-sans-sc)', ...fontFamily.sans],
+        sans: [
+          'Inter', 
+          'Noto Sans SC', 
+          '-apple-system', 
+          'BlinkMacSystemFont', 
+          'PingFang SC', 
+          'Hiragino Sans GB', 
+          'Microsoft YaHei', 
+          'WenQuanYi Micro Hei', 
+          ...fontFamily.sans
+        ],
       },
       colors: {
         primary: colors.blue,
