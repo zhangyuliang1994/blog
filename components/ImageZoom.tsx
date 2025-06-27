@@ -9,6 +9,7 @@ interface ImageZoomProps {
   width?: number
   height?: number
   className?: string
+  fill?: boolean
 }
 
 export default function ImageZoom({ 
@@ -16,7 +17,8 @@ export default function ImageZoom({
   alt, 
   width = 800, 
   height = 600, 
-  className = '' 
+  className = '', 
+  fill = false,
 }: ImageZoomProps) {
   const [isZoomed, setIsZoomed] = useState(false)
 
@@ -35,11 +37,12 @@ export default function ImageZoom({
       <Image
         src={src}
         alt={alt}
-        width={width}
-        height={height}
+        width={fill ? undefined : width}
+        height={fill ? undefined : height}
         className={`cursor-pointer hover:opacity-90 transition-opacity ${className}`}
         onClick={handleImageClick}
         unoptimized
+        fill={fill}
       />
       
       {isZoomed && (

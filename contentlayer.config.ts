@@ -1,8 +1,8 @@
 import { defineDocumentType, ComputedFields, makeSource } from 'contentlayer/source-files'
 import { writeFileSync } from 'fs'
+import path from 'path'
 import readingTime from 'reading-time'
 import GithubSlugger from 'github-slugger'
-import path from 'path'
 // Remark packages
 import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
@@ -109,6 +109,7 @@ export const Blog = defineDocumentType(() => ({
     layout: { type: 'string' },
     bibliography: { type: 'string' },
     canonicalUrl: { type: 'string' },
+    password: { type: 'string' },
   },
   computedFields: {
     ...computedFields,
@@ -163,13 +164,14 @@ export default makeSource({
       rehypeSlug,
       rehypeAutolinkHeadings,
       rehypeKatex,
-      [rehypeCitation, { path: path.join(root, 'data') }],
+      // [rehypeCitation, { path: path.join(root, 'data') }],
       [rehypePrismPlus, { defaultLanguage: 'js', ignoreMissing: true }],
       rehypePresetMinify,
     ],
   },
   onSuccess: async (importData) => {
-    const { allBlogs } = await importData()
+    const { allDocuments } = await importData()
+    const allBlogs = allDocuments.filter((p) => p.type === 'Blog')
     createTagCount(allBlogs)
     createSearchIndex(allBlogs)
   },

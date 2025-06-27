@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import Image from '@/components/Image'
+import Image from '@/components/ImageZoom'
 import Bleed from 'pliny/ui/Bleed'
 import { CoreContent } from 'pliny/utils/contentlayer'
 import type { Blog } from 'contentlayer/generated'

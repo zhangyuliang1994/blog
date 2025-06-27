@@ -12,6 +12,7 @@ import PostLayout from '@/layouts/PostLayout'
 import PostBanner from '@/layouts/PostBanner'
 import { Metadata } from 'next'
 import siteMetadata from '@/data/siteMetadata'
+import BlogPostPage from './BlogPostPage'
 
 const isProduction = process.env.NODE_ENV === 'production'
 const defaultLayout = 'PostLayout'
@@ -105,26 +106,15 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
 
   return (
     <>
-      {isProduction && post && 'draft' in post && post.draft === true ? (
-        <div className="mt-24 text-center">
-          <PageTitle>
-            Under Construction{' '}
-            <span role="img" aria-label="roadwork sign">
-              🚧
-            </span>
-          </PageTitle>
-        </div>
-      ) : (
-        <>
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-          />
-          <Layout content={mainContent} authorDetails={authorDetails} next={next} prev={prev}>
-            <MDXLayoutRenderer code={post.body.code} components={components} toc={post.toc} />
-          </Layout>
-        </>
-      )}
+      <BlogPostPage
+        post={post}
+        authorDetails={authorDetails}
+        prev={prev}
+        next={next}
+        isProduction={isProduction}
+      >
+        <MDXLayoutRenderer code={post.body.code} components={components} toc={post.toc} />
+      </BlogPostPage>
     </>
   )
 }
