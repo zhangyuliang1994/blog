@@ -148,9 +148,46 @@ export const Authors = defineDocumentType(() => ({
   computedFields,
 }))
 
+export const Doc = defineDocumentType(() => ({
+  name: 'Doc',
+  filePathPattern: 'docs/**/*.mdx',
+  contentType: 'mdx',
+  fields: {
+    title: {
+      type: 'string',
+      required: true,
+    },
+    description: {
+      type: 'string',
+      required: true,
+    },
+    order: {
+      type: 'number',
+      required: true,
+    },
+  },
+  computedFields: {
+    slug: {
+      type: 'string',
+      resolve: (doc) => `${doc._raw.flattenedPath.replace('docs/', '')}`,
+    },
+    url: {
+      type: 'string',
+      resolve: (doc) => `/${doc._raw.flattenedPath}`,
+    },
+    toc: {
+      type: 'json',
+      resolve: async (doc) => {
+        const toc = await extractTocHeadings(doc.body.raw)
+        return toc
+      },
+    },
+  },
+}))
+
 export default makeSource({
   contentDirPath: 'data',
-  documentTypes: [Blog, Authors],
+  documentTypes: [Blog, Authors, Doc],
   mdx: {
     cwd: process.cwd(),
     remarkPlugins: [

@@ -4,6 +4,7 @@ const headerNavLinks = [
   { href: '/tags', title: '标签' },
   { href: '/projects', title: '项目' },
   { href: '/guestbook', title: '留言板' },
+  { href: '/docs/01-getting-started/01-introduction', title: 'AI编程' },
   { href: '/about', title: '关于' },
 ]
 
