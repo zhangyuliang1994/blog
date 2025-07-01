@@ -3,7 +3,13 @@
 import React from 'react'
 import siteMetadata from '@/data/siteMetadata'
 
-const MonthlyReportCard = () => {
+const MonthlyReportCard = ({ report }) => {
+  if (!report) {
+    return null
+  }
+
+  const { title, keywords, stats, events } = report
+
   const StatItem = ({ label, value, emoji }) => (
     <div className="flex items-center justify-between rounded-lg bg-gray-200 p-3 dark:bg-gray-700">
       <div className="flex items-center">
@@ -29,39 +35,29 @@ const MonthlyReportCard = () => {
             <img src={siteMetadata.siteLogo} alt="Logo" className="h-20 w-20 rounded-full" />
           </div>
           <div className="text-center sm:text-left">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
-              BAT董事会 · 2025年5月月报
-            </h2>
-            <p className="mt-1 text-gray-600 dark:text-gray-400">
-              本月关键词：结婚、生娃、跑路、薅羊毛
-            </p>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">{title}</h2>
+            <p className="mt-1 text-gray-600 dark:text-gray-400">本月关键词：{keywords}</p>
           </div>
         </div>
 
         <div className="my-6 h-px bg-gray-200 dark:bg-gray-700"></div>
 
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <StatItem emoji="💬" label="本月金句" value="天天想跑路,月月拿满勤" />
-          <StatItem emoji="😂" label="吹水指数" value="★★★★★" />
-          <StatItem emoji="🐑" label="羊毛指数" value="★★★★★" />
-          <StatItem emoji="🏆" label="本月赢家" value="臧浩然 & 许浩杰" />
+          {stats.map((stat, index) => (
+            <StatItem key={index} emoji={stat.emoji} label={stat.label} value={stat.value} />
+          ))}
         </div>
 
         <div className="my-6 h-px bg-gray-200 dark:bg-gray-700"></div>
 
         <div>
-          <h3 className="mb-4 text-lg font-bold text-gray-800 dark:text-gray-200">✨ 本月大事记</h3>
+          <h3 className="mb-4 text-lg font-bold text-gray-800 dark:text-gray-200">
+            ✨ 本月大事记
+          </h3>
           <ul className="space-y-3 text-gray-700 dark:text-gray-300">
-            <EventItem emoji="🤵" text="恭喜臧哥喜提已婚人士身份，光速完成人生大事！" />
-            <EventItem emoji="🍼" text="恭喜浩杰喜提准爸爸身份，群聊育儿经讨论热度飙升！" />
-            <EventItem
-              emoji="😫"
-              text='节后综合症席卷全群，"班味儿"过敏，跑路意愿空前高涨。'
-            />
-            <EventItem
-              emoji="🚀"
-              text='"别人家的公司"成功破防，英语学习被提上日程！'
-            />
+            {events.map((event, index) => (
+              <EventItem key={index} emoji={event.emoji} text={event.text} />
+            ))}
           </ul>
         </div>
       </div>

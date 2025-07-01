@@ -9,9 +9,38 @@ password: '7758521'
 
 import MonthlyReportCard from '@/components/MonthlyReportCard'
 
+export const reportData = {
+  title: 'BAT董事会 · 2025年5月月报',
+  keywords: '结婚、生娃、跑路、薅羊毛',
+  stats: [
+    { emoji: '💬', label: '本月金句', value: '天天想跑路,月月拿满勤' },
+    { emoji: '😂', label: '吹水指数', value: '★★★★★' },
+    { emoji: '🐑', label: '羊毛指数', value: '★★★★★' },
+    { emoji: '🏆', label: '本月赢家', value: '臧浩然 & 许浩杰' },
+  ],
+  events: [
+    {
+      emoji: '🤵',
+      text: '恭喜臧哥喜提已婚人士身份，光速完成人生大事！',
+    },
+    {
+      emoji: '🍼',
+      text: '恭喜浩杰喜提准爸爸身份，群聊育儿经讨论热度飙升！',
+    },
+    {
+      emoji: '😫',
+      text: '节后综合症席卷全群，"班味儿"过敏，跑路意愿空前高涨。',
+    },
+    {
+      emoji: '🚀',
+      text: '"别人家的公司"成功破防，英语学习被提上日程！',
+    },
+  ],
+}
+
 五月，一个充满了"班味儿"和喜悦的月份。我们见证了兄弟的人生大事，也感受到了职场的阵阵寒意。从订婚、领证到喜提准爸，再到集体吐槽、计划跑路，最后在对"别人家的公司"的羡慕中，找到了新的学习动力。当然，也少不了陈总每日的"薅羊毛"超值资讯。
 
-<MonthlyReportCard />
+<MonthlyReportCard report={reportData} />
 
 ## 🤵‍♂️ 恭喜臧哥！人生大事光速推进！
 
