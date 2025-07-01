@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-black dark:text-white;
+}
+
 p {
   @apply text-black dark:text-gray-300 text-base md:text-lg leading-relaxed lg:leading-loose;
 }
@@ -17,6 +26,22 @@ code {
 ul,
 li {
   @apply text-black dark:text-gray-300 text-base md:text-lg leading-relaxed lg:leading-loose;
+}
+
+table {
+  @apply text-black dark:text-gray-300;
+}
+
+th {
+  @apply border-gray-300 dark:border-gray-600 text-black dark:text-white font-semibold;
+}
+
+td {
+  @apply border-gray-300 dark:border-gray-600;
+}
+
+strong {
+  @apply text-black dark:text-white font-bold;
 }
 
 ::-webkit-scrollbar {
