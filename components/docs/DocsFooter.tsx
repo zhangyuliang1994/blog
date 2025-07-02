@@ -1,5 +1,6 @@
-import { Doc } from 'contentlayer/generated'
 import Link from 'next/link'
+import { Doc } from 'contentlayer/generated'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
 
 interface DocsFooterProps {
   prev: Doc | null
@@ -8,26 +9,26 @@ interface DocsFooterProps {
 
 export function DocsFooter({ prev, next }: DocsFooterProps) {
   return (
-    <div className="mt-12 flex justify-between border-t border-gray-200 pt-6 dark:border-gray-700">
-      <div>
-        {prev && (
-          <Link
-            href={prev.url}
-            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+    <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
+      <div className="flex justify-between">
+        {prev ? (
+          <Link 
+            href={prev.url} 
+            className="group flex items-center text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
           >
-            <div className="text-sm text-gray-500">Previous</div>
-            <div className="font-semibold">{prev.title}</div>
+            <ArrowLeft className="mr-1 h-4 w-4 transition-transform group-hover:-translate-x-1" />
+            {prev.title}
           </Link>
+        ) : (
+          <div></div>
         )}
-      </div>
-      <div>
         {next && (
-          <Link
-            href={next.url}
-            className="text-right text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+          <Link 
+            href={next.url} 
+            className="group flex items-center text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
           >
-            <div className="text-sm text-gray-500">Next</div>
-            <div className="font-semibold">{next.title}</div>
+            {next.title}
+            <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Link>
         )}
       </div>
