@@ -1,3 +1,5 @@
+'use client'
+
 import { DocsLayout } from '@/layouts/DocsLayout'
 import { allDocs } from 'contentlayer/generated'
 import { notFound } from 'next/navigation'
@@ -5,6 +7,8 @@ import { useMDXComponent } from 'next-contentlayer/hooks'
 import { sortDocs } from '@/lib/utils/contentlayer'
 import { DocsSidebar } from '@/components/docs/DocsSidebar'
 import Link from 'next/link'
+import { useState, useEffect } from 'react'
+import PostPasswordPrompt from '@/components/PostPasswordPrompt'
 
 export const generateStaticParams = async () => {
   return allDocs.map((doc) => ({
@@ -14,6 +18,16 @@ export const generateStaticParams = async () => {
 
 export default function DocPage({ params }: { params: { slug: string[] } }) {
   const slug = params.slug ? params.slug.join('/') : ''
+  const [unlocked, setUnlocked] = useState(false)
+
+  useEffect(() => {
+    if (slug) {
+      const isUnlocked = sessionStorage.getItem('docs_unlocked') === 'true'
+      if (isUnlocked) {
+        setUnlocked(true)
+      }
+    }
+  }, [slug])
   
   // If no slug, show docs index page
   if (!slug) {
@@ -115,6 +129,21 @@ export default function DocPage({ params }: { params: { slug: string[] } }) {
   const next = docIndex < sortedDocs.length - 1 ? sortedDocs[docIndex + 1] : null
 
   const MDXContent = useMDXComponent(doc.body.code)
+
+  // Password protection for all docs pages
+  if (slug && !unlocked) {
+    return (
+      <div className="flex h-screen items-center justify-center">
+        <PostPasswordPrompt
+          password_real={'Xiaofeng2025.'}
+          onCorrectPassword={() => {
+            sessionStorage.setItem('docs_unlocked', 'true')
+            setUnlocked(true)
+          }}
+        />
+      </div>
+    )
+  }
 
   return (
     <div className="flex">
