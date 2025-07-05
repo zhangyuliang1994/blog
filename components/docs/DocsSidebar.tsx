@@ -83,8 +83,8 @@ export function DocsSidebar({ docs }: DocsSidebarProps) {
   }
 
   return (
-    <aside className="w-64 h-[calc(100vh-4rem)] overflow-y-auto border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 sticky top-16 z-30">
-      <div className="p-4">
+    <aside className="w-64 min-w-64 max-w-64 h-[calc(100vh-4rem)] overflow-y-auto border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 sticky top-16 z-30">
+      <div className="p-4 overflow-hidden">
         <Link href="/docs" className="block mb-4">
           <h2 className="text-xl font-bold text-gray-900 dark:text-gray-100">
             AI编程入门指南
@@ -97,7 +97,7 @@ export function DocsSidebar({ docs }: DocsSidebarProps) {
                 className="flex w-full items-center justify-between py-2 text-sm font-medium text-gray-900 dark:text-gray-100 hover:bg-gray-50 dark:hover:bg-gray-800 rounded px-2"
                 onClick={() => toggleCollapse(group.title)}
               >
-                <span>{group.title}</span>
+                <span className="truncate pr-2">{group.title}</span>
                 <ChevronRight
                   className={`h-4 w-4 transform transition-transform ${
                     isCollapsed[group.title] ? '' : 'rotate-90'
@@ -110,11 +110,12 @@ export function DocsSidebar({ docs }: DocsSidebarProps) {
                     <li key={item.url}>
                       <Link
                         href={item.url}
-                        className={`block py-1.5 pl-6 text-sm rounded ${
+                        className={`block py-1.5 pl-6 text-sm rounded truncate ${
                           pathname === item.url
                             ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-300 font-medium'
                             : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200'
                         }`}
+                        title={item.title}
                       >
                         {item.title}
                       </Link>
