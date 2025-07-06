@@ -19,12 +19,23 @@ export const generateStaticParams = async () => {
 
 export default function DocPage({ params }: { params: { slug: string[] } }) {
   const slug = params.slug ? params.slug.join('/') : ''
-  const sortedDocs = sortDocs(allDocs)
+  
+  // 优化：只为侧边栏获取必要的文档信息，不传递完整内容
+  const docsForSidebar = allDocs.map(doc => ({
+    slug: doc.slug,
+    title: doc.title,
+    order: doc.order,
+    url: doc.url
+  }))
+  
+  // 只获取当前文档的完整内容
+  const currentDoc = slug ? allDocs.find(doc => doc.slug === slug) || null : null
 
   // 所有docs页面都需要密码保护（包括根路径）
   return (
     <DocsClientWrapper 
-      sortedDocs={sortedDocs}
+      docsForSidebar={docsForSidebar}
+      currentDoc={currentDoc}
       slug={slug}
     />
   )

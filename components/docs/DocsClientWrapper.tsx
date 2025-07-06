@@ -10,31 +10,67 @@ import Link from 'next/link'
 import type { Doc } from 'contentlayer/generated'
 
 interface DocsClientWrapperProps {
-  sortedDocs: Doc[]
+  docsForSidebar: Array<{
+    slug: string
+    title: string
+    order: number
+    url: string
+  }>
+  currentDoc: Doc | null
   slug: string
 }
 
 export default function DocsClientWrapper({ 
-  sortedDocs, 
+  docsForSidebar, 
+  currentDoc,
   slug 
 }: DocsClientWrapperProps) {
-  const [unlocked, setUnlocked] = useState(false)
+  const [unlocked, setUnlocked] = useState(true) // 初始化为true，避免静态导出时显示密码框
+  const [isClient, setIsClient] = useState(false)
 
-  // 先处理文档页面逻辑，确保 hooks 调用顺序一致
-  const docIndex = slug ? sortedDocs.findIndex((d) => d.slug === slug) : -1
-  const doc = docIndex >= 0 ? sortedDocs[docIndex] : null
-  const prev = docIndex > 0 ? sortedDocs[docIndex - 1] : null
-  const next = docIndex < sortedDocs.length - 1 ? sortedDocs[docIndex + 1] : null
+  // 排序侧边栏文档
+  const sortedDocsForSidebar = docsForSidebar.sort((a, b) => a.order - b.order)
+  
+  // 计算前后文档（仅用于导航）- 转换为DocsLayout需要的格式
+  const docIndex = slug ? sortedDocsForSidebar.findIndex((d) => d.slug === slug) : -1
+  const prevNav = docIndex > 0 ? sortedDocsForSidebar[docIndex - 1] : null
+  const nextNav = docIndex < sortedDocsForSidebar.length - 1 ? sortedDocsForSidebar[docIndex + 1] : null
+  
+  // 为DocsLayout创建导航对象
+  const prev = prevNav ? { 
+    title: prevNav.title, 
+    url: prevNav.url,
+    slug: prevNav.slug
+  } : null
+  
+  const next = nextNav ? { 
+    title: nextNav.title, 
+    url: nextNav.url,
+    slug: nextNav.slug
+  } : null
   
   // 总是调用 useMDXComponent，但只在有文档时使用
-  const MDXContent = doc ? useMDXComponent(doc.body.code) : null
+  const MDXContent = currentDoc ? useMDXComponent(currentDoc.body.code) : null
 
   useEffect(() => {
+    setIsClient(true)
     const isUnlocked = sessionStorage.getItem('docs_unlocked') === 'true'
-    if (isUnlocked) {
-      setUnlocked(true)
+    if (!isUnlocked) {
+      setUnlocked(false)
     }
   }, [])
+
+  // 等待客户端渲染完成，避免静态导出时的水合问题
+  if (!isClient) {
+    return (
+      <div className="flex h-screen items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <p className="text-gray-600">Loading...</p>
+        </div>
+      </div>
+    )
+  }
 
   // Password protection for all docs pages (including root)
   if (!unlocked) {
@@ -54,9 +90,9 @@ export default function DocsClientWrapper({
   // If no slug, show docs index page
   if (!slug) {
     // 按照分类组织文档
-    const docsByCategory: Record<string, typeof sortedDocs> = {}
+    const docsByCategory: Record<string, typeof sortedDocsForSidebar> = {}
     
-    sortedDocs.forEach(doc => {
+    sortedDocsForSidebar.forEach(doc => {
       const [category] = doc.slug.split('/')
       if (!docsByCategory[category]) {
         docsByCategory[category] = []
@@ -104,7 +140,7 @@ export default function DocsClientWrapper({
     
     return (
       <div className="flex min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-        <DocsSidebar docs={sortedDocs} />
+        <DocsSidebar docs={sortedDocsForSidebar} />
         <main className="flex-1 overflow-hidden">
           {/* Hero Section */}
           <div className="relative overflow-hidden bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-700 text-white">
@@ -119,7 +155,7 @@ export default function DocsClientWrapper({
                 </p>
                 <div className="flex justify-center space-x-4">
                   <div className="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
-                    <span className="text-sm font-medium">📚 {sortedDocs.length} 篇教程</span>
+                    <span className="text-sm font-medium">📚 {sortedDocsForSidebar.length} 篇教程</span>
                   </div>
                   <div className="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
                     <span className="text-sm font-medium">🎯 5 个模块</span>
@@ -258,14 +294,14 @@ export default function DocsClientWrapper({
     notFound()
   }
 
-  if (!doc || !MDXContent) {
+  if (!currentDoc || !MDXContent) {
     notFound()
   }
 
   return (
     <div className="flex">
-      <DocsSidebar docs={sortedDocs} />
-      <DocsLayout doc={doc} prev={prev} next={next}>
+      <DocsSidebar docs={sortedDocsForSidebar} />
+      <DocsLayout doc={currentDoc} prev={prev} next={next}>
         <MDXContent />
       </DocsLayout>
     </div>

@@ -70,6 +70,7 @@ module.exports = () => {
   return plugins.reduce((acc, next) => next(acc), {
     // 开启静态 HTML 导出模式
     output: 'export',
+    trailingSlash: true,
     // 禁用 Next.js 图片优化，支持纯静态导出
     images: {
       unoptimized: true,
@@ -91,6 +92,36 @@ module.exports = () => {
         test: /\.svg$/,
         use: ['@svgr/webpack'],
       })
+
+      // 优化静态导出的包大小
+      if (options.isServer === false) {
+        config.optimization = {
+          ...config.optimization,
+          splitChunks: {
+            chunks: 'all',
+            cacheGroups: {
+              vendor: {
+                test: /[\\/]node_modules[\\/]/,
+                name: 'vendors',
+                chunks: 'all',
+                enforce: true,
+              },
+              contentlayer: {
+                test: /[\\/]contentlayer[\\/]/,
+                name: 'contentlayer',
+                chunks: 'all',
+                enforce: true,
+              },
+              docs: {
+                test: /[\\/]data[\\/]docs[\\/]/,
+                name: 'docs',
+                chunks: 'all',
+                enforce: true,
+              },
+            },
+          },
+        }
+      }
 
       return config
     },

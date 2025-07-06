@@ -7,7 +7,12 @@ import { useMemo, useState } from 'react'
 import { ChevronRight } from 'lucide-react'
 
 interface DocsSidebarProps {
-  docs: Doc[]
+  docs: Array<{
+    slug: string
+    title: string
+    order: number
+    url: string
+  }>
 }
 
 interface NavItem {

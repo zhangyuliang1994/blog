@@ -1,10 +1,14 @@
 import Link from 'next/link'
-import { Doc } from 'contentlayer/generated'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
 
+interface NavDoc {
+  title: string
+  url: string
+}
+
 interface DocsFooterProps {
-  prev: Doc | null
-  next: Doc | null
+  prev: NavDoc | null
+  next: NavDoc | null
 }
 
 export function DocsFooter({ prev, next }: DocsFooterProps) {

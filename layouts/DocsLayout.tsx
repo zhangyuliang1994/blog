@@ -7,10 +7,16 @@ import { DocsTOC } from '@/components/docs/DocsTOC'
 import { DocsFooter } from '@/components/docs/DocsFooter'
 import Breadcrumbs from '@/components/docs/Breadcrumbs'
 
+interface NavDoc {
+  title: string
+  url: string
+  slug: string
+}
+
 interface DocsLayoutProps {
   doc: Doc
-  prev: Doc | null
-  next: Doc | null
+  prev: NavDoc | null
+  next: NavDoc | null
   children: ReactNode
 }
 
