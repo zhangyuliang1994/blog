@@ -1,23 +1,115 @@
 ---
-title: 4.9 跨平台开发
-description: AI辅助多平台应用开发
+title: 4.9 数据库使用指南
+description: 现代化的数据库开发与管理
 order: 35
 ---
 
-# 4.9 跨平台开发
+# 4.9 💾 数据库使用指南
 
 <video controls width="100%" style={{maxWidth: '800px'}}>
   <source src="https://minio.xiaofeng.show/ai-code/4.9.mp4" type="video/mp4" />
   您的浏览器不支持视频标签。
 </video>
 
-## 内容即将更新
+# 数据库开发指南
 
-本章节将介绍AI辅助跨平台开发：
+想象一下你在管理一个大图书馆，**数据库就是你的智能管理系统**。它不仅能帮你存放各种信息，还能随时帮你找到需要的内容，就像是一个永不疲倦的图书管理员。
 
-- 跨平台架构设计
-- 移动端与Web统一开发
-- 平台特性适配技巧
-- 代码共享与维护策略
+## 为什么要用数据库？
 
-敬请期待完整内容更新！ 
+数据库最重要的特点是它的**可靠性和高效性**。它就像是一个永不丢失的笔记本，所有记录都安全保存，随时可以查看。它能**自动整理**所有信息，**快速检索**你需要的数据，还能让多个人**同时操作**而不会混乱。
+
+## 数据库的类型
+
+在数据库的世界里，有两大主力选手。**关系型数据库**（如 MySQL、PostgreSQL）就像是一个井井有条的图书馆，所有信息都按照固定的格式整齐存放；**非关系型数据库**（如 MongoDB、Redis）则像是一个灵活的百宝箱，可以存放各种不同格式的数据。
+
+## 选择建议
+
+对于不同的项目需求，数据库的选择也不同。**个人项目**适合使用 SQLite 或 Supabase，它们就像是一个小型图书室，易于管理且足够使用。**团队项目**则需要像 PostgreSQL 或 MySQL 这样的专业数据库，它们就像是大型图书馆，能够处理复杂的需求和大量的访问。
+
+## 实战案例：创建 Waitlist 网站
+
+在我们的课程中，我们将通过一个实际项目来学习数据库的使用 - 一个 Next.js 的 Waitlist 网站，用于收集用户的邮箱地址。
+
+### 项目概述
+
+这个 Waitlist 网站的核心功能是：
+
+- 提供一个简洁的表单，让用户输入邮箱地址
+- 将邮箱地址安全地存储到数据库中
+- 确认提交成功并向用户展示感谢信息
+
+### 技术选择
+
+我们将使用：
+
+- **Next.js** 作为前端框架
+- **PostgreSQL** 作为数据库
+- **Prisma** 作为 ORM 工具，简化数据库操作
+- **Vercel** 作为部署平台
+
+### 创建数据库
+
+在我们的演示中，我们使用 **Zeabur** 创建 PostgreSQL 数据库。Zeabur 提供了简单易用的界面，让你能够快速创建和管理数据库。
+
+你也可以使用 **Neon** 创建免费的 PostgreSQL 数据库，它同样提供了便捷的管理界面和良好的性能。
+
+两者的创建步骤大致如下：
+
+**使用 Zeabur 创建数据库**：
+
+1. 注册并登录 Zeabur 账户
+2. 创建一个新项目
+3. 添加 PostgreSQL 服务
+4. 获取数据库连接信息（连接字符串）
+
+**使用 Neon 创建数据库**：
+
+1. 注册并登录 Neon 账户
+2. 创建一个新项目
+3. 设置数据库名称和区域
+4. 获取数据库连接信息（连接字符串）
+
+创建好数据库后，你需要将连接信息添加到项目的环境变量中，以便 Prisma 能够连接到数据库。
+
+### 实现步骤
+
+1. **设置数据库**：
+    - 在 Zeabur 或 Neon 中创建 PostgreSQL 数据库
+    - 配置数据库连接环境变量
+2. **定义数据模型**：
+    
+    `// prisma/schema.prisma model Subscriber {  id String @id @default(cuid())  email String @unique  createdAt DateTime @default(now()) }`
+    
+3. **创建 API 端点**：
+    
+    ```
+    // app/api/subscribe/route.ts export async function POST(request: Request) {  const { email } = await request.json();   
+     try {  const subscriber = await prisma.subscriber.create({  data: { email },  });  return new Response(JSON.stringify({ success: true }), { status: 200 });  } catch (error) {  return new Response(JSON.stringify({ error: "提交失败" }), { status: 500 });  } }
+    ```
+    
+4. **创建前端表单**：
+    
+    ```
+    // app/page.tsx export default function Home() {  const handleSubmit = async (e) => {  e.preventDefault();  const email = e.target.email.value;  // 发送到 API 端点  };   
+     return (  <form onSubmit={handleSubmit}>  <input type="email" name="email" required />  <button type="submit">加入等待名单</button>  </form>  ); }
+    ```
+    
+
+### 部署到 Vercel
+
+完成开发后，我们将项目推送到 GitHub，然后连接到 Vercel 进行部署：
+
+1. 在 Vercel 中导入 GitHub 仓库
+2. 配置环境变量（数据库连接信息）
+3. 部署项目
+
+部署完成后，你的 Waitlist 网站就可以开始收集用户邮箱了！
+
+## 使用建议
+
+使用数据库最重要的是要注意**安全性**和**性能**。定期备份数据就像是给图书馆的书籍拍照存档；合理设计数据结构就像是规划好书架的分类；适时优化查询就像是整理图书的排列方式，让查找更快捷。
+
+## 写在最后
+
+数据库就是你的**数字化管家**，帮你安全可靠地管理所有重要信息。有了它，管理数据就像是有了一个完美的助手，让一切都变得**井然有序**。不用担心数据丢失，不用怕查找困难，**数据库都能帮你解决**。 

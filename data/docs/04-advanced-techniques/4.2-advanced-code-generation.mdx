@@ -1,23 +1,186 @@
 ---
-title: 4.2 代码生成高级应用
-description: 复杂代码生成与整合技术
-order: 28
+title: "4.2 网站基础 HTML/CSS/JS"
+description: "网站开发三大基础技术入门指南"
+order: 27
 ---
 
-# 4.2 代码生成高级应用
+# 4.2 📝 网站基础 HTML/CSS/JS
 
-<video controls width="100%" style={{maxWidth: '800px'}}>
-  <source src="https://minio.xiaofeng.show/ai-code/4.2.mp4" type="video/mp4" />
-  您的浏览器不支持视频标签。
-</video>
+# 网站基础开发教程
 
-## 内容即将更新
+# 认识 HTML/CSS/JS
 
-本章节将介绍代码生成高级技巧：
+HTML/CSS/JS 是网站开发的三大基础技术。HTML 负责网页的结构和内容，CSS 控制页面的样式和布局，JavaScript 则实现交互功能和动态效果。这三项技术是成为前端开发者的第一步。无论是传统静态网站还是现代动态应用，它们都是不可或缺的。
 
-- 复杂功能模块生成
-- 跨语言代码转换
-- 设计模式自动应用
-- 高质量代码生成技术
+但是作为AI开发，我们不需要掌握JS，但是HTML/CSS需要能够大概看得懂，因为AI开发需要和前端开发进行沟通，如果看不懂HTML/CSS，就无法和前端开发进行有效的沟通。
 
-敬请期待完整内容更新！ 
+# 从零认识网页开发三件套
+
+## 一、把网页想象成房子
+
+```
+🏠 房子结构 = HTML（定义哪里是门、窗、房间）
+🎨 房子装修 = CSS（决定颜色、家具样式）
+💡 房子功能 = JavaScript（控制灯光、门禁系统）
+```
+
+### 代码示例
+
+```html
+<!-- HTML结构 -->
+<div class="house">
+  <h1>标题</h1>
+  <p>内容</p>
+</div>
+
+<!-- CSS样式 -->
+<style>
+.house {
+  border: 2px solid #333; /* 边框 */
+  background: #f0f0f0; /* 背景色 */
+}
+</style>
+
+<!-- JavaScript交互 -->
+<script>
+document.querySelector('.house').addEventListener('click', () => {
+  alert('你点击了房子!');
+});
+</script>
+```
+
+## 二、HTML - 网页的骨架
+
+### 基础结构
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>我的第一个网页</title>
+</head>
+<body>
+  <h1>欢迎来到AI造物课堂</h1>
+  <p>这里学习最有趣的编程知识！</p>
+</body>
+</html>
+```
+
+### 常用标签速查表
+
+| 标签 | 作用 | 示例 |
+| --- | --- | --- |
+| `<h1>~<h6>` | 标题 | `<h1>主标题</h1>` |
+| `<p>` | 段落 | `<p>这是一个段落</p>` |
+| `<a>` | 超链接 | `<a href="https://aicode.com">链接</a>` |
+| `<img>` | 图片 | `<img src="cat.jpg" alt="猫咪">` |
+| `<div>` | 容器（盒子） | `<div class="container"></div>` |
+| `<input>` | 输入框 | `<input type="text" placeholder="请输入">` |
+
+## 三、CSS - 给网页穿衣服
+
+### 样式示例
+
+```css
+body {
+  background-color: #f0f0f0; /* 浅灰色背景 */
+  font-family: '微软雅黑'; /* 指定字体 */
+}
+
+h1 {
+  color: blue;
+  text-align: center; /* 居中显示 */
+}
+
+.button {
+  padding: 10px 20px; /* 内边距 */
+  border-radius: 5px; /* 圆角 */
+  background: linear-gradient(to right, #ff9966, #ff5e62); /* 渐变背景 */
+}
+```
+
+### 常用CSS属性分类
+
+```
+🎨 外观类
+color        文字颜色
+font-size    字体大小
+background   背景样式
+
+📏 布局类
+margin       外边距
+padding      内边距
+display      显示方式（flex布局常用）
+
+🎭 特效类
+box-shadow   盒子阴影
+transition   过渡动画
+transform    变形效果
+```
+
+## 四、JavaScript - 让网页动起来
+
+### 基础交互示例
+
+```html
+<button onclick="showMessage()">点击我！</button>
+<p id="demo"></p>
+
+<script>
+function showMessage() {
+  let element = document.getElementById("demo");
+  element.innerHTML = "你好，世界！";
+  element.style.color = "red";
+}
+</script>
+```
+
+### 常用JS功能场景
+
+| 场景 | 实现方法 | 应用示例 |
+| --- | --- | --- |
+| 表单验证 | 获取输入值 + 条件判断 | 检查密码强度 |
+| 动态内容加载 | fetch API + DOM操作 | 无限滚动加载 |
+| 动画效果 | setInterval/CSS类切换 | 轮播图切换 |
+| 用户交互响应 | 事件监听(addEventListener) | 点击按钮弹出对话框 |
+
+## 五、HTML/CSS/JS 的结合使用
+
+### 结合使用示例
+
+```html
+<button onclick="showMessage()">点击我！</button>
+<p id="demo"></p>
+
+<script>
+function showMessage() {
+  let element = document.getElementById("demo");
+  element.innerHTML = "你好，世界！";
+  element.style.color = "red";
+}
+</script>
+
+<style>
+.button {
+  padding: 10px 20px; /* 内边距 */
+  border-radius: 5px; /* 圆角 */
+  background: linear-gradient(to right, #ff9966, #ff5e62); /* 渐变背景 */
+}
+</style>
+```
+
+## 六、Tailwind CSS
+
+Tailwind CSS 是一个非常流行的 CSS 框架，它提供了一系列的实用类，可以快速生成复杂的 CSS 样式。
+
+### 示例
+
+```html
+<button class="bg-blue-500 text-white px-4 py-2 rounded">点击我！</button>
+```
+
+```html
+<div class="bg-red-500 text-white px-4 py-2 rounded">
+  这是一个div
+</div>
+``` 

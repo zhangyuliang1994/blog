@@ -1,23 +1,169 @@
 ---
-title: 4.5 多人协作技巧
-description: AI辅助团队协作开发最佳实践
-order: 31
+title: 4.5 Git & GitHub 使用指南
+description: AI时代的代码版本管理与协作开发
+order: 30
 ---
 
-# 4.5 多人协作技巧
+# 4.5 📦 Git & GitHub 使用指南
 
 <video controls width="100%" style={{maxWidth: '800px'}}>
   <source src="https://minio.xiaofeng.show/ai-code/4.5.mp4" type="video/mp4" />
   您的浏览器不支持视频标签。
 </video>
 
-## 内容即将更新
+# GitHub 入门指南
 
-本章节将介绍AI团队协作开发技巧：
+想象一下，你正在写一个故事。随着故事越写越长，你可能会遇到这些问题：想保存每次的修改记录，想和朋友一起写，想分享给别人看。GitHub 就是为了解决这些问题而生的，只不过它是用来管理代码的。
 
-- 团队AI工作流设计
-- 代码风格统一与质量控制
-- 知识共享与文档管理
-- 协作效率提升策略
+## 基础操作入门
 
-敬请期待完整内容更新！ 
+**目标**：学会创建仓库、上传代码、协作开发的基础操作。
+
+### 注册账号
+
+1. 访问 [GitHub官网](https://github.com/)
+2. 点击右上角 **Sign up**，填写邮箱、密码、用户名
+3. 验证邮箱后完成注册（提示检查邮箱收验证邮件）
+
+### 创建仓库
+
+1. 登录后点击右上角 **+ → New repository**
+2. 填写仓库信息：
+    - **Repository name**：项目名称（如 `my-first-project`）
+    - **Description**：项目描述（可选）
+    - 勾选 **Add a README file**（建议创建初始说明文件）
+    - 点击 **Create repository**
+
+![](https://s.web.cafe/aimaker/images/getting-started/github/create-repo.webp)
+
+### 上传代码
+
+### 方法1：网页直接上传
+
+1. 进入仓库页面，点击 **Add file → Upload files**
+2. 拖拽本地代码文件夹到网页区域，或点击 **choose your files** 选择文件
+3. 输入提交描述（如"首次提交代码"），点击 **Commit changes**
+
+![](https://s.web.cafe/aimaker/images/getting-started/github/upload-code.webp)
+
+### 方法2：使用GitHub Desktop
+
+1. 下载安装 [GitHub Desktop](https://desktop.github.com/)
+2. 登录账号，选择仓库 → **Clone Repository**
+3. 将本地代码复制到仓库文件夹，返回GitHub Desktop提交并推送（同步）
+
+## 团队协作功能
+
+### 添加协作者
+
+1. 进入仓库 → **Settings → Collaborators**
+2. 输入对方GitHub用户名 → **Add collaborator**
+
+![](https://s.web.cafe/aimaker/images/getting-started/github/add-collaborator.webp)
+
+### 使用Issues
+
+1. 进入仓库 → **Issues → New Issue**
+2. 填写任务标题和描述（如"修复登录页面错误"）
+3. 点击 **Submit new issue**
+
+### 发起Pull Request
+
+1. 在仓库页面点击 **Pull requests → New pull request**
+2. 选择要合并的分支（如 `main` ← `feature-branch`）
+3. 填写修改说明，点击 **Create pull request**
+
+### 分支管理
+
+1. 进入仓库 → 点击分支下拉框（默认显示 `main`）
+2. 输入新分支名（如 `fix-header`） → **Create branch**
+3. 修改代码后提交，自动保存到新分支
+
+## 使用他人的代码
+
+**目标**：学会获取他人仓库的代码，并在本地运行项目。
+
+### 下载代码的方法
+
+### 方法1：下载ZIP压缩包
+
+1. 打开目标仓库页面（例如搜索 `python simple-game` 找到项目）
+2. 点击绿色 **Code** 按钮 → **Download ZIP**
+3. 解压ZIP文件到本地文件夹即可查看代码
+
+### 方法2：使用GitHub Desktop克隆
+
+1. 安装 [GitHub Desktop](https://desktop.github.com/) 并登录
+2. 在仓库页面点击 **Code → Open with GitHub Desktop**
+3. 选择本地保存路径 → 点击 **Clone**，代码自动下载到指定文件夹
+
+### 方法3：通过仓库URL获取
+
+1. 复制仓库页面地址栏的URL（如 `https://github.com/用户名/仓库名`）
+2. 发送给协作者或自行保存，方便后续访问
+
+![](https://s.web.cafe/aimaker/images/getting-started/github/clone-repo.webp)
+
+### 运行项目步骤
+
+### 检查项目说明
+
+1. 打开仓库，查看根目录的 **README.md** 文件
+2. 根据说明安装所需环境（如Python、Node.js等）
+
+### 安装依赖库
+
+1. 如果项目包含 `requirements.txt`（Python）或 `package.json`（JavaScript）：
+    - **Python项目**：命令行运行 `pip install -r requirements.txt`
+    - **JavaScript项目**：命令行运行 `npm install`
+
+### 启动项目
+
+1. 根据README指示执行启动命令，例如：
+    - Python脚本：`python main.py`
+    - Web项目：`npm start` 或点击 `index.html` 用浏览器打开
+
+### 注意事项
+
+⚠️ **务必注意**：
+
+1. **检查许可证**：仓库是否有`LICENSE`文件，确认允许代码使用/修改
+2. **安全提醒**：不要随意运行未知来源的代码，防止恶意程序
+3. **环境问题**：若运行报错，先检查是否缺少依赖库或版本不匹配
+
+## 项目交互功能
+
+### Star项目
+
+1. 在任意仓库页面点击右上角的 **Star** 按钮
+2. 项目会被添加到你的 Star 列表中
+3. 查看已收藏项目：点击个人头像 → **Your stars**
+
+![](https://s.web.cafe/aimaker/images/getting-started/github/star-project.webp)
+
+### Star的作用
+
+- 收藏感兴趣的项目，方便日后查看
+- 表达对项目的支持和认可
+- 关注项目更新（可开启通知）
+
+### Fork项目
+
+1. 在仓库页面点击右上角 **Fork** 按钮
+2. 选择保存到你的账号下（可选择性修改仓库名）
+3. 等待片刻，项目将被复制到你的账号中
+
+### Fork的用途
+
+- 基于他人项目开发新功能
+- 修复原项目的Bug并贡献代码
+- 学习项目源码（可随意修改不影响原项目）
+
+### Fork后的操作建议
+
+1. 及时同步原仓库更新：
+    - 点击 **Sync fork** 按钮
+    - 选择 **Update branch** 更新到最新版本
+2. 如需贡献代码：
+    - 在自己的Fork中修改代码
+    - 通过Pull Request提交给原仓库 
