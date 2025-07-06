@@ -1,23 +1,131 @@
 ---
-title: 3.3 代码解释与学习
-description: 使用AI理解与学习代码
+title: "3.3 Cursor Rules"
+description: "Cursor AI 行为规则配置指南"
 order: 19
 ---
 
-# 3.3 代码解释与学习
+# 3.3 📋 Cursor Rules
+
+# Cursor Rules 配置指南
+
+## 什么是 Cursor Rules？
+
+Cursor Rules 允许你为项目设置 AI 行为规则，通过定义这些规则，可以让 AI 更好地理解你的项目规范和编码标准，从而提供更准确的建议和帮助，减少错误BUG。
 
 <video controls width="100%" style={{maxWidth: '800px'}}>
   <source src="https://minio.xiaofeng.show/ai-code/3.3.mp4" type="video/mp4" />
   您的浏览器不支持视频标签。
 </video>
 
-## 内容即将更新
+## 官方文档和社区资源
 
-本章节将介绍如何使用AI理解代码：
+### 官方文档
 
-- 复杂代码解释技巧
-- 使用AI加速学习新语言
-- 理解开源项目代码
-- 知识沉淀与复用方法
+访问 [Cursor 官方文档](https://docs.cursor.com/context/rules-for-ai) 了解更多关于 Rules for AI 的详细信息。
 
-敬请期待完整内容更新！ 
+### 社区资源
+
+除了官方文档，你还可以访问以下社区资源获取更多 Cursor Rules：
+
+1. [Cursor Directory](https://cursor.directory/rules) 这是一个由社区驱动的 Cursor Rules 资源库，提供了按编程语言和框架分类的规则集合。用户可以投稿并对规则进行评分，网站会精选展示高质量的规则内容。
+2. [Dot Cursor Rules](https://dotcursorrules.com/) 这是一个专业维护的 Cursor Rules 仓库，提供了丰富的开发场景规则模板，并定期更新最佳实践，同时配备详细的使用说明和示例文档。
+3. [Supabase Prompts](https://github.com/supabase/supabase/tree/master/examples/prompts) Supabase 提供了一系列高质量的 AI 提示模板，包括代码审查、SQL 格式化、测试用例生成等场景。这些模板经过实践验证，可以直接应用到 Cursor Rules 中提升开发效率。
+
+## 配置步骤
+
+### 1. 打开 Cursor Rules 设置
+
+- 使用快捷键 `Cmd/Ctrl + Shift + P` 打开命令面板
+- 输入 "Open Settings"
+- 导航到 `General > Rules for AI`
+
+### 2. 配置全局Rules
+
+```
+DO NOT GIVE ME HIGH LEVEL STUFF, IF I ASK FOR FIX OR EXPLANATION, I WANT ACTUAL CODE OR EXPLANATION!!! I DON'T WANT "Here's how you can blablabla" 
+- Be casual unless otherwise specified - Be terse - Suggest solutions that I didn't think about—anticipate my needs - Treat me as an expert - Be accurate and thorough - Give the answer immediately. Provide detailed explanations and restate my query in your own words if necessary after giving the answer - Value good arguments over authorities, the source is irrelevant - Consider new technologies and contrarian ideas, not just the conventional wisdom - You may use high levels of speculation or prediction, just flag it for me - No moral lectures - Discuss safety only when it's crucial and non-obvious - If your content policy is an issue, provide the closest acceptable response and explain the content policy issue afterward - Cite sources whenever possible at the end, not inline - No need to mention your knowledge cutoff - No need to disclose you're an AI - Please respect my prettier preferences when you provide code. - Split into multiple responses if one response isn't enough to answer the question.  If I ask for adjustments to code I have provided you, do not repeat all of my code unnecessarily. Instead try to keep the answer brief by giving just a couple lines before/after any changes you make. Multiple code blocks are ok.
+```
+
+### 3. 推荐新项目Rules
+
+```
+你是一位经验丰富的项目经理，对于用户每一次提出的问题，都不急于编写代码，更多是通过深思熟虑、结构化的推理以产生高质量的回答，探索更多的可能方案，并从中寻找最佳方案。在开始之前，请确认你已理解以下项目需求与流程说明。 
+你具备以下能力: 
+需求澄清
+能用自己的话清晰地复述用户提出的问题。
+与用户建立高层级需求沟通。
+提供类比案例帮助用户启发思考。
+解释主要挑战和限制条件。
+在整个思考过程中，可以通过提问的方式补全你需要的资料和信息。
+方案探索
+基于已有技术，探索多种可行的实现方式。
+列出每种方案的优点、缺点、适用场景及成本。
+优先考虑网络中已有的技术解决方案，避免重复造轮子。
+根据需求提供最优推荐，说明推荐理由及后续改进方向。
+确保所推荐的方案具有良好的可扩展性和维护性，并提出相应的优化建议。
+此外，请在整个工作过程中保持以下原则：
+
+先思考后行动：在编写代码之前，确保对问题有充分的理解和分析。
+代码完整性：生成的代码应完整、可运行，并包含必要的注释和文档。
+环境配置：从创建环境开始，确保环境配置正确，避免依赖冲突。
+最优选择：在技术选型和实现方案上，优先选择成熟、稳定且高效的方案。
+环境问题考虑：认真思考可能遇到的环境问题，如依赖版本冲突、系统兼容性等，并提前提供解决方案。
+```
+
+### 4. 推荐Next.js项目Rules
+
+我们这个课程是以 Next.js 项目为主，下面的规则是我做了很多项目总结出来的比较合适的，推荐你复制以下规则：
+
+```
+# Next.js Project Development Guidelines 
+This document outlines the comprehensive development standards and best practices for our Next.js project. 
+## Core Development Philosophy 
+- Write clean, maintainable, and scalable code - Follow SOLID principles - Prefer functional and declarative programming patterns - Emphasize type safety with TypeScript - Practice component-driven development - Prioritize performance and accessibility 
+## Project Structure 
+src/ ├── app/ # App Router directory ├── components/ # Reusable components │   ├── ui/ # UI components │   ├── layout/ # Layout components │   └── features/ # Feature-specific components ├── lib/ # Utility functions and shared logic ├── hooks/ # Custom React hooks ├── types/ # TypeScript type definitions ├── styles/ # Global styles and CSS modules └── utils/ # Helper functions 
+## Code Style & Conventions 
+### File & Directory Naming - Use kebab-case for file names: `user-profile.tsx` - Use kebab-case for directories: `auth-wizard/` - Use PascalCase for component files: `UserProfile.tsx` - Use camelCase for utility files: `formatDate.ts` 
+### Component Structure - One component per file - Place in appropriate directory based on responsibility - Co-locate related files (styles, tests, types) - Use TypeScript interfaces for props - Export as named exports 
+### TypeScript Usage - Enable strict mode - Define explicit types for props and state - Use interfaces for object types - Utilize type guards for null checks - Leverage utility types (Partial, Pick, Omit) 
+### Styling Approach - Use Tailwind CSS as primary styling solution - Follow mobile-first responsive design - Maintain consistent spacing and typography - Use CSS variables for theming - Implement dark mode support 
+## Component Development 
+### Server vs Client Components - Default to Server Components - Use 'use client' directive only when needed:  - Event handlers - Browser APIs  - State management - Client-side libraries 
+### Component Best Practices - Keep components focused and single-responsibility - Extract reusable logic to custom hooks - Implement proper error boundaries - Use proper loading states - Handle edge cases and errors gracefully 
+### Performance Optimization - Use Image component for images - Implement proper code splitting - Utilize React.memo() strategically - Use proper key props in lists - Optimize bundle size 
+## State Management 
+### Local State - useState for simple state - useReducer for complex state - useContext for shared state - Custom hooks for reusable state logic 
+### Global State - Redux Toolkit for complex global state - Zustand for simpler global state - Normalize state structure - Use selectors for state access - Separate concerns by feature 
+## Data Fetching 
+### Server Components - Use async/await in Server Components - Implement proper caching strategies - Handle loading and error states - Use proper revalidation methods 
+### Client Components - Use SWR or React Query - Implement proper error handling - Show loading states - Handle offline scenarios 
+## Form Handling 
+### Validation - Use Zod for schema validation - React Hook Form for form management - Implement proper error messages - Show validation feedback 
+### Accessibility - Use proper ARIA attributes - Implement keyboard navigation - Provide error feedback - Maintain focus management 
+## Testing Strategy 
+### Unit Testing - Jest and React Testing Library - Test component behavior - Mock external dependencies - Follow AAA pattern 
+### Integration Testing - Test user workflows - Proper test setup/teardown - Use snapshot testing sparingly - Test error scenarios 
+## Security Considerations 
+- Implement proper authentication - Sanitize user input - Use proper CORS policies - Follow security best practices - Implement rate limiting 
+## Internationalization 
+- Use next-i18next - Support multiple languages - Handle RTL layouts - Format dates and numbers - Support currency formatting 
+## Documentation 
+- Use JSDoc for code documentation - Document component props - Provide usage examples - Keep documentation up-to-date - Use clear and concise language 
+## Performance Guidelines 
+- Optimize images and assets - Implement proper caching - Use proper bundling strategies - Monitor performance metrics - Implement lazy loading 
+## Error Handling 
+- Implement error boundaries - Log errors properly - Show user-friendly error messages - Handle edge cases - Implement fallback UI 
+## Build & Deployment 
+- Use proper environment variables - Implement CI/CD pipeline - Follow deployment best practices - Monitor build size - Implement proper caching 
+## Code Review Guidelines 
+- Review for functionality - Check for performance issues - Verify accessibility - Ensure proper testing - Review documentation 
+Remember to follow these guidelines to maintain consistency and quality across the project. Update this document as new standards and best practices emerge.
+```
+
+### 5. Guidelines for writing Postgres SQL
+
+`https://github.com/supabase/supabase/blob/master/examples/prompts/code-format-sql.md?plain=1`
+
+## 保存设置
+
+- 点击 "Save" 或使用快捷键 `Cmd/Ctrl + S` 保存规则
+- Cursor 将立即开始使用这些规则来指导 AI 行为 

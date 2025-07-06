@@ -1,23 +1,82 @@
 ---
-title: 3.4 代码调试与修复
-description: AI辅助代码调试与bug修复
+title: "3.4 Cursor AI 对话(Chat)"
+description: "Cursor AI聊天功能的完整使用指南"
 order: 20
 ---
 
-# 3.4 代码调试与修复
+# 3.4 💬 Cursor AI 对话(Chat)
+
+# AI 对话 (Chat)
+
+## 基本功能
+
+Cursor Chat 允许您在编辑器中直接与最强大的语言模型进行对话，解决代码相关问题([1](https://docs.cursor.com/chat/overview))。
 
 <video controls width="100%" style={{maxWidth: '800px'}}>
   <source src="https://minio.xiaofeng.show/ai-code/3.4.mp4" type="video/mp4" />
   您的浏览器不支持视频标签。
 </video>
 
-## 内容即将更新
+## 使用方法
 
-本章节将介绍AI辅助代码调试技巧：
+### 打开聊天
 
-- 错误分析与解决方案
-- 使用AI理解错误信息
-- 常见bug修复模式
-- 代码优化与性能提升
+快捷键: `⌘ + L` 位置: Cursor右上角
 
-敬请期待完整内容更新！ 
+### 上下文功能
+
+### **默认上下文**：
+
+自动包含当前文件，可以在设置中关闭默认上下文
+
+### **添加自定义上下文**
+
+**@Files**: 引用整个文件(也可以直接拖动文件到聊天框)
+
+![](https://s.web.cafe/aimaker/images/development/files.webp)
+
+**@Code**: 引用特定代码段（可以直接复制代码段到聊天框）
+
+![](https://s.web.cafe/aimaker/images/development/code.webp)
+
+**@Codebase**: 搜索整个代码库(快捷键Cmd+Enter)
+
+![](https://s.web.cafe/aimaker/images/development/codebase.webp)
+
+**@Docs**: 引用文档
+
+![](https://s.web.cafe/aimaker/images/development/docs.webp)
+
+**@Web**: 搜索网络
+
+## Add new doc
+
+在Cursor的设置中，点击Features，然后点击Add new doc，然后输入文档链接，就可以添加一个新的文档，Cursor会自动爬取文档内容。
+
+例如：我们添加 tailwindcss V3版本的文档 https://v3.tailwindcss.com/docs/installation
+
+![](https://s.web.cafe/aimaker/images/development/tailwindcss-docs.webp)
+
+另外Cursor自带了很多Official Docs，例如：OpenAI的API Docs等等，可以直接在聊天框中输入：
+
+`@Docs OpenAI API Docs`
+
+### 代码应用
+
+- 通过点击代码块右上角的播放按钮应用代码
+- 快捷键:
+    - 接受: `Ctrl/⌘ Enter`
+    - 拒绝: `Ctrl/⌘ Backspace`
+
+## AI 模型选择
+
+Claude 3.5 Sonnet Claude 3.7 Sonnet
+
+## 高级功能
+
+1. **长上下文聊天(Beta)**
+    - 在 `Cursor Settings > Beta > Long Context Chat` 中启用
+    - 使用 `Ctrl/⌘ .` 切换不同聊天模式
+2. **聊天历史**
+    - 查看: `Ctrl/⌘ + Alt/Option + L`
+    - 可以编辑标题和删除历史记录 

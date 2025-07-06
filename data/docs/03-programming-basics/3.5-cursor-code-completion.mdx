@@ -1,23 +1,80 @@
 ---
-title: 3.5 代码重构与优化
-description: 使用AI提升代码质量与性能
+title: "3.5 Cursor代码补全(Tab)"
+description: "Cursor智能代码补全功能使用指南"
 order: 21
 ---
 
-# 3.5 代码重构与优化
+# 3.5 ⌨️ Cursor代码补全(Tab)
+
+# 智能代码补全 (Tab)
+
+## 基本功能
+
+Cursor Tab 是内置的智能代码补全功能，比 GitHub Copilot 更强大，可以在光标周围进行编辑，而不仅仅是插入代码
 
 <video controls width="100%" style={{maxWidth: '800px'}}>
   <source src="https://minio.xiaofeng.show/ai-code/3.5.mp4" type="video/mp4" />
   您的浏览器不支持视频标签。
 </video>
 
-## 内容即将更新
+## 使用方法
 
-本章节将介绍AI辅助代码重构：
+### 基础操作
 
-- 代码质量评估与分析
-- 结构优化与模式应用
-- 性能瓶颈识别与优化
-- 代码可维护性提升
+- 接受建议: 按 `Tab` 键
+- 拒绝建议: 按 `Esc` 键
 
-敬请期待完整内容更新！ 
+## 代码示例
+
+### 1. 文本翻译
+
+```
+// 输入 "前几个字母" 后按 Tab 
+transl
+
+const translations = {
+  welcome: '欢迎使用',
+  settings: '设置',
+  profile: '个人资料',
+  logout: '退出登录'
+}
+```
+
+### 2. Tailwind 按钮组件
+
+```
+// 输入 "tailwindcss 样式" 后按 Tab
+const Button = ({ children, variant = 'primary' }) => {
+  const styles = {
+    primary: 'bg-blue-500 hover:bg-blue-600 text-white',
+    secondary: 'bg-gray-500 hover:bg-gray-600 text-white',
+    outline: 'border-2 border-blue-500 text-blue-500 hover:bg-blue-50'
+  }
+  
+  return (
+    <button className={`px-4 py-2 rounded-lg transition-colors ${styles[variant]}`}>
+      {children}
+    </button>
+  )
+}
+```
+
+### 3. HTML 基础结构
+
+```
+// 输入 "twitter" 后按 Tab
+<!DOCTYPE html>
+<html>
+<head>
+  <title>我的网页</title>
+  <meta name="description" content="这是一个示例网页">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>欢迎访问</h1>
+  <p>这是一个段落</p>
+</body>
+</html>
+``` 
