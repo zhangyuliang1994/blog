@@ -1,23 +1,449 @@
 ---
-title: 4.13 机器学习模型集成
-description: 在应用中整合和部署机器学习模型
+title: 4.13 Cloudflare 教程
+description: Cloudflare全栈开发指南，包含CDN、Workers、R2存储、Pages部署
 order: 39
 ---
 
-# 4.13 机器学习模型集成
+# 4.13 ☁️ Cloudflare 教程
+
+# Cloudflare全栈开发指南
+
+本教程将指导你如何利用Cloudflare的全套服务构建、部署和管理现代网站，从域名注册到全球分发，再到无服务器计算。
 
 <video controls width="100%" style={{maxWidth: '800px'}}>
   <source src="https://minio.xiaofeng.show/ai-code/4.13.mp4" type="video/mp4" />
   您的浏览器不支持视频标签。
 </video>
 
-## 内容即将更新
+---
 
-本章节将介绍机器学习模型集成技巧：
+### **Cloudflare全栈开发完全指南**
 
-- AI模型接口设计与调用
-- 模型部署与服务化
-- 预训练模型微调与优化
-- 模型性能监控与维护
+**目标**：掌握Cloudflare的核心服务，并学习如何利用这些服务构建高性能、安全且经济的网站。
 
-敬请期待完整内容更新！ 
+---
+
+### **什么是Cloudflare？**
+
+- **Cloudflare**是一个全球性的云服务提供商，提供网站性能优化和安全保护
+- **核心优势**：
+✅ **全球CDN网络**（190+国家/地区，275+城市的数据中心）
+✅ **DDoS防护**（保护网站免受分布式拒绝服务攻击）
+✅ **免费SSL证书**（为网站提供HTTPS加密）
+✅ **开发者友好**（提供多种开发工具和服务）
+✅ **合理定价**（基础功能免费，按需付费）
+
+### **Cloudflare怎么用**
+
+- **域名**：使用Cloudflare域名服务
+- **DNS**：通过Cloudflare DNS管理
+- **CDN**：启用Cloudflare CDN加速
+- **存储**：使用R2存储静态资源
+- **部署**：通过Pages部署前端应用
+- **后端**：使用Workers构建API
+- **数据**：使用KV或D1存储数据
+
+---
+
+### **Cloudflare服务层级**
+
+### **免费服务**
+
+- **基础CDN**：全球内容分发网络，加速网站访问
+- **基础DDoS防护**：保护网站免受常见攻击
+- **免费SSL/TLS**：为网站提供HTTPS加密
+- **基础DNS管理**：全球分布式DNS服务
+- **基础WAF规则**：基本的Web应用防火墙保护
+
+### **免费额度**
+
+- **R2存储**：每月10GB存储和1000万次读取操作免费
+- **Workers**：每天100,000次请求免费
+- **Pages**：每月500次构建，无限部署和带宽
+
+### **付费服务**
+
+- **Pro计划**：适合小型网站和个人项目的增强功能
+- **Business计划**：适合中型企业的高级功能和支持
+- **Enterprise计划**：适合大型企业的定制解决方案
+- **附加服务**：Argo Smart Routing（$5/月起）、Load Balancing（$5/月起）、Advanced Certificate Manager（$10/月起）等
+
+---
+
+### **Cloudflare域名服务**
+
+### **域名注册**
+
+- **透明定价**：Cloudflare以成本价提供域名注册，无隐藏费用
+- **自动续订**：可设置自动续订，避免域名过期
+- **隐私保护**：免费的WHOIS隐私保护，保护个人信息
+- **支持的TLD**：提供多种顶级域名，包括.com、.net、.org、.io等
+
+### **DNS管理**
+
+- **全球分布式DNS**：平均查询速度小于10ms
+- **DNSSEC支持**：增强DNS安全性，防止DNS劫持
+- **自定义记录**：支持A、AAAA、CNAME、MX、TXT等多种记录类型
+- **智能路由**：根据用户位置提供最佳DNS解析
+
+### **从其他注册商转移域名**
+
+- **简化流程**：轻松将域名从其他注册商转移到Cloudflare
+- **无额外费用**：转移过程不收取额外费用
+- **保留现有到期日**：转移不会影响域名的到期日期
+
+---
+
+### **Cloudflare CDN加速**
+
+### **什么是CDN？**
+
+- **内容分发网络**：在全球范围内分布的服务器网络
+- **缓存静态资源**：将网站静态内容（图片、CSS、JavaScript等）缓存在离用户最近的数据中心
+- **减少延迟**：显著降低网站加载时间
+- **节省带宽**：减少源服务器的负载和带宽消耗
+
+### **Cloudflare CDN特点**
+
+- **自动优化**：智能压缩和优化图片、CSS、JavaScript
+- **Brotli压缩**：比传统gzip压缩效率更高
+- **HTTP/3支持**：最新的HTTP协议，提供更快的连接建立和数据传输
+- **智能缓存**：根据内容类型和访问模式自动调整缓存策略
+
+### **配置CDN**
+
+- **简单接入**：只需更改域名的名称服务器指向Cloudflare
+- **缓存规则**：可自定义缓存时间和策略
+- **页面规则**：针对特定URL路径设置不同的缓存和安全策略
+- **缓存清除**：可随时清除缓存，确保内容更新
+
+---
+
+### **R2存储服务**
+
+{/* */}
+
+### **什么是R2存储？**
+
+- **对象存储服务**：类似于AWS S3，但无出站流量费用
+- **全球分布**：存储的数据自动分布在Cloudflare的全球网络
+- **S3兼容API**：可以使用现有的S3工具和库
+- **无限扩展**：根据需求自动扩展存储容量
+
+### **R2的主要优势**
+
+- **无出站流量费用**：与其他云存储服务相比，最大的优势是不收取数据传出费用
+- **免费额度**：每月10GB存储和1000万次读取操作免费
+- **简单定价**：超出免费额度后，$0.015/GB/月的存储费用
+- **与Workers集成**：可以与Cloudflare Workers无缝配合
+
+### **常见使用场景**
+
+- **静态资源托管**：存储网站的图片、视频、文档等静态资源
+- **备份存储**：作为数据备份的存储位置
+- **媒体处理**：结合Workers进行图片处理和视频转码
+- **内容分发**：作为CDN的源站，存储需要全球分发的内容
+
+### **配置R2存储桶**
+
+**创建存储桶**：
+
+- 登录Cloudflare控制面板
+- 选择"R2"服务
+- 点击"创建存储桶"
+- 输入存储桶名称（如`my-website-assets`）
+- 选择区域（通常选择"自动"）
+
+**上传文件**：
+
+- 通过Web界面上传文件
+- 或使用S3兼容的工具和SDK
+- 支持文件夹结构和批量上传
+
+**访问控制**：
+
+- 设置公共访问权限
+- 创建预签名URL
+- 配置CORS策略
+- 使用Workers进行高级访问控制
+
+---
+
+### **Cloudflare安全防护**
+
+### **DDoS防护**
+
+- **自动保护**：无需配置，自动防御各种DDoS攻击
+- **大规模防御能力**：可抵御超过175Tbps的攻击
+- **无性能影响**：防御不会影响正常用户的访问体验
+- **实时监控**：提供攻击分析和可视化报告
+
+### **Web应用防火墙(WAF)**
+
+- **保护应用安全**：防御SQL注入、XSS等常见Web攻击
+- **预设规则集**：包含OWASP Top 10等安全规则
+- **自定义规则**：可根据特定需求创建自定义防护规则
+- **IP信誉过滤**：自动阻止已知恶意IP地址
+
+### **Bot管理**
+
+- **区分好坏机器人**：允许搜索引擎爬虫，阻止恶意爬虫
+- **验证码保护**：针对可疑流量显示验证码挑战
+- **行为分析**：通过用户行为模式识别机器人
+- **API保护**：防止API滥用和凭证填充攻击
+
+### **安全设置最佳实践**
+
+**启用SSL/TLS加密**：
+
+- 选择"Full"或"Full (Strict)"模式
+- 启用HSTS增强安全性
+- 配置最低TLS版本（推荐TLS 1.2+）
+
+**配置WAF规则**：
+
+- 启用托管规则集
+- 根据应用需求调整敏感度
+- 监控误报并适当调整
+
+**设置页面规则**：
+
+- 为管理后台添加额外安全层
+- 配置敏感路径的访问控制
+- 实施内容安全策略(CSP)
+
+---
+
+### **Cloudflare Pages部署**
+
+### **什么是Cloudflare Pages？**
+
+- **静态网站托管服务**：类似Netlify和Vercel
+- **全球分发**：自动部署到Cloudflare的全球网络
+- **持续集成**：与GitHub和GitLab集成，自动构建和部署
+- **预览环境**：为每个分支和PR创建预览环境
+
+### **Pages的主要特点**
+
+- **无服务器**：无需管理服务器，自动扩展
+- **构建系统**：支持各种前端框架（React、Vue、Angular等）
+- **自定义域名**：可使用自定义域名，自动配置SSL
+- **免费额度**：每月500次构建，无限部署和带宽
+
+### **部署静态网站**
+
+**准备项目**：
+
+- 确保项目在GitHub或GitLab上
+- 项目根目录包含构建配置（如package.json）
+
+**创建Pages项目**：
+
+- 登录Cloudflare控制面板
+- 选择"Pages"服务
+- 点击"创建项目"
+- 连接GitHub/GitLab账户
+- 选择要部署的仓库
+
+**配置构建设置**：
+
+- 选择构建命令（如`npm run build`）
+- 指定输出目录（如`dist`或`build`）
+- 设置环境变量（如API密钥）
+
+**部署网站**：
+
+- 点击"保存并部署"
+- 等待构建和部署完成
+- 访问分配的*.pages.dev域名查看网站
+
+### **配置自定义域名**
+
+**添加自定义域名**：
+
+- 在Pages项目中点击"自定义域"
+- 输入你的域名（如example.com）
+- 按照指引配置DNS记录
+
+**验证域名所有权**：
+
+- 如果域名不在Cloudflare上管理，需要添加验证记录
+- 等待验证完成
+
+**配置CNAME记录**：
+
+- 如果域名在Cloudflare管理，自动配置
+- 否则需要手动添加CNAME记录指向*.pages.dev域名
+
+---
+
+### **Cloudflare Workers**
+
+### **什么是Workers？**
+
+- **无服务器计算平台**：在Cloudflare边缘网络运行JavaScript/WebAssembly代码
+- **全球部署**：代码自动部署到275+城市的数据中心
+- **低延迟**：在离用户最近的位置执行代码
+- **无冷启动**：几乎瞬时启动，无传统无服务器函数的冷启动延迟
+
+### **Workers的主要用途**
+
+- **API构建**：创建轻量级API和微服务
+- **动态内容生成**：根据用户请求生成动态内容
+- **A/B测试**：实现不同版本的内容投放
+- **身份验证**：添加自定义身份验证层
+- **内容转换**：修改响应内容，如图片优化、HTML修改等
+
+### **Workers实用示例**
+
+**国家/地区重定向**：
+
+```
+export default {  async fetch(request, env, ctx) {  // 获取用户国家/地区  const country = request.headers.get('cf-ipcountry');     
+ // 根据国家/地区重定向  if (country === 'CN') {  return Response.redirect('https://example.cn', 302);  } else if (country === 'JP') {  return Response.redirect('https://example.jp', 302);  }     
+ // 默认响应  return fetch('https://example.com');  }, };
+```
+
+**图片优化**：
+
+```
+export default {  async fetch(request, env, ctx) {  const url = new URL(request.url);     
+ // 检查是否是图片请求  if (url.pathname.match(/\.(jpg|jpeg|png|gif|webp)$/i)) {  // 获取原始图片  const response = await fetch(request);  const image = await response.arrayBuffer();       
+ // 设置优化的响应头  const headers = new Headers(response.headers);  headers.set('Cache-Control', 'public, max-age=31536000');  headers.set('Content-Type', response.headers.get('Content-Type'));       
+ // 返回优化后的图片  return new Response(image, {  headers,  });  }     
+ // 非图片请求直接转发  return fetch(request);  }, };
+```
+
+**API代理**：
+
+```
+export default {  async fetch(request, env, ctx) {  const url = new URL(request.url);     
+ // 检查是否是API请求  if (url.pathname.startsWith('/api/')) {  // 构建目标API URL  const apiUrl = new URL(url.pathname.replace('/api/', ''), 'https://api.example.com');       
+ // 转发请求到实际API  return fetch(apiUrl.toString(), {  method: request.method,  headers: request.headers,  body: request.body,  });  }     
+ // 非API请求  return new Response('Not Found', { status: 404 });  }, };
+```
+
+---
+
+### **Cloudflare KV和D1数据库**
+
+### **Workers KV**
+
+- **键值存储**：全球分布的键值数据存储
+- **低延迟读取**：针对读取操作优化
+- **全局一致性**：数据在全球范围内同步
+- **适用场景**：配置数据、用户设置、缓存等
+
+**KV使用示例**：
+
+```
+export default {  async fetch(request, env, ctx) {  // 从KV读取数据  const value = await env.MY_KV.get('my-key');     
+ if (value === null) {  return new Response('Key not found', { status: 404 });  }     
+ return new Response(value);  }, };
+```
+
+### **D1数据库**
+
+- **SQLite兼容**：在边缘网络运行的关系型数据库
+- **SQL查询**：支持标准SQL查询
+- **事务支持**：确保数据一致性
+- **适用场景**：用户数据、内容管理、应用状态等
+
+**D1使用示例**：
+
+```
+export default {  async fetch(request, env, ctx) {  // 查询D1数据库  const { results } = await env.MY_DB.prepare(  "SELECT * FROM users WHERE id = ?"  ).bind(1).all();     
+ return new Response(JSON.stringify(results), {  headers: { 'Content-Type': 'application/json' },  });  }, };
+```
+
+---
+
+### **Cloudflare免费与付费服务对比**
+
+### **免费服务及额度**
+
+- **基础服务（免费计划）**：
+    - **全球CDN网络**：访问Cloudflare在275+城市的数据中心网络
+    - **DDoS防护**：基本的DDoS攻击防护
+    - **免费SSL证书**：为网站提供HTTPS加密
+    - **基本DNS管理**：全球分布式DNS服务
+    - **基本WAF(Web应用防火墙)**：基础安全规则
+- **免费额度**：
+    - **R2存储**：每月10GB存储和1000万次读取操作免费
+    - **Workers**：每天100,000次请求免费
+    - **Pages**：每月500次构建，无限部署和带宽
+
+### **付费服务及价格**
+
+- **付费计划级别**：
+    - **Pro**：适合小型网站和个人项目的增强功能
+    - **Business**：适合中型企业的高级功能和支持
+    - **Enterprise**：适合大型企业的定制解决方案
+- **常见付费服务及起价**：
+    - **Argo Smart Routing**：起价每月$5，提供优化路由和缓存
+    - **Load Balancing**：起价每月$5，提供负载均衡服务
+    - **Advanced Certificate Manager**：起价每月$10，提供高级证书管理
+    - **Access**：起价每月$3/用户，提供零信任访问控制
+    - **Stream**：起价每月$5（1,000分钟视频存储），Pro和Business计划包含100分钟免费视频存储
+    - **Cloudflare Registrar**：域名注册服务，起价$7.85（按成本价收费）
+    - **Automatic Platform Optimization**：与免费计划一起使用时每月$5，Pro、Business和Enterprise计划已包含
+    - **Cloudflare Images**：起价每月$5
+    - **Cache Reserve**：基于存储的总数据量和操作收费
+
+---
+
+### **为什么选择Cloudflare？**
+
+### **全栈解决方案**
+
+- **一站式服务**：从域名到部署，再到计算和存储
+- **无缝集成**：各服务之间自然协作
+- **统一管理**：单一控制面板管理所有服务
+- **简化开发**：减少多供应商管理的复杂性
+
+### **性能优势**
+
+- **全球网络**：275+城市的数据中心
+- **低延迟**：用户就近访问内容
+- **高可用性**：分布式架构确保服务可靠
+- **自动扩展**：无需担心流量峰值
+
+### **安全保障**
+
+- **DDoS防护**：自动防御网络攻击
+- **WAF保护**：防止应用层攻击
+- **Bot管理**：区分好坏机器人
+- **零信任安全**：实施最小权限原则
+
+### **经济实惠**
+
+- **慷慨的免费层**：个人项目通常可在免费额度内运行
+- **透明定价**：无隐藏费用
+- **无出站流量费**：R2存储不收取数据传出费用
+- **按需付费**：根据实际使用量付费
+
+---
+
+### **练习任务**
+
+**基础任务**：
+
+- 在Cloudflare注册一个域名
+- 配置DNS记录指向你的网站
+- 启用CDN和SSL
+
+**进阶任务**：
+
+- 创建一个R2存储桶并上传静态资源
+- 使用Pages部署一个静态网站
+- 配置自定义域名
+
+**挑战任务**：
+
+- 创建一个Worker实现动态内容生成
+- 使用KV存储实现简单的API
+- 配置高级安全规则保护你的网站
+
+---
+
+Cloudflare提供了从域名到部署，再到计算和存储的全栈解决方案，让你能够构建高性能、安全且经济的现代网站。通过本教程，你已经了解了Cloudflare的核心服务及其使用方法，可以开始利用这些工具构建你的下一个项目了！ 🚀 {/* */}

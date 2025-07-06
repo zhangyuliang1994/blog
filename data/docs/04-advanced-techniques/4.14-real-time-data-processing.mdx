@@ -1,23 +1,302 @@
 ---
-title: 4.14 实时数据处理
-description: AI辅助实时数据流处理与分析
+title: 4.14 gh-pages静态网站托管
+description: GitHub Pages静态网站托管指南，包含Jekyll博客、自定义域名配置
 order: 40
 ---
 
-# 4.14 实时数据处理
+# 4.14 👨🏻‍💻 gh-pages静态网站托管
+
+# GitHub Pages静态网站托管指南
+
+本教程将指导你如何使用GitHub Pages免费托管静态网站，从创建仓库到部署网站，再到配置自定义域名。
 
 <video controls width="100%" style={{maxWidth: '800px'}}>
   <source src="https://minio.xiaofeng.show/ai-code/4.14.mp4" type="video/mp4" />
   您的浏览器不支持视频标签。
 </video>
 
-## 内容即将更新
+---
 
-本章节将介绍实时数据处理技巧：
+### **GitHub Pages完全指南**
 
-- 流处理架构设计
-- 实时数据管道构建
-- 事件驱动系统开发
-- 数据一致性与可靠性保障
+**目标**：掌握GitHub Pages的核心功能，并学习如何利用它快速部署和分享你的网站项目。
 
-敬请期待完整内容更新！ 
+---
+
+### **什么是GitHub Pages？**
+
+- **GitHub Pages**是GitHub提供的免费静态网站托管服务
+- **核心优势**：
+✅ **完全免费**（无需支付任何托管费用）
+✅ **直接从GitHub仓库部署**（无需额外的部署步骤）
+✅ **支持自定义域名**（可以使用你自己的域名）
+✅ **HTTPS支持**（自动提供SSL证书）
+✅ **与GitHub Actions集成**（支持自动化构建和部署）
+
+---
+
+### **GitHub Pages服务层级**
+
+### **免费服务**
+
+- **静态网站托管**：托管HTML、CSS、JavaScript等静态文件
+- **自动构建**：支持Jekyll静态网站生成器自动构建
+- **HTTPS加密**：自动为*.github.io域名和自定义域名提供SSL证书
+- **自定义404页面**：可以创建自定义的404错误页面
+
+### **使用限制**
+
+- **仓库大小限制**：GitHub仓库大小不超过1GB
+- **带宽限制**：每月100GB带宽限制
+- **构建限制**：每小时10次构建限制
+- **网站类型限制**：只能托管静态网站，不支持服务器端代码
+
+### 和 Vercel 免费托管静态页面的对比
+
+尽管 Vercel 提供免费托管，但免费计划有一些限制，比如：
+
+- **流量限制**：免费计划有流量限制，超出后可能会导致访问速度变慢或需要升级计划。
+- **构建时间限制**：每月的构建时间也有上限。
+
+---
+
+### **GitHub Pages能用来做什么？**
+
+### **个人网站和博客**
+
+- **个人主页**：创建展示你的个人信息、技能和作品的网站
+- **技术博客**：使用Jekyll或其他静态博客工具分享你的知识和经验
+- **简历网站**：制作在线简历，向潜在雇主展示你的能力
+- **作品集**：展示你的设计、艺术或开发项目
+
+### **项目文档**
+
+- **API文档**：为你的开源项目提供API文档
+- **使用指南**：创建详细的项目使用说明
+- **示例展示**：展示项目的实际应用场景和示例
+- **版本历史**：记录项目的更新和变更历史
+
+### **小型网站和应用**
+
+- **单页应用(SPA)**：部署React、Vue或Angular构建的单页应用
+- **静态网站**：使用Gatsby、Next.js、Hugo等构建的静态网站
+- **小型工具**：计算器、转换工具等纯前端应用
+- **游戏演示**：HTML5游戏或游戏演示
+
+### **活动和组织网站**
+
+- **活动网站**：会议、研讨会等活动的信息网站
+- **组织主页**：非营利组织、俱乐部或社区的网站
+- **团队介绍**：展示团队成员和项目的网站
+- **课程网站**：教育课程或培训的资料网站
+
+---
+
+### **创建GitHub Pages网站**
+
+### **使用用户或组织站点**
+
+- **仓库命名规则**：`username.github.io`（将username替换为你的GitHub用户名）
+- **部署分支**：main或master分支
+- **访问地址**：`https://username.github.io`
+
+**创建步骤**：
+
+1. 登录GitHub账户
+2. 点击"New repository"创建新仓库
+3. 将仓库命名为`username.github.io`
+4. 克隆仓库到本地
+5. 添加网站文件（HTML、CSS、JavaScript等）
+6. 提交并推送到GitHub
+7. 访问`https://username.github.io`查看你的网站
+
+### **使用项目站点**
+
+- **任意仓库名称**：可以使用任何有效的仓库名
+- **部署选项**：main分支、master分支、docs文件夹或gh-pages分支
+- **访问地址**：`https://username.github.io/repository-name`
+
+**创建步骤**：
+
+1. 创建或使用现有GitHub仓库
+2. 进入仓库设置页面
+3. 滚动到"GitHub Pages"部分
+4. 选择源分支和文件夹
+5. 保存设置
+6. 访问生成的URL查看你的网站
+
+---
+
+### **使用Jekyll创建博客**
+
+### **什么是Jekyll？**
+
+- **静态网站生成器**：将Markdown文件转换为HTML网站
+- **GitHub Pages原生支持**：无需额外配置即可使用
+- **主题丰富**：提供多种现成的主题和布局
+- **插件系统**：扩展功能的插件生态系统
+
+### **使用Jekyll主题**
+
+- **选择主题**：从Jekyll主题库或GitHub Pages支持的主题中选择
+- **配置_config.yml**：自定义网站标题、描述和其他设置
+- **创建内容**：使用Markdown编写博客文章和页面
+- **本地预览**：使用Jekyll本地服务器预览网站
+
+**快速开始Jekyll博客**：
+
+```
+# 安装Jekyll和Bundler gem install jekyll bundler 
+# 创建新的Jekyll站点 jekyll new my-blog
+
+# 进入站点目录 cd my-blog 
+# 启动本地服务器 bundle exec jekyll serve
+```
+
+---
+
+### **使用现代前端框架**
+
+### **部署React应用**
+
+- **创建React应用**：使用Create React App创建项目
+- **配置homepage**：在package.json中设置homepage字段
+- **添加部署脚本**：配置gh-pages包进行部署
+- **构建和部署**：使用npm或yarn运行部署命令
+
+**React部署配置示例**：
+
+`// package.json {  "name": "my-react-app",  "homepage": "https://username.github.io/repository-name",  "scripts": {  "predeploy": "npm run build",  "deploy": "gh-pages -d build"  },  "dependencies": {  // ...  },  "devDependencies": {  "gh-pages": "^3.2.3"  } }`
+
+### **部署Vue应用**
+
+- **创建Vue应用**：使用Vue CLI创建项目
+- **配置publicPath**：在vue.config.js中设置publicPath
+- **添加部署脚本**：配置部署命令
+- **构建和部署**：运行部署命令
+
+**Vue部署配置示例**：
+
+`// vue.config.js module.exports = {  publicPath: process.env.NODE_ENV === 'production'  ? '/repository-name/'  : '/' }`
+
+---
+
+### **配置自定义域名**
+
+### **设置自定义域名**
+
+- **添加CNAME文件**：在仓库根目录或发布目录创建CNAME文件
+- **配置DNS记录**：在域名提供商处添加DNS记录
+- **启用HTTPS**：在GitHub Pages设置中启用HTTPS
+
+**CNAME文件示例**：
+
+`www.yourdomain.com`
+
+**DNS配置示例**：
+
+- 对于apex域（如example.com）：
+    - 添加A记录指向GitHub Pages IP地址：
+        - 185.199.108.153
+        - 185.199.109.153
+        - 185.199.110.153
+        - 185.199.111.153
+- 对于子域（如www.example.com）：
+    - 添加CNAME记录指向`username.github.io`
+
+---
+
+### **GitHub Pages与GitHub Actions集成**
+
+### **自动化部署流程**
+
+- **创建工作流文件**：在`.github/workflows`目录下创建YAML文件
+- **配置触发条件**：设置何时触发构建（如推送到main分支）
+- **定义构建步骤**：安装依赖、构建项目、部署到GitHub Pages
+- **使用部署Action**：使用官方或社区提供的部署Action
+
+**GitHub Actions工作流示例**：
+
+```
+name: Deploy to GitHub Pages 
+on:  push:  branches: [ main ] 
+jobs:  build-and-deploy:  runs-on: ubuntu-latest
+ steps:  - name: Checkout uses: actions/checkout@v2 
+ - name: Setup Node.js uses: actions/setup-node@v2
+ with:  node-version: '14' 
+ - name: Install dependencies run: npm ci 
+ - name: Build run: npm run build 
+ - name: Deploy uses: JamesIves/github-pages-deploy-action@4.1.4
+ with:  branch: gh-pages
+ folder: build
+```
+
+---
+
+### **GitHub Pages最佳实践**
+
+### **性能优化**
+
+- **压缩资源**：压缩HTML、CSS和JavaScript文件
+- **优化图片**：使用WebP格式和适当的图片尺寸
+- **使用CDN**：引用流行库的CDN版本
+- **延迟加载**：对非关键资源使用延迟加载
+
+### **SEO优化**
+
+- **添加元标签**：包括标题、描述和关键词
+- **使用语义HTML**：正确使用HTML5语义元素
+- **创建sitemap.xml**：帮助搜索引擎索引你的网站
+- **添加robots.txt**：控制搜索引擎爬虫的访问
+
+### **安全考虑**
+
+- **启用HTTPS**：确保网站使用HTTPS
+- **避免敏感信息**：不要在仓库中存储密钥、密码等敏感信息
+- **内容安全策略**：实施适当的CSP头
+- **第三方脚本**：谨慎使用第三方脚本和库
+
+---
+
+### **GitHub Pages与其他托管服务对比**
+
+### **GitHub Pages vs Netlify**
+
+- **GitHub Pages优势**：与GitHub无缝集成，完全免费
+- **Netlify优势**：更强大的构建选项，表单处理，函数支持
+
+### **GitHub Pages vs Vercel**
+
+- **GitHub Pages优势**：简单直接，无需额外账户
+- **Vercel优势**：更好的预览功能，无服务器函数支持
+
+### **GitHub Pages vs Cloudflare Pages**
+
+- **GitHub Pages优势**：更简单的设置，与GitHub仓库直接集成
+- **Cloudflare Pages优势**：更快的全球CDN，更多的构建分钟数
+
+---
+
+### **练习任务**
+
+**基础任务**：
+
+- 创建一个个人GitHub Pages网站
+- 添加自我介绍和联系信息
+- 自定义网站样式
+
+**进阶任务**：
+
+- 使用Jekyll创建一个博客
+- 发布几篇博客文章
+- 自定义博客主题
+
+**挑战任务**：
+
+- 使用React或Vue创建单页应用
+- 配置GitHub Actions自动部署
+- 添加自定义域名和HTTPS
+
+---
+
+GitHub Pages提供了一个简单而强大的方式来托管你的静态网站和项目文档，完全免费且与GitHub无缝集成。通过本教程，你已经了解了GitHub Pages的核心功能和使用方法，可以开始创建和部署你自己的网站了！ 🚀

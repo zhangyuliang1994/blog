@@ -1,23 +1,138 @@
 ---
-title: 4.15 可扩展系统设计
-description: 使用AI设计高可扩展性系统架构
+title: 4.15 Vercel 部署指南
+description: Vercel部署指南，包含项目部署、域名绑定、环境变量配置
 order: 41
 ---
 
-# 4.15 可扩展系统设计
+# 4.15 🚀 Vercel 部署指南
+
+# 认识 Vercel
+
+一个用于快速部署项目的平台，视频中会演示注册登录 → 部署项目 → 绑定域名 → 调试部署失败案例
 
 <video controls width="100%" style={{maxWidth: '800px'}}>
   <source src="https://minio.xiaofeng.show/ai-code/4.15.mp4" type="video/mp4" />
   您的浏览器不支持视频标签。
 </video>
 
-## 内容即将更新
+---
 
-本章节将介绍可扩展系统设计技巧：
+### **Vercel 快速入门教程**
 
-- 分布式系统架构设计
-- 水平扩展与垂直扩展策略
-- 负载均衡与服务发现
-- 高并发系统设计模式
+**目标**：学会将前端项目部署到线上，实现自动更新与预览。
 
-敬请期待完整内容更新！ 
+---
+
+### **一、Vercel 是什么？**
+
+- 一个用于快速部署前端项目的平台（支持 React/Vue/Next.js 等框架）
+- 核心功能：
+✅ **自动部署**（连接GitHub仓库，代码更新后自动发布）
+✅ **免费 HTTPS 域名**（生成 `项目名.vercel.app` 的临时域名）
+✅ **预览环境**（每次提交生成独立测试链接）
+
+---
+
+### **二、注册与准备**
+
+1. 访问 [Vercel官网](https://vercel.com/) → 点击 **Sign Up**
+2. 选择用 **GitHub 账号授权登录**（推荐，方便后续关联仓库）
+3. 完成邮箱验证
+
+---
+
+### **三、部署你的第一个项目**
+
+### **方法1：直接上传本地代码**
+
+1. 进入Vercel控制台 → 点击 **Add New → Project**
+2. 拖拽本地项目文件夹到上传区域（支持ZIP文件）
+3. 配置项目：
+    - **Project Name**：自定义名称（如 `my-app`）
+    - **Framework Preset**：选择项目框架（如Vue.js）
+    - 点击 **Deploy**
+
+### **方法2：关联GitHub仓库自动部署**
+
+1. 点击 **Add New → Project** → 选择 **Import Git Repository**
+2. 选择GitHub仓库（需提前授权Vercel访问权限）
+3. 配置部署选项（默认设置即可） → 点击 **Deploy**
+
+### **方法3：使用Vercel模板快速开始**
+
+1. 访问 [Vercel模板库](https://vercel.com/templates) 浏览各类项目模板
+2. 模板分类：
+    - **全栈应用**：Next.js, Nuxt, SvelteKit等
+    - **前端框架**：React, Vue, Angular等
+    - **电商网站**：Shopify, Commerce.js等
+    - **博客系统**：Ghost, WordPress等
+3. 使用步骤：
+    - 选择喜欢的模板 → 点击 **Deploy**
+    - 授权GitHub账号（首次使用）
+    - 自动创建仓库并部署
+
+---
+
+### **四、查看与管理部署**
+
+1. **访问项目**：
+    - 部署成功后，页面显示 `Production` 的访问链接（如 `my-app.vercel.app`）
+2. **查看部署历史**：
+    - 项目页面的 **Deployments** 标签页查看所有版本
+    - 点击特定版本可回滚或生成预览链接
+3. **环境变量配置**：
+    - 进入项目 → **Settings → Environment Variables**
+    - 添加键值对（如 `API_KEY=123`） → 重新部署生效
+
+---
+
+### **五、绑定自定义域名（可选）**
+
+1. 进入项目 → **Settings → Domains**
+2. 输入已购买的域名（如 `www.example.com`）
+3. 根据提示配置DNS解析（需在域名服务商处添加CNAME记录）
+- 方便国内用户访问则配置为`vercel.cdn.yt-blog.top`
+
+---
+
+### **六、常用功能**
+
+### 1. **预览分支修改**
+
+- 在GitHub创建新分支（如 `dev`）并推送代码
+- Vercel会自动生成 `dev.my-app.vercel.app` 的预览链接
+
+### 2. **查看日志与报错**
+
+- 进入部署详情页 → **Logs** 标签页查看实时日志
+- 若部署失败，根据日志提示修复代码
+
+### 3. **使用Vercel CLI（可选）**
+
+1. 安装：`npm install -g vercel`
+2. 登录：`vercel login`
+3. 部署：在项目根目录运行 `vercel`
+
+---
+
+### **七、注意事项**
+
+⚠️ **重要提醒**：
+
+1. 免费版限制：
+    - 每月100次部署
+    - 构建时长限制（注意大型项目可能超时）
+2. 敏感信息（如密码、API密钥）必须通过 **Environment Variables** 配置，不要写在代码中！
+3. 删除项目：进入项目 → **Settings → General → Delete Project**
+
+---
+
+### **八、练习任务**
+
+1. 部署一个简单的HTML静态页面到Vercel
+2. 修改GitHub仓库代码，观察Vercel自动更新
+3. （进阶）尝试为项目绑定自定义域名
+
+---
+
+掌握这些操作后，可快速将本地项目发布为线上可访问的网页！ 🚀
