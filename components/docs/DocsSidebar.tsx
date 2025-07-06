@@ -83,7 +83,7 @@ export function DocsSidebar({ docs }: DocsSidebarProps) {
   }
 
   return (
-    <aside className="w-64 min-w-64 max-w-64 h-[calc(100vh-4rem)] overflow-y-auto border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 sticky top-16 z-30">
+    <aside className="w-64 min-w-64 max-w-64 h-screen overflow-y-auto border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 sticky top-0 z-30">
       <div className="p-4 overflow-hidden">
         <Link href="/docs" className="block mb-4">
           <h2 className="text-xl font-bold text-gray-900 dark:text-gray-100">
