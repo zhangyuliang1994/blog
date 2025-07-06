@@ -1,23 +1,57 @@
 ---
-title: 5.2 电商网站开发
-description: AI辅助构建现代电商平台
+title: 5.2 域名与邮箱配置
+description: 项目域名与邮箱配置，包含域名注册、DNS配置和企业邮箱设置
 order: 38
 ---
 
-# 5.2 电商网站开发
+# 5.2 📧 域名与邮箱配置
+
+# 项目域名与邮箱配置
+
+本教程将指导你如何为项目配置域名和企业邮箱。我们将使用 `weathericon.top` 作为示例域名。
 
 <video controls width="100%" style={{maxWidth: '800px'}}>
   <source src="https://minio.xiaofeng.show/ai-code/5.2.mp4" type="video/mp4" />
   您的浏览器不支持视频标签。
 </video>
 
-## 内容即将更新
+## 域名注册
 
-本章节将实战演示AI辅助电商开发：
+我们选择在 Namesilo 注册域名，主要因为其价格透明且提供免费的 WHOIS 隐私保护。
 
-- 电商平台架构设计
-- 产品与订单系统实现
-- 支付与物流集成
-- 性能优化与安全防护
+1. 在 [Namesilo](https://www.namesilo.com/) 注册 `weathericon.top`
+2. 购买时默认勾选免费的 WHOIS 隐私保护
+3. 完成支付后在邮箱确认域名所有权
 
-敬请期待完整内容更新！ 
+> 💡 详细的域名注册流程请参考：[域名注册与管理指南](https://new.web.cafe/tutorial/detail/c9y103dmct)
+> 
+
+## DNS 配置
+
+使用 Cloudflare 来管理 DNS，获得免费的 CDN、SSL 证书和安全防护。
+
+1. 在 [Cloudflare](https://www.cloudflare.com/) 添加域名 `weathericon.top`
+2. 获取 Cloudflare 的域名服务器地址
+3. 在 Namesilo 修改域名服务器为 Cloudflare 提供的地址
+4. 等待 DNS 生效（通常几分钟到24小时）
+
+> 💡 详细的 Cloudflare 配置请参考：[Cloudflare 全栈开发指南](https://new.web.cafe/tutorial/detail/yv7x0z7gmk)
+> 
+
+## 邮箱配置
+
+使用 Zoho Mail 配置企业邮箱，每个邮箱账户仅需 $1/月。
+
+1. 在 [Zoho Mail](https://www.zoho.com/mail/) 注册账户
+2. 添加域名 `weathericon.top`
+3. 创建以下邮箱账户：
+    - [admin@weathericon.top](mailto:admin@weathericon.top)（管理员）
+    - [feedback@weathericon.top](mailto:feedback@weathericon.top)（反馈）
+    - [noreply@weathericon.top](mailto:noreply@weathericon.top)（系统通知）
+
+> 💡 详细的邮箱配置请参考：[企业邮箱配置指南](https://new.web.cafe/tutorial/detail/god5n16uv9)
+> 
+
+---
+
+完成以上配置后，你的项目就拥有了专业的域名和企业邮箱服务。如需了解更多详细内容，请参考相关指南中的具体说明。🚀 

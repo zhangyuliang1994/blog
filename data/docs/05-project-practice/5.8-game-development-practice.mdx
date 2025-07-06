@@ -1,23 +1,83 @@
 ---
-title: 5.8 游戏开发实践
-description: AI辅助Web游戏开发
+title: 5.8 项目部署流程
+description: 项目部署与上线指南
 order: 44
 ---
 
-# 5.8 游戏开发实践
+# 5.8 🚀 项目部署流程
+
+# 部署上线
+
+> **重要提示：** 本项目采用 www 子域名作为主域名。例如，如果你的域名是 example.com，在所有配置中都应使用 [www.example.com。所有非](http://www.example.com.xn--8ou99htu6c/) www 域名都会自动重定向到 www 版本。
+> 
 
 <video controls width="100%" style={{maxWidth: '800px'}}>
   <source src="https://minio.xiaofeng.show/ai-code/5.8.mp4" type="video/mp4" />
   您的浏览器不支持视频标签。
 </video>
 
-## 内容即将更新
+## 部署准备
 
-本章节将实战演示AI辅助游戏开发：
+### 环境配置
 
-- Web游戏架构设计
-- 游戏核心逻辑实现
-- 图形与动画效果
-- 游戏性能优化技巧
+在部署之前，需要配置以下环境变量：
 
-敬请期待完整内容更新！ 
+### 基础配置
+
+![](https://s.web.cafe/aimaker/images/projects/deploy/vercel-env-variables.webp)
+
+### App URL配置
+
+```
+# 重要：域名配置需要与你的域名重定向设置保持一致 # 如果 example.com 重定向到 www.example.com，则使用 www 版本
+# 如果 www.example.com 重定向到 example.com，则使用无 www 版本
+# 始终使用你的主域名（重定向目标域名）作为配置
+NEXT_PUBLIC_APP_URL="https://www.你的主域名"
+NEXT_SERVER_APP_URL="https://www.你的主域名"
+```
+
+### 数据库配置
+
+```
+# Database DATABASE_URL="你的数据库连接URL"
+# 可以使用 Zeabur (https://zeabur.com) Postgres 数据库
+```
+
+本地测试的数据可要和线上正式的区分开
+
+### 认证配置
+
+### Auth Secret配置
+
+```
+# Authentication # 使用 https://auth-secret-gen.vercel.app/ 生成 AUTH_SECRET
+AUTH_SECRET="你的认证密钥"
+```
+
+### GitHub OAuth配置
+
+```
+# GitHub OAuth 配置 # 在 https://github.com/settings/developers 创建应用
+# 回调URL必须使用主域名（重定向目标域名）
+# 回调URL格式：https://www.你的主域名/api/auth/callback/github
+AUTH_GITHUB_ID="你的GitHub客户端ID"
+AUTH_GITHUB_SECRET="你的GitHub客户端密钥"
+```
+
+### Google OAuth配置
+
+```
+# Google OAuth 配置 # 在 https://console.cloud.google.com/apis/credentials 创建凭据
+# OAuth client ID 配置：
+# - 授权的 JavaScript 来源：https://www.你的主域名 和 http://localhost:3000
+# - 授权的重定向URI：https://www.你的主域名/api/auth/callback/google 和 http://localhost:3000/api/auth/callback/google
+AUTH_GOOGLE_ID="你的Google客户端ID"
+AUTH_GOOGLE_SECRET="你的Google客户端密钥"
+```
+
+### 支付配置
+
+```
+# Stripe配置 STRIPE_WEBHOOK_SECRET="你的Stripe Webhook密钥"
+STRIPE_SECRET_KEY="你的Stripe密钥"
+``` 

@@ -1,23 +1,81 @@
 ---
-title: 5.9 SaaS平台开发
-description: AI辅助构建订阅制SaaS应用
+title: 5.9 域名配置教程
+description: 域名配置与DNS设置指南
 order: 45
 ---
 
-# 5.9 SaaS平台开发
+# 5.9 🌐 域名配置教程
+
+# 域名配置
 
 <video controls width="100%" style={{maxWidth: '800px'}}>
   <source src="https://minio.xiaofeng.show/ai-code/5.9.mp4" type="video/mp4" />
   您的浏览器不支持视频标签。
 </video>
 
-## 内容即将更新
+## Vercel 项目域名配置
 
-本章节将实战演示AI辅助SaaS平台开发：
+### 1. 基础域名配置
 
-- SaaS应用架构设计
-- 多租户数据隔离实现
-- 订阅与计费系统
-- 系统扩展性与安全设计
+1. 登录 Vercel 控制台
+2. 选择你的项目
+3. 进入 `Settings` -> `Domains`
+4. 添加你的自定义域名
+5. 按照 Vercel 提供的 DNS 记录进行配置
 
-敬请期待完整内容更新！
+### 2. DNS 记录配置
+
+在你的 DNS 服务商（如 Cloudflare）配置以下记录：
+
+```
+# 主域名配置 类型: A 或 CNAME
+名称: @
+值: 76.76.21.21 (如果是A记录) 值: cname.vercel-dns.com (如果是CNAME记录) 
+# www 子域名配置 类型: CNAME
+名称: www
+值: cname.vercel-dns.com
+```
+
+### 3. 中国大陆访问优化
+
+为了优化中国大陆用户的访问速度，需要配置特殊的 CDN：
+
+1. 在 DNS 配置中添加以下记录：
+
+```
+类型: CNAME 名称: @
+值: vercel.cdn.yt-blog.top
+```
+
+1. 如果使用 Cloudflare，建议：
+    - 将 DNS 记录的代理状态设置为 DNS only（灰色云朵）
+    - 关闭 Cloudflare 的 Proxy 功能
+
+### 4. SSL 证书配置
+
+- Vercel 会自动为你的域名提供 SSL 证书
+- 确保在 Vercel 控制台中域名状态显示为 "Valid Configuration"
+- 等待 SSL 证书生效（通常需要几分钟）
+
+## 最佳实践
+
+- 在更改 DNS 记录后，等待 DNS 生效（通常需要 0.5-24 小时）
+- 使用 `dig` 或 `nslookup` 命令验证 DNS 记录是否正确生效
+- 定期检查 SSL 证书的有效期
+- 监控网站在不同地区的访问速度
+
+## 故障排查
+
+如果遇到域名无法访问的问题：
+
+1. 检查 DNS 记录是否正确配置
+2. 确认 DNS 记录是否已经生效
+3. 验证 SSL 证书状态
+4. 测试不同地区的访问情况
+
+## 安全建议
+
+- 启用 DNSSEC 增强域名安全性
+- 定期更新域名注册信息
+- 设置域名锁定防止未授权转移
+- 使用强密码保护域名注册账户

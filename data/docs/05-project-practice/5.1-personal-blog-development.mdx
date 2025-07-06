@@ -1,23 +1,155 @@
 ---
-title: 5.1 个人博客开发
-description: 使用AI快速构建个人博客
+title: 5.1 项目初始化配置
+description: 项目初始化配置，基于aimaker-template创建项目
 order: 37
 ---
 
-# 5.1 个人博客开发
+# 5.1 🚀 项目初始化配置
+
+# 创建项目
+
+在开始开发之前，我们需要基于[aimaker-template](https://demo.aimaker.dev/)创建一个新的项目。本章节将指导你如何从零开始创建和设置项目。
 
 <video controls width="100%" style={{maxWidth: '800px'}}>
   <source src="https://minio.xiaofeng.show/ai-code/5.1.mp4" type="video/mp4" />
   您的浏览器不支持视频标签。
 </video>
 
-## 内容即将更新
+## 🚀 快速开始
 
-本章节将实战演示AI辅助博客开发：
+1. 克隆项目
 
-- 博客系统需求分析
-- Next.js框架博客实现
-- 自定义主题与功能扩展
-- 部署与性能优化
+`git clone https://github.com/aimaker-dev/aimaker-template.git cd aimaker-template`
 
-敬请期待完整内容更新！ 
+1. 安装依赖
+
+`pnpm install`
+
+1. 配置环境变量
+
+复制 `.env.example` 文件到 `.env` 并填写必要的环境变量：
+
+`cp .env.example .env`
+
+环境变量说明：
+
+应用配置:
+
+- `NEXT_PUBLIC_APP_URL` - 前端应用 URL (例如: [http://localhost:3000](http://localhost:3000/))
+- `NEXT_SERVER_APP_URL` - 后端服务 URL (例如: [http://localhost:3000](http://localhost:3000/))
+
+数据库配置:
+
+- `DATABASE_URL` - PostgreSQL 数据库连接 URL
+
+身份验证配置:
+
+- `AUTH_SECRET` - 用于加密的密钥,至少32个字符，可以参考 https://auth-secret-gen.vercel.app/
+- `AUTH_GITHUB_ID` - GitHub OAuth 应用的 Client ID
+- `AUTH_GITHUB_SECRET` - GitHub OAuth 应用的 Client Secret
+- `AUTH_GOOGLE_ID` - Google OAuth 应用的 Client ID
+- `AUTH_GOOGLE_SECRET` - Google OAuth 应用的 Client Secret
+
+Stripe 支付配置:
+
+- `STRIPE_SECRET_KEY` - Stripe API 密钥
+- `STRIPE_WEBHOOK_SECRET` - Stripe Webhook 密钥
+1. 初始化数据库
+
+`pnpm db:generate pnpm db:push`
+
+1. 启动开发服务器
+
+`pnpm dev`
+
+访问 [http://localhost:3000](http://localhost:3000/) 查看网站。
+
+## 🎨 项目示例：天气图标产品
+
+让我们以一个实际的产品案例来说明如何使用这个模板。我们将创建一个名为"Creamy Weather Icons"的天气图标产品网站。
+
+### 产品概述
+
+- 名称：Creamy Weather Icons
+- 类型：设计资源产品
+- 特点：奶油色调3D立体风格天气图标
+
+### 基本功能
+
+1. 产品展示
+    - 35个精美天气图标
+    - 包含晴天、雨天、雪天等多种天气类型
+    - 支持深色/浅色主题
+2. 版本选择
+    - 基础版（免费）：128x128px PNG格式
+    - 专业版（付费）：多尺寸 + Figma源文件
+3. 用户系统
+    - 支持邮箱注册
+    - GitHub/Google OAuth登录
+    - 个人资料管理
+4. 支付系统
+    - Stripe支付集成
+    - 专业版购买
+    - 交易记录
+
+### 项目结构
+
+```
+src/  ├── app/  │   ├── page.tsx # 首页 │   ├── icons/ # 图标展示页 │   ├── pricing/ # 定价页面 │   └── dashboard/ # 用户面板 ├── components/  │   ├── ui/ # UI组件
+ │   └── icons/ # 图标组件 └── lib/  ├── auth.ts # 认证配置 └── stripe.ts # 支付配置
+```
+
+### 数据模型
+
+```
+// schema.prisma model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  hasAccess Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model Purchase {
+  id        String   @id @default(cuid())
+  userId    String
+  amount    Int
+  status    String
+  createdAt DateTime @default(now())
+}
+```
+
+## 🔧 配置说明
+
+### 主题定制
+
+本模板使用 shadcn/ui 的主题系统。你可以通过修改 `src/app/globals.css` 文件中的 CSS 变量来更改主题色，例如将主题改为奶油色调：
+
+`:root {  --background: 60 30% 98%;  --foreground: 60 40% 10%;  --primary: 40 95% 65%;  --primary-foreground: 60 40% 10%; }`
+
+### 支付配置
+
+使用 Stripe 处理支付，支持：
+
+- 一次性购买
+- 自动发货
+- 交易记录
+
+### 部署说明
+
+推荐使用 Vercel 进行部署：
+
+1. 推送代码到 GitHub
+2. 在 Vercel 导入项目
+3. 配置环境变量
+4. 自动部署
+
+## 🛠️ 开发建议
+
+1. 使用TypeScript
+2. 遵循ESLint规范
+3. 编写单元测试
+4. 做好错误处理
+5. 优化性能
+
+访问 [http://localhost:3000](http://localhost:3000/) 查看网站。 
