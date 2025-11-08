@@ -86,6 +86,7 @@ const headerNavLinks = [
   { href: '/blog', title: '博客' },
   { href: '/tags', title: '标签' },
   { href: '/projects', title: '项目' },
+  { href: '/links', title: '友链' },
   { href: '/guestbook', title: '留言板' },
   { href: '/docs', title: 'AI编程' },
   { href: '/about', title: '关于' },

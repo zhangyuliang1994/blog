@@ -9,6 +9,7 @@ const PATHS_TO_PREFETCH = [
   '/about',
   '/blog',
   '/projects',
+  '/links',
   '/guestbook',
   '/tags'
 ]
