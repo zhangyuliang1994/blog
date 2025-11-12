@@ -1,0 +1,230 @@
+---
+title: 使用 FRP 实现内网穿透：实践指南
+date: 2025-11-12
+tags:
+    - FRP
+    - 内网穿透
+    - 网络
+draft: false
+summary: 使用Frp实现公网IP/域名访问家用服务器。
+password: ""
+---
+
+## 引言
+
+- 去年抢购的高性能服务器到期了，续费又太贵。今年只能搞了个2C2G的小玩意，然后让家里的服务器当主力，用这个廉价的服务器当中转。
+
+## FRP 概述
+
+**FRP**（Fast Reverse Proxy）是一款可以用于**内网穿透**的开源工具，  
+支持 **TCP/UDP/HTTP/HTTPS 协议**，可以将 **内网服务** 暴露到 **公网**  
+**实现**从任意网络环境访问到你的服务器或电脑。
+
+🔗 **Frp官网**：[https://github.com/fatedier/frp](https://github.com/fatedier/frp)
+
+## 环境准备
+
+- 一个有公网IP的服务器，建议阿里云/腾讯云。
+- 需要实现内网穿透的服务器或电脑，我这里就是家里的Mac mini。
+## 下载与安装
+前往 [GitHub FRP Releases](https://github.com/fatedier/frp/releases) 下载适合你系统的版本：
+你看到的文件格式是 frp_0.61.1_xxx(适用系统) _ yyy(系统架构).tar.gz
+Mac Arm：[frp_0.65.0_linux_amd64.tar.gz](https://github.com/fatedier/frp/releases/download/v0.65.0/frp_0.65.0_linux_amd64.tar.gz)
+Linux x86：[frp_0.65.0_linux_amd64.tar.gz](https://github.com/fatedier/frp/releases/download/v0.65.0/frp_0.65.0_linux_amd64.tar.gz)
+解压后，可以看到以下几个文件：
+```shell
+# Linux指令 
+ls 
+frpc frpc.toml frps frps.toml LICENSE
+```
+## FRP 服务端部署
+
+####  配置文件修改（frps.toml）
+
+```toml
+# ==============================
+# FRP 服务器端（frps.ini）配置
+# ==============================
+
+# 绑定监听地址（默认 `0.0.0.0` 代表监听所有 IP）
+bindAddr = "0.0.0.0"
+
+#  服务器监听端口（客户端需要通过该端口连接 FRP 服务器）
+bindPort = 7000
+
+# HTTP 端口（用于内网 HTTP 代理穿透）(我的80端口被占用了)
+vhostHTTPPort = 8230
+
+# HTTPS 端口（用于内网 HTTPS 代理穿透）（我的443端口被占用了）
+vhostHTTPSPort = 8443
+
+# 子域名支持
+# 可以通过 `subDomainHost` 解析动态子域名
+# 例如：如果 `subDomainHost` 配置为 "example.com"
+# 那么客户端可以使用 `test.example.com` 访问内网服务
+# 如果你没有域名或不使用此功能，请删除此行！
+# 如果你要用IP直连例如:168.0.0.1:8848，就把这行删掉，不要配置！
+# subDomainHost = "xxxx.com"  # 请替换为你的真实域名
+
+# =============================================
+# Web 控制台（Dashboard）配置
+# =============================================
+
+# 监控界面监听地址（`0.0.0.0` 代表所有 IP 可访问）
+webServer.addr = "0.0.0.0"
+
+# Web 管理面板端口（可在浏览器访问，默认 7500）
+# 你可以通过 `http://你的公网IP:7500` 访问 FRP 管理面板
+webServer.port = 7500
+
+# Web 控制台管理账号（可自定义）
+webServer.user = "admin"
+
+# Web 控制台密码（请自行修改）
+webServer.password = "your_password"
+
+# =============================================
+# 身份验证（Authentication）配置
+# =============================================
+
+#  认证方式（防止未经授权的客户端连接）
+# 目前 FRP 支持 `token` 和 `oidc` 方式，我们选用token
+auth.method = "token"
+
+#  Token 认证（客户端需要匹配相同 token 才能连接）
+# 通俗来说就是密码，写一个你能记住的，尽量长一点
+# 示例: 123-abc-123abc 
+auth.token = "your_token"   # 请自行修改，不要用我的
+```
+#### 启动
+在 frp 目录下执行如下指令：
+```shell
+screen -S frps ./frps -c frps.toml   
+```
+启动成功后会出现：
+```shell
+[frps/root.go:105] frps uses config file: frps.toml
+
+[server/service.go:237] frps tcp listen on 0.0.0.0:7000
+
+[server/service.go:305] http service listen on 0.0.0.0:8230
+
+[server/service.go:319] https service listen on 0.0.0.0:8443
+
+[frps/root.go:114] frps started successfully
+
+[server/service.go:351] dashboard listen on 0.0.0.0:7500
+```
+- **Linux退出程序窗口**  
+    按下`Ctrl+A`松开，再按一下`D`就可以退出程序窗口  
+    要回到程序窗口输入指令`screen -r frps`即可  
+    如果想结束程序进程输入指令`pkill frps`即可
+## FRP 客户端配置
+
+- 描述 frpc 的安装与配置参数。
+- 预留连接测试与验证方法。
+
+#### 配置文件修改（frps.toml）
+
+```toml
+# 服务端地址（这里要填你有公网IP的服务器的IP或者是服务器的域名）
+
+serverAddr = "xx.xx.xx.xx"
+
+# 服务器端口（Frp 服务端监听的端口）
+
+serverPort = 7000
+
+  
+
+# 连接协议
+
+transport.protocol = "tcp"
+
+  
+
+# 认证方式
+
+auth.method = "token"
+
+# 认证所使用的 Token（要和你刚才配置的服务端token完全一样！）
+
+auth.token = "your_token"
+
+  
+
+# 代理配置
+[[proxies]]
+# 代理名称(标识该代理的名称，根据你的喜好填写）
+
+name = "xiaofeng"
+
+# 代理类型（http、https、tcp等）
+
+# 这里要根据你的需求来填写，如果你有域名，就用http
+
+# 如果你没有域名，那就用IP直连，例如:165.0.0.1:8848,此时这里应该写tcp协议
+
+# 如果你用tcp协议就必须把刚才服务端上subDomainHost = "xxxx.com"的配置删除！
+
+# type = "tcp"   # IP+端口直连用这个
+
+type = "tcp"
+
+# 本地 IP（Frp 客户端需要将流量转发到的本地地址）
+
+localIP = "127.0.0.1"
+
+# 本地端口（Frp 客户端需要将流量转发到的本地端口，根据你要穿透的端口来填写）
+
+localPort = 5678
+
+# 访问此代理的子域名
+
+# 如果你没有域名要用IP直连，请把这句删除掉，否则会导致无法连接！
+
+# subdomain = "rocket" # 子域名请根据你拥有的域名配置，配置后通过rocket.xxx.com格式访问
+
+  
+
+# 如果你不用域名，要用ip+端口直连，请必须加上这句！
+
+# 并且删除 subdomain = "rocket" 
+
+remotePort = 5678    # 这个端口和localPort 配置的一模一样，这样才能正常访问！
+```
+
+#### 启动
+在 frp 目录下执行如下指令：
+```shell
+screen -S frps ./frpc -c frpc.toml   
+```
+启动成功后会出现：
+```shell
+[I] [sub/root.go:142] start frpc service for config file [frpc.toml] 
+[I] [client/service.go:295] try to connect to server... 
+[I] [client/service.go:287] [7c9de41e30e15c46] login to server success, get run id [7c9de41e30e15c46] 
+[I] [proxy/proxy_manager.go:173] [7c9de41e30e15c46] proxy added: [rocketcat] 
+[I] [client/control.go:168] [7c9de41e30e15c46] [rocketcat] start proxy success
+```
+- **Linux退出程序窗口**  
+    按下`Ctrl+A`松开，再按一下`D`就可以退出程序窗口  
+    要回到程序窗口输入指令`screen -r frpc`即可  
+    如果想结束程序进程输入指令`pkill frpc`即可
+## 测试与验证
+
+可以登陆公网IP的页面查看代理情况(http://xx.xx.xx.xx:7500)，如图所示：
+![](https://minio.xiaofeng.show/blog/2025/frp-watch.png)
+也可查看具体的协议，比如我在配置里设置的是TCP的5678端口：
+
+![](https://minio.xiaofeng.show/blog/2025/frp-detail.png)
+
+## 总结
+
+- 配置/启动时要注意是服务器还是客户端，因为文件名太相近了。另外，配置过程难免会有疑问，甚至报错，建议直接问AI，效果非常好。
+
+## 参考
+
+- https://www.cnblogs.com/geek233/p/18791892
+
+

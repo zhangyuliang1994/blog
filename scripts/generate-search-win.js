@@ -1,7 +1,23 @@
 const fs = require('fs')
 const path = require('path')
 const matter = require('gray-matter')
-const { getAllFilesRecursively } = require('pliny/utils/files')
+const GithubSlugger = require('github-slugger')
+
+// 递归获取目录下所有文件
+function getAllFilesRecursively(dirPath, arrayOfFiles = []) {
+  const files = fs.readdirSync(dirPath)
+
+  files.forEach((file) => {
+    const filePath = path.join(dirPath, file)
+    if (fs.statSync(filePath).isDirectory()) {
+      arrayOfFiles = getAllFilesRecursively(filePath, arrayOfFiles)
+    } else {
+      arrayOfFiles.push(filePath)
+    }
+  })
+
+  return arrayOfFiles
+}
 
 // 手动处理博客文章并生成搜索索引
 function generateSearchIndex() {
@@ -53,12 +69,12 @@ function generateSearchIndex() {
   fs.writeFileSync(searchPath, JSON.stringify(searchData))
   console.log('Search index generated successfully!')
 
-  // 生成标签统计
+  // 生成标签统计（使用与 contentlayer 相同的 slug 方法）
   const tagCount = {}
   allBlogs.forEach((blog) => {
     if (blog.tags) {
       blog.tags.forEach((tag) => {
-        const formattedTag = tag.toLowerCase().replace(/\s+/g, '')
+        const formattedTag = GithubSlugger.slug(tag)
         if (formattedTag in tagCount) {
           tagCount[formattedTag] += 1
         } else {
