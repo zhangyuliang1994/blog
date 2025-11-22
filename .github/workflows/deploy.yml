@@ -34,20 +34,36 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+        continue-on-error: false
 
       - name: Build static site
         run: yarn export
         env:
           # 可选：如果使用 Umami 分析，在 GitHub Secrets 中配置 NEXT_UMAMI_ID
           # NEXT_UMAMI_ID: ${{ secrets.NEXT_UMAMI_ID }}
+        continue-on-error: false
 
       - name: Create .nojekyll file
         run: touch out/.nojekyll
         # 创建 .nojekyll 文件，告诉 GitHub Pages 不要使用 Jekyll 处理
 
+      - name: Verify build output
+        run: |
+          echo "Verifying build output..."
+          if [ ! -d "out" ]; then
+            echo "Error: out directory does not exist!"
+            exit 1
+          fi
+          if [ ! -f "out/.nojekyll" ]; then
+            echo "Error: .nojekyll file was not created!"
+            exit 1
+          fi
+          echo "Build output verified successfully"
+          echo "Files in out directory:"
+          ls -la out | head -20
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
