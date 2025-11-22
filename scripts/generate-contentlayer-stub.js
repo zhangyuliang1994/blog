@@ -73,15 +73,17 @@ function processBlogs(dataDir, siteMetadata) {
 
   files.forEach((file) => {
     if (path.extname(file) === '.mdx' || path.extname(file) === '.md') {
-      const source = fs.readFileSync(file, 'utf8')
-      const { data, content } = matter(source)
+      try {
+        const source = fs.readFileSync(file, 'utf8')
+        const { data, content } = matter(source)
 
-      const flattenedPath = computePath(file, dataDir)
-      const slug = computeSlug(file, dataDir)
-      const readingTimeData = readingTime(content)
+        const flattenedPath = computePath(file, dataDir)
+        const slug = computeSlug(file, dataDir)
+        const readingTimeData = readingTime(content)
 
-      const blog = {
+        const blog = {
         type: 'Blog',
+        _id: flattenedPath,
         title: data.title || '',
         date: data.date || new Date().toISOString(),
         tags: data.tags || [],
@@ -124,7 +126,11 @@ function processBlogs(dataDir, siteMetadata) {
         ),
       }
 
-      allBlogs.push(blog)
+        allBlogs.push(blog)
+      } catch (error) {
+        console.error(`Error processing blog file ${file}:`, error.message)
+        // 继续处理其他文件，不中断整个流程
+      }
     }
   })
 
@@ -143,15 +149,17 @@ function processAuthors(dataDir) {
 
   files.forEach((file) => {
     if (path.extname(file) === '.mdx' || path.extname(file) === '.md') {
-      const source = fs.readFileSync(file, 'utf8')
-      const { data, content } = matter(source)
+      try {
+        const source = fs.readFileSync(file, 'utf8')
+        const { data, content } = matter(source)
 
-      const flattenedPath = computePath(file, dataDir)
-      const slug = path.basename(file, path.extname(file))
-      const readingTimeData = readingTime(content)
+        const flattenedPath = computePath(file, dataDir)
+        const slug = path.basename(file, path.extname(file))
+        const readingTimeData = readingTime(content)
 
-      const author = {
+        const author = {
         type: 'Authors',
+        _id: flattenedPath,
         name: data.name || '',
         avatar: data.avatar || '',
         occupation: data.occupation || '',
@@ -176,7 +184,11 @@ function processAuthors(dataDir) {
         body: generateFakeBody(content),
       }
 
-      allAuthors.push(author)
+        allAuthors.push(author)
+      } catch (error) {
+        console.error(`Error processing author file ${file}:`, error.message)
+        // 继续处理其他文件，不中断整个流程
+      }
     }
   })
 
@@ -195,15 +207,17 @@ function processDocs(dataDir) {
 
   files.forEach((file) => {
     if (path.extname(file) === '.mdx' || path.extname(file) === '.md') {
-      const source = fs.readFileSync(file, 'utf8')
-      const { data, content } = matter(source)
+      try {
+        const source = fs.readFileSync(file, 'utf8')
+        const { data, content } = matter(source)
 
-      const flattenedPath = computePath(file, dataDir)
-      const slug = flattenedPath.replace('docs/', '')
-      const url = `/${flattenedPath}`
+        const flattenedPath = computePath(file, dataDir)
+        const slug = flattenedPath.replace('docs/', '')
+        const url = `/${flattenedPath}`
 
-      const doc = {
+        const doc = {
         type: 'Doc',
+        _id: flattenedPath,
         title: data.title || '',
         description: data.description || '',
         order: data.order || 0,
@@ -221,7 +235,11 @@ function processDocs(dataDir) {
         body: generateFakeBody(content),
       }
 
-      allDocs.push(doc)
+        allDocs.push(doc)
+      } catch (error) {
+        console.error(`Error processing doc file ${file}:`, error.message)
+        // 继续处理其他文件，不中断整个流程
+      }
     }
   })
 
@@ -230,25 +248,43 @@ function processDocs(dataDir) {
 
 // 生成假的 contentlayer/generated 模块
 function generateContentlayerStub() {
-  const root = process.cwd()
-  const dataDir = path.join(root, 'data')
-  const siteMetadata = require(path.join(root, 'data', 'siteMetadata.js'))
+  try {
+    const root = process.cwd()
+    const dataDir = path.join(root, 'data')
+    
+    // 验证数据目录存在
+    if (!fs.existsSync(dataDir)) {
+      throw new Error(`Data directory not found: ${dataDir}`)
+    }
+    
+    // 验证 siteMetadata 文件存在
+    const siteMetadataPath = path.join(root, 'data', 'siteMetadata.js')
+    if (!fs.existsSync(siteMetadataPath)) {
+      throw new Error(`Site metadata file not found: ${siteMetadataPath}`)
+    }
+    
+    const siteMetadata = require(siteMetadataPath)
 
-  // 处理所有内容
-  const allBlogs = processBlogs(dataDir, siteMetadata)
-  const allAuthors = processAuthors(dataDir)
-  const allDocs = processDocs(dataDir)
+    // 处理所有内容
+    const allBlogs = processBlogs(dataDir, siteMetadata)
+    const allAuthors = processAuthors(dataDir)
+    const allDocs = processDocs(dataDir)
 
-  // 创建输出目录
-  const outputDir = path.join(root, '.contentlayer-stub', 'generated')
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true })
-  }
+    // 创建输出目录
+    const outputDir = path.join(root, '.contentlayer-stub', 'generated')
+    try {
+      if (!fs.existsSync(outputDir)) {
+        fs.mkdirSync(outputDir, { recursive: true })
+      }
+    } catch (error) {
+      throw new Error(`Failed to create output directory ${outputDir}: ${error.message}`)
+    }
 
   // 生成 TypeScript 类型定义
   const typeDefinitions = `
 export type Blog = {
   type: 'Blog'
+  _id: string
   title: string
   date: string
   tags: string[]
@@ -291,6 +327,7 @@ export type Blog = {
 
 export type Authors = {
   type: 'Authors'
+  _id: string
   name: string
   avatar?: string
   occupation?: string
@@ -326,6 +363,7 @@ export type Authors = {
 
 export type Doc = {
   type: 'Doc'
+  _id: string
   title: string
   description: string
   order: number
@@ -359,16 +397,91 @@ export const allAuthors: Authors[] = ${JSON.stringify(allAuthors, null, 2)}
 export const allDocs: Doc[] = ${JSON.stringify(allDocs, null, 2)}
 `
 
-  // 写入文件
-  const outputFile = path.join(outputDir, 'index.ts')
-  fs.writeFileSync(outputFile, dataExports, 'utf8')
+    // 写入文件
+    const outputFile = path.join(outputDir, 'index.ts')
+    try {
+      fs.writeFileSync(outputFile, dataExports, 'utf8')
+    } catch (error) {
+      throw new Error(`Failed to write output file ${outputFile}: ${error.message}`)
+    }
 
-  console.log(`Contentlayer stub generated successfully!`)
-  console.log(`  - Blogs: ${allBlogs.length}`)
-  console.log(`  - Authors: ${allAuthors.length}`)
-  console.log(`  - Docs: ${allDocs.length}`)
-  console.log(`  - Output: ${outputFile}`)
+    // 验证文件是否成功写入
+    if (!fs.existsSync(outputFile)) {
+      throw new Error(`Output file was not created: ${outputFile}`)
+    }
+    
+    const stats = fs.statSync(outputFile)
+    if (stats.size === 0) {
+      throw new Error(`Output file is empty: ${outputFile}`)
+    }
+
+    // 验证生成的数据结构
+    const validationErrors = []
+    
+    // 验证所有博客都有必需的字段
+    allBlogs.forEach((blog, index) => {
+      if (!blog._id) validationErrors.push(`Blog[${index}] missing _id`)
+      if (!blog._raw) validationErrors.push(`Blog[${index}] missing _raw`)
+      if (!blog.body) validationErrors.push(`Blog[${index}] missing body`)
+      if (!blog.type || blog.type !== 'Blog') validationErrors.push(`Blog[${index}] missing or invalid type`)
+    })
+    
+    // 验证所有作者都有必需的字段
+    allAuthors.forEach((author, index) => {
+      if (!author._id) validationErrors.push(`Author[${index}] missing _id`)
+      if (!author._raw) validationErrors.push(`Author[${index}] missing _raw`)
+      if (!author.body) validationErrors.push(`Author[${index}] missing body`)
+      if (!author.type || author.type !== 'Authors') validationErrors.push(`Author[${index}] missing or invalid type`)
+    })
+    
+    // 验证所有文档都有必需的字段
+    allDocs.forEach((doc, index) => {
+      if (!doc._id) validationErrors.push(`Doc[${index}] missing _id`)
+      if (!doc._raw) validationErrors.push(`Doc[${index}] missing _raw`)
+      if (!doc.body) validationErrors.push(`Doc[${index}] missing body`)
+      if (!doc.type || doc.type !== 'Doc') validationErrors.push(`Doc[${index}] missing or invalid type`)
+    })
+    
+    if (validationErrors.length > 0) {
+      throw new Error(`Validation failed:\n${validationErrors.join('\n')}`)
+    }
+
+    // 验证文件内容包含必需的类型定义
+    const fileContent = fs.readFileSync(outputFile, 'utf8')
+    const requiredTypes = ['export type Blog', 'export type Authors', 'export type Doc']
+    const missingTypes = requiredTypes.filter(type => !fileContent.includes(type))
+    
+    if (missingTypes.length > 0) {
+      throw new Error(`Missing type definitions in output file: ${missingTypes.join(', ')}`)
+    }
+    
+    // 验证类型定义包含 _id 字段
+    if (!fileContent.includes('_id: string')) {
+      throw new Error('Type definitions missing _id field')
+    }
+
+    console.log(`Contentlayer stub generated successfully!`)
+    console.log(`  - Blogs: ${allBlogs.length}`)
+    console.log(`  - Authors: ${allAuthors.length}`)
+    console.log(`  - Docs: ${allDocs.length}`)
+    console.log(`  - Output: ${outputFile}`)
+    console.log(`  - File size: ${stats.size} bytes`)
+    console.log(`  - Validation: ✓ All types and fields verified`)
+    
+    return true
+  } catch (error) {
+    console.error('Error generating contentlayer stub:', error.message)
+    console.error(error.stack)
+    throw error
+  }
 }
 
-generateContentlayerStub()
+// 主执行逻辑，带错误处理
+try {
+  generateContentlayerStub()
+  process.exit(0)
+} catch (error) {
+  console.error('Fatal error in generate-contentlayer-stub.js:', error.message)
+  process.exit(1)
+}
 

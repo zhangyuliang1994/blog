@@ -36,6 +36,19 @@ jobs:
         run: yarn install --frozen-lockfile
         continue-on-error: false
 
+      - name: Verify required directories
+        run: |
+          echo "Verifying required directories exist..."
+          if [ ! -d "data" ]; then
+            echo "Error: data directory not found!"
+            exit 1
+          fi
+          if [ ! -f "data/siteMetadata.js" ]; then
+            echo "Error: data/siteMetadata.js not found!"
+            exit 1
+          fi
+          echo "Required directories and files verified ✓"
+
       - name: Build static site
         env:
           SKIP_CONTENTLAYER: 'true'
@@ -44,11 +57,50 @@ jobs:
           echo "SKIP_CONTENTLAYER=$SKIP_CONTENTLAYER"
           echo "Checking if .contentlayer-stub directory exists..."
           ls -la .contentlayer-stub/generated 2>/dev/null || echo ".contentlayer-stub/generated not found yet (will be created by script)"
+          
+          echo "Running export script..."
           yarn export
-          echo "Build completed. Checking output..."
-          if [ -d ".contentlayer-stub/generated" ]; then
-            echo "Contentlayer stub generated successfully"
-            ls -la .contentlayer-stub/generated
+          
+          echo "Build completed. Verifying output..."
+          
+          # 验证 stub 文件是否生成
+          if [ ! -d ".contentlayer-stub/generated" ]; then
+            echo "Error: .contentlayer-stub/generated directory was not created!"
+            exit 1
+          fi
+          
+          if [ ! -f ".contentlayer-stub/generated/index.ts" ]; then
+            echo "Error: .contentlayer-stub/generated/index.ts was not created!"
+            exit 1
+          fi
+          
+          # 检查文件大小（不应该为空）
+          STUB_SIZE=$(stat -f%z .contentlayer-stub/generated/index.ts 2>/dev/null || stat -c%s .contentlayer-stub/generated/index.ts 2>/dev/null || echo "0")
+          if [ "$STUB_SIZE" -eq 0 ]; then
+            echo "Error: .contentlayer-stub/generated/index.ts is empty!"
+            exit 1
+          fi
+          
+          echo "Contentlayer stub generated successfully ✓"
+          echo "  - Directory: .contentlayer-stub/generated"
+          echo "  - File: index.ts"
+          echo "  - Size: $STUB_SIZE bytes"
+          ls -la .contentlayer-stub/generated
+          
+          # 验证搜索索引文件
+          if [ ! -f "public/search.json" ]; then
+            echo "Warning: public/search.json was not created (may be empty blog directory)"
+          else
+            SEARCH_SIZE=$(stat -f%z public/search.json 2>/dev/null || stat -c%s public/search.json 2>/dev/null || echo "0")
+            echo "Search index generated ✓ (${SEARCH_SIZE} bytes)"
+          fi
+          
+          # 验证标签数据文件
+          if [ ! -f "app/tag-data.json" ]; then
+            echo "Warning: app/tag-data.json was not created (may be empty blog directory)"
+          else
+            TAG_SIZE=$(stat -f%z app/tag-data.json 2>/dev/null || stat -c%s app/tag-data.json 2>/dev/null || echo "0")
+            echo "Tag data generated ✓ (${TAG_SIZE} bytes)"
           fi
         continue-on-error: false
 
@@ -70,8 +122,19 @@ jobs:
             echo "Error: .nojekyll file was not created!"
             exit 1
           fi
-          echo "Build output verified successfully"
-          echo "Files in out directory:"
+          
+          # 检查关键文件是否存在
+          if [ ! -f "out/index.html" ]; then
+            echo "Warning: out/index.html not found (may be expected for some setups)"
+          fi
+          
+          # 统计输出文件数量
+          FILE_COUNT=$(find out -type f | wc -l)
+          echo "Build output verified successfully ✓"
+          echo "  - Output directory: out/"
+          echo "  - Total files: $FILE_COUNT"
+          echo "  - .nojekyll file: ✓"
+          echo "Sample files in out directory:"
           ls -la out | head -20
 
       - name: Deploy to GitHub Pages

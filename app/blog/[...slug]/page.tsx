@@ -32,8 +32,12 @@ export async function generateMetadata({
   const authorList = post?.authors || ['default']
   const authorDetails = authorList.map((author) => {
     const authorResults = allAuthors.find((p) => p.slug === author)
+    if (!authorResults) {
+      // 如果找不到作者，返回一个默认的空对象结构
+      return null
+    }
     return coreContent(authorResults as Authors)
-  })
+  }).filter(Boolean)
   if (!post) {
     return
   }
@@ -85,14 +89,18 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
   const slug = decodeURI(params.slug.join('/'))
   const sortedPosts = sortPosts(allBlogs) as Blog[]
   const postIndex = sortedPosts.findIndex((p) => p.slug === slug)
-  const prev = coreContent(sortedPosts[postIndex + 1])
-  const next = coreContent(sortedPosts[postIndex - 1])
+  const prev = sortedPosts[postIndex + 1] ? coreContent(sortedPosts[postIndex + 1]) : null
+  const next = sortedPosts[postIndex - 1] ? coreContent(sortedPosts[postIndex - 1]) : null
   const post = sortedPosts.find((p) => p.slug === slug) as Blog
   const authorList = post?.authors || ['default']
   const authorDetails = authorList.map((author) => {
     const authorResults = allAuthors.find((p) => p.slug === author)
+    if (!authorResults) {
+      // 如果找不到作者，返回 null，后续会被过滤掉
+      return null
+    }
     return coreContent(authorResults as Authors)
-  })
+  }).filter(Boolean)
   const mainContent = coreContent(post)
   const jsonLd = post.structuredData
   jsonLd['author'] = authorDetails.map((author) => {
