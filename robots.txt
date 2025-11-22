@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://xiaofeng.show
+Sitemap: https://xiaofeng.show/sitemap.xml
