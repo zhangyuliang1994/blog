@@ -1,6 +1,6 @@
 1:HL["/_next/static/css/9e4bf6d932073eda.css",{"as":"style"}]
 2:HL["/_next/static/css/9fdfe6c99f25ae04.css",{"as":"style"}]
-0:["aoJYfoZqd-MX1Q7yzmwcx",[[["",{"children":["blog",{"children":[["slug","2025-06-03-%E7%94%A8v0dev%E4%BB%BF%E5%86%99%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2","c"],{"children":["__PAGE__?{\"slug\":[\"2025-06-03-用v0dev仿写一个网站并部署\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9e4bf6d932073eda.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9fdfe6c99f25ae04.css","precedence":"next"}]],"$L4"]]]]
+0:["tm-hzh9L5hDsou2pqTkV7",[[["",{"children":["blog",{"children":[["slug","2025-06-03-%E7%94%A8v0dev%E4%BB%BF%E5%86%99%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2","c"],{"children":["__PAGE__?{\"slug\":[\"2025-06-03-用v0dev仿写一个网站并部署\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9e4bf6d932073eda.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9fdfe6c99f25ae04.css","precedence":"next"}]],"$L4"]]]]
 5:HL["/_next/static/css/6c6a668d3277681f.css",{"as":"style"}]
 6:I{"id":8464,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-ae1c018b51cefa81.js"],"name":"ThemeProviders","async":false}
 7:I{"id":8440,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-ae1c018b51cefa81.js"],"name":"KBarSearchProvider","async":false}
