@@ -83,7 +83,9 @@ async function compileMDX(mdxContent, filePath = '') {
     // 包装代码，使其返回一个包含 default 的对象
     // 注意：MDXLayoutRenderer 使用 new Function() 执行代码并期望返回 fn().default
     // 编译后的 MDX 代码通常使用 export default，我们需要将其转换为 return { default: ... }
-    let wrappedCode = codeString
+    // 重要：必须保留完整的代码（包括所有函数定义），但需要：
+    // 1. 移除 import 语句（因为这些会通过 scope 传递）
+    // 2. 将 export default 替换为 return { default: ... }
     
     // 首先检查代码是否已经包含正确的 return { default: ... } 格式
     if (/return\s*\{[^}]*default[^}]*\}/.test(codeString)) {
@@ -91,51 +93,125 @@ async function compileMDX(mdxContent, filePath = '') {
       return codeString
     }
     
-    // 如果代码包含 export default，将其转换为 return { default: ... }
-    if (codeString.includes('export default')) {
-      // 提取 default 导出的内容
-      // 匹配 export default function MDXContent(props) { ... }
-      const defaultMatch = codeString.match(/export\s+default\s+function\s+(\w+)\s*\([^)]*\)\s*{([\s\S]*)}/m)
-      if (defaultMatch) {
-        const functionName = defaultMatch[1]
-        const functionBody = defaultMatch[2]
-        wrappedCode = `return { default: function ${functionName}(props) {${functionBody}} }`
-      } else {
-        // 尝试匹配其他格式的 export default
-        // 匹配 export default MDXContent 或 export default (props) => ...
-        const altMatch = codeString.match(/export\s+default\s+([\s\S]+?)(?:\n|$)/)
-        if (altMatch) {
-          const exportValue = altMatch[1].trim()
-          // 如果是一个函数表达式或箭头函数，直接使用
-          if (exportValue.includes('=>') || exportValue.includes('function')) {
-            wrappedCode = `return { default: ${exportValue} }`
-          } else {
-            // 如果是一个变量名，需要包装成函数
-            wrappedCode = `return { default: ${exportValue} }`
+    // 移除所有 import 语句、export 关键字和 jsxRuntime 注释（这些会通过 scope 传递）
+    // 注意：要小心不要破坏代码结构，特别是对象字面量、函数参数等包含冒号的代码
+    // 对于特定的组件 import，将它们转换为从 components prop 中获取
+    const componentImports = []
+    let cleanedCode = codeString
+      .split('\n')
+      .map(line => {
+        const trimmed = line.trim()
+        // 处理特定的组件 import，将它们转换为从 components prop 中获取
+        if (trimmed.startsWith('import ')) {
+          // 检测是否是组件 import（如 MonthlyReportCard, QuarterlyReportCard, WeeklyReportCard）
+          const componentMatch = trimmed.match(/import\s+(\w+)\s+from\s+['"]@\/components\/(\w+)['"]/)
+          if (componentMatch) {
+            const componentName = componentMatch[1]
+            // 记录这个组件，稍后会在代码开头添加声明
+            componentImports.push(componentName)
+            // 移除 import 语句，稍后会添加从 components 中获取的声明
+            return ''
           }
+          // 其他 import 语句直接移除
+          return ''
+        }
+        // 处理 export 语句
+        if (trimmed.startsWith('export ')) {
+          // 如果是 export default，完全移除（因为我们会在末尾添加 return { default: ... }）
+          if (trimmed.startsWith('export default')) {
+            return ''
+          }
+          // 其他 export 语句，移除 export 关键字，保留后面的代码
+          // 例如：export const x = ... -> const x = ...
+          const withoutExport = line.replace(/^\s*export\s+/, '')
+          return withoutExport
+        }
+        return line
+      })
+      .filter(line => {
+        const trimmed = line.trim()
+        // 过滤空行（由上面的 map 产生的）
+        if (!trimmed) {
+          return false
+        }
+        // 过滤 jsxRuntime 注释
+        if (trimmed.startsWith('/*@jsxRuntime')) {
+          return false
+        }
+        // 过滤单行注释，但要小心不要过滤掉代码中的字符串
+        if (trimmed.startsWith('//') && !trimmed.match(/['"`]/)) {
+          return false
+        }
+        // 过滤单独的 "default" 语句（可能是 export default 被部分处理后的残留）
+        if (trimmed === 'default' || trimmed.startsWith('default ')) {
+          return false
+        }
+        return true
+      })
+      .join('\n')
+    
+    // 处理 _jsx、_jsxs 和 _Fragment 引用：代码中使用这些，但 scope 中只有 _jsx_runtime
+    // 需要在代码开头添加相应的变量声明
+    const needsJsx = cleanedCode.includes('_jsx(') && !cleanedCode.match(/const\s+_jsx\s*=/)
+    const needsJsxs = cleanedCode.includes('_jsxs(') && !cleanedCode.match(/const\s+_jsxs\s*=/)
+    const needsFragment = cleanedCode.includes('_Fragment') && !cleanedCode.match(/const\s+_Fragment\s*=/)
+    
+    // 构建所有需要添加的变量声明
+    const declarations = []
+    if (needsJsx) declarations.push('const _jsx = _jsx_runtime.jsx;')
+    if (needsJsxs) declarations.push('const _jsxs = _jsx_runtime.jsxs;')
+    if (needsFragment) declarations.push('const _Fragment = _jsx_runtime.Fragment;')
+    
+    // 添加组件声明（从 components prop 中获取）
+    componentImports.forEach(componentName => {
+      // 检查代码中是否使用了这个组件
+      if (cleanedCode.includes(componentName) && !cleanedCode.match(new RegExp(`const\\s+${componentName}\\s*=`))) {
+        declarations.push(`const ${componentName} = props.components?.${componentName};`)
+      }
+    })
+    
+    if (declarations.length > 0) {
+      const varDeclarations = declarations.join('\n') + '\n'
+      
+      // 分离需要从 props 获取的组件声明和其他声明
+      const propsDeclarations = declarations.filter(d => d.includes('props.components'))
+      const otherDeclarations = declarations.filter(d => !d.includes('props.components'))
+      
+      // 在第一个函数定义之前添加非 props 相关的变量声明
+      if (otherDeclarations.length > 0) {
+        const otherVarDeclarations = otherDeclarations.join('\n') + '\n'
+        const firstFunctionIndex = cleanedCode.search(/function\s+\w+/)
+        if (firstFunctionIndex > 0) {
+          cleanedCode = cleanedCode.substring(0, firstFunctionIndex) + 
+                       otherVarDeclarations + 
+                       cleanedCode.substring(firstFunctionIndex)
         } else {
-          // 如果无法匹配，使用原始代码但包装在 return 中
-          wrappedCode = `return { default: (${codeString}) }`
+          cleanedCode = otherVarDeclarations + cleanedCode
         }
       }
-    } else if (/return\s+[^;]+;?\s*$/.test(codeString)) {
-      // 如果代码已经包含 return 语句（但不是 return { default: ... }），需要转换
-      // 匹配 return Component; 或类似的格式
-      const returnMatch = codeString.match(/return\s+([^;]+)\s*;?\s*$/)
-      if (returnMatch) {
-        const returnValue = returnMatch[1].trim()
-        // 替换最后的 return 语句
-        wrappedCode = codeString.replace(/return\s+[^;]+;?\s*$/, `return { default: ${returnValue} };`)
-      } else {
-        // 如果没有匹配到，直接包装整个代码
-        wrappedCode = `return { default: (${codeString}) }`
+      
+      // 将需要从 props 获取的组件声明添加到 _createMdxContent 函数内部
+      if (propsDeclarations.length > 0) {
+        const propsVarDeclarations = propsDeclarations.join('\n') + '\n'
+        // 查找 _createMdxContent 函数的开始位置
+        const functionMatch = cleanedCode.match(/function\s+_createMdxContent\s*\([^)]*\)\s*\{/)
+        if (functionMatch) {
+          const functionStart = functionMatch.index + functionMatch[0].length
+          // 在函数开始后添加组件声明
+          cleanedCode = cleanedCode.substring(0, functionStart) + 
+                       '\n' + propsVarDeclarations + 
+                       cleanedCode.substring(functionStart)
+        }
       }
-    } else {
-      // 如果没有 export default 也没有 return，直接包装整个代码
-      wrappedCode = `return { default: (${codeString}) }`
     }
     
-    return wrappedCode
+    // 确保代码末尾有 return { default: MDXContent };
+    // 由于我们已经移除了所有 export 语句，只需要在末尾添加 return
+    if (!cleanedCode.includes('return { default:')) {
+      cleanedCode = cleanedCode + '\nreturn { default: MDXContent };'
+    }
+    
+    return cleanedCode
   } catch (error) {
     // 改进错误处理：记录详细的错误信息
     const errorInfo = filePath 

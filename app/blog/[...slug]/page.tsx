@@ -25,34 +25,53 @@ const layouts = {
 /**
  * 修复 contentlayer 生成的代码格式
  * contentlayer 生成的代码返回 `return Component;`，但 MDXLayoutRenderer 期望 `return { default: Component };`
+ * 同时确保 _Fragment 等必要的变量已定义
  */
 function fixMDXCode(code: string): string {
   if (!code) return code
   
+  let fixedCode = code
+  
+  // 检查并添加 _Fragment 定义（如果代码中使用了但未定义）
+  const needsFragment = fixedCode.includes('_Fragment') && !fixedCode.match(/const\s+_Fragment\s*=/)
+  if (needsFragment) {
+    // 在第一个函数定义之前添加 _Fragment 声明
+    const firstFunctionIndex = fixedCode.search(/function\s+\w+/)
+    const fragmentDecl = 'const _Fragment = _jsx_runtime.Fragment;\n'
+    if (firstFunctionIndex > 0) {
+      fixedCode = fixedCode.substring(0, firstFunctionIndex) + 
+                 fragmentDecl + 
+                 fixedCode.substring(firstFunctionIndex)
+    } else {
+      // 如果没有找到函数，在代码开头添加
+      fixedCode = fragmentDecl + fixedCode
+    }
+  }
+  
   // 检查是否已经是正确的格式
-  if (/return\s*\{[^}]*default[^}]*\}/.test(code)) {
-    return code
+  if (/return\s*\{[^}]*default[^}]*\}/.test(fixedCode)) {
+    return fixedCode
   }
   
   // 如果代码以 `return Component;` 结尾，转换为 `return { default: Component };`
   // 匹配各种可能的 return 语句格式
   const returnPattern = /return\s+([^;]+)\s*;?\s*$/
-  const match = code.match(returnPattern)
+  const match = fixedCode.match(returnPattern)
   
   if (match) {
     const returnValue = match[1].trim()
     // 替换最后的 return 语句
-    const fixedCode = code.replace(returnPattern, `return { default: ${returnValue} };`)
+    fixedCode = fixedCode.replace(returnPattern, `return { default: ${returnValue} };`)
     return fixedCode
   }
   
   // 如果没有找到 return 语句，尝试在代码末尾添加
   // 这种情况应该很少见，但为了安全起见还是处理一下
-  if (!code.includes('return')) {
-    return `${code}\nreturn { default: Component };`
+  if (!fixedCode.includes('return')) {
+    return `${fixedCode}\nreturn { default: Component };`
   }
   
-  return code
+  return fixedCode
 }
 
 export async function generateMetadata({

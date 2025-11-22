@@ -5,6 +5,9 @@ import type { MDXComponents } from 'mdx/types'
 import ImageZoom from './ImageZoom'
 import CustomLink from './Link'
 import CImage from './CImage'
+import MonthlyReportCard from './MonthlyReportCard'
+import QuarterlyReportCard from './QuarterlyReportCard'
+import WeeklyReportCard from './WeeklyReportCard'
 
 export const components: MDXComponents = {
   Image: ImageZoom,
@@ -14,4 +17,7 @@ export const components: MDXComponents = {
   pre: Pre,
   BlogNewsletterForm,
   CImage,
+  MonthlyReportCard,
+  QuarterlyReportCard,
+  WeeklyReportCard,
 }
