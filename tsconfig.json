@@ -37,6 +37,7 @@
         "css/*"
       ],
       "contentlayer/generated": [
+        "./.contentlayer-stub/generated",
         "./.contentlayer/generated"
       ]
     },
@@ -54,6 +55,8 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.json",
+    ".contentlayer-stub/generated",
+    ".contentlayer-stub/generated/**/*.json",
     ".contentlayer/generated",
     ".contentlayer/generated/**/*.json",
     ".next/types/**/*.ts",

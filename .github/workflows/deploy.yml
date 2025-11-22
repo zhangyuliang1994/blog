@@ -37,12 +37,27 @@ jobs:
         continue-on-error: false
 
       - name: Build static site
-        run: yarn export
+        env:
+          SKIP_CONTENTLAYER: 'true'
+        run: |
+          echo "Starting build process..."
+          echo "SKIP_CONTENTLAYER=$SKIP_CONTENTLAYER"
+          echo "Checking if .contentlayer-stub directory exists..."
+          ls -la .contentlayer-stub/generated 2>/dev/null || echo ".contentlayer-stub/generated not found yet (will be created by script)"
+          yarn export
+          echo "Build completed. Checking output..."
+          if [ -d ".contentlayer-stub/generated" ]; then
+            echo "Contentlayer stub generated successfully"
+            ls -la .contentlayer-stub/generated
+          fi
         continue-on-error: false
 
       - name: Create .nojekyll file
-        run: touch out/.nojekyll
-        # 创建 .nojekyll 文件，告诉 GitHub Pages 不要使用 Jekyll 处理
+        run: |
+          # 确保 out 目录存在
+          mkdir -p out
+          # 创建 .nojekyll 文件，告诉 GitHub Pages 不要使用 Jekyll 处理
+          touch out/.nojekyll
 
       - name: Verify build output
         run: |
