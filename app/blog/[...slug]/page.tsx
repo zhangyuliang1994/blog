@@ -92,6 +92,29 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
   const prev = sortedPosts[postIndex + 1] ? coreContent(sortedPosts[postIndex + 1]) : null
   const next = sortedPosts[postIndex - 1] ? coreContent(sortedPosts[postIndex - 1]) : null
   const post = sortedPosts.find((p) => p.slug === slug) as Blog
+  
+  if (!post) {
+    return (
+      <div className="mt-24 text-center">
+        <PageTitle>文章未找到</PageTitle>
+        <p className="mt-4 text-gray-600 dark:text-gray-400">
+          找不到 slug 为 &quot;{slug}&quot; 的文章
+        </p>
+      </div>
+    )
+  }
+
+  if (!post.body?.code) {
+    return (
+      <div className="mt-24 text-center">
+        <PageTitle>内容加载中...</PageTitle>
+        <p className="mt-4 text-gray-600 dark:text-gray-400">
+          文章内容正在生成，请稍候...
+        </p>
+      </div>
+    )
+  }
+
   const authorList = post?.authors || ['default']
   const authorDetails = authorList.map((author) => {
     const authorResults = allAuthors.find((p) => p.slug === author)
