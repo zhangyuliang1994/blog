@@ -39,10 +39,12 @@ function computePath(filePath, baseDir) {
 // 生成假的 MDX body（用于静态导出，实际内容会在构建时处理）
 function generateFakeBody(content) {
   // 返回一个简单的占位符，实际在静态导出时不需要编译 MDX
+  // 注意：code 必须返回一个包含 default 的对象，而不是使用 export default
+  // 因为 getMDXComponent 使用 new Function() 执行代码并期望返回 fn().default
   return {
     raw: content,
-    code: `export default function Content() { return null; }`,
-    compiled: `export default function Content() { return null; }`,
+    code: `return { default: function Content() { return null; } }`,
+    compiled: `return { default: function Content() { return null; } }`,
   }
 }
 
