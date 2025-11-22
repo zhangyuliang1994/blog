@@ -54,6 +54,38 @@ yarn export
 
 导出的静态文件将位于 `out` 目录中。你可以将这些文件部署到任何静态文件托管服务上。
 
+## GitHub Pages 自动部署
+
+项目已配置 GitHub Actions 工作流，可以自动部署到 GitHub Pages。
+
+### 首次设置
+
+1. **启用 GitHub Pages**：
+   - 前往 GitHub 仓库的 Settings > Pages
+   - 在 Source 部分，选择 `gh-pages` 分支
+   - 点击 Save
+
+2. **配置自定义域名（可选）**：
+   - 如果使用自定义域名，编辑 `.github/workflows/deploy.yml`
+   - 取消注释并设置 `cname` 选项：
+     ```yaml
+     cname: your-domain.com
+     ```
+
+3. **配置环境变量（可选）**：
+   - 如果使用 Umami 分析，前往 Settings > Secrets and variables > Actions
+   - 添加 `NEXT_UMAMI_ID` secret
+
+### 自动部署
+
+- 推送到 `main` 或 `master` 分支时，GitHub Actions 会自动：
+  1. 安装依赖
+  2. 构建静态站点（使用 `yarn export`）
+  3. 部署到 `gh-pages` 分支
+
+- 部署完成后，网站会在几分钟内更新
+- 查看部署状态：前往仓库的 Actions 标签页
+
 ## 其他命令
 
 ```bash
