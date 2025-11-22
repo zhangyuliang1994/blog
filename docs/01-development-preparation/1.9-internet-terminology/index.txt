@@ -1,15 +1,15 @@
 1:HL["/_next/static/css/9e4bf6d932073eda.css",{"as":"style"}]
 2:HL["/_next/static/css/9fdfe6c99f25ae04.css",{"as":"style"}]
-0:["CcLp6OwDzlZdKoxT3pZx_",[[["",{"children":["docs",{"children":[["slug","01-development-preparation/1.9-internet-terminology","oc"],{"children":["__PAGE__?{\"slug\":[\"01-development-preparation\",\"1.9-internet-terminology\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9e4bf6d932073eda.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9fdfe6c99f25ae04.css","precedence":"next"}]],"$L4"]]]]
-5:I{"id":8464,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"ThemeProviders","async":false}
-6:I{"id":8440,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"KBarSearchProvider","async":false}
-7:I{"id":6481,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"","async":false}
-8:I{"id":1229,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"","async":false}
-9:I{"id":7767,"chunks":["272:static/chunks/webpack-2cb9ac6e9ccb1c1f.js","216:static/chunks/vendors-34cfadd6b6898e15.js"],"name":"default","async":false}
-a:I{"id":7920,"chunks":["272:static/chunks/webpack-2cb9ac6e9ccb1c1f.js","216:static/chunks/vendors-34cfadd6b6898e15.js"],"name":"default","async":false}
-b:I{"id":6685,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","160:static/chunks/app/not-found-db321bc49fd00234.js"],"name":"","async":false}
-c:I{"id":1928,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","189:static/chunks/app/docs/[[...slug]]/page-bc08ad659d534eb0.js"],"name":"","async":false}
-e:I{"id":1329,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"","async":false}
+0:["WxSaiTKAe0ZRSDhyMun6C",[[["",{"children":["docs",{"children":[["slug","01-development-preparation/1.9-internet-terminology","oc"],{"children":["__PAGE__?{\"slug\":[\"01-development-preparation\",\"1.9-internet-terminology\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9e4bf6d932073eda.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9fdfe6c99f25ae04.css","precedence":"next"}]],"$L4"]]]]
+5:I{"id":8464,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"ThemeProviders","async":false}
+6:I{"id":8440,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"KBarSearchProvider","async":false}
+7:I{"id":6481,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"","async":false}
+8:I{"id":1229,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"","async":false}
+9:I{"id":7767,"chunks":["272:static/chunks/webpack-2cb9ac6e9ccb1c1f.js","216:static/chunks/vendors-8842281dd4cb299e.js"],"name":"default","async":false}
+a:I{"id":7920,"chunks":["272:static/chunks/webpack-2cb9ac6e9ccb1c1f.js","216:static/chunks/vendors-8842281dd4cb299e.js"],"name":"default","async":false}
+b:I{"id":6685,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"","async":false}
+c:I{"id":1928,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","189:static/chunks/app/docs/[[...slug]]/page-99627d753be593de.js"],"name":"","async":false}
+10:I{"id":1329,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"","async":false}
 4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"晓风的博客"}],["$","meta","2",{"name":"description","content":"技术探索与分享"}],["$","link","3",{"rel":"manifest","href":"/static/favicons/site.webmanifest"}],["$","meta","4",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","5",{"name":"robots","content":"index, follow"}],["$","meta","6",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","7",{"rel":"canonical","href":"https://xiaofeng.show/docs/01-development-preparation/1.9-internet-terminology"}],["$","link","8",{"rel":"alternate","type":"application/rss+xml","href":"https://xiaofeng.show/feed.xml"}],["$","meta","9",{"property":"og:title","content":"晓风的博客"}],["$","meta","10",{"property":"og:description","content":"技术探索与分享"}],["$","meta","11",{"property":"og:url","content":"https://xiaofeng.show/docs/01-development-preparation/1.9-internet-terminology"}],["$","meta","12",{"property":"og:site_name","content":"晓风的博客"}],["$","meta","13",{"property":"og:locale","content":"en_US"}],["$","meta","14",{"property":"og:image","content":"https://xiaofeng.show/static/images/twitter-card.png"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"晓风的博客"}],["$","meta","18",{"name":"twitter:description","content":"技术探索与分享"}],["$","meta","19",{"name":"twitter:image","content":"https://xiaofeng.show/static/images/twitter-card.png"}],["$","link","20",{"rel":"icon","href":"/static/favicons/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","21",{"rel":"icon","href":"/static/favicons/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/static/favicons/apple-touch-icon.png","sizes":"76x76","type":"image/png"}],["$","link","23",{"rel":"mask-icon","href":"/static/favicons/safari-pinned-tab.svg"}]]
 d:T61ca,
 # 1.9 💡 互联网常见术语解释
@@ -519,4 +519,1310 @@ K因子：K-Factor=感染率*转化率
 3. **持续更新**：互联网行业发展快速，要及时学习新术语
 4. **深入理解**：不仅要知道术语含义，更要理解背后的业务逻辑
 
-这些术语将帮助你更好地理解互联网产品的整个生命周期，从开发到运营，从获客到变现的全过程。3:[["$","html",null,{"lang":"zh-CN","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.loli.net"}],["$","link",null,{"rel":"preconnect","href":"https://gstatic.loli.net","crossOrigin":""}],["$","link",null,{"href":"https://fonts.loli.net/css2?family=Inter:wght@400;500;700;900&family=Noto+Sans+SC:wght@400;500;700;900&display=swap","rel":"stylesheet"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#fff"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/feed.xml"}]]}],["$","body",null,{"className":"bg-white/90 text-black antialiased dark:bg-[#1B1B1B] dark:text-white transition-colors duration-200","children":["$","$L5",null,{"children":["$","section",null,{"className":"mx-auto max-w-6xl px-3 md:px-4 xl:px-0","children":["$","div",null,{"className":"flex h-screen flex-col justify-between font-sans","children":[["$","$L6",null,{"kbarConfig":{"searchDocumentsPath":"search.json"},"children":[["$","$L7",null,{}],["$","$L8",null,{}],["$","main",null,{"className":"mb-auto","children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":["$","div",null,{"className":"flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6","children":[["$","div",null,{"className":"space-x-2 pb-8 pt-6 md:space-y-5","children":["$","h1",null,{"className":"text-6xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 md:border-r-2 md:px-6 md:text-8xl md:leading-14","children":"404"}]}],["$","div",null,{"className":"max-w-md","children":[["$","p",null,{"className":"mb-4 text-xl font-bold leading-normal md:text-2xl","children":"Sorry we couldn't find this page."}],["$","p",null,{"className":"mb-8","children":"But dont worry, you can find plenty of other things on our homepage."}],["$","$Lb",null,{"href":"/","className":"focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm font-medium leading-5 text-white shadow transition-colors duration-150 hover:bg-blue-700 focus:outline-none dark:hover:bg-blue-500","children":"Back to homepage"}]]}]]}],"notFoundStyles":[],"childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","docs","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","docs","children",["slug","01-development-preparation/1.9-internet-terminology","oc"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":[["$","$Lc",null,{"docsForSidebar":[{"slug":"01-development-preparation/1.0-development-preparation-overview","title":"1.0 开发前期准备","order":1,"url":"/docs/01-development-preparation/1.0-development-preparation-overview"},{"slug":"01-development-preparation/1.1-device-purchasing-guide","title":"1.1 开发设备选购指南","order":2,"url":"/docs/01-development-preparation/1.1-device-purchasing-guide"},{"slug":"01-development-preparation/1.2-essential-accounts","title":"1.2 必备开发账号注册","order":3,"url":"/docs/01-development-preparation/1.2-essential-accounts"},{"slug":"01-development-preparation/1.3-essential-software-list","title":"1.3 必备软件清单","order":4,"url":"/docs/01-development-preparation/1.3-essential-software-list"},{"slug":"01-development-preparation/1.4-browser-extensions","title":"1.4 浏览器插件推荐","order":5,"url":"/docs/01-development-preparation/1.4-browser-extensions"},{"slug":"01-development-preparation/1.5-translation-tools-guide","title":"1.5 翻译工具使用指南","order":6,"url":"/docs/01-development-preparation/1.5-translation-tools-guide"},{"slug":"01-development-preparation/1.6-development-environment-setup","title":"1.6 开发环境配置指南","order":7,"url":"/docs/01-development-preparation/1.6-development-environment-setup"},{"slug":"01-development-preparation/1.7-mac-practical-tutorial","title":"1.7 Mac 实用教程","order":8,"url":"/docs/01-development-preparation/1.7-mac-practical-tutorial"},{"slug":"01-development-preparation/1.8-information-search-skills","title":"1.8 信息搜索实操秘技","order":9,"url":"/docs/01-development-preparation/1.8-information-search-skills"},{"slug":"01-development-preparation/1.9-internet-terminology","title":"1.9 互联网常见术语解释","order":10,"url":"/docs/01-development-preparation/1.9-internet-terminology"},{"slug":"02-ai-tools/2.0-software-tools-tutorial","title":"2.0  软件工具教程","order":6,"url":"/docs/02-ai-tools/2.0-software-tools-tutorial"},{"slug":"02-ai-tools/2.1-raycast-efficiency-launcher","title":"2.1 Raycast: 效率启动器","order":7,"url":"/docs/02-ai-tools/2.1-raycast-efficiency-launcher"},{"slug":"02-ai-tools/2.2-github-desktop","title":"2.2 GitHub Desktop","order":8,"url":"/docs/02-ai-tools/2.2-github-desktop"},{"slug":"02-ai-tools/2.3-figma-ui-design","title":"2.3 Figma: UI设计","order":9,"url":"/docs/02-ai-tools/2.3-figma-ui-design"},{"slug":"02-ai-tools/2.4-glarity-ai-assistant","title":"2.4 Glarity: AI助手","order":10,"url":"/docs/02-ai-tools/2.4-glarity-ai-assistant"},{"slug":"02-ai-tools/2.5-sitesucker-website-download","title":"2.5 SiteSucker: 网站下载","order":11,"url":"/docs/02-ai-tools/2.5-sitesucker-website-download"},{"slug":"02-ai-tools/2.6-easyscraper-web-scraping","title":"2.6 Easy Scraper: 网页采集","order":12,"url":"/docs/02-ai-tools/2.6-easyscraper-web-scraping"},{"slug":"02-ai-tools/2.7-lighthouse-performance-testing","title":"2.7 Lighthouse: 性能检测","order":13,"url":"/docs/02-ai-tools/2.7-lighthouse-performance-testing"},{"slug":"03-programming-basics/3.1-cursor-development-cases","title":"3.1 Cursor开发案例","order":17,"url":"/docs/03-programming-basics/3.1-cursor-development-cases"},{"slug":"03-programming-basics/3.2-cursor-installation-configuration","title":"3.2 Cursor安装和配置","order":18,"url":"/docs/03-programming-basics/3.2-cursor-installation-configuration"},{"slug":"03-programming-basics/3.3-cursor-rules","title":"3.3 Cursor Rules","order":19,"url":"/docs/03-programming-basics/3.3-cursor-rules"},{"slug":"03-programming-basics/3.4-cursor-ai-chat","title":"3.4 Cursor AI 对话(Chat)","order":20,"url":"/docs/03-programming-basics/3.4-cursor-ai-chat"},{"slug":"03-programming-basics/3.5-cursor-code-completion","title":"3.5 Cursor代码补全(Tab)","order":21,"url":"/docs/03-programming-basics/3.5-cursor-code-completion"},{"slug":"03-programming-basics/3.6-cursor-ai-agent","title":"3.6 Cursor AI Agent(⌘ I)","order":22,"url":"/docs/03-programming-basics/3.6-cursor-ai-agent"},{"slug":"03-programming-basics/3.7-cursor-command-palette","title":"3.7 Cursor 命令面板(⌘ K)","order":23,"url":"/docs/03-programming-basics/3.7-cursor-command-palette"},{"slug":"03-programming-basics/3.8-cursor-development-examples","title":"3.8 Cursor 开发案例","order":24,"url":"/docs/03-programming-basics/3.8-cursor-development-examples"},{"slug":"04-advanced-techniques/4.0-advanced-prompt-engineering","title":"4.0 全栈开发指南-概览","order":25,"url":"/docs/04-advanced-techniques/4.0-advanced-prompt-engineering"},{"slug":"04-advanced-techniques/4.1-large-project-architecture","title":"4.1 网站类型","order":26,"url":"/docs/04-advanced-techniques/4.1-large-project-architecture"},{"slug":"04-advanced-techniques/4.10-api-design-integration","title":"4.10 API 开发实战教程","order":36,"url":"/docs/04-advanced-techniques/4.10-api-design-integration"},{"slug":"04-advanced-techniques/4.11-ai-driven-automated-testing","title":"4.11 免费 API 资源","order":37,"url":"/docs/04-advanced-techniques/4.11-ai-driven-automated-testing"},{"slug":"04-advanced-techniques/4.12-cloud-native-development","title":"4.12 域名购买与管理","order":38,"url":"/docs/04-advanced-techniques/4.12-cloud-native-development"},{"slug":"04-advanced-techniques/4.13-machine-learning-integration","title":"4.13 Cloudflare 教程","order":39,"url":"/docs/04-advanced-techniques/4.13-machine-learning-integration"},{"slug":"04-advanced-techniques/4.14-real-time-data-processing","title":"4.14 gh-pages静态网站托管","order":40,"url":"/docs/04-advanced-techniques/4.14-real-time-data-processing"},{"slug":"04-advanced-techniques/4.15-scalable-system-design","title":"4.15 Vercel 部署指南","order":41,"url":"/docs/04-advanced-techniques/4.15-scalable-system-design"},{"slug":"04-advanced-techniques/4.16-internationalization-localization","title":"4.16 企业邮箱教程","order":42,"url":"/docs/04-advanced-techniques/4.16-internationalization-localization"},{"slug":"04-advanced-techniques/4.17-technical-debt-management","title":"4.17 网站数据分析工具","order":43,"url":"/docs/04-advanced-techniques/4.17-technical-debt-management"},{"slug":"04-advanced-techniques/4.2-advanced-code-generation","title":"4.2 网站基础 HTML/CSS/JS","order":27,"url":"/docs/04-advanced-techniques/4.2-advanced-code-generation"},{"slug":"04-advanced-techniques/4.3-fullstack-development","title":"4.3 Tailwind CSS 样式指南","order":28,"url":"/docs/04-advanced-techniques/4.3-fullstack-development"},{"slug":"04-advanced-techniques/4.4-complex-algorithm-implementation","title":"4.4 Markdown 使用指南","order":29,"url":"/docs/04-advanced-techniques/4.4-complex-algorithm-implementation"},{"slug":"04-advanced-techniques/4.5-team-collaboration-skills","title":"4.5 Git & GitHub 使用指南","order":30,"url":"/docs/04-advanced-techniques/4.5-team-collaboration-skills"},{"slug":"04-advanced-techniques/4.6-performance-optimization","title":"4.6 命令行终端基础","order":32,"url":"/docs/04-advanced-techniques/4.6-performance-optimization"},{"slug":"04-advanced-techniques/4.7-secure-coding-practices","title":"4.7 Next.js 开发指南","order":33,"url":"/docs/04-advanced-techniques/4.7-secure-coding-practices"},{"slug":"04-advanced-techniques/4.8-devops-integration","title":"4.8 shadcn/ui 组件教程","order":34,"url":"/docs/04-advanced-techniques/4.8-devops-integration"},{"slug":"04-advanced-techniques/4.9-cross-platform-development","title":"4.9 数据库使用指南","order":35,"url":"/docs/04-advanced-techniques/4.9-cross-platform-development"},{"slug":"05-project-practice/5.0-ai-programming-practice-overview","title":"5.0 实战项目开发-概览","order":36,"url":"/docs/05-project-practice/5.0-ai-programming-practice-overview"},{"slug":"05-project-practice/5.1-personal-blog-development","title":"5.1 项目初始化配置","order":37,"url":"/docs/05-project-practice/5.1-personal-blog-development"},{"slug":"05-project-practice/5.10-wechat-mini-program-development","title":"5.10 产品营销推广","order":46,"url":"/docs/05-project-practice/5.10-wechat-mini-program-development"},{"slug":"05-project-practice/5.2-ecommerce-website-development","title":"5.2 域名与邮箱配置","order":38,"url":"/docs/05-project-practice/5.2-ecommerce-website-development"},{"slug":"05-project-practice/5.3-social-app-development","title":"5.3 产品需求文档规范","order":39,"url":"/docs/05-project-practice/5.3-social-app-development"},{"slug":"05-project-practice/5.4-office-collaboration-tools","title":"5.4 落地页面开发教程","order":40,"url":"/docs/05-project-practice/5.4-office-collaboration-tools"},{"slug":"05-project-practice/5.5-data-visualization-platform","title":"5.5 Stripe支付集成指南","order":41,"url":"/docs/05-project-practice/5.5-data-visualization-platform"},{"slug":"05-project-practice/5.6-mobile-app-development","title":"5.6 核心功能实现指南","order":42,"url":"/docs/05-project-practice/5.6-mobile-app-development"},{"slug":"05-project-practice/5.7-ai-assistant-development","title":"5.7 SEO优化策略","order":43,"url":"/docs/05-project-practice/5.7-ai-assistant-development"},{"slug":"05-project-practice/5.8-game-development-practice","title":"5.8 项目部署流程","order":44,"url":"/docs/05-project-practice/5.8-game-development-practice"},{"slug":"05-project-practice/5.9-saas-platform-development","title":"5.9 域名配置教程","order":45,"url":"/docs/05-project-practice/5.9-saas-platform-development"}],"currentDoc":{"type":"Doc","_id":"docs/01-development-preparation/1.9-internet-terminology","title":"1.9 互联网常见术语解释","description":"移动互联网开发和运营中的核心术语详解","order":10,"slug":"01-development-preparation/1.9-internet-terminology","url":"/docs/01-development-preparation/1.9-internet-terminology","filePath":"/home/runner/work/blog/blog/data/docs/01-development-preparation/1.9-internet-terminology.mdx","toc":[],"_raw":{"sourceFilePath":"/home/runner/work/blog/blog/data/docs/01-development-preparation/1.9-internet-terminology.mdx","sourceFileName":"1.9-internet-terminology.mdx","sourceFileDir":"/home/runner/work/blog/blog/data/docs/01-development-preparation","contentType":"mdx","flattenedPath":"docs/01-development-preparation/1.9-internet-terminology"},"body":{"raw":"$d","code":"return { default: function Content() { return null; } }","compiled":"return { default: function Content() { return null; } }"}},"slug":"01-development-preparation/1.9-internet-terminology"}],null],"segment":"__PAGE__?{\"slug\":[\"01-development-preparation\",\"1.9-internet-terminology\"]}"},"styles":[]}],"segment":["slug","01-development-preparation/1.9-internet-terminology","oc"]},"styles":[]}],"segment":"docs"},"styles":[]}]}],["$","$Le",null,{}]]}],["$","footer",null,{"children":["$","div",null,{"className":"mt-16 flex flex-col items-center","children":[["$","div",null,{"className":"mb-3 flex space-x-4","children":[["$","$Lb",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"mailto:zhangyuliang945@gmail.com","children":[["$","span",null,{"className":"sr-only","children":"mail"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"52 42 88 66","className":"fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","path",null,{"fill":"#4285f4","d":"M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"}],["$","path",null,{"fill":"#34a853","d":"M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"}],["$","path",null,{"fill":"#fbbc04","d":"M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2"}],["$","path",null,{"fill":"#ea4335","d":"M72 74V48l24 18 24-18v26L96 92"}],["$","path",null,{"fill":"#c5221f","d":"M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2"}]]}]]}],["$","$Lb",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/zhangyuliang1994","children":[["$","span",null,{"className":"sr-only","children":"github"}],["$","svg",null,{"viewBox":"0 0 128 128","className":"fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":["$","g",null,{"fill":"#fffff","children":[["$","path",null,{"fillRule":"evenodd","clipRule":"evenodd","d":"M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"}],["$","path",null,{"d":"M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"}]]}]}]]}],null,null,null,null]}],["$","div",null,{"className":"mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400","children":[["$","div",null,{"children":"张晓风"}],["$","div",null,{"children":" • "}],["$","div",null,{"children":"© 2025"}],["$","div",null,{"children":" • "}],["$","$Lb",null,{"href":"/","children":"晓风的博客"}]]}],["$","div",null,{"className":"mb-8 text-sm text-gray-500 dark:text-gray-400","children":["$","a",null,{"href":"https://beian.miit.gov.cn/","className":"hover:text-gray-600 dark:hover:text-gray-300","target":"_blank","rel":"noopener noreferrer","children":"苏ICP备2023046043号"}]}]]}]}]]}]}]}]}]]}],null]
+这些术语将帮助你更好地理解互联网产品的整个生命周期，从开发到运营，从获客到变现的全过程。e:Tb89e,const _jsx = _jsx_runtime.jsx;
+const _jsxs = _jsx_runtime.jsxs;
+const _Fragment = _jsx_runtime.Fragment;
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    h1: "h1",
+    h2: "h2",
+    p: "p",
+    a: "a",
+    h3: "h3",
+    strong: "strong",
+    br: "br",
+    em: "em",
+    ol: "ol",
+    li: "li"
+  }, props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.h1, {
+      children: "1.9 💡 互联网常见术语解释"
+    }), "\n", _jsx(_components.h2, {
+      children: "移动互联网常见术语解释"
+    }), "\n", _jsxs(_components.p, {
+      children: ["了解这些基础术语可以帮助你了解产品从0到1的整个过程，这个列表是为了先告诉你有什么，有个概念之后，再根据自己不懂的或者感兴趣的方面去查 ChatGPT。内容来源：", _jsx(_components.a, {
+        href: "https://zhuanlan.zhihu.com/p/34270249",
+        children: "知乎"
+      })]
+    }), "\n", _jsx(_components.h3, {
+      children: "基础概念术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. CP 开发商（Content Provider）"
+      }), _jsx(_components.br, {}), "\n", "内容提供商，指开发应用或游戏的公司或团队。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. 发行商（运营商）"
+      }), _jsx(_components.br, {}), "\n", "即代理CP开发出来的产品，负责产品的市场推广和运营。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. 渠道"
+      }), _jsx(_components.br, {}), "\n", "拥有用户，能够进行流量分发的公司，即可成为渠道。所有可以获取用户的平台都可以称为渠道，包括网站的渠道和无线的渠道。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. SDK（Software Development Kit）"
+      }), _jsx(_components.br, {}), "\n", "即软件开发工具包，SDK是渠道提供的、集成了用户登录、充值通道、社区功能、社交分享功能、数据后台统计功能的一个功能模块，这个功能模块CP必须要植入到自己的app里，接入SDK后CP和渠道都要对SDK包进行测试，测试通过才能上线。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. IPA/APK"
+      }), _jsx(_components.br, {}), "\n", "iOS的APP文件格式为ipa，因为iPhone手机分为越狱和非越狱，越狱的手机用户下载的APP文件就是ipa包。安卓系统的文件格式是APK，所以提及安卓游戏或者APP的包，指的就是APK包。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "6. 刷量"
+      }), _jsx(_components.br, {}), "\n", "指渠道制造的假量。一般指用机器刷。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "7. 扣量"
+      }), _jsx(_components.br, {}), "\n", "与CPA渠道刷量针锋相对，指的是CP对于CPA渠道的量进行扣除，以此来减少自己的广告费用。刷量和扣量都是行业内公开的秘密。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "8. 包名（Package Name）"
+      }), _jsx(_components.br, {}), "\n", "安卓系统App使用包名作为应用的唯一标识。即：包名必须唯一，一个包名代表一个应用，不允许两个应用使用同样的包名。包名主要用于系统识别应用，几乎不会被最终用户看到。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "9. App Bundle ID"
+      }), _jsx(_components.br, {}), "\n", "苹果系统App使用App Bundle ID作为应用的唯一标识。Bundle identifier就是应用的标识符，表明应用和其他App的区别。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "10. IDFA：广告标识符"
+      }), _jsx(_components.br, {}), "\n", "苹果为了保护用户隐私，早在2012年就不再允许其生态中的玩家获取用户的唯一标识符。但是商家在移动端打广告的时候又希望能监控到每一次广告投放的效果，因此，苹果想出了折中的办法，就是提供另外一套和硬件无关的标识符，用于给商家监测广告效果，同时用户可以在设置里改变这串字符，导致商家没有办法长期跟踪用户行为。这个就叫做广告标识符（IDFA）。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "技术相关术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "11. API（Application Programming Interface）"
+      }), _jsx(_components.br, {}), "\n", "应用程序接口，是一组定义、程序及协议的集合，通过 API 接口实现计算机软件之间的相互通信。API的一个主要功能是提供通用功能集。程序员通过使用API函数开发应用程序，从而可以避免编写无用程序，以减轻编程任务。API同时也是一种中间件为各种不同平台提供数据共享。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "12. COS"
+      }), _jsx(_components.br, {}), "\n", "一个专用系统而不是通用系统。即：一种COS一般都只能应用于特定的某种(或者是某些)智能卡，不同卡内的COS一般是不相同的，在本质上更加接近于监控程序，而不是一个通常所谓的真正意义上的操作系统所需要解决的主要还是对外部的命令如何进行处理、响应的问题，这其中一般并不涉及到共享、并发的管理及处理。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "13. LBS（Location Based Service）"
+      }), _jsx(_components.br, {}), "\n", "基于位置的服务，它是通过电信移动运营商的无线电通讯网络（如GSM网、CDMA网）或外部定位方式(如GPS)获取移动终端用户的位置信息（地理坐标，或大地坐标），在GIS(Geographic Information System，地理信息系统)平台的支持下，为用户提供相应服务的一种增值业务。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "14. 人机交互（Human-Computer Interaction Techniques）"
+      }), _jsx(_components.br, {}), "\n", "指通过计算机输入、输出设备，以有效的方式实现人与计算机对话的技术。它包括机器通过输出或显示设备给人提供大量有关信息及提示请示等，人通过输入设备给机器输入有关信息及提示请示等，人通过输入设备给机器输入有关信息，回答问题等。人机交互技术是计算机用户界面设计中的重要内容之一。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "15. ASR（Automatic Speech Recognition）"
+      }), _jsx(_components.br, {}), "\n", "是一种将人的语音转换为文本的技术，与声学、语音学、语言学、数字信号处理理论、信息论、计算机科学等多学科紧密相连。由于语音信号的多样性和复杂性，目前的语音识别系统只能在一定的限制条件下获得满意的性能，或者说只能应用于某些特定的场合。"]
+    }), "\n", _jsx(_components.h2, {
+      children: "产品运营术语名词解释"
+    }), "\n", _jsx(_components.h3, {
+      children: "合作模式术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. 联运"
+      }), _jsx(_components.br, {}), "\n", "CP和渠道联合运营产品，CP需要接入渠道方的SDK，才能上线运营，双方按照分成比例进行分成。因为接入了渠道的SDK，所以数据后台用的是渠道方的，结算时是渠道分钱给CP。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. CPS"
+      }), _jsx(_components.br, {}), "\n", "按照收益进行分成，CPS和联运都是按照收益进行分成，但区别在于，CPS不需要接入渠道的SDK，用的是CP方的数据统计后台，结算时是CP分钱给渠道，而联运则是渠道分钱给CP。CPS的优势是不需要接入SDK可以上线，可以快速合作。联运的优势则是深度合作，联运的渠道可以给一些深度的推广资源。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "付费模式术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. CPA（Cost Per Action）"
+      }), _jsx(_components.br, {}), "\n", "每行动成本，这里的A可以是点击，可以是下载，可以是激活，可以是注册，可以是搜索，一般指的是每一个下载激活进行付费。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. CPT"
+      }), _jsx(_components.br, {}), "\n", "即时长广告，也称硬广，一般是从24时到明日24时计算的付费广告推广形式。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. CPC"
+      }), _jsx(_components.br, {}), "\n", "点击一次进行付费。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "6. CPM"
+      }), _jsx(_components.br, {}), "\n", "千人成本，按照阅读量来计算。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "推广优化术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "7. SEO（Search Engine Optimization）"
+      }), _jsx(_components.br, {}), "\n", "搜索引擎优化。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "8. SEM（Search Engine Marketing）"
+      }), _jsx(_components.br, {}), "\n", "搜索引擎营销。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "9. ASO（App Store Optimization）"
+      }), _jsx(_components.br, {}), "\n", "应用市场搜索优化。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "业务指标术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "10. KPI（Key Performance Indicators）"
+      }), _jsx(_components.br, {}), "\n", "关键业绩指标。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "11. GMV（Gross Merchandise Volume）"
+      }), _jsx(_components.br, {}), "\n", "（一段时间内）成交总额。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "12. SKU（Stock Keeping Unit）"
+      }), _jsx(_components.br, {}), "\n", "库存量单位，即库存进出计量的单位。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "13. Long Tail Keyword"
+      }), _jsx(_components.br, {}), "\n", "长尾关键词，非目标关键词但也可以带来搜索流量的关键词。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "14. MVP（Minimum Viable Product）"
+      }), _jsx(_components.br, {}), "\n", "最简化可实行产品。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "角色职能术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "15. SP（Service Provider）"
+      }), _jsx(_components.br, {}), "\n", "服务提供商。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "16. CP（Content Provider）"
+      }), _jsx(_components.br, {}), "\n", "内容提供商。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "17. BD（Business Development）"
+      }), _jsx(_components.br, {}), "\n", "商务拓展。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "18. UE/UX（User Experience）"
+      }), _jsx(_components.br, {}), "\n", "用户体验。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "营销传播术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "19. EDM（Email Direct Marketing）"
+      }), _jsx(_components.br, {}), "\n", "电子邮件营销。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "20. SNS（Social Networking Services）"
+      }), _jsx(_components.br, {}), "\n", "社交网络服务。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "内容生产术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "21. UGC（User Generated Content）"
+      }), _jsx(_components.br, {}), "\n", "用户生成内容。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "22. PGC（Professional Generated Content）"
+      }), _jsx(_components.br, {}), "\n", "专业生产内容。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "23. OGC（Occupationally-generated Content）"
+      }), _jsx(_components.br, {}), "\n", "职业生产内容。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "24. KOL（Key Opinion Leader）"
+      }), _jsx(_components.br, {}), "\n", "掌握话语权的那些人。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "基础设施术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "25. ISP（Internet Service Provider）"
+      }), _jsx(_components.br, {}), "\n", "互联网服务提供商，即向广大用户综合提供互联网接入业务、信息业务、和增值业务的电信运营商。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "26. ERP（Enterprise Resource Planning）"
+      }), _jsx(_components.br, {}), "\n", "企业资源计划。"]
+    }), "\n", _jsx(_components.h2, {
+      children: "广告推广专业术语解释"
+    }), "\n", _jsx(_components.h3, {
+      children: "广告平台术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. Ad Network"
+      }), _jsx(_components.br, {}), "\n", "广告平台/广告网络。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. Ad Exchange"
+      }), _jsx(_components.br, {}), "\n", "广告交易平台：广告交易平台是一个技术平台，在众多的广告网络提供的流量的基础上进行竞价买卖。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. RTB（Real Time Bidding）"
+      }), _jsx(_components.br, {}), "\n", "实时竞价：与传统的PPC广告、CPM广告、CPC广告、Monthly Flat、Daily Flat等相比，RTB就是在每个广告展示曝光的基础上进行竞价。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. DSP（Demand Side Platform）"
+      }), _jsx(_components.br, {}), "\n", "广告主需求方：为广告主提供跨竞价市场、跨平台、跨终端的程序化广告投放平台，通过数据整合、分析实现基于受众的精准投放。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. DMP（Data-Management Platform）"
+      }), _jsx(_components.br, {}), "\n", "数据管理平台：数据管理平台能够帮助所有涉及广告库存购买和出售的各方管理其数据、更方便地使用第三方数据、增强他们对所有这些数据的理解、传回数据或将定制数据传入某一平台，以进行更好地定位。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "购买模式术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "6. 程序化购买（Programmatic Buying）"
+      }), _jsx(_components.br, {}), "\n", "指的是通过数字平台，代表广告主，自动地执行广告媒体购买的流程。与之相对的是传统的人力购买的方式。程序化购买的实现通常依赖于需求方平台DSP和广告交易平台Ad Exchange。它包括RTB实时竞价模式和non-RTB非实时竞价模式。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "7. PMP（Private Market Place）"
+      }), _jsx(_components.br, {}), "\n", "私有交易市场：它是将传统的私有交易方式与程序化广告的工作方式相结合的新互联网广告交易形式。广告主预先采购或者预订广告位，获取优质流量，再用程序化的方式来管理这些流量的广告投放，让受众只看到自己想看的广告。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "8. PDB（Programmatic Direct Buy）"
+      }), _jsx(_components.br, {}), "\n", "私有程序化购买：广告主通过PDB私有采买媒体后，就可以通过DSP进行投放，当然PDB也不是谁都合适，本身体量及市场都比较大的品牌可能更为适合PDB的方式。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "资源类型术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "9. 溢价资源（Premium Inventory）"
+      }), _jsx(_components.br, {}), "\n", "像各个门户的第一版的新闻页面，是各个广告主争抢的主要位置。如新浪微博的首页banner。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "10. 冗余资源（Remnant Inventory）"
+      }), _jsx(_components.br, {}), "\n", "长尾的流量很小的页面上的广告位，如某小游戏网站点击深入某个页面之后的一个广告位。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "广告形式术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "11. Banner"
+      }), _jsx(_components.br, {}), "\n", "横幅图片模式"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "12. Interstitial"
+      }), _jsx(_components.br, {}), "\n", "插屏广告"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "13. Button"
+      }), _jsx(_components.br, {}), "\n", "图标广告"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "14. Native Ads（Native Advertising）"
+      }), _jsx(_components.br, {}), "\n", "原生广告"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "15. Rich Media"
+      }), _jsx(_components.br, {}), "\n", "富媒体：这种应用采取了所有适合的最先进技术，以最好的传达广告主的信息，甚至与用户进行互动！如视频、flash广告等。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "16. 植入式广告"
+      }), _jsx(_components.br, {}), "\n", "在电影或电视剧或者其它场景插入相关的广告。如变形金刚、非诚勿扰等。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "特定平台术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "17. AdWords"
+      }), _jsx(_components.br, {}), "\n", "Google的关键词竞价广告。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "18. PR推广"
+      }), _jsx(_components.br, {}), "\n", "软文推广。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "19. Advertorial"
+      }), _jsx(_components.br, {}), "\n", "软文广告的一种，即付费文章，故意设计成像一篇普通的文章。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "20. Banner Ad"
+      }), _jsx(_components.br, {}), "\n", "横幅广告，网页顶部、底部或者侧边的广告展示位置。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "21. DSP展示广告"
+      }), _jsx(_components.br, {}), "\n", "是Demand-Side Platform的缩写，即需求方平台。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "22. POP（Point Of Purchase）"
+      }), _jsx(_components.br, {}), "\n", "意为\"卖点广告\"，又名\"店头陈设\"。本来是指商业销售中的一种店头促销工具，其型式不拘，但以摆设在店头的展示物为主，如吊牌、海报、小贴纸、纸货架、展示架、纸堆头、大招牌、实物模型、旗帜等等，都是林立在POP的范围"]
+    }), "\n", _jsx(_components.h2, {
+      children: "APP推广形式"
+    }), "\n", _jsx(_components.h3, {
+      children: "安卓渠道"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. Google Play"
+      }), _jsx(_components.br, {}), "\n", "谷歌官方电子市场：因谷歌在国内受到限制，用户很少，但在国外Google Play是主流的渠道。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. 第三方电子市场"
+      }), _jsx(_components.br, {}), "\n", "如：91手机助手，360手机助手，腾讯应用宝，百度手机助手，豌豆荚等。用户质量高，数量大。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. 手机厂商"
+      }), _jsx(_components.br, {}), "\n", "包括小米商店，华为智汇云，OPPO FindMe，联想乐商店等。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. 运营商"
+      }), _jsx(_components.br, {}), "\n", "包括联通沃商店、移动MM商场、电信天翼空间。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. 搜索类"
+      }), _jsx(_components.br, {}), "\n", "百度、360、搜狗、神马等。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "iOS渠道"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. 苹果官方App Store"
+      }), _jsx(_components.br, {}), "\n", "对IOS来说，appstore下载量占比超过80%。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. 各种限时免费推荐应用"
+      }), _jsx(_components.br, {}), "\n", "如搞趣网、限时免费大全、苹果园、金山电池医生等。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. 各种越狱渠道"
+      }), _jsx(_components.br, {}), "\n", "如PP助手、91手机助手、快用苹果助手等。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. 各种苹果APP推荐应用"
+      }), _jsx(_components.br, {}), "\n", "包括超级APP如墨迹天气、美图秀秀等。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. iMessage推送"
+      }), _jsx(_components.br, {}), "\n", "即推送到iPhone用户的iMessage信息中，包含了跳转到App Store的产品链接。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "6. 刷榜"
+      }), _jsx(_components.br, {}), "\n", "iOS生态里独有的推广方式，但受到苹果打压。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "其他推广方式"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. 广告联盟"
+      }), _jsx(_components.br, {}), "\n", "主要的广告平台包括多盟、有米、万普、点入、力美、安沃、艾德思齐、易积分、米迪、磨盘、巨朋、快友、趣米、触控、勤诚等。广告平台的主要合作方式有CPA和CPC。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. 换量/交叉推广"
+      }), _jsx(_components.br, {}), "\n", "在大部分APP和手游里，都会有类似应用推荐这种模块，这个模块的功能就是换量，甲产品给乙产品导入一定数量的用户，乙产品也会导入相同数量的用户给甲产品。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. 厂商预装/刷机"
+      }), _jsx(_components.br, {}), "\n", "厂商预装是由手机厂商预装APP到其手机中，而刷机则是将APP预装到已有的手机中。这两种方式用户质量有差异，但需要注意市场混乱。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. 社交化推广"
+      }), _jsx(_components.br, {}), "\n", "利用社交媒体如微博和微信等社会化营销渠道推广APP，近年来取得了不少成功案例。"]
+    }), "\n", _jsx(_components.h2, {
+      children: "移动推广关键指标"
+    }), "\n", _jsx(_components.h3, {
+      children: "搜索优化指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. ASO指数"
+      }), _jsx(_components.br, {}), "\n", "概念：针对应用对于苹果商店的搜索评估值，结合可见搜索词汇，搜索热度，搜索权重，搜索排名以及多个算法交叉计算的结果。", _jsx(_components.br, {}), "\n", "作用：通过搜索频次，搜索下载激活转化率，卸载率，关键词覆盖数及排名，评论等因素，来呈现App在AppStore的受欢迎程度；", _jsx(_components.br, {}), "\n", "优化方式：关键词覆盖，刷榜，积分墙，刷评论；"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. 苹果权重（iAR）"
+      }), _jsx(_components.br, {}), "\n", "概念：苹果对每个App都有权重评级（类似谷歌的Page Rank），iAR值范围从0~10，最低0，最高10；App的苹果权重越高，所获得的ASO排名整体表现也越好；", _jsx(_components.br, {}), "\n", "影响因素：包括搜索排名、搜索联想排序等，把下载量评级、评论、版本更新情况等等综合起来，得出iAR值；"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. 关键词覆盖指数KCN（Keywords Covering Number）"
+      }), _jsx(_components.br, {}), "\n", "概念：即关键词有效覆盖情况；", _jsx(_components.br, {}), "\n", "作用：覆盖越广，展现的机会也就越大；也是关键词优化的第一步；其次是提升覆盖出来的关键词排名；"]
+    }), "\n", _jsx(_components.h3, {
+      children: "流量转化指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. 排重点击"
+      }), _jsx(_components.br, {}), "\n", "概念：时段内，基于 Cookie 的排重处理后的点击短链的次数；", _jsx(_components.br, {}), "\n", "作用：排重点击是基于 IP + Cookie 的排重处理后的点击，能够有效防止渠道点击作弊，对同一 IP 的多次点击，在自定义时间内，计为一次；"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. 激活"
+      }), _jsx(_components.br, {}), "\n", "概念：时段内，在数据设定回溯期外并符合数据匹配逻辑，用户安装应用并首次启动应用的行为数统计。", _jsx(_components.br, {}), "\n", "作用：直观的监控由不同渠道、平台带来的激活量。", _jsx(_components.br, {}), "\n", "防作弊机制：同一设备的多次激活，计为一次，以防止渠道作弊。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "6. 激活转化率"
+      }), _jsx(_components.br, {}), "\n", "概念：在时段内，从排重点击到激活的转化率。激活数 / 排重点击数；", _jsx(_components.br, {}), "\n", "作用：普遍的 CPA 结算指标，有效的评判渠道用户质量的数据指标。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "7. 自然激活"
+      }), _jsx(_components.br, {}), "\n", "概念：时段内，未能匹配到推广渠道的激活数。", _jsx(_components.br, {}), "\n", "作用：产品自然带量的能力如何，评估推广期可带来的自然增长效果。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "成本效益指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "8. 每日激活成本"
+      }), _jsx(_components.br, {}), "\n", "概念：在时段内，通过花费的推广成本和激活数，计算出每单个激活的成本。", _jsx(_components.br, {}), "\n", "计算方法：成本花费 / 激活数（不包括推广期外的激活和自然激活）", _jsx(_components.br, {}), "\n", "作用：直观的计算每一次投放的激活成本，更好的评估投放的成本价值，便于管理和控制。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "9. 收入"
+      }), _jsx(_components.br, {}), "\n", "概念：在集成付费事件的应用中，对应用内的付费收入进行统计。", _jsx(_components.br, {}), "\n", "作用：直观的统计产品推广带回来的收入。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "10. KPI（Key Performance Indicator）"
+      }), _jsx(_components.br, {}), "\n", "关键绩效指标，是通过对组织内部流程的输入端、输出端的关键参数进行设置、取样、计算、分析，衡量流程绩效的一种目标式量化管理指标，是把企业的战略目标分解为可操作的工作目标的工具，是企业绩效管理的基础。建立明确的切实可行的KPI体系，是做好绩效管理的关键。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "11. ROI（Return On Investment）"
+      }), _jsx(_components.br, {}), "\n", "概念：分渠道推广费用和产品收入的比例，即投资回报率；", _jsx(_components.br, {}), "\n", "计算方式：收入 / 成本花费（收入不包括自然激活收入）。", _jsx(_components.br, {}), "\n", "作用：有效的评估渠道带收入的能力。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "12. ARPU值（Average Revenue Per User）"
+      }), _jsx(_components.br, {}), "\n", "用户平均收入：Arpu值并不反映利润情况，只反映收入情况。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "用户留存指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "13. 次日留存/7日留存/30日留存"
+      }), _jsx(_components.br, {}), "\n", "概念：某日新增用户中，在该日后的下一日/第7日/第30日还进行了应用启动的用户的比例。", _jsx(_components.br, {}), "\n", "作用：评估渠道所带来的用户粘性、用户质量，同时可以间接的判断该渠道是否有作弊行为。每次推广的用户留存情况，也是评估一次推广质量的因素。目前各大推广渠道所覆盖的人群有所不同，可能会出现同一款应用在不同的渠道的留存不一样，通过用户留存的数据可以帮助你更好的找出更合适你应用的渠道。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "活跃度指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "14. DAU/WAU/MAU（Daily/Weekly/Monthly Active Users）"
+      }), _jsx(_components.br, {}), "\n", "概念：当日有开启过产品的用户/当日的最近一周（含当日的倒推7日）活跃用户。/当日的最近一月（含当日的倒退30日）活跃用户。"]
+    }), "\n", _jsx(_components.p, {
+      children: "作用：判断渠道活跃用户的生存周期，产品的用户粘性，以及各个渠道与产品的匹配度，是否适合推广这个类型的产品。如果某次的推广新增用户量很高，但是活跃度过低，过滤应用本身的问题，那么最大的可能就是此次推广所在的渠道覆盖的人群为非应用目标人群。"
+    }), "\n", _jsx(_components.h3, {
+      children: "用户分析指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "15. 地区分布"
+      }), _jsx(_components.br, {}), "\n", "概念：查看\"排重点击\"、\"新增激活\"、\"活跃用户\"的地区分布情况，了解各个地区的推广效果。"]
+    }), "\n", _jsx(_components.p, {
+      children: "作用：可以了解推广渠道是否按照投放策略来进行投放；观测推广渠道在哪些地区覆盖机群有所侧重；可根据渠道支持的地域情况，调整推广策略。"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "16. 设备分布"
+      }), _jsx(_components.br, {}), "\n", "概念：设备是推广活动中一个比较重要的参照指标，设备的属性从某些角度可以反映出应用用户群体的属性；"]
+    }), "\n", _jsx(_components.p, {
+      children: "作用：我们在推广时首先需要弄清楚的就是你的应用所需要覆盖的人群是哪一类，是高端的用户群体，还是中端用户群体，然后有所针对的进行投放；另外从设备的分布情况也可以逆向看出是什么样的人群对你的应用有兴趣；是否和预期的人群定位符合；"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "17. 系统分布"
+      }), _jsx(_components.br, {}), "\n", "概念：指标在对应的系统的分布情况"]
+    }), "\n", _jsx(_components.p, {
+      children: "作用：可以了解推广所覆盖的人群的属性；如果您在推广时选择了按系统过滤的策略，可以了解推广渠道是否按照需求来进行投放；"
+    }), "\n", _jsx(_components.h3, {
+      children: "特殊指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "18. 二次激活"
+      }), _jsx(_components.br, {}), "\n", "概念：曾经有过激活行为的设备，第二次及以上安装激活的设备数。"]
+    }), "\n", _jsx(_components.p, {
+      children: "作用：推广中，有效的区分新老用户数，监测渠道用户和自身产品用户的重复度，版本更新对休眠用户的影响力，当然也一定程度的会监控渠道作弊的行为，如果频繁多次激活，可能是渠道作弊。"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "19. 追踪点事件"
+      }), _jsx(_components.br, {}), "\n", "概念：从激活到达成某效果点的设备数，包括注册、登陆、注销等等事件。", _jsx(_components.br, {}), "\n", "作用：深入的追踪用户行为，更好的分析各渠道带来的用户质量。"]
+    }), "\n", _jsx(_components.h2, {
+      children: "APP运营模式名词解释"
+    }), "\n", _jsx(_components.h3, {
+      children: "AARRR模型"
+    }), "\n", _jsx(_components.p, {
+      children: "AARRR模型包括5个重要环节："
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. 获取用户（Acquisition）"
+      }), _jsx(_components.br, {}), "\n", "第一步是获取用户，通常关注的数据是下载量和激活量（即新增用户数量）。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. 提高活跃度（Activation）"
+      }), _jsx(_components.br, {}), "\n", "重要因素包括推广渠道的质量和产品本身在最初使用的几十秒钟内的表现。", _jsx(_components.br, {}), "\n", "关注数据：DAU（日活跃用户）、MAU（月活跃用户）、每次启动平均使用时长和每个用户每日平均启动次数。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. 提高留存率（Retention）"
+      }), _jsx(_components.br, {}), "\n", "解决用户流失问题，关注日留存率、周留存率、月留存率等指标。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. 获取收入（Revenue）"
+      }), _jsx(_components.br, {}), "\n", "收入来源包括付费应用、应用内付费、广告。", _jsx(_components.br, {}), "\n", "关注数据：ARPU（平均每用户每月收入）。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. 自传播（Refer）"
+      }), _jsx(_components.br, {}), "\n", "基于社交网络的病毒式传播，成本低且效果可能非常好。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "用户获取指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. DNU（Daily New Users）"
+      }), _jsx(_components.br, {}), "\n", "每日激活/注册的用户数。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. CAC（Customer Acquisition Cost）"
+      }), _jsx(_components.br, {}), "\n", "用户获取成本。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. CPC（Cost Per Customer）"
+      }), _jsx(_components.br, {}), "\n", "用户获取成本 = 推广成本/有效新增用户。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. CR（Conversions Rates）"
+      }), _jsx(_components.br, {}), "\n", "注册转化率 = 最终注册成为用户/访问了某种渠道的总人数。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "活跃度指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. DAU（Daily Active Users）"
+      }), _jsx(_components.br, {}), "\n", "日活跃用户数。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "6. WAU（Weekly Active Users）"
+      }), _jsx(_components.br, {}), "\n", "周活跃用户数。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "7. MAU（Monthly Active Users）"
+      }), _jsx(_components.br, {}), "\n", "月活跃用户数。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "8. DEC（Daily Engagement Count）"
+      }), _jsx(_components.br, {}), "\n", "日参与次数，多用于游戏。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "9. DAOT/AT（Daily Avg. Online Time）"
+      }), _jsx(_components.br, {}), "\n", "活跃用户平均每日在线时长 = 日总在线时长/日活跃用户数。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "用户留存和流失"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "10. Users Retention"
+      }), _jsx(_components.br, {}), "\n", "用户留存：统计时间区间内，新增用户在随后不同时期的启动使用情况。Day 1/3/7/30 Retention Ratio次日/三日/七日/月留存率，日新增用户在次日/第三日/第七日/第三十日（不含首次启动当天）启动的用户数占新增用户比例。留存率需要进行长期跟踪，根据需要可设定30日、60日或者90日。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "11. Users Churn"
+      }), _jsx(_components.br, {}), "\n", "用户流失：统计时间区间内，用户在不同时期离开产品的情况。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "12. Day 1 Churn Ratio"
+      }), _jsx(_components.br, {}), "\n", "日流失率：统计日使用产品，但随后七日未使用的用户占统计日活跃用户比例，此定义按需求可延长观测长度。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "13. Day 7 Churn Ratio"
+      }), _jsx(_components.br, {}), "\n", "周流失率：上周使用过，但本周未使用的用户占上周周活跃用户比例。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "14. Day 30 Churn Ratio"
+      }), _jsx(_components.br, {}), "\n", "月流失率：上个月使用过产品，但本月未使用的用户占上个月月活跃用户比例。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "付费相关指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "15. MPR（Monthly Payment Ratio）"
+      }), _jsx(_components.br, {}), "\n", "月付费率：统计时间区间内，付费用户占活跃用户的比例。一般以月计。计算公式：MPR=APA/MAU 其中APA为月付费用户数"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "16. APA（Active Payment Account）"
+      }), _jsx(_components.br, {}), "\n", "活跃付费用户数：统计时间区间内，成功付费的用户数。一般以月计。如果按月进行计算，则有以下关系：APA=MAU*MPR其中MAU为月活跃用户数，MPR为月付费率。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "17. ARPU（Average Revenue per Users）"
+      }), _jsx(_components.br, {}), "\n", "平均每用户收入：统计时间区间内，活跃用户对产品产生的平均收入。一般以月计。", _jsx(_components.br, {}), "\n", "ARPU=收益/用户数 月ARPU=收益/MAU", _jsx(_components.br, {}), "\n", "计算方式：产品总收入除以产品的总活跃用户数，一般按照月来计算，即ARPU=月总收入/月活跃用户数（MAU）"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "18. ARPPU（Average Revenue per Paying User）"
+      }), _jsx(_components.br, {}), "\n", "平均每付费用户收入：统计时间区间内，付费用户对产品贡献的平均收入。一般以月计。", _jsx(_components.br, {}), "\n", "ARPPU=收益/付费用户数"]
+    }), "\n", _jsx(_components.h3, {
+      children: "生命周期指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "19. Life Time"
+      }), _jsx(_components.br, {}), "\n", "生命周期：一个用户从第一次参与游戏，到最后一次参与游戏之间的时间，一般计算平均值。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "20. LTV（Life Time Value）"
+      }), _jsx(_components.br, {}), "\n", "生命周期价值：用户在生命周期内为该游戏创造的收入总计。可以看成是一个长期累计的ARPU值。", _jsx(_components.br, {}), "\n", "计算方式：对每个用户的平均LTV计算如下：LTV=ARPU", _jsxs(_components.em, {
+        children: ["LT（按月计平均生命周期） 其中LT为Life Time，即生命周期，按照月统计，也就是玩家留存在游戏中的平均月的数量。", _jsx(_components.br, {}), "\n", "例如，一款产品的ARPU=2元，LT=5，那么LTV=2"]
+      }), "5=10元。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "同时在线指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "21. PCU（Peak Concurrent Users）"
+      }), _jsx(_components.br, {}), "\n", "最高同时在线用户人数"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "22. ACU（Average Concurrent Users）"
+      }), _jsx(_components.br, {}), "\n", "平均同时在线用户人数"]
+    }), "\n", _jsx(_components.h3, {
+      children: "转化和传播指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "23. New Users Conversion Rate"
+      }), _jsx(_components.br, {}), "\n", "新用户转化率：可根据渠道进行划分，Clicks->Install->Register->Login"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "24. K-Factor"
+      }), _jsx(_components.br, {}), "\n", "K因子：K-Factor=感染率*转化率", _jsx(_components.br, {}), "\n", "转化率：当感染后转化为新用户的比率。", _jsx(_components.br, {}), "\n", "感染率：每个用户发送的邀请数量，一般取平均值。", _jsx(_components.br, {}), "\n", "若K>1，产品用户群通过自传播增长较快；若K<1，产品用户群到达一定规模后就会停止通过自传播增长。"]
+    }), "\n", _jsx(_components.h2, {
+      children: "总结"
+    }), "\n", _jsx(_components.p, {
+      children: "掌握这些互联网术语是做产品开发和运营的基础。建议："
+    }), "\n", _jsxs(_components.ol, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "系统学习"
+        }), "：不要急于求成，按分类逐步掌握"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "实践应用"
+        }), "：在实际工作中多使用这些术语"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "持续更新"
+        }), "：互联网行业发展快速，要及时学习新术语"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "深入理解"
+        }), "：不仅要知道术语含义，更要理解背后的业务逻辑"]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: "这些术语将帮助你更好地理解互联网产品的整个生命周期，从开发到运营，从获客到变现的全过程。"
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = props.components || ({});
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return { default: MDXContent };f:Tb89e,const _jsx = _jsx_runtime.jsx;
+const _jsxs = _jsx_runtime.jsxs;
+const _Fragment = _jsx_runtime.Fragment;
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    h1: "h1",
+    h2: "h2",
+    p: "p",
+    a: "a",
+    h3: "h3",
+    strong: "strong",
+    br: "br",
+    em: "em",
+    ol: "ol",
+    li: "li"
+  }, props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.h1, {
+      children: "1.9 💡 互联网常见术语解释"
+    }), "\n", _jsx(_components.h2, {
+      children: "移动互联网常见术语解释"
+    }), "\n", _jsxs(_components.p, {
+      children: ["了解这些基础术语可以帮助你了解产品从0到1的整个过程，这个列表是为了先告诉你有什么，有个概念之后，再根据自己不懂的或者感兴趣的方面去查 ChatGPT。内容来源：", _jsx(_components.a, {
+        href: "https://zhuanlan.zhihu.com/p/34270249",
+        children: "知乎"
+      })]
+    }), "\n", _jsx(_components.h3, {
+      children: "基础概念术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. CP 开发商（Content Provider）"
+      }), _jsx(_components.br, {}), "\n", "内容提供商，指开发应用或游戏的公司或团队。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. 发行商（运营商）"
+      }), _jsx(_components.br, {}), "\n", "即代理CP开发出来的产品，负责产品的市场推广和运营。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. 渠道"
+      }), _jsx(_components.br, {}), "\n", "拥有用户，能够进行流量分发的公司，即可成为渠道。所有可以获取用户的平台都可以称为渠道，包括网站的渠道和无线的渠道。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. SDK（Software Development Kit）"
+      }), _jsx(_components.br, {}), "\n", "即软件开发工具包，SDK是渠道提供的、集成了用户登录、充值通道、社区功能、社交分享功能、数据后台统计功能的一个功能模块，这个功能模块CP必须要植入到自己的app里，接入SDK后CP和渠道都要对SDK包进行测试，测试通过才能上线。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. IPA/APK"
+      }), _jsx(_components.br, {}), "\n", "iOS的APP文件格式为ipa，因为iPhone手机分为越狱和非越狱，越狱的手机用户下载的APP文件就是ipa包。安卓系统的文件格式是APK，所以提及安卓游戏或者APP的包，指的就是APK包。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "6. 刷量"
+      }), _jsx(_components.br, {}), "\n", "指渠道制造的假量。一般指用机器刷。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "7. 扣量"
+      }), _jsx(_components.br, {}), "\n", "与CPA渠道刷量针锋相对，指的是CP对于CPA渠道的量进行扣除，以此来减少自己的广告费用。刷量和扣量都是行业内公开的秘密。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "8. 包名（Package Name）"
+      }), _jsx(_components.br, {}), "\n", "安卓系统App使用包名作为应用的唯一标识。即：包名必须唯一，一个包名代表一个应用，不允许两个应用使用同样的包名。包名主要用于系统识别应用，几乎不会被最终用户看到。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "9. App Bundle ID"
+      }), _jsx(_components.br, {}), "\n", "苹果系统App使用App Bundle ID作为应用的唯一标识。Bundle identifier就是应用的标识符，表明应用和其他App的区别。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "10. IDFA：广告标识符"
+      }), _jsx(_components.br, {}), "\n", "苹果为了保护用户隐私，早在2012年就不再允许其生态中的玩家获取用户的唯一标识符。但是商家在移动端打广告的时候又希望能监控到每一次广告投放的效果，因此，苹果想出了折中的办法，就是提供另外一套和硬件无关的标识符，用于给商家监测广告效果，同时用户可以在设置里改变这串字符，导致商家没有办法长期跟踪用户行为。这个就叫做广告标识符（IDFA）。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "技术相关术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "11. API（Application Programming Interface）"
+      }), _jsx(_components.br, {}), "\n", "应用程序接口，是一组定义、程序及协议的集合，通过 API 接口实现计算机软件之间的相互通信。API的一个主要功能是提供通用功能集。程序员通过使用API函数开发应用程序，从而可以避免编写无用程序，以减轻编程任务。API同时也是一种中间件为各种不同平台提供数据共享。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "12. COS"
+      }), _jsx(_components.br, {}), "\n", "一个专用系统而不是通用系统。即：一种COS一般都只能应用于特定的某种(或者是某些)智能卡，不同卡内的COS一般是不相同的，在本质上更加接近于监控程序，而不是一个通常所谓的真正意义上的操作系统所需要解决的主要还是对外部的命令如何进行处理、响应的问题，这其中一般并不涉及到共享、并发的管理及处理。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "13. LBS（Location Based Service）"
+      }), _jsx(_components.br, {}), "\n", "基于位置的服务，它是通过电信移动运营商的无线电通讯网络（如GSM网、CDMA网）或外部定位方式(如GPS)获取移动终端用户的位置信息（地理坐标，或大地坐标），在GIS(Geographic Information System，地理信息系统)平台的支持下，为用户提供相应服务的一种增值业务。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "14. 人机交互（Human-Computer Interaction Techniques）"
+      }), _jsx(_components.br, {}), "\n", "指通过计算机输入、输出设备，以有效的方式实现人与计算机对话的技术。它包括机器通过输出或显示设备给人提供大量有关信息及提示请示等，人通过输入设备给机器输入有关信息及提示请示等，人通过输入设备给机器输入有关信息，回答问题等。人机交互技术是计算机用户界面设计中的重要内容之一。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "15. ASR（Automatic Speech Recognition）"
+      }), _jsx(_components.br, {}), "\n", "是一种将人的语音转换为文本的技术，与声学、语音学、语言学、数字信号处理理论、信息论、计算机科学等多学科紧密相连。由于语音信号的多样性和复杂性，目前的语音识别系统只能在一定的限制条件下获得满意的性能，或者说只能应用于某些特定的场合。"]
+    }), "\n", _jsx(_components.h2, {
+      children: "产品运营术语名词解释"
+    }), "\n", _jsx(_components.h3, {
+      children: "合作模式术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. 联运"
+      }), _jsx(_components.br, {}), "\n", "CP和渠道联合运营产品，CP需要接入渠道方的SDK，才能上线运营，双方按照分成比例进行分成。因为接入了渠道的SDK，所以数据后台用的是渠道方的，结算时是渠道分钱给CP。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. CPS"
+      }), _jsx(_components.br, {}), "\n", "按照收益进行分成，CPS和联运都是按照收益进行分成，但区别在于，CPS不需要接入渠道的SDK，用的是CP方的数据统计后台，结算时是CP分钱给渠道，而联运则是渠道分钱给CP。CPS的优势是不需要接入SDK可以上线，可以快速合作。联运的优势则是深度合作，联运的渠道可以给一些深度的推广资源。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "付费模式术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. CPA（Cost Per Action）"
+      }), _jsx(_components.br, {}), "\n", "每行动成本，这里的A可以是点击，可以是下载，可以是激活，可以是注册，可以是搜索，一般指的是每一个下载激活进行付费。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. CPT"
+      }), _jsx(_components.br, {}), "\n", "即时长广告，也称硬广，一般是从24时到明日24时计算的付费广告推广形式。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. CPC"
+      }), _jsx(_components.br, {}), "\n", "点击一次进行付费。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "6. CPM"
+      }), _jsx(_components.br, {}), "\n", "千人成本，按照阅读量来计算。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "推广优化术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "7. SEO（Search Engine Optimization）"
+      }), _jsx(_components.br, {}), "\n", "搜索引擎优化。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "8. SEM（Search Engine Marketing）"
+      }), _jsx(_components.br, {}), "\n", "搜索引擎营销。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "9. ASO（App Store Optimization）"
+      }), _jsx(_components.br, {}), "\n", "应用市场搜索优化。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "业务指标术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "10. KPI（Key Performance Indicators）"
+      }), _jsx(_components.br, {}), "\n", "关键业绩指标。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "11. GMV（Gross Merchandise Volume）"
+      }), _jsx(_components.br, {}), "\n", "（一段时间内）成交总额。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "12. SKU（Stock Keeping Unit）"
+      }), _jsx(_components.br, {}), "\n", "库存量单位，即库存进出计量的单位。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "13. Long Tail Keyword"
+      }), _jsx(_components.br, {}), "\n", "长尾关键词，非目标关键词但也可以带来搜索流量的关键词。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "14. MVP（Minimum Viable Product）"
+      }), _jsx(_components.br, {}), "\n", "最简化可实行产品。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "角色职能术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "15. SP（Service Provider）"
+      }), _jsx(_components.br, {}), "\n", "服务提供商。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "16. CP（Content Provider）"
+      }), _jsx(_components.br, {}), "\n", "内容提供商。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "17. BD（Business Development）"
+      }), _jsx(_components.br, {}), "\n", "商务拓展。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "18. UE/UX（User Experience）"
+      }), _jsx(_components.br, {}), "\n", "用户体验。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "营销传播术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "19. EDM（Email Direct Marketing）"
+      }), _jsx(_components.br, {}), "\n", "电子邮件营销。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "20. SNS（Social Networking Services）"
+      }), _jsx(_components.br, {}), "\n", "社交网络服务。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "内容生产术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "21. UGC（User Generated Content）"
+      }), _jsx(_components.br, {}), "\n", "用户生成内容。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "22. PGC（Professional Generated Content）"
+      }), _jsx(_components.br, {}), "\n", "专业生产内容。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "23. OGC（Occupationally-generated Content）"
+      }), _jsx(_components.br, {}), "\n", "职业生产内容。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "24. KOL（Key Opinion Leader）"
+      }), _jsx(_components.br, {}), "\n", "掌握话语权的那些人。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "基础设施术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "25. ISP（Internet Service Provider）"
+      }), _jsx(_components.br, {}), "\n", "互联网服务提供商，即向广大用户综合提供互联网接入业务、信息业务、和增值业务的电信运营商。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "26. ERP（Enterprise Resource Planning）"
+      }), _jsx(_components.br, {}), "\n", "企业资源计划。"]
+    }), "\n", _jsx(_components.h2, {
+      children: "广告推广专业术语解释"
+    }), "\n", _jsx(_components.h3, {
+      children: "广告平台术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. Ad Network"
+      }), _jsx(_components.br, {}), "\n", "广告平台/广告网络。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. Ad Exchange"
+      }), _jsx(_components.br, {}), "\n", "广告交易平台：广告交易平台是一个技术平台，在众多的广告网络提供的流量的基础上进行竞价买卖。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. RTB（Real Time Bidding）"
+      }), _jsx(_components.br, {}), "\n", "实时竞价：与传统的PPC广告、CPM广告、CPC广告、Monthly Flat、Daily Flat等相比，RTB就是在每个广告展示曝光的基础上进行竞价。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. DSP（Demand Side Platform）"
+      }), _jsx(_components.br, {}), "\n", "广告主需求方：为广告主提供跨竞价市场、跨平台、跨终端的程序化广告投放平台，通过数据整合、分析实现基于受众的精准投放。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. DMP（Data-Management Platform）"
+      }), _jsx(_components.br, {}), "\n", "数据管理平台：数据管理平台能够帮助所有涉及广告库存购买和出售的各方管理其数据、更方便地使用第三方数据、增强他们对所有这些数据的理解、传回数据或将定制数据传入某一平台，以进行更好地定位。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "购买模式术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "6. 程序化购买（Programmatic Buying）"
+      }), _jsx(_components.br, {}), "\n", "指的是通过数字平台，代表广告主，自动地执行广告媒体购买的流程。与之相对的是传统的人力购买的方式。程序化购买的实现通常依赖于需求方平台DSP和广告交易平台Ad Exchange。它包括RTB实时竞价模式和non-RTB非实时竞价模式。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "7. PMP（Private Market Place）"
+      }), _jsx(_components.br, {}), "\n", "私有交易市场：它是将传统的私有交易方式与程序化广告的工作方式相结合的新互联网广告交易形式。广告主预先采购或者预订广告位，获取优质流量，再用程序化的方式来管理这些流量的广告投放，让受众只看到自己想看的广告。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "8. PDB（Programmatic Direct Buy）"
+      }), _jsx(_components.br, {}), "\n", "私有程序化购买：广告主通过PDB私有采买媒体后，就可以通过DSP进行投放，当然PDB也不是谁都合适，本身体量及市场都比较大的品牌可能更为适合PDB的方式。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "资源类型术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "9. 溢价资源（Premium Inventory）"
+      }), _jsx(_components.br, {}), "\n", "像各个门户的第一版的新闻页面，是各个广告主争抢的主要位置。如新浪微博的首页banner。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "10. 冗余资源（Remnant Inventory）"
+      }), _jsx(_components.br, {}), "\n", "长尾的流量很小的页面上的广告位，如某小游戏网站点击深入某个页面之后的一个广告位。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "广告形式术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "11. Banner"
+      }), _jsx(_components.br, {}), "\n", "横幅图片模式"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "12. Interstitial"
+      }), _jsx(_components.br, {}), "\n", "插屏广告"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "13. Button"
+      }), _jsx(_components.br, {}), "\n", "图标广告"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "14. Native Ads（Native Advertising）"
+      }), _jsx(_components.br, {}), "\n", "原生广告"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "15. Rich Media"
+      }), _jsx(_components.br, {}), "\n", "富媒体：这种应用采取了所有适合的最先进技术，以最好的传达广告主的信息，甚至与用户进行互动！如视频、flash广告等。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "16. 植入式广告"
+      }), _jsx(_components.br, {}), "\n", "在电影或电视剧或者其它场景插入相关的广告。如变形金刚、非诚勿扰等。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "特定平台术语"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "17. AdWords"
+      }), _jsx(_components.br, {}), "\n", "Google的关键词竞价广告。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "18. PR推广"
+      }), _jsx(_components.br, {}), "\n", "软文推广。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "19. Advertorial"
+      }), _jsx(_components.br, {}), "\n", "软文广告的一种，即付费文章，故意设计成像一篇普通的文章。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "20. Banner Ad"
+      }), _jsx(_components.br, {}), "\n", "横幅广告，网页顶部、底部或者侧边的广告展示位置。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "21. DSP展示广告"
+      }), _jsx(_components.br, {}), "\n", "是Demand-Side Platform的缩写，即需求方平台。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "22. POP（Point Of Purchase）"
+      }), _jsx(_components.br, {}), "\n", "意为\"卖点广告\"，又名\"店头陈设\"。本来是指商业销售中的一种店头促销工具，其型式不拘，但以摆设在店头的展示物为主，如吊牌、海报、小贴纸、纸货架、展示架、纸堆头、大招牌、实物模型、旗帜等等，都是林立在POP的范围"]
+    }), "\n", _jsx(_components.h2, {
+      children: "APP推广形式"
+    }), "\n", _jsx(_components.h3, {
+      children: "安卓渠道"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. Google Play"
+      }), _jsx(_components.br, {}), "\n", "谷歌官方电子市场：因谷歌在国内受到限制，用户很少，但在国外Google Play是主流的渠道。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. 第三方电子市场"
+      }), _jsx(_components.br, {}), "\n", "如：91手机助手，360手机助手，腾讯应用宝，百度手机助手，豌豆荚等。用户质量高，数量大。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. 手机厂商"
+      }), _jsx(_components.br, {}), "\n", "包括小米商店，华为智汇云，OPPO FindMe，联想乐商店等。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. 运营商"
+      }), _jsx(_components.br, {}), "\n", "包括联通沃商店、移动MM商场、电信天翼空间。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. 搜索类"
+      }), _jsx(_components.br, {}), "\n", "百度、360、搜狗、神马等。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "iOS渠道"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. 苹果官方App Store"
+      }), _jsx(_components.br, {}), "\n", "对IOS来说，appstore下载量占比超过80%。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. 各种限时免费推荐应用"
+      }), _jsx(_components.br, {}), "\n", "如搞趣网、限时免费大全、苹果园、金山电池医生等。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. 各种越狱渠道"
+      }), _jsx(_components.br, {}), "\n", "如PP助手、91手机助手、快用苹果助手等。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. 各种苹果APP推荐应用"
+      }), _jsx(_components.br, {}), "\n", "包括超级APP如墨迹天气、美图秀秀等。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. iMessage推送"
+      }), _jsx(_components.br, {}), "\n", "即推送到iPhone用户的iMessage信息中，包含了跳转到App Store的产品链接。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "6. 刷榜"
+      }), _jsx(_components.br, {}), "\n", "iOS生态里独有的推广方式，但受到苹果打压。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "其他推广方式"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. 广告联盟"
+      }), _jsx(_components.br, {}), "\n", "主要的广告平台包括多盟、有米、万普、点入、力美、安沃、艾德思齐、易积分、米迪、磨盘、巨朋、快友、趣米、触控、勤诚等。广告平台的主要合作方式有CPA和CPC。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. 换量/交叉推广"
+      }), _jsx(_components.br, {}), "\n", "在大部分APP和手游里，都会有类似应用推荐这种模块，这个模块的功能就是换量，甲产品给乙产品导入一定数量的用户，乙产品也会导入相同数量的用户给甲产品。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. 厂商预装/刷机"
+      }), _jsx(_components.br, {}), "\n", "厂商预装是由手机厂商预装APP到其手机中，而刷机则是将APP预装到已有的手机中。这两种方式用户质量有差异，但需要注意市场混乱。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. 社交化推广"
+      }), _jsx(_components.br, {}), "\n", "利用社交媒体如微博和微信等社会化营销渠道推广APP，近年来取得了不少成功案例。"]
+    }), "\n", _jsx(_components.h2, {
+      children: "移动推广关键指标"
+    }), "\n", _jsx(_components.h3, {
+      children: "搜索优化指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. ASO指数"
+      }), _jsx(_components.br, {}), "\n", "概念：针对应用对于苹果商店的搜索评估值，结合可见搜索词汇，搜索热度，搜索权重，搜索排名以及多个算法交叉计算的结果。", _jsx(_components.br, {}), "\n", "作用：通过搜索频次，搜索下载激活转化率，卸载率，关键词覆盖数及排名，评论等因素，来呈现App在AppStore的受欢迎程度；", _jsx(_components.br, {}), "\n", "优化方式：关键词覆盖，刷榜，积分墙，刷评论；"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. 苹果权重（iAR）"
+      }), _jsx(_components.br, {}), "\n", "概念：苹果对每个App都有权重评级（类似谷歌的Page Rank），iAR值范围从0~10，最低0，最高10；App的苹果权重越高，所获得的ASO排名整体表现也越好；", _jsx(_components.br, {}), "\n", "影响因素：包括搜索排名、搜索联想排序等，把下载量评级、评论、版本更新情况等等综合起来，得出iAR值；"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. 关键词覆盖指数KCN（Keywords Covering Number）"
+      }), _jsx(_components.br, {}), "\n", "概念：即关键词有效覆盖情况；", _jsx(_components.br, {}), "\n", "作用：覆盖越广，展现的机会也就越大；也是关键词优化的第一步；其次是提升覆盖出来的关键词排名；"]
+    }), "\n", _jsx(_components.h3, {
+      children: "流量转化指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. 排重点击"
+      }), _jsx(_components.br, {}), "\n", "概念：时段内，基于 Cookie 的排重处理后的点击短链的次数；", _jsx(_components.br, {}), "\n", "作用：排重点击是基于 IP + Cookie 的排重处理后的点击，能够有效防止渠道点击作弊，对同一 IP 的多次点击，在自定义时间内，计为一次；"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. 激活"
+      }), _jsx(_components.br, {}), "\n", "概念：时段内，在数据设定回溯期外并符合数据匹配逻辑，用户安装应用并首次启动应用的行为数统计。", _jsx(_components.br, {}), "\n", "作用：直观的监控由不同渠道、平台带来的激活量。", _jsx(_components.br, {}), "\n", "防作弊机制：同一设备的多次激活，计为一次，以防止渠道作弊。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "6. 激活转化率"
+      }), _jsx(_components.br, {}), "\n", "概念：在时段内，从排重点击到激活的转化率。激活数 / 排重点击数；", _jsx(_components.br, {}), "\n", "作用：普遍的 CPA 结算指标，有效的评判渠道用户质量的数据指标。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "7. 自然激活"
+      }), _jsx(_components.br, {}), "\n", "概念：时段内，未能匹配到推广渠道的激活数。", _jsx(_components.br, {}), "\n", "作用：产品自然带量的能力如何，评估推广期可带来的自然增长效果。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "成本效益指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "8. 每日激活成本"
+      }), _jsx(_components.br, {}), "\n", "概念：在时段内，通过花费的推广成本和激活数，计算出每单个激活的成本。", _jsx(_components.br, {}), "\n", "计算方法：成本花费 / 激活数（不包括推广期外的激活和自然激活）", _jsx(_components.br, {}), "\n", "作用：直观的计算每一次投放的激活成本，更好的评估投放的成本价值，便于管理和控制。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "9. 收入"
+      }), _jsx(_components.br, {}), "\n", "概念：在集成付费事件的应用中，对应用内的付费收入进行统计。", _jsx(_components.br, {}), "\n", "作用：直观的统计产品推广带回来的收入。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "10. KPI（Key Performance Indicator）"
+      }), _jsx(_components.br, {}), "\n", "关键绩效指标，是通过对组织内部流程的输入端、输出端的关键参数进行设置、取样、计算、分析，衡量流程绩效的一种目标式量化管理指标，是把企业的战略目标分解为可操作的工作目标的工具，是企业绩效管理的基础。建立明确的切实可行的KPI体系，是做好绩效管理的关键。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "11. ROI（Return On Investment）"
+      }), _jsx(_components.br, {}), "\n", "概念：分渠道推广费用和产品收入的比例，即投资回报率；", _jsx(_components.br, {}), "\n", "计算方式：收入 / 成本花费（收入不包括自然激活收入）。", _jsx(_components.br, {}), "\n", "作用：有效的评估渠道带收入的能力。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "12. ARPU值（Average Revenue Per User）"
+      }), _jsx(_components.br, {}), "\n", "用户平均收入：Arpu值并不反映利润情况，只反映收入情况。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "用户留存指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "13. 次日留存/7日留存/30日留存"
+      }), _jsx(_components.br, {}), "\n", "概念：某日新增用户中，在该日后的下一日/第7日/第30日还进行了应用启动的用户的比例。", _jsx(_components.br, {}), "\n", "作用：评估渠道所带来的用户粘性、用户质量，同时可以间接的判断该渠道是否有作弊行为。每次推广的用户留存情况，也是评估一次推广质量的因素。目前各大推广渠道所覆盖的人群有所不同，可能会出现同一款应用在不同的渠道的留存不一样，通过用户留存的数据可以帮助你更好的找出更合适你应用的渠道。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "活跃度指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "14. DAU/WAU/MAU（Daily/Weekly/Monthly Active Users）"
+      }), _jsx(_components.br, {}), "\n", "概念：当日有开启过产品的用户/当日的最近一周（含当日的倒推7日）活跃用户。/当日的最近一月（含当日的倒退30日）活跃用户。"]
+    }), "\n", _jsx(_components.p, {
+      children: "作用：判断渠道活跃用户的生存周期，产品的用户粘性，以及各个渠道与产品的匹配度，是否适合推广这个类型的产品。如果某次的推广新增用户量很高，但是活跃度过低，过滤应用本身的问题，那么最大的可能就是此次推广所在的渠道覆盖的人群为非应用目标人群。"
+    }), "\n", _jsx(_components.h3, {
+      children: "用户分析指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "15. 地区分布"
+      }), _jsx(_components.br, {}), "\n", "概念：查看\"排重点击\"、\"新增激活\"、\"活跃用户\"的地区分布情况，了解各个地区的推广效果。"]
+    }), "\n", _jsx(_components.p, {
+      children: "作用：可以了解推广渠道是否按照投放策略来进行投放；观测推广渠道在哪些地区覆盖机群有所侧重；可根据渠道支持的地域情况，调整推广策略。"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "16. 设备分布"
+      }), _jsx(_components.br, {}), "\n", "概念：设备是推广活动中一个比较重要的参照指标，设备的属性从某些角度可以反映出应用用户群体的属性；"]
+    }), "\n", _jsx(_components.p, {
+      children: "作用：我们在推广时首先需要弄清楚的就是你的应用所需要覆盖的人群是哪一类，是高端的用户群体，还是中端用户群体，然后有所针对的进行投放；另外从设备的分布情况也可以逆向看出是什么样的人群对你的应用有兴趣；是否和预期的人群定位符合；"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "17. 系统分布"
+      }), _jsx(_components.br, {}), "\n", "概念：指标在对应的系统的分布情况"]
+    }), "\n", _jsx(_components.p, {
+      children: "作用：可以了解推广所覆盖的人群的属性；如果您在推广时选择了按系统过滤的策略，可以了解推广渠道是否按照需求来进行投放；"
+    }), "\n", _jsx(_components.h3, {
+      children: "特殊指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "18. 二次激活"
+      }), _jsx(_components.br, {}), "\n", "概念：曾经有过激活行为的设备，第二次及以上安装激活的设备数。"]
+    }), "\n", _jsx(_components.p, {
+      children: "作用：推广中，有效的区分新老用户数，监测渠道用户和自身产品用户的重复度，版本更新对休眠用户的影响力，当然也一定程度的会监控渠道作弊的行为，如果频繁多次激活，可能是渠道作弊。"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "19. 追踪点事件"
+      }), _jsx(_components.br, {}), "\n", "概念：从激活到达成某效果点的设备数，包括注册、登陆、注销等等事件。", _jsx(_components.br, {}), "\n", "作用：深入的追踪用户行为，更好的分析各渠道带来的用户质量。"]
+    }), "\n", _jsx(_components.h2, {
+      children: "APP运营模式名词解释"
+    }), "\n", _jsx(_components.h3, {
+      children: "AARRR模型"
+    }), "\n", _jsx(_components.p, {
+      children: "AARRR模型包括5个重要环节："
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. 获取用户（Acquisition）"
+      }), _jsx(_components.br, {}), "\n", "第一步是获取用户，通常关注的数据是下载量和激活量（即新增用户数量）。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. 提高活跃度（Activation）"
+      }), _jsx(_components.br, {}), "\n", "重要因素包括推广渠道的质量和产品本身在最初使用的几十秒钟内的表现。", _jsx(_components.br, {}), "\n", "关注数据：DAU（日活跃用户）、MAU（月活跃用户）、每次启动平均使用时长和每个用户每日平均启动次数。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. 提高留存率（Retention）"
+      }), _jsx(_components.br, {}), "\n", "解决用户流失问题，关注日留存率、周留存率、月留存率等指标。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. 获取收入（Revenue）"
+      }), _jsx(_components.br, {}), "\n", "收入来源包括付费应用、应用内付费、广告。", _jsx(_components.br, {}), "\n", "关注数据：ARPU（平均每用户每月收入）。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. 自传播（Refer）"
+      }), _jsx(_components.br, {}), "\n", "基于社交网络的病毒式传播，成本低且效果可能非常好。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "用户获取指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "1. DNU（Daily New Users）"
+      }), _jsx(_components.br, {}), "\n", "每日激活/注册的用户数。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "2. CAC（Customer Acquisition Cost）"
+      }), _jsx(_components.br, {}), "\n", "用户获取成本。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "3. CPC（Cost Per Customer）"
+      }), _jsx(_components.br, {}), "\n", "用户获取成本 = 推广成本/有效新增用户。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "4. CR（Conversions Rates）"
+      }), _jsx(_components.br, {}), "\n", "注册转化率 = 最终注册成为用户/访问了某种渠道的总人数。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "活跃度指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "5. DAU（Daily Active Users）"
+      }), _jsx(_components.br, {}), "\n", "日活跃用户数。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "6. WAU（Weekly Active Users）"
+      }), _jsx(_components.br, {}), "\n", "周活跃用户数。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "7. MAU（Monthly Active Users）"
+      }), _jsx(_components.br, {}), "\n", "月活跃用户数。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "8. DEC（Daily Engagement Count）"
+      }), _jsx(_components.br, {}), "\n", "日参与次数，多用于游戏。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "9. DAOT/AT（Daily Avg. Online Time）"
+      }), _jsx(_components.br, {}), "\n", "活跃用户平均每日在线时长 = 日总在线时长/日活跃用户数。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "用户留存和流失"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "10. Users Retention"
+      }), _jsx(_components.br, {}), "\n", "用户留存：统计时间区间内，新增用户在随后不同时期的启动使用情况。Day 1/3/7/30 Retention Ratio次日/三日/七日/月留存率，日新增用户在次日/第三日/第七日/第三十日（不含首次启动当天）启动的用户数占新增用户比例。留存率需要进行长期跟踪，根据需要可设定30日、60日或者90日。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "11. Users Churn"
+      }), _jsx(_components.br, {}), "\n", "用户流失：统计时间区间内，用户在不同时期离开产品的情况。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "12. Day 1 Churn Ratio"
+      }), _jsx(_components.br, {}), "\n", "日流失率：统计日使用产品，但随后七日未使用的用户占统计日活跃用户比例，此定义按需求可延长观测长度。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "13. Day 7 Churn Ratio"
+      }), _jsx(_components.br, {}), "\n", "周流失率：上周使用过，但本周未使用的用户占上周周活跃用户比例。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "14. Day 30 Churn Ratio"
+      }), _jsx(_components.br, {}), "\n", "月流失率：上个月使用过产品，但本月未使用的用户占上个月月活跃用户比例。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "付费相关指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "15. MPR（Monthly Payment Ratio）"
+      }), _jsx(_components.br, {}), "\n", "月付费率：统计时间区间内，付费用户占活跃用户的比例。一般以月计。计算公式：MPR=APA/MAU 其中APA为月付费用户数"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "16. APA（Active Payment Account）"
+      }), _jsx(_components.br, {}), "\n", "活跃付费用户数：统计时间区间内，成功付费的用户数。一般以月计。如果按月进行计算，则有以下关系：APA=MAU*MPR其中MAU为月活跃用户数，MPR为月付费率。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "17. ARPU（Average Revenue per Users）"
+      }), _jsx(_components.br, {}), "\n", "平均每用户收入：统计时间区间内，活跃用户对产品产生的平均收入。一般以月计。", _jsx(_components.br, {}), "\n", "ARPU=收益/用户数 月ARPU=收益/MAU", _jsx(_components.br, {}), "\n", "计算方式：产品总收入除以产品的总活跃用户数，一般按照月来计算，即ARPU=月总收入/月活跃用户数（MAU）"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "18. ARPPU（Average Revenue per Paying User）"
+      }), _jsx(_components.br, {}), "\n", "平均每付费用户收入：统计时间区间内，付费用户对产品贡献的平均收入。一般以月计。", _jsx(_components.br, {}), "\n", "ARPPU=收益/付费用户数"]
+    }), "\n", _jsx(_components.h3, {
+      children: "生命周期指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "19. Life Time"
+      }), _jsx(_components.br, {}), "\n", "生命周期：一个用户从第一次参与游戏，到最后一次参与游戏之间的时间，一般计算平均值。"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "20. LTV（Life Time Value）"
+      }), _jsx(_components.br, {}), "\n", "生命周期价值：用户在生命周期内为该游戏创造的收入总计。可以看成是一个长期累计的ARPU值。", _jsx(_components.br, {}), "\n", "计算方式：对每个用户的平均LTV计算如下：LTV=ARPU", _jsxs(_components.em, {
+        children: ["LT（按月计平均生命周期） 其中LT为Life Time，即生命周期，按照月统计，也就是玩家留存在游戏中的平均月的数量。", _jsx(_components.br, {}), "\n", "例如，一款产品的ARPU=2元，LT=5，那么LTV=2"]
+      }), "5=10元。"]
+    }), "\n", _jsx(_components.h3, {
+      children: "同时在线指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "21. PCU（Peak Concurrent Users）"
+      }), _jsx(_components.br, {}), "\n", "最高同时在线用户人数"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "22. ACU（Average Concurrent Users）"
+      }), _jsx(_components.br, {}), "\n", "平均同时在线用户人数"]
+    }), "\n", _jsx(_components.h3, {
+      children: "转化和传播指标"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "23. New Users Conversion Rate"
+      }), _jsx(_components.br, {}), "\n", "新用户转化率：可根据渠道进行划分，Clicks->Install->Register->Login"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "24. K-Factor"
+      }), _jsx(_components.br, {}), "\n", "K因子：K-Factor=感染率*转化率", _jsx(_components.br, {}), "\n", "转化率：当感染后转化为新用户的比率。", _jsx(_components.br, {}), "\n", "感染率：每个用户发送的邀请数量，一般取平均值。", _jsx(_components.br, {}), "\n", "若K>1，产品用户群通过自传播增长较快；若K<1，产品用户群到达一定规模后就会停止通过自传播增长。"]
+    }), "\n", _jsx(_components.h2, {
+      children: "总结"
+    }), "\n", _jsx(_components.p, {
+      children: "掌握这些互联网术语是做产品开发和运营的基础。建议："
+    }), "\n", _jsxs(_components.ol, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "系统学习"
+        }), "：不要急于求成，按分类逐步掌握"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "实践应用"
+        }), "：在实际工作中多使用这些术语"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "持续更新"
+        }), "：互联网行业发展快速，要及时学习新术语"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "深入理解"
+        }), "：不仅要知道术语含义，更要理解背后的业务逻辑"]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: "这些术语将帮助你更好地理解互联网产品的整个生命周期，从开发到运营，从获客到变现的全过程。"
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = props.components || ({});
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return { default: MDXContent };3:[["$","html",null,{"lang":"zh-CN","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.loli.net"}],["$","link",null,{"rel":"preconnect","href":"https://gstatic.loli.net","crossOrigin":""}],["$","link",null,{"href":"https://fonts.loli.net/css2?family=Inter:wght@400;500;700;900&family=Noto+Sans+SC:wght@400;500;700;900&display=swap","rel":"stylesheet"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#fff"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/feed.xml"}]]}],["$","body",null,{"className":"bg-white/90 text-black antialiased dark:bg-[#1B1B1B] dark:text-white transition-colors duration-200","children":["$","$L5",null,{"children":["$","section",null,{"className":"mx-auto max-w-6xl px-3 md:px-4 xl:px-0","children":["$","div",null,{"className":"flex h-screen flex-col justify-between font-sans","children":[["$","$L6",null,{"kbarConfig":{"searchDocumentsPath":"search.json"},"children":[["$","$L7",null,{}],["$","$L8",null,{}],["$","main",null,{"className":"mb-auto","children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":["$","div",null,{"className":"flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6","children":[["$","div",null,{"className":"space-x-2 pb-8 pt-6 md:space-y-5","children":["$","h1",null,{"className":"text-6xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 md:border-r-2 md:px-6 md:text-8xl md:leading-14","children":"404"}]}],["$","div",null,{"className":"max-w-md","children":[["$","p",null,{"className":"mb-4 text-xl font-bold leading-normal md:text-2xl","children":"Sorry we couldn't find this page."}],["$","p",null,{"className":"mb-8","children":"But dont worry, you can find plenty of other things on our homepage."}],["$","$Lb",null,{"href":"/","className":"focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm font-medium leading-5 text-white shadow transition-colors duration-150 hover:bg-blue-700 focus:outline-none dark:hover:bg-blue-500","children":"Back to homepage"}]]}]]}],"notFoundStyles":[],"childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","docs","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","docs","children",["slug","01-development-preparation/1.9-internet-terminology","oc"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":[["$","$Lc",null,{"docsForSidebar":[{"slug":"01-development-preparation/1.0-development-preparation-overview","title":"1.0 开发前期准备","order":1,"url":"/docs/01-development-preparation/1.0-development-preparation-overview"},{"slug":"01-development-preparation/1.1-device-purchasing-guide","title":"1.1 开发设备选购指南","order":2,"url":"/docs/01-development-preparation/1.1-device-purchasing-guide"},{"slug":"01-development-preparation/1.2-essential-accounts","title":"1.2 必备开发账号注册","order":3,"url":"/docs/01-development-preparation/1.2-essential-accounts"},{"slug":"01-development-preparation/1.3-essential-software-list","title":"1.3 必备软件清单","order":4,"url":"/docs/01-development-preparation/1.3-essential-software-list"},{"slug":"01-development-preparation/1.4-browser-extensions","title":"1.4 浏览器插件推荐","order":5,"url":"/docs/01-development-preparation/1.4-browser-extensions"},{"slug":"01-development-preparation/1.5-translation-tools-guide","title":"1.5 翻译工具使用指南","order":6,"url":"/docs/01-development-preparation/1.5-translation-tools-guide"},{"slug":"01-development-preparation/1.6-development-environment-setup","title":"1.6 开发环境配置指南","order":7,"url":"/docs/01-development-preparation/1.6-development-environment-setup"},{"slug":"01-development-preparation/1.7-mac-practical-tutorial","title":"1.7 Mac 实用教程","order":8,"url":"/docs/01-development-preparation/1.7-mac-practical-tutorial"},{"slug":"01-development-preparation/1.8-information-search-skills","title":"1.8 信息搜索实操秘技","order":9,"url":"/docs/01-development-preparation/1.8-information-search-skills"},{"slug":"01-development-preparation/1.9-internet-terminology","title":"1.9 互联网常见术语解释","order":10,"url":"/docs/01-development-preparation/1.9-internet-terminology"},{"slug":"02-ai-tools/2.0-software-tools-tutorial","title":"2.0  软件工具教程","order":6,"url":"/docs/02-ai-tools/2.0-software-tools-tutorial"},{"slug":"02-ai-tools/2.1-raycast-efficiency-launcher","title":"2.1 Raycast: 效率启动器","order":7,"url":"/docs/02-ai-tools/2.1-raycast-efficiency-launcher"},{"slug":"02-ai-tools/2.2-github-desktop","title":"2.2 GitHub Desktop","order":8,"url":"/docs/02-ai-tools/2.2-github-desktop"},{"slug":"02-ai-tools/2.3-figma-ui-design","title":"2.3 Figma: UI设计","order":9,"url":"/docs/02-ai-tools/2.3-figma-ui-design"},{"slug":"02-ai-tools/2.4-glarity-ai-assistant","title":"2.4 Glarity: AI助手","order":10,"url":"/docs/02-ai-tools/2.4-glarity-ai-assistant"},{"slug":"02-ai-tools/2.5-sitesucker-website-download","title":"2.5 SiteSucker: 网站下载","order":11,"url":"/docs/02-ai-tools/2.5-sitesucker-website-download"},{"slug":"02-ai-tools/2.6-easyscraper-web-scraping","title":"2.6 Easy Scraper: 网页采集","order":12,"url":"/docs/02-ai-tools/2.6-easyscraper-web-scraping"},{"slug":"02-ai-tools/2.7-lighthouse-performance-testing","title":"2.7 Lighthouse: 性能检测","order":13,"url":"/docs/02-ai-tools/2.7-lighthouse-performance-testing"},{"slug":"03-programming-basics/3.1-cursor-development-cases","title":"3.1 Cursor开发案例","order":17,"url":"/docs/03-programming-basics/3.1-cursor-development-cases"},{"slug":"03-programming-basics/3.2-cursor-installation-configuration","title":"3.2 Cursor安装和配置","order":18,"url":"/docs/03-programming-basics/3.2-cursor-installation-configuration"},{"slug":"03-programming-basics/3.3-cursor-rules","title":"3.3 Cursor Rules","order":19,"url":"/docs/03-programming-basics/3.3-cursor-rules"},{"slug":"03-programming-basics/3.4-cursor-ai-chat","title":"3.4 Cursor AI 对话(Chat)","order":20,"url":"/docs/03-programming-basics/3.4-cursor-ai-chat"},{"slug":"03-programming-basics/3.5-cursor-code-completion","title":"3.5 Cursor代码补全(Tab)","order":21,"url":"/docs/03-programming-basics/3.5-cursor-code-completion"},{"slug":"03-programming-basics/3.6-cursor-ai-agent","title":"3.6 Cursor AI Agent(⌘ I)","order":22,"url":"/docs/03-programming-basics/3.6-cursor-ai-agent"},{"slug":"03-programming-basics/3.7-cursor-command-palette","title":"3.7 Cursor 命令面板(⌘ K)","order":23,"url":"/docs/03-programming-basics/3.7-cursor-command-palette"},{"slug":"03-programming-basics/3.8-cursor-development-examples","title":"3.8 Cursor 开发案例","order":24,"url":"/docs/03-programming-basics/3.8-cursor-development-examples"},{"slug":"04-advanced-techniques/4.0-advanced-prompt-engineering","title":"4.0 全栈开发指南-概览","order":25,"url":"/docs/04-advanced-techniques/4.0-advanced-prompt-engineering"},{"slug":"04-advanced-techniques/4.1-large-project-architecture","title":"4.1 网站类型","order":26,"url":"/docs/04-advanced-techniques/4.1-large-project-architecture"},{"slug":"04-advanced-techniques/4.10-api-design-integration","title":"4.10 API 开发实战教程","order":36,"url":"/docs/04-advanced-techniques/4.10-api-design-integration"},{"slug":"04-advanced-techniques/4.11-ai-driven-automated-testing","title":"4.11 免费 API 资源","order":37,"url":"/docs/04-advanced-techniques/4.11-ai-driven-automated-testing"},{"slug":"04-advanced-techniques/4.12-cloud-native-development","title":"4.12 域名购买与管理","order":38,"url":"/docs/04-advanced-techniques/4.12-cloud-native-development"},{"slug":"04-advanced-techniques/4.13-machine-learning-integration","title":"4.13 Cloudflare 教程","order":39,"url":"/docs/04-advanced-techniques/4.13-machine-learning-integration"},{"slug":"04-advanced-techniques/4.14-real-time-data-processing","title":"4.14 gh-pages静态网站托管","order":40,"url":"/docs/04-advanced-techniques/4.14-real-time-data-processing"},{"slug":"04-advanced-techniques/4.15-scalable-system-design","title":"4.15 Vercel 部署指南","order":41,"url":"/docs/04-advanced-techniques/4.15-scalable-system-design"},{"slug":"04-advanced-techniques/4.16-internationalization-localization","title":"4.16 企业邮箱教程","order":42,"url":"/docs/04-advanced-techniques/4.16-internationalization-localization"},{"slug":"04-advanced-techniques/4.17-technical-debt-management","title":"4.17 网站数据分析工具","order":43,"url":"/docs/04-advanced-techniques/4.17-technical-debt-management"},{"slug":"04-advanced-techniques/4.2-advanced-code-generation","title":"4.2 网站基础 HTML/CSS/JS","order":27,"url":"/docs/04-advanced-techniques/4.2-advanced-code-generation"},{"slug":"04-advanced-techniques/4.3-fullstack-development","title":"4.3 Tailwind CSS 样式指南","order":28,"url":"/docs/04-advanced-techniques/4.3-fullstack-development"},{"slug":"04-advanced-techniques/4.4-complex-algorithm-implementation","title":"4.4 Markdown 使用指南","order":29,"url":"/docs/04-advanced-techniques/4.4-complex-algorithm-implementation"},{"slug":"04-advanced-techniques/4.5-team-collaboration-skills","title":"4.5 Git & GitHub 使用指南","order":30,"url":"/docs/04-advanced-techniques/4.5-team-collaboration-skills"},{"slug":"04-advanced-techniques/4.6-performance-optimization","title":"4.6 命令行终端基础","order":32,"url":"/docs/04-advanced-techniques/4.6-performance-optimization"},{"slug":"04-advanced-techniques/4.7-secure-coding-practices","title":"4.7 Next.js 开发指南","order":33,"url":"/docs/04-advanced-techniques/4.7-secure-coding-practices"},{"slug":"04-advanced-techniques/4.8-devops-integration","title":"4.8 shadcn/ui 组件教程","order":34,"url":"/docs/04-advanced-techniques/4.8-devops-integration"},{"slug":"04-advanced-techniques/4.9-cross-platform-development","title":"4.9 数据库使用指南","order":35,"url":"/docs/04-advanced-techniques/4.9-cross-platform-development"},{"slug":"05-project-practice/5.0-ai-programming-practice-overview","title":"5.0 实战项目开发-概览","order":36,"url":"/docs/05-project-practice/5.0-ai-programming-practice-overview"},{"slug":"05-project-practice/5.1-personal-blog-development","title":"5.1 项目初始化配置","order":37,"url":"/docs/05-project-practice/5.1-personal-blog-development"},{"slug":"05-project-practice/5.10-wechat-mini-program-development","title":"5.10 产品营销推广","order":46,"url":"/docs/05-project-practice/5.10-wechat-mini-program-development"},{"slug":"05-project-practice/5.2-ecommerce-website-development","title":"5.2 域名与邮箱配置","order":38,"url":"/docs/05-project-practice/5.2-ecommerce-website-development"},{"slug":"05-project-practice/5.3-social-app-development","title":"5.3 产品需求文档规范","order":39,"url":"/docs/05-project-practice/5.3-social-app-development"},{"slug":"05-project-practice/5.4-office-collaboration-tools","title":"5.4 落地页面开发教程","order":40,"url":"/docs/05-project-practice/5.4-office-collaboration-tools"},{"slug":"05-project-practice/5.5-data-visualization-platform","title":"5.5 Stripe支付集成指南","order":41,"url":"/docs/05-project-practice/5.5-data-visualization-platform"},{"slug":"05-project-practice/5.6-mobile-app-development","title":"5.6 核心功能实现指南","order":42,"url":"/docs/05-project-practice/5.6-mobile-app-development"},{"slug":"05-project-practice/5.7-ai-assistant-development","title":"5.7 SEO优化策略","order":43,"url":"/docs/05-project-practice/5.7-ai-assistant-development"},{"slug":"05-project-practice/5.8-game-development-practice","title":"5.8 项目部署流程","order":44,"url":"/docs/05-project-practice/5.8-game-development-practice"},{"slug":"05-project-practice/5.9-saas-platform-development","title":"5.9 域名配置教程","order":45,"url":"/docs/05-project-practice/5.9-saas-platform-development"}],"currentDoc":{"type":"Doc","_id":"docs/01-development-preparation/1.9-internet-terminology","title":"1.9 互联网常见术语解释","description":"移动互联网开发和运营中的核心术语详解","order":10,"slug":"01-development-preparation/1.9-internet-terminology","url":"/docs/01-development-preparation/1.9-internet-terminology","filePath":"/home/runner/work/blog/blog/data/docs/01-development-preparation/1.9-internet-terminology.mdx","toc":[],"_raw":{"sourceFilePath":"/home/runner/work/blog/blog/data/docs/01-development-preparation/1.9-internet-terminology.mdx","sourceFileName":"1.9-internet-terminology.mdx","sourceFileDir":"/home/runner/work/blog/blog/data/docs/01-development-preparation","contentType":"mdx","flattenedPath":"docs/01-development-preparation/1.9-internet-terminology"},"body":{"raw":"$d","code":"$e","compiled":"$f"}},"slug":"01-development-preparation/1.9-internet-terminology"}],null],"segment":"__PAGE__?{\"slug\":[\"01-development-preparation\",\"1.9-internet-terminology\"]}"},"styles":[]}],"segment":["slug","01-development-preparation/1.9-internet-terminology","oc"]},"styles":[]}],"segment":"docs"},"styles":[]}]}],["$","$L10",null,{}]]}],["$","footer",null,{"children":["$","div",null,{"className":"mt-16 flex flex-col items-center","children":[["$","div",null,{"className":"mb-3 flex space-x-4","children":[["$","$Lb",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"mailto:zhangyuliang945@gmail.com","children":[["$","span",null,{"className":"sr-only","children":"mail"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"52 42 88 66","className":"fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","path",null,{"fill":"#4285f4","d":"M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"}],["$","path",null,{"fill":"#34a853","d":"M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"}],["$","path",null,{"fill":"#fbbc04","d":"M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2"}],["$","path",null,{"fill":"#ea4335","d":"M72 74V48l24 18 24-18v26L96 92"}],["$","path",null,{"fill":"#c5221f","d":"M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2"}]]}]]}],["$","$Lb",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/zhangyuliang1994","children":[["$","span",null,{"className":"sr-only","children":"github"}],["$","svg",null,{"viewBox":"0 0 128 128","className":"fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":["$","g",null,{"fill":"#fffff","children":[["$","path",null,{"fillRule":"evenodd","clipRule":"evenodd","d":"M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"}],["$","path",null,{"d":"M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"}]]}]}]]}],null,null,null,null]}],["$","div",null,{"className":"mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400","children":[["$","div",null,{"children":"张晓风"}],["$","div",null,{"children":" • "}],["$","div",null,{"children":"© 2025"}],["$","div",null,{"children":" • "}],["$","$Lb",null,{"href":"/","children":"晓风的博客"}]]}],["$","div",null,{"className":"mb-8 text-sm text-gray-500 dark:text-gray-400","children":["$","a",null,{"href":"https://beian.miit.gov.cn/","className":"hover:text-gray-600 dark:hover:text-gray-300","target":"_blank","rel":"noopener noreferrer","children":"苏ICP备2023046043号"}]}]]}]}]]}]}]}]}]]}],null]

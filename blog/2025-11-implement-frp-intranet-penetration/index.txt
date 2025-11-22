@@ -1,18 +1,20 @@
 1:HL["/_next/static/css/9e4bf6d932073eda.css",{"as":"style"}]
 2:HL["/_next/static/css/9fdfe6c99f25ae04.css",{"as":"style"}]
-0:["CcLp6OwDzlZdKoxT3pZx_",[[["",{"children":["blog",{"children":[["slug","2025-11-implement-frp-intranet-penetration","c"],{"children":["__PAGE__?{\"slug\":[\"2025-11-implement-frp-intranet-penetration\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9e4bf6d932073eda.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9fdfe6c99f25ae04.css","precedence":"next"}]],"$L4"]]]]
+0:["WxSaiTKAe0ZRSDhyMun6C",[[["",{"children":["blog",{"children":[["slug","2025-11-implement-frp-intranet-penetration","c"],{"children":["__PAGE__?{\"slug\":[\"2025-11-implement-frp-intranet-penetration\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9e4bf6d932073eda.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9fdfe6c99f25ae04.css","precedence":"next"}]],"$L4"]]]]
 5:HL["/_next/static/css/6c6a668d3277681f.css",{"as":"style"}]
-6:I{"id":8464,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"ThemeProviders","async":false}
-7:I{"id":8440,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"KBarSearchProvider","async":false}
-8:I{"id":6481,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"","async":false}
-9:I{"id":1229,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"","async":false}
-a:I{"id":7767,"chunks":["272:static/chunks/webpack-2cb9ac6e9ccb1c1f.js","216:static/chunks/vendors-34cfadd6b6898e15.js"],"name":"default","async":false}
-b:I{"id":7920,"chunks":["272:static/chunks/webpack-2cb9ac6e9ccb1c1f.js","216:static/chunks/vendors-34cfadd6b6898e15.js"],"name":"default","async":false}
-c:I{"id":6685,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","797:static/chunks/app/blog/[...slug]/page-937e8c36084bbd63.js"],"name":"","async":false}
-e:I{"id":1329,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"","async":false}
+6:I{"id":8464,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"ThemeProviders","async":false}
+7:I{"id":8440,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"KBarSearchProvider","async":false}
+8:I{"id":6481,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"","async":false}
+9:I{"id":1229,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"","async":false}
+a:I{"id":7767,"chunks":["272:static/chunks/webpack-2cb9ac6e9ccb1c1f.js","216:static/chunks/vendors-8842281dd4cb299e.js"],"name":"default","async":false}
+b:I{"id":7920,"chunks":["272:static/chunks/webpack-2cb9ac6e9ccb1c1f.js","216:static/chunks/vendors-8842281dd4cb299e.js"],"name":"default","async":false}
+c:I{"id":6685,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","797:static/chunks/app/blog/[...slug]/page-b26528595fab7e2c.js"],"name":"","async":false}
+e:I{"id":1329,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"","async":false}
 4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"使用 FRP 实现内网穿透：实践指南 | 晓风的博客"}],["$","meta","2",{"name":"description","content":"使用Frp实现公网IP/域名访问家用服务器。"}],["$","link","3",{"rel":"manifest","href":"/static/favicons/site.webmanifest"}],["$","meta","4",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","5",{"name":"robots","content":"index, follow"}],["$","meta","6",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","7",{"rel":"canonical","href":"https://xiaofeng.show/blog/2025-11-implement-frp-intranet-penetration"}],["$","link","8",{"rel":"alternate","type":"application/rss+xml","href":"https://xiaofeng.show/feed.xml"}],["$","meta","9",{"property":"og:title","content":"使用 FRP 实现内网穿透：实践指南"}],["$","meta","10",{"property":"og:description","content":"使用Frp实现公网IP/域名访问家用服务器。"}],["$","meta","11",{"property":"og:url","content":"https://xiaofeng.show/blog/2025-11-implement-frp-intranet-penetration"}],["$","meta","12",{"property":"og:site_name","content":"晓风的博客"}],["$","meta","13",{"property":"og:locale","content":"en_US"}],["$","meta","14",{"property":"og:type","content":"article"}],["$","meta","15",{"property":"article:published_time","content":"2025-11-12T00:00:00.000Z"}],["$","meta","16",{"property":"article:modified_time","content":"2025-11-12T00:00:00.000Z"}],["$","meta","17",{"property":"article:author","content":"张晓风"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"使用 FRP 实现内网穿透：实践指南"}],["$","meta","20",{"name":"twitter:description","content":"使用Frp实现公网IP/域名访问家用服务器。"}],["$","link","21",{"rel":"icon","href":"/static/favicons/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","22",{"rel":"icon","href":"/static/favicons/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","23",{"rel":"apple-touch-icon","href":"/static/favicons/apple-touch-icon.png","sizes":"76x76","type":"image/png"}],["$","link","24",{"rel":"mask-icon","href":"/static/favicons/safari-pinned-tab.svg"}]]
 3:[["$","html",null,{"lang":"zh-CN","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.loli.net"}],["$","link",null,{"rel":"preconnect","href":"https://gstatic.loli.net","crossOrigin":""}],["$","link",null,{"href":"https://fonts.loli.net/css2?family=Inter:wght@400;500;700;900&family=Noto+Sans+SC:wght@400;500;700;900&display=swap","rel":"stylesheet"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#fff"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/feed.xml"}]]}],["$","body",null,{"className":"bg-white/90 text-black antialiased dark:bg-[#1B1B1B] dark:text-white transition-colors duration-200","children":["$","$L6",null,{"children":["$","section",null,{"className":"mx-auto max-w-6xl px-3 md:px-4 xl:px-0","children":["$","div",null,{"className":"flex h-screen flex-col justify-between font-sans","children":[["$","$L7",null,{"kbarConfig":{"searchDocumentsPath":"search.json"},"children":[["$","$L8",null,{}],["$","$L9",null,{}],["$","main",null,{"className":"mb-auto","children":["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$Lb",null,{}],"templateStyles":"$undefined","notFound":["$","div",null,{"className":"flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6","children":[["$","div",null,{"className":"space-x-2 pb-8 pt-6 md:space-y-5","children":["$","h1",null,{"className":"text-6xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 md:border-r-2 md:px-6 md:text-8xl md:leading-14","children":"404"}]}],["$","div",null,{"className":"max-w-md","children":[["$","p",null,{"className":"mb-4 text-xl font-bold leading-normal md:text-2xl","children":"Sorry we couldn't find this page."}],["$","p",null,{"className":"mb-8","children":"But dont worry, you can find plenty of other things on our homepage."}],["$","$Lc",null,{"href":"/","className":"focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm font-medium leading-5 text-white shadow transition-colors duration-150 hover:bg-blue-700 focus:outline-none dark:hover:bg-blue-500","children":"Back to homepage"}]]}]]}],"notFoundStyles":[],"childProp":{"current":["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$Lb",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children",["slug","2025-11-implement-frp-intranet-penetration","c"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$Lb",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$Ld",null],"segment":"__PAGE__?{\"slug\":[\"2025-11-implement-frp-intranet-penetration\"]}"},"styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/6c6a668d3277681f.css","precedence":"next"}]]}],"segment":["slug","2025-11-implement-frp-intranet-penetration","c"]},"styles":[]}],"segment":"blog"},"styles":[]}]}],["$","$Le",null,{}]]}],["$","footer",null,{"children":["$","div",null,{"className":"mt-16 flex flex-col items-center","children":[["$","div",null,{"className":"mb-3 flex space-x-4","children":[["$","$Lc",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"mailto:zhangyuliang945@gmail.com","children":[["$","span",null,{"className":"sr-only","children":"mail"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"52 42 88 66","className":"fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","path",null,{"fill":"#4285f4","d":"M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"}],["$","path",null,{"fill":"#34a853","d":"M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"}],["$","path",null,{"fill":"#fbbc04","d":"M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2"}],["$","path",null,{"fill":"#ea4335","d":"M72 74V48l24 18 24-18v26L96 92"}],["$","path",null,{"fill":"#c5221f","d":"M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2"}]]}]]}],["$","$Lc",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/zhangyuliang1994","children":[["$","span",null,{"className":"sr-only","children":"github"}],["$","svg",null,{"viewBox":"0 0 128 128","className":"fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":["$","g",null,{"fill":"#fffff","children":[["$","path",null,{"fillRule":"evenodd","clipRule":"evenodd","d":"M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"}],["$","path",null,{"d":"M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"}]]}]}]]}],null,null,null,null]}],["$","div",null,{"className":"mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400","children":[["$","div",null,{"children":"张晓风"}],["$","div",null,{"children":" • "}],["$","div",null,{"children":"© 2025"}],["$","div",null,{"children":" • "}],["$","$Lc",null,{"href":"/","children":"晓风的博客"}]]}],["$","div",null,{"className":"mb-8 text-sm text-gray-500 dark:text-gray-400","children":["$","a",null,{"href":"https://beian.miit.gov.cn/","className":"hover:text-gray-600 dark:hover:text-gray-300","target":"_blank","rel":"noopener noreferrer","children":"苏ICP备2023046043号"}]}]]}]}]]}]}]}]}]]}],null]
-f:I{"id":5227,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","797:static/chunks/app/blog/[...slug]/page-937e8c36084bbd63.js"],"name":"","async":false}
+f:I{"id":5227,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","797:static/chunks/app/blog/[...slug]/page-b26528595fab7e2c.js"],"name":"","async":false}
+13:I{"id":7944,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","797:static/chunks/app/blog/[...slug]/page-b26528595fab7e2c.js"],"name":"","async":false}
+14:I{"id":6625,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","797:static/chunks/app/blog/[...slug]/page-b26528595fab7e2c.js"],"name":"","async":false}
 10:T1bd7,
 ## 引言
 
@@ -232,4 +234,2320 @@ screen -S frps ./frpc -c frpc.toml
 - https://www.cnblogs.com/geek233/p/18791892
 
 
-d:["$","$Lf",null,{"post":{"type":"Blog","_id":"blog/2025-11-implement-frp-intranet-penetration","title":"使用 FRP 实现内网穿透：实践指南","date":"2025-11-12T00:00:00.000Z","tags":["FRP","内网穿透","网络"],"lastmod":null,"draft":false,"summary":"使用Frp实现公网IP/域名访问家用服务器。","description":"","preview":"","categories":[],"images":[],"authors":["default"],"layout":"PostLayout","bibliography":"","canonicalUrl":"","password":"","slug":"2025-11-implement-frp-intranet-penetration","path":"blog/2025-11-implement-frp-intranet-penetration","filePath":"/home/runner/work/blog/blog/data/blog/2025-11-implement-frp-intranet-penetration.mdx","readingTime":{"text":"8 min read","minutes":7.315,"time":438900,"words":1463},"toc":"","_raw":{"sourceFilePath":"/home/runner/work/blog/blog/data/blog/2025-11-implement-frp-intranet-penetration.mdx","sourceFileName":"2025-11-implement-frp-intranet-penetration.mdx","sourceFileDir":"/home/runner/work/blog/blog/data/blog","contentType":"mdx","flattenedPath":"blog/2025-11-implement-frp-intranet-penetration"},"body":{"raw":"$10","code":"return { default: function Content() { return null; } }","compiled":"return { default: function Content() { return null; } }"},"structuredData":{"@context":"https://schema.org","@type":"BlogPosting","headline":"使用 FRP 实现内网穿透：实践指南","datePublished":"2025-11-12T00:00:00.000Z","dateModified":"2025-11-12T00:00:00.000Z","description":"使用Frp实现公网IP/域名访问家用服务器。","image":"/static/images/twitter-card.png","url":"https://xiaofeng.show/blog/2025-11-implement-frp-intranet-penetration","author":[{"@type":"Person","name":"张晓风"}]}},"authorDetails":[{"type":"Authors","name":"张晓风","avatar":"/static/images/avatar.png","occupation":"后端软件开发工程师","company":"","email":"zhangyuliang9425@gmail.com","twitter":"","linkedin":"","github":"https://github.com/zhangyuliang1994","layout":"","slug":"default","path":"authors/default","filePath":"/home/runner/work/blog/blog/data/authors/default.mdx","readingTime":{"text":"2 min read","minutes":1.39,"time":83400,"words":278},"toc":""}],"prev":{"type":"Blog","title":"2025年10月 \"BAT董事会\" 群聊月报","date":"2025-11-01","tags":["月报","群聊","BAT"],"lastmod":null,"draft":false,"summary":"本月群聊关键词：Sora热潮、创业讨论、加班内卷、裁员寒冬。从AI视频生成到个体工商户注册，在职场焦虑中探索副业出路。","description":"","preview":"","categories":[],"images":[],"authors":["default"],"layout":"PostLayout","bibliography":"","canonicalUrl":"","password":"7758521","slug":"2025-10-monthly-report","path":"blog/2025-10-monthly-report","filePath":"/home/runner/work/blog/blog/data/blog/2025-10-monthly-report.mdx","readingTime":{"text":"31 min read","minutes":30.345,"time":1820700,"words":6069},"toc":"","structuredData":{"@context":"https://schema.org","@type":"BlogPosting","headline":"2025年10月 \"BAT董事会\" 群聊月报","datePublished":"2025-11-01","dateModified":"2025-11-01","description":"本月群聊关键词：Sora热潮、创业讨论、加班内卷、裁员寒冬。从AI视频生成到个体工商户注册，在职场焦虑中探索副业出路。","image":"/static/images/twitter-card.png","url":"https://xiaofeng.show/blog/2025-10-monthly-report","author":["张晓风"]}},"next":null,"isProduction":true,"children":null}]
+11:Tb374,const _jsx = _jsx_runtime.jsx;
+const _jsxs = _jsx_runtime.jsxs;
+const _Fragment = _jsx_runtime.Fragment;
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    h2: "h2",
+    ul: "ul",
+    li: "li",
+    p: "p",
+    strong: "strong",
+    br: "br",
+    a: "a",
+    pre: "pre",
+    code: "code",
+    span: "span",
+    h4: "h4",
+    img: "img"
+  }, props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.h2, {
+      children: "引言"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "去年抢购的高性能服务器到期了，续费又太贵。今年只能搞了个2C2G的小玩意，然后让家里的服务器当主力，用这个廉价的服务器当中转。"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "FRP 概述"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "FRP"
+      }), "（Fast Reverse Proxy）是一款可以用于", _jsx(_components.strong, {
+        children: "内网穿透"
+      }), "的开源工具，", _jsx(_components.br, {}), "\n", "支持 ", _jsx(_components.strong, {
+        children: "TCP/UDP/HTTP/HTTPS 协议"
+      }), "，可以将 ", _jsx(_components.strong, {
+        children: "内网服务"
+      }), " 暴露到 ", _jsx(_components.strong, {
+        children: "公网"
+      }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
+        children: "实现"
+      }), "从任意网络环境访问到你的服务器或电脑。"]
+    }), "\n", _jsxs(_components.p, {
+      children: ["🔗 ", _jsx(_components.strong, {
+        children: "Frp官网"
+      }), "：", _jsx(_components.a, {
+        href: "https://github.com/fatedier/frp",
+        children: "https://github.com/fatedier/frp"
+      })]
+    }), "\n", _jsx(_components.h2, {
+      children: "环境准备"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "一个有公网IP的服务器，建议阿里云/腾讯云。"
+      }), "\n", _jsx(_components.li, {
+        children: "需要实现内网穿透的服务器或电脑，我这里就是家里的Mac mini。"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "下载与安装"
+    }), "\n", _jsxs(_components.p, {
+      children: ["前往 ", _jsx(_components.a, {
+        href: "https://github.com/fatedier/frp/releases",
+        children: "GitHub FRP Releases"
+      }), " 下载适合你系统的版本：\n你看到的文件格式是 frp_0.61.1_xxx(适用系统) _ yyy(系统架构).tar.gz\nMac Arm：", _jsx(_components.a, {
+        href: "https://github.com/fatedier/frp/releases/download/v0.65.0/frp_0.65.0_linux_amd64.tar.gz",
+        children: "frp_0.65.0_linux_amd64.tar.gz"
+      }), "\nLinux x86：", _jsx(_components.a, {
+        href: "https://github.com/fatedier/frp/releases/download/v0.65.0/frp_0.65.0_linux_amd64.tar.gz",
+        children: "frp_0.65.0_linux_amd64.tar.gz"
+      }), "\n解压后，可以看到以下几个文件："]
+    }), "\n", _jsx(_components.pre, {
+      className: "language-shell",
+      children: _jsxs(_components.code, {
+        className: "language-shell code-highlight",
+        children: [_jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# Linux指令 "
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token function",
+            children: "ls"
+          }), " \n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "frpc frpc.toml frps frps.toml LICENSE\n"
+        })]
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "FRP 服务端部署"
+    }), "\n", _jsx(_components.h4, {
+      children: "配置文件修改（frps.toml）"
+    }), "\n", _jsx(_components.pre, {
+      className: "language-toml",
+      children: _jsxs(_components.code, {
+        className: "language-toml code-highlight",
+        children: [_jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# =============================="
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# FRP 服务器端（frps.ini）配置"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# =============================="
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 绑定监听地址（默认 `0.0.0.0` 代表监听所有 IP）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "bindAddr"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"0.0.0.0\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "#  服务器监听端口（客户端需要通过该端口连接 FRP 服务器）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "bindPort"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "7000"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# HTTP 端口（用于内网 HTTP 代理穿透）(我的80端口被占用了)"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "vhostHTTPPort"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "8230"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# HTTPS 端口（用于内网 HTTPS 代理穿透）（我的443端口被占用了）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "vhostHTTPSPort"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "8443"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 子域名支持"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 可以通过 `subDomainHost` 解析动态子域名"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 例如：如果 `subDomainHost` 配置为 \"example.com\""
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 那么客户端可以使用 `test.example.com` 访问内网服务"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 如果你没有域名或不使用此功能，请删除此行！"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 如果你要用IP直连例如:168.0.0.1:8848，就把这行删掉，不要配置！"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# subDomainHost = \"xxxx.com\"  # 请替换为你的真实域名"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# ============================================="
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# Web 控制台（Dashboard）配置"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# ============================================="
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 监控界面监听地址（`0.0.0.0` 代表所有 IP 可访问）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "webServer.addr"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"0.0.0.0\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# Web 管理面板端口（可在浏览器访问，默认 7500）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 你可以通过 `http://你的公网IP:7500` 访问 FRP 管理面板"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "webServer.port"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "7500"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# Web 控制台管理账号（可自定义）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "webServer.user"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"admin\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# Web 控制台密码（请自行修改）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "webServer.password"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"your_password\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# ============================================="
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 身份验证（Authentication）配置"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# ============================================="
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "#  认证方式（防止未经授权的客户端连接）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 目前 FRP 支持 `token` 和 `oidc` 方式，我们选用token"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "auth.method"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"token\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "#  Token 认证（客户端需要匹配相同 token 才能连接）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 通俗来说就是密码，写一个你能记住的，尽量长一点"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 示例: 123-abc-123abc "
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "auth.token"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"your_token\""
+          }), "   ", _jsx(_components.span, {
+            className: "token comment",
+            children: "# 请自行修改，不要用我的"
+          }), "\n"]
+        })]
+      })
+    }), "\n", _jsx(_components.h4, {
+      children: "启动"
+    }), "\n", _jsx(_components.p, {
+      children: "在 frp 目录下执行如下指令："
+    }), "\n", _jsx(_components.pre, {
+      className: "language-shell",
+      children: _jsx(_components.code, {
+        className: "language-shell code-highlight",
+        children: _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token function",
+            children: "screen"
+          }), " ", _jsx(_components.span, {
+            className: "token parameter variable",
+            children: "-S"
+          }), " frps ./frps ", _jsx(_components.span, {
+            className: "token parameter variable",
+            children: "-c"
+          }), " frps.toml   \n"]
+        })
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "启动成功后会出现："
+    }), "\n", _jsx(_components.pre, {
+      className: "language-shell",
+      children: _jsxs(_components.code, {
+        className: "language-shell code-highlight",
+        children: [_jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "frps/root.go:105", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " frps uses config file: frps.toml\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "server/service.go:237", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " frps tcp listen on ", _jsx(_components.span, {
+            className: "token number",
+            children: "0.0"
+          }), ".0.0:7000\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "server/service.go:305", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " http ", _jsx(_components.span, {
+            className: "token function",
+            children: "service"
+          }), " listen on ", _jsx(_components.span, {
+            className: "token number",
+            children: "0.0"
+          }), ".0.0:8230\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "server/service.go:319", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " https ", _jsx(_components.span, {
+            className: "token function",
+            children: "service"
+          }), " listen on ", _jsx(_components.span, {
+            className: "token number",
+            children: "0.0"
+          }), ".0.0:8443\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "frps/root.go:114", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " frps started successfully\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "server/service.go:351", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " dashboard listen on ", _jsx(_components.span, {
+            className: "token number",
+            children: "0.0"
+          }), ".0.0:7500\n"]
+        })]
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Linux退出程序窗口"
+        }), _jsx(_components.br, {}), "\n", "按下", _jsx(_components.code, {
+          children: "Ctrl+A"
+        }), "松开，再按一下", _jsx(_components.code, {
+          children: "D"
+        }), "就可以退出程序窗口", _jsx(_components.br, {}), "\n", "要回到程序窗口输入指令", _jsx(_components.code, {
+          children: "screen -r frps"
+        }), "即可", _jsx(_components.br, {}), "\n", "如果想结束程序进程输入指令", _jsx(_components.code, {
+          children: "pkill frps"
+        }), "即可"]
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "FRP 客户端配置"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "描述 frpc 的安装与配置参数。"
+      }), "\n", _jsx(_components.li, {
+        children: "预留连接测试与验证方法。"
+      }), "\n"]
+    }), "\n", _jsx(_components.h4, {
+      children: "配置文件修改（frps.toml）"
+    }), "\n", _jsx(_components.pre, {
+      className: "language-toml",
+      children: _jsxs(_components.code, {
+        className: "language-toml code-highlight",
+        children: [_jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 服务端地址（这里要填你有公网IP的服务器的IP或者是服务器的域名）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "serverAddr"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"xx.xx.xx.xx\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 服务器端口（Frp 服务端监听的端口）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "serverPort"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "7000"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "  \n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 连接协议"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "transport.protocol"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"tcp\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "  \n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 认证方式"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "auth.method"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"token\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 认证所使用的 Token（要和你刚才配置的服务端token完全一样！）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "auth.token"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"your_token\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "  \n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 代理配置"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), _jsx(_components.span, {
+            className: "token table class-name",
+            children: "proxies"
+          }), _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 代理名称(标识该代理的名称，根据你的喜好填写）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "name"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"xiaofeng\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 代理类型（http、https、tcp等）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 这里要根据你的需求来填写，如果你有域名，就用http"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 如果你没有域名，那就用IP直连，例如:165.0.0.1:8848,此时这里应该写tcp协议"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 如果你用tcp协议就必须把刚才服务端上subDomainHost = \"xxxx.com\"的配置删除！"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# type = \"tcp\"   # IP+端口直连用这个"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "type"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"tcp\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 本地 IP（Frp 客户端需要将流量转发到的本地地址）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "localIP"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"127.0.0.1\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 本地端口（Frp 客户端需要将流量转发到的本地端口，根据你要穿透的端口来填写）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "localPort"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "5678"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 访问此代理的子域名"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 如果你没有域名要用IP直连，请把这句删除掉，否则会导致无法连接！"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# subdomain = \"rocket\" # 子域名请根据你拥有的域名配置，配置后通过rocket.xxx.com格式访问"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "  \n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 如果你不用域名，要用ip+端口直连，请必须加上这句！"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 并且删除 subdomain = \"rocket\" "
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "remotePort"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "5678"
+          }), "    ", _jsx(_components.span, {
+            className: "token comment",
+            children: "# 这个端口和localPort 配置的一模一样，这样才能正常访问！"
+          }), "\n"]
+        })]
+      })
+    }), "\n", _jsx(_components.h4, {
+      children: "启动"
+    }), "\n", _jsx(_components.p, {
+      children: "在 frp 目录下执行如下指令："
+    }), "\n", _jsx(_components.pre, {
+      className: "language-shell",
+      children: _jsx(_components.code, {
+        className: "language-shell code-highlight",
+        children: _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token function",
+            children: "screen"
+          }), " ", _jsx(_components.span, {
+            className: "token parameter variable",
+            children: "-S"
+          }), " frps ./frpc ", _jsx(_components.span, {
+            className: "token parameter variable",
+            children: "-c"
+          }), " frpc.toml   \n"]
+        })
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "启动成功后会出现："
+    }), "\n", _jsx(_components.pre, {
+      className: "language-shell",
+      children: _jsxs(_components.code, {
+        className: "language-shell code-highlight",
+        children: [_jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "I", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "sub/root.go:142", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " start frpc ", _jsx(_components.span, {
+            className: "token function",
+            children: "service"
+          }), " ", _jsx(_components.span, {
+            className: "token keyword",
+            children: "for"
+          }), " config ", _jsx(_components.span, {
+            className: "token function",
+            children: "file"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "frpc.toml", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " \n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "I", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "client/service.go:295", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " try to connect to server", _jsx(_components.span, {
+            className: "token punctuation",
+            children: ".."
+          }), ". \n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "I", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "client/service.go:287", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "7c9de41e30e15c46", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " login to server success, get run ", _jsx(_components.span, {
+            className: "token function",
+            children: "id"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "7c9de41e30e15c46", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " \n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "I", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "proxy/proxy_manager.go:173", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "7c9de41e30e15c46", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " proxy added: ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "rocketcat", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " \n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "I", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "client/control.go:168", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "7c9de41e30e15c46", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "rocketcat", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " start proxy success\n"]
+        })]
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Linux退出程序窗口"
+        }), _jsx(_components.br, {}), "\n", "按下", _jsx(_components.code, {
+          children: "Ctrl+A"
+        }), "松开，再按一下", _jsx(_components.code, {
+          children: "D"
+        }), "就可以退出程序窗口", _jsx(_components.br, {}), "\n", "要回到程序窗口输入指令", _jsx(_components.code, {
+          children: "screen -r frpc"
+        }), "即可", _jsx(_components.br, {}), "\n", "如果想结束程序进程输入指令", _jsx(_components.code, {
+          children: "pkill frpc"
+        }), "即可"]
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "测试与验证"
+    }), "\n", _jsxs(_components.p, {
+      children: ["可以登陆公网IP的页面查看代理情况(http://xx.xx.xx.xx:7500)，如图所示：\n", _jsx(_components.img, {
+        src: "https://minio.xiaofeng.show/blog/2025/frp-watch.png",
+        alt: ""
+      }), "\n也可查看具体的协议，比如我在配置里设置的是TCP的5678端口："]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.img, {
+        src: "https://minio.xiaofeng.show/blog/2025/frp-detail.png",
+        alt: ""
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "总结"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "配置/启动时要注意是服务器还是客户端，因为文件名太相近了。另外，配置过程难免会有疑问，甚至报错，建议直接问AI，效果非常好。"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "参考"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "https://www.cnblogs.com/geek233/p/18791892"
+      }), "\n"]
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = props.components || ({});
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return { default: MDXContent };12:Tb374,const _jsx = _jsx_runtime.jsx;
+const _jsxs = _jsx_runtime.jsxs;
+const _Fragment = _jsx_runtime.Fragment;
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    h2: "h2",
+    ul: "ul",
+    li: "li",
+    p: "p",
+    strong: "strong",
+    br: "br",
+    a: "a",
+    pre: "pre",
+    code: "code",
+    span: "span",
+    h4: "h4",
+    img: "img"
+  }, props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.h2, {
+      children: "引言"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "去年抢购的高性能服务器到期了，续费又太贵。今年只能搞了个2C2G的小玩意，然后让家里的服务器当主力，用这个廉价的服务器当中转。"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "FRP 概述"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "FRP"
+      }), "（Fast Reverse Proxy）是一款可以用于", _jsx(_components.strong, {
+        children: "内网穿透"
+      }), "的开源工具，", _jsx(_components.br, {}), "\n", "支持 ", _jsx(_components.strong, {
+        children: "TCP/UDP/HTTP/HTTPS 协议"
+      }), "，可以将 ", _jsx(_components.strong, {
+        children: "内网服务"
+      }), " 暴露到 ", _jsx(_components.strong, {
+        children: "公网"
+      }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
+        children: "实现"
+      }), "从任意网络环境访问到你的服务器或电脑。"]
+    }), "\n", _jsxs(_components.p, {
+      children: ["🔗 ", _jsx(_components.strong, {
+        children: "Frp官网"
+      }), "：", _jsx(_components.a, {
+        href: "https://github.com/fatedier/frp",
+        children: "https://github.com/fatedier/frp"
+      })]
+    }), "\n", _jsx(_components.h2, {
+      children: "环境准备"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "一个有公网IP的服务器，建议阿里云/腾讯云。"
+      }), "\n", _jsx(_components.li, {
+        children: "需要实现内网穿透的服务器或电脑，我这里就是家里的Mac mini。"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "下载与安装"
+    }), "\n", _jsxs(_components.p, {
+      children: ["前往 ", _jsx(_components.a, {
+        href: "https://github.com/fatedier/frp/releases",
+        children: "GitHub FRP Releases"
+      }), " 下载适合你系统的版本：\n你看到的文件格式是 frp_0.61.1_xxx(适用系统) _ yyy(系统架构).tar.gz\nMac Arm：", _jsx(_components.a, {
+        href: "https://github.com/fatedier/frp/releases/download/v0.65.0/frp_0.65.0_linux_amd64.tar.gz",
+        children: "frp_0.65.0_linux_amd64.tar.gz"
+      }), "\nLinux x86：", _jsx(_components.a, {
+        href: "https://github.com/fatedier/frp/releases/download/v0.65.0/frp_0.65.0_linux_amd64.tar.gz",
+        children: "frp_0.65.0_linux_amd64.tar.gz"
+      }), "\n解压后，可以看到以下几个文件："]
+    }), "\n", _jsx(_components.pre, {
+      className: "language-shell",
+      children: _jsxs(_components.code, {
+        className: "language-shell code-highlight",
+        children: [_jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# Linux指令 "
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token function",
+            children: "ls"
+          }), " \n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "frpc frpc.toml frps frps.toml LICENSE\n"
+        })]
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "FRP 服务端部署"
+    }), "\n", _jsx(_components.h4, {
+      children: "配置文件修改（frps.toml）"
+    }), "\n", _jsx(_components.pre, {
+      className: "language-toml",
+      children: _jsxs(_components.code, {
+        className: "language-toml code-highlight",
+        children: [_jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# =============================="
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# FRP 服务器端（frps.ini）配置"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# =============================="
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 绑定监听地址（默认 `0.0.0.0` 代表监听所有 IP）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "bindAddr"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"0.0.0.0\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "#  服务器监听端口（客户端需要通过该端口连接 FRP 服务器）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "bindPort"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "7000"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# HTTP 端口（用于内网 HTTP 代理穿透）(我的80端口被占用了)"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "vhostHTTPPort"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "8230"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# HTTPS 端口（用于内网 HTTPS 代理穿透）（我的443端口被占用了）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "vhostHTTPSPort"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "8443"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 子域名支持"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 可以通过 `subDomainHost` 解析动态子域名"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 例如：如果 `subDomainHost` 配置为 \"example.com\""
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 那么客户端可以使用 `test.example.com` 访问内网服务"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 如果你没有域名或不使用此功能，请删除此行！"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 如果你要用IP直连例如:168.0.0.1:8848，就把这行删掉，不要配置！"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# subDomainHost = \"xxxx.com\"  # 请替换为你的真实域名"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# ============================================="
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# Web 控制台（Dashboard）配置"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# ============================================="
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 监控界面监听地址（`0.0.0.0` 代表所有 IP 可访问）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "webServer.addr"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"0.0.0.0\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# Web 管理面板端口（可在浏览器访问，默认 7500）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 你可以通过 `http://你的公网IP:7500` 访问 FRP 管理面板"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "webServer.port"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "7500"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# Web 控制台管理账号（可自定义）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "webServer.user"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"admin\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# Web 控制台密码（请自行修改）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "webServer.password"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"your_password\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# ============================================="
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 身份验证（Authentication）配置"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# ============================================="
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "#  认证方式（防止未经授权的客户端连接）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 目前 FRP 支持 `token` 和 `oidc` 方式，我们选用token"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "auth.method"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"token\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "#  Token 认证（客户端需要匹配相同 token 才能连接）"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 通俗来说就是密码，写一个你能记住的，尽量长一点"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 示例: 123-abc-123abc "
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "auth.token"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"your_token\""
+          }), "   ", _jsx(_components.span, {
+            className: "token comment",
+            children: "# 请自行修改，不要用我的"
+          }), "\n"]
+        })]
+      })
+    }), "\n", _jsx(_components.h4, {
+      children: "启动"
+    }), "\n", _jsx(_components.p, {
+      children: "在 frp 目录下执行如下指令："
+    }), "\n", _jsx(_components.pre, {
+      className: "language-shell",
+      children: _jsx(_components.code, {
+        className: "language-shell code-highlight",
+        children: _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token function",
+            children: "screen"
+          }), " ", _jsx(_components.span, {
+            className: "token parameter variable",
+            children: "-S"
+          }), " frps ./frps ", _jsx(_components.span, {
+            className: "token parameter variable",
+            children: "-c"
+          }), " frps.toml   \n"]
+        })
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "启动成功后会出现："
+    }), "\n", _jsx(_components.pre, {
+      className: "language-shell",
+      children: _jsxs(_components.code, {
+        className: "language-shell code-highlight",
+        children: [_jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "frps/root.go:105", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " frps uses config file: frps.toml\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "server/service.go:237", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " frps tcp listen on ", _jsx(_components.span, {
+            className: "token number",
+            children: "0.0"
+          }), ".0.0:7000\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "server/service.go:305", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " http ", _jsx(_components.span, {
+            className: "token function",
+            children: "service"
+          }), " listen on ", _jsx(_components.span, {
+            className: "token number",
+            children: "0.0"
+          }), ".0.0:8230\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "server/service.go:319", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " https ", _jsx(_components.span, {
+            className: "token function",
+            children: "service"
+          }), " listen on ", _jsx(_components.span, {
+            className: "token number",
+            children: "0.0"
+          }), ".0.0:8443\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "frps/root.go:114", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " frps started successfully\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "server/service.go:351", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " dashboard listen on ", _jsx(_components.span, {
+            className: "token number",
+            children: "0.0"
+          }), ".0.0:7500\n"]
+        })]
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Linux退出程序窗口"
+        }), _jsx(_components.br, {}), "\n", "按下", _jsx(_components.code, {
+          children: "Ctrl+A"
+        }), "松开，再按一下", _jsx(_components.code, {
+          children: "D"
+        }), "就可以退出程序窗口", _jsx(_components.br, {}), "\n", "要回到程序窗口输入指令", _jsx(_components.code, {
+          children: "screen -r frps"
+        }), "即可", _jsx(_components.br, {}), "\n", "如果想结束程序进程输入指令", _jsx(_components.code, {
+          children: "pkill frps"
+        }), "即可"]
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "FRP 客户端配置"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "描述 frpc 的安装与配置参数。"
+      }), "\n", _jsx(_components.li, {
+        children: "预留连接测试与验证方法。"
+      }), "\n"]
+    }), "\n", _jsx(_components.h4, {
+      children: "配置文件修改（frps.toml）"
+    }), "\n", _jsx(_components.pre, {
+      className: "language-toml",
+      children: _jsxs(_components.code, {
+        className: "language-toml code-highlight",
+        children: [_jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 服务端地址（这里要填你有公网IP的服务器的IP或者是服务器的域名）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "serverAddr"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"xx.xx.xx.xx\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 服务器端口（Frp 服务端监听的端口）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "serverPort"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "7000"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "  \n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 连接协议"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "transport.protocol"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"tcp\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "  \n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 认证方式"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "auth.method"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"token\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 认证所使用的 Token（要和你刚才配置的服务端token完全一样！）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "auth.token"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"your_token\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "  \n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 代理配置"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), _jsx(_components.span, {
+            className: "token table class-name",
+            children: "proxies"
+          }), _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 代理名称(标识该代理的名称，根据你的喜好填写）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "name"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"xiaofeng\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 代理类型（http、https、tcp等）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 这里要根据你的需求来填写，如果你有域名，就用http"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 如果你没有域名，那就用IP直连，例如:165.0.0.1:8848,此时这里应该写tcp协议"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 如果你用tcp协议就必须把刚才服务端上subDomainHost = \"xxxx.com\"的配置删除！"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# type = \"tcp\"   # IP+端口直连用这个"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "type"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"tcp\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 本地 IP（Frp 客户端需要将流量转发到的本地地址）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "localIP"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token string",
+            children: "\"127.0.0.1\""
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 本地端口（Frp 客户端需要将流量转发到的本地端口，根据你要穿透的端口来填写）"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "localPort"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "5678"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 访问此代理的子域名"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 如果你没有域名要用IP直连，请把这句删除掉，否则会导致无法连接！"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# subdomain = \"rocket\" # 子域名请根据你拥有的域名配置，配置后通过rocket.xxx.com格式访问"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "  \n"
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 如果你不用域名，要用ip+端口直连，请必须加上这句！"
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token comment",
+            children: "# 并且删除 subdomain = \"rocket\" "
+          }), "\n"]
+        }), _jsx(_components.span, {
+          className: "code-line",
+          children: "\n"
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token key property",
+            children: "remotePort"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "="
+          }), " ", _jsx(_components.span, {
+            className: "token number",
+            children: "5678"
+          }), "    ", _jsx(_components.span, {
+            className: "token comment",
+            children: "# 这个端口和localPort 配置的一模一样，这样才能正常访问！"
+          }), "\n"]
+        })]
+      })
+    }), "\n", _jsx(_components.h4, {
+      children: "启动"
+    }), "\n", _jsx(_components.p, {
+      children: "在 frp 目录下执行如下指令："
+    }), "\n", _jsx(_components.pre, {
+      className: "language-shell",
+      children: _jsx(_components.code, {
+        className: "language-shell code-highlight",
+        children: _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token function",
+            children: "screen"
+          }), " ", _jsx(_components.span, {
+            className: "token parameter variable",
+            children: "-S"
+          }), " frps ./frpc ", _jsx(_components.span, {
+            className: "token parameter variable",
+            children: "-c"
+          }), " frpc.toml   \n"]
+        })
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "启动成功后会出现："
+    }), "\n", _jsx(_components.pre, {
+      className: "language-shell",
+      children: _jsxs(_components.code, {
+        className: "language-shell code-highlight",
+        children: [_jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "I", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "sub/root.go:142", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " start frpc ", _jsx(_components.span, {
+            className: "token function",
+            children: "service"
+          }), " ", _jsx(_components.span, {
+            className: "token keyword",
+            children: "for"
+          }), " config ", _jsx(_components.span, {
+            className: "token function",
+            children: "file"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "frpc.toml", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " \n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "I", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "client/service.go:295", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " try to connect to server", _jsx(_components.span, {
+            className: "token punctuation",
+            children: ".."
+          }), ". \n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "I", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "client/service.go:287", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "7c9de41e30e15c46", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " login to server success, get run ", _jsx(_components.span, {
+            className: "token function",
+            children: "id"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "7c9de41e30e15c46", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " \n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "I", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "proxy/proxy_manager.go:173", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "7c9de41e30e15c46", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " proxy added: ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "rocketcat", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " \n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "I", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "client/control.go:168", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "7c9de41e30e15c46", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " ", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "["
+          }), "rocketcat", _jsx(_components.span, {
+            className: "token punctuation",
+            children: "]"
+          }), " start proxy success\n"]
+        })]
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Linux退出程序窗口"
+        }), _jsx(_components.br, {}), "\n", "按下", _jsx(_components.code, {
+          children: "Ctrl+A"
+        }), "松开，再按一下", _jsx(_components.code, {
+          children: "D"
+        }), "就可以退出程序窗口", _jsx(_components.br, {}), "\n", "要回到程序窗口输入指令", _jsx(_components.code, {
+          children: "screen -r frpc"
+        }), "即可", _jsx(_components.br, {}), "\n", "如果想结束程序进程输入指令", _jsx(_components.code, {
+          children: "pkill frpc"
+        }), "即可"]
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "测试与验证"
+    }), "\n", _jsxs(_components.p, {
+      children: ["可以登陆公网IP的页面查看代理情况(http://xx.xx.xx.xx:7500)，如图所示：\n", _jsx(_components.img, {
+        src: "https://minio.xiaofeng.show/blog/2025/frp-watch.png",
+        alt: ""
+      }), "\n也可查看具体的协议，比如我在配置里设置的是TCP的5678端口："]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.img, {
+        src: "https://minio.xiaofeng.show/blog/2025/frp-detail.png",
+        alt: ""
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "总结"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "配置/启动时要注意是服务器还是客户端，因为文件名太相近了。另外，配置过程难免会有疑问，甚至报错，建议直接问AI，效果非常好。"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "参考"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "https://www.cnblogs.com/geek233/p/18791892"
+      }), "\n"]
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = props.components || ({});
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return { default: MDXContent };d:["$","$Lf",null,{"post":{"type":"Blog","_id":"blog/2025-11-implement-frp-intranet-penetration","title":"使用 FRP 实现内网穿透：实践指南","date":"2025-11-12T00:00:00.000Z","tags":["FRP","内网穿透","网络"],"lastmod":null,"draft":false,"summary":"使用Frp实现公网IP/域名访问家用服务器。","description":"","preview":"","categories":[],"images":[],"authors":["default"],"layout":"PostLayout","bibliography":"","canonicalUrl":"","password":"","slug":"2025-11-implement-frp-intranet-penetration","path":"blog/2025-11-implement-frp-intranet-penetration","filePath":"/home/runner/work/blog/blog/data/blog/2025-11-implement-frp-intranet-penetration.mdx","readingTime":{"text":"8 min read","minutes":7.315,"time":438900,"words":1463},"toc":"","_raw":{"sourceFilePath":"/home/runner/work/blog/blog/data/blog/2025-11-implement-frp-intranet-penetration.mdx","sourceFileName":"2025-11-implement-frp-intranet-penetration.mdx","sourceFileDir":"/home/runner/work/blog/blog/data/blog","contentType":"mdx","flattenedPath":"blog/2025-11-implement-frp-intranet-penetration"},"body":{"raw":"$10","code":"$11","compiled":"$12"},"structuredData":{"@context":"https://schema.org","@type":"BlogPosting","headline":"使用 FRP 实现内网穿透：实践指南","datePublished":"2025-11-12T00:00:00.000Z","dateModified":"2025-11-12T00:00:00.000Z","description":"使用Frp实现公网IP/域名访问家用服务器。","image":"/static/images/twitter-card.png","url":"https://xiaofeng.show/blog/2025-11-implement-frp-intranet-penetration","author":[{"@type":"Person","name":"张晓风"}]}},"authorDetails":[{"type":"Authors","name":"张晓风","avatar":"/static/images/avatar.png","occupation":"后端软件开发工程师","company":"","email":"zhangyuliang9425@gmail.com","twitter":"","linkedin":"","github":"https://github.com/zhangyuliang1994","layout":"","slug":"default","path":"authors/default","filePath":"/home/runner/work/blog/blog/data/authors/default.mdx","readingTime":{"text":"2 min read","minutes":1.39,"time":83400,"words":278},"toc":""}],"prev":{"type":"Blog","title":"2025年10月 \"BAT董事会\" 群聊月报","date":"2025-11-01","tags":["月报","群聊","BAT"],"lastmod":null,"draft":false,"summary":"本月群聊关键词：Sora热潮、创业讨论、加班内卷、裁员寒冬。从AI视频生成到个体工商户注册，在职场焦虑中探索副业出路。","description":"","preview":"","categories":[],"images":[],"authors":["default"],"layout":"PostLayout","bibliography":"","canonicalUrl":"","password":"7758521","slug":"2025-10-monthly-report","path":"blog/2025-10-monthly-report","filePath":"/home/runner/work/blog/blog/data/blog/2025-10-monthly-report.mdx","readingTime":{"text":"31 min read","minutes":30.345,"time":1820700,"words":6069},"toc":"","structuredData":{"@context":"https://schema.org","@type":"BlogPosting","headline":"2025年10月 \"BAT董事会\" 群聊月报","datePublished":"2025-11-01","dateModified":"2025-11-01","description":"本月群聊关键词：Sora热潮、创业讨论、加班内卷、裁员寒冬。从AI视频生成到个体工商户注册，在职场焦虑中探索副业出路。","image":"/static/images/twitter-card.png","url":"https://xiaofeng.show/blog/2025-10-monthly-report","author":["张晓风"]}},"next":null,"isProduction":true,"children":[["$","h2",null,{"children":"引言"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"去年抢购的高性能服务器到期了，续费又太贵。今年只能搞了个2C2G的小玩意，然后让家里的服务器当主力，用这个廉价的服务器当中转。"}],"\n"]}],"\n",["$","h2",null,{"children":"FRP 概述"}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"FRP"}],"（Fast Reverse Proxy）是一款可以用于",["$","strong",null,{"children":"内网穿透"}],"的开源工具，",["$","br",null,{}],"\n","支持 ",["$","strong",null,{"children":"TCP/UDP/HTTP/HTTPS 协议"}],"，可以将 ",["$","strong",null,{"children":"内网服务"}]," 暴露到 ",["$","strong",null,{"children":"公网"}],["$","br",null,{}],"\n",["$","strong",null,{"children":"实现"}],"从任意网络环境访问到你的服务器或电脑。"]}],"\n",["$","p",null,{"children":["🔗 ",["$","strong",null,{"children":"Frp官网"}],"：",["$","a",null,{"target":"_blank","rel":"noopener noreferrer","href":"https://github.com/fatedier/frp","children":"https://github.com/fatedier/frp"}]]}],"\n",["$","h2",null,{"children":"环境准备"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"一个有公网IP的服务器，建议阿里云/腾讯云。"}],"\n",["$","li",null,{"children":"需要实现内网穿透的服务器或电脑，我这里就是家里的Mac mini。"}],"\n"]}],"\n",["$","h2",null,{"children":"下载与安装"}],"\n",["$","p",null,{"children":["前往 ",["$","a",null,{"target":"_blank","rel":"noopener noreferrer","href":"https://github.com/fatedier/frp/releases","children":"GitHub FRP Releases"}]," 下载适合你系统的版本：\n你看到的文件格式是 frp_0.61.1_xxx(适用系统) _ yyy(系统架构).tar.gz\nMac Arm：",["$","a",null,{"target":"_blank","rel":"noopener noreferrer","href":"https://github.com/fatedier/frp/releases/download/v0.65.0/frp_0.65.0_linux_amd64.tar.gz","children":"frp_0.65.0_linux_amd64.tar.gz"}],"\nLinux x86：",["$","a",null,{"target":"_blank","rel":"noopener noreferrer","href":"https://github.com/fatedier/frp/releases/download/v0.65.0/frp_0.65.0_linux_amd64.tar.gz","children":"frp_0.65.0_linux_amd64.tar.gz"}],"\n解压后，可以看到以下几个文件："]}],"\n",["$","$L13",null,{"className":"language-shell","children":["$","code",null,{"className":"language-shell code-highlight","children":[["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# Linux指令 "}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token function","children":"ls"}]," \n"]}],["$","span",null,{"className":"code-line","children":"frpc frpc.toml frps frps.toml LICENSE\n"}]]}]}],"\n",["$","h2",null,{"children":"FRP 服务端部署"}],"\n",["$","h4",null,{"children":"配置文件修改（frps.toml）"}],"\n",["$","$L13",null,{"className":"language-toml","children":["$","code",null,{"className":"language-toml code-highlight","children":[["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# =============================="}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# FRP 服务器端（frps.ini）配置"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# =============================="}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 绑定监听地址（默认 `0.0.0.0` 代表监听所有 IP）"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"bindAddr"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token string","children":"\"0.0.0.0\""}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"#  服务器监听端口（客户端需要通过该端口连接 FRP 服务器）"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"bindPort"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token number","children":"7000"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# HTTP 端口（用于内网 HTTP 代理穿透）(我的80端口被占用了)"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"vhostHTTPPort"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token number","children":"8230"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# HTTPS 端口（用于内网 HTTPS 代理穿透）（我的443端口被占用了）"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"vhostHTTPSPort"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token number","children":"8443"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 子域名支持"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 可以通过 `subDomainHost` 解析动态子域名"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 例如：如果 `subDomainHost` 配置为 \"example.com\""}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 那么客户端可以使用 `test.example.com` 访问内网服务"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 如果你没有域名或不使用此功能，请删除此行！"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 如果你要用IP直连例如:168.0.0.1:8848，就把这行删掉，不要配置！"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# subDomainHost = \"xxxx.com\"  # 请替换为你的真实域名"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# ============================================="}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# Web 控制台（Dashboard）配置"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# ============================================="}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 监控界面监听地址（`0.0.0.0` 代表所有 IP 可访问）"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"webServer.addr"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token string","children":"\"0.0.0.0\""}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# Web 管理面板端口（可在浏览器访问，默认 7500）"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 你可以通过 `http://你的公网IP:7500` 访问 FRP 管理面板"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"webServer.port"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token number","children":"7500"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# Web 控制台管理账号（可自定义）"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"webServer.user"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token string","children":"\"admin\""}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# Web 控制台密码（请自行修改）"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"webServer.password"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token string","children":"\"your_password\""}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# ============================================="}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 身份验证（Authentication）配置"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# ============================================="}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"#  认证方式（防止未经授权的客户端连接）"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 目前 FRP 支持 `token` 和 `oidc` 方式，我们选用token"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"auth.method"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token string","children":"\"token\""}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"#  Token 认证（客户端需要匹配相同 token 才能连接）"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 通俗来说就是密码，写一个你能记住的，尽量长一点"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 示例: 123-abc-123abc "}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"auth.token"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token string","children":"\"your_token\""}],"   ",["$","span",null,{"className":"token comment","children":"# 请自行修改，不要用我的"}],"\n"]}]]}]}],"\n",["$","h4",null,{"children":"启动"}],"\n",["$","p",null,{"children":"在 frp 目录下执行如下指令："}],"\n",["$","$L13",null,{"className":"language-shell","children":["$","code",null,{"className":"language-shell code-highlight","children":["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token function","children":"screen"}]," ",["$","span",null,{"className":"token parameter variable","children":"-S"}]," frps ./frps ",["$","span",null,{"className":"token parameter variable","children":"-c"}]," frps.toml   \n"]}]}]}],"\n",["$","p",null,{"children":"启动成功后会出现："}],"\n",["$","$L13",null,{"className":"language-shell","children":["$","code",null,{"className":"language-shell code-highlight","children":[["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token punctuation","children":"["}],"frps/root.go:105",["$","span",null,{"className":"token punctuation","children":"]"}]," frps uses config file: frps.toml\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token punctuation","children":"["}],"server/service.go:237",["$","span",null,{"className":"token punctuation","children":"]"}]," frps tcp listen on ",["$","span",null,{"className":"token number","children":"0.0"}],".0.0:7000\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token punctuation","children":"["}],"server/service.go:305",["$","span",null,{"className":"token punctuation","children":"]"}]," http ",["$","span",null,{"className":"token function","children":"service"}]," listen on ",["$","span",null,{"className":"token number","children":"0.0"}],".0.0:8230\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token punctuation","children":"["}],"server/service.go:319",["$","span",null,{"className":"token punctuation","children":"]"}]," https ",["$","span",null,{"className":"token function","children":"service"}]," listen on ",["$","span",null,{"className":"token number","children":"0.0"}],".0.0:8443\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token punctuation","children":"["}],"frps/root.go:114",["$","span",null,{"className":"token punctuation","children":"]"}]," frps started successfully\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token punctuation","children":"["}],"server/service.go:351",["$","span",null,{"className":"token punctuation","children":"]"}]," dashboard listen on ",["$","span",null,{"className":"token number","children":"0.0"}],".0.0:7500\n"]}]]}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Linux退出程序窗口"}],["$","br",null,{}],"\n","按下",["$","code",null,{"children":"Ctrl+A"}],"松开，再按一下",["$","code",null,{"children":"D"}],"就可以退出程序窗口",["$","br",null,{}],"\n","要回到程序窗口输入指令",["$","code",null,{"children":"screen -r frps"}],"即可",["$","br",null,{}],"\n","如果想结束程序进程输入指令",["$","code",null,{"children":"pkill frps"}],"即可"]}],"\n"]}],"\n",["$","h2",null,{"children":"FRP 客户端配置"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"描述 frpc 的安装与配置参数。"}],"\n",["$","li",null,{"children":"预留连接测试与验证方法。"}],"\n"]}],"\n",["$","h4",null,{"children":"配置文件修改（frps.toml）"}],"\n",["$","$L13",null,{"className":"language-toml","children":["$","code",null,{"className":"language-toml code-highlight","children":[["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 服务端地址（这里要填你有公网IP的服务器的IP或者是服务器的域名）"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"serverAddr"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token string","children":"\"xx.xx.xx.xx\""}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 服务器端口（Frp 服务端监听的端口）"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"serverPort"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token number","children":"7000"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":"  \n"}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 连接协议"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"transport.protocol"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token string","children":"\"tcp\""}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":"  \n"}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 认证方式"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"auth.method"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token string","children":"\"token\""}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 认证所使用的 Token（要和你刚才配置的服务端token完全一样！）"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"auth.token"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token string","children":"\"your_token\""}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":"  \n"}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 代理配置"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token punctuation","children":"["}],["$","span",null,{"className":"token punctuation","children":"["}],["$","span",null,{"className":"token table class-name","children":"proxies"}],["$","span",null,{"className":"token punctuation","children":"]"}],["$","span",null,{"className":"token punctuation","children":"]"}],"\n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 代理名称(标识该代理的名称，根据你的喜好填写）"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"name"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token string","children":"\"xiaofeng\""}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 代理类型（http、https、tcp等）"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 这里要根据你的需求来填写，如果你有域名，就用http"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 如果你没有域名，那就用IP直连，例如:165.0.0.1:8848,此时这里应该写tcp协议"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 如果你用tcp协议就必须把刚才服务端上subDomainHost = \"xxxx.com\"的配置删除！"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# type = \"tcp\"   # IP+端口直连用这个"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"type"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token string","children":"\"tcp\""}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 本地 IP（Frp 客户端需要将流量转发到的本地地址）"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"localIP"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token string","children":"\"127.0.0.1\""}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 本地端口（Frp 客户端需要将流量转发到的本地端口，根据你要穿透的端口来填写）"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"localPort"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token number","children":"5678"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 访问此代理的子域名"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 如果你没有域名要用IP直连，请把这句删除掉，否则会导致无法连接！"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# subdomain = \"rocket\" # 子域名请根据你拥有的域名配置，配置后通过rocket.xxx.com格式访问"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":"  \n"}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 如果你不用域名，要用ip+端口直连，请必须加上这句！"}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token comment","children":"# 并且删除 subdomain = \"rocket\" "}],"\n"]}],["$","span",null,{"className":"code-line","children":"\n"}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token key property","children":"remotePort"}]," ",["$","span",null,{"className":"token punctuation","children":"="}]," ",["$","span",null,{"className":"token number","children":"5678"}],"    ",["$","span",null,{"className":"token comment","children":"# 这个端口和localPort 配置的一模一样，这样才能正常访问！"}],"\n"]}]]}]}],"\n",["$","h4",null,{"children":"启动"}],"\n",["$","p",null,{"children":"在 frp 目录下执行如下指令："}],"\n",["$","$L13",null,{"className":"language-shell","children":["$","code",null,{"className":"language-shell code-highlight","children":["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token function","children":"screen"}]," ",["$","span",null,{"className":"token parameter variable","children":"-S"}]," frps ./frpc ",["$","span",null,{"className":"token parameter variable","children":"-c"}]," frpc.toml   \n"]}]}]}],"\n",["$","p",null,{"children":"启动成功后会出现："}],"\n",["$","$L13",null,{"className":"language-shell","children":["$","code",null,{"className":"language-shell code-highlight","children":[["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token punctuation","children":"["}],"I",["$","span",null,{"className":"token punctuation","children":"]"}]," ",["$","span",null,{"className":"token punctuation","children":"["}],"sub/root.go:142",["$","span",null,{"className":"token punctuation","children":"]"}]," start frpc ",["$","span",null,{"className":"token function","children":"service"}]," ",["$","span",null,{"className":"token keyword","children":"for"}]," config ",["$","span",null,{"className":"token function","children":"file"}]," ",["$","span",null,{"className":"token punctuation","children":"["}],"frpc.toml",["$","span",null,{"className":"token punctuation","children":"]"}]," \n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token punctuation","children":"["}],"I",["$","span",null,{"className":"token punctuation","children":"]"}]," ",["$","span",null,{"className":"token punctuation","children":"["}],"client/service.go:295",["$","span",null,{"className":"token punctuation","children":"]"}]," try to connect to server",["$","span",null,{"className":"token punctuation","children":".."}],". \n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token punctuation","children":"["}],"I",["$","span",null,{"className":"token punctuation","children":"]"}]," ",["$","span",null,{"className":"token punctuation","children":"["}],"client/service.go:287",["$","span",null,{"className":"token punctuation","children":"]"}]," ",["$","span",null,{"className":"token punctuation","children":"["}],"7c9de41e30e15c46",["$","span",null,{"className":"token punctuation","children":"]"}]," login to server success, get run ",["$","span",null,{"className":"token function","children":"id"}]," ",["$","span",null,{"className":"token punctuation","children":"["}],"7c9de41e30e15c46",["$","span",null,{"className":"token punctuation","children":"]"}]," \n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token punctuation","children":"["}],"I",["$","span",null,{"className":"token punctuation","children":"]"}]," ",["$","span",null,{"className":"token punctuation","children":"["}],"proxy/proxy_manager.go:173",["$","span",null,{"className":"token punctuation","children":"]"}]," ",["$","span",null,{"className":"token punctuation","children":"["}],"7c9de41e30e15c46",["$","span",null,{"className":"token punctuation","children":"]"}]," proxy added: ",["$","span",null,{"className":"token punctuation","children":"["}],"rocketcat",["$","span",null,{"className":"token punctuation","children":"]"}]," \n"]}],["$","span",null,{"className":"code-line","children":[["$","span",null,{"className":"token punctuation","children":"["}],"I",["$","span",null,{"className":"token punctuation","children":"]"}]," ",["$","span",null,{"className":"token punctuation","children":"["}],"client/control.go:168",["$","span",null,{"className":"token punctuation","children":"]"}]," ",["$","span",null,{"className":"token punctuation","children":"["}],"7c9de41e30e15c46",["$","span",null,{"className":"token punctuation","children":"]"}]," ",["$","span",null,{"className":"token punctuation","children":"["}],"rocketcat",["$","span",null,{"className":"token punctuation","children":"]"}]," start proxy success\n"]}]]}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Linux退出程序窗口"}],["$","br",null,{}],"\n","按下",["$","code",null,{"children":"Ctrl+A"}],"松开，再按一下",["$","code",null,{"children":"D"}],"就可以退出程序窗口",["$","br",null,{}],"\n","要回到程序窗口输入指令",["$","code",null,{"children":"screen -r frpc"}],"即可",["$","br",null,{}],"\n","如果想结束程序进程输入指令",["$","code",null,{"children":"pkill frpc"}],"即可"]}],"\n"]}],"\n",["$","h2",null,{"children":"测试与验证"}],"\n",["$","p",null,{"children":["可以登陆公网IP的页面查看代理情况(http://xx.xx.xx.xx:7500)，如图所示：\n",["$","$L14",null,{"src":"https://minio.xiaofeng.show/blog/2025/frp-watch.png","alt":""}],"\n也可查看具体的协议，比如我在配置里设置的是TCP的5678端口："]}],"\n",["$","p",null,{"children":["$","$L14",null,{"src":"https://minio.xiaofeng.show/blog/2025/frp-detail.png","alt":""}]}],"\n",["$","h2",null,{"children":"总结"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"配置/启动时要注意是服务器还是客户端，因为文件名太相近了。另外，配置过程难免会有疑问，甚至报错，建议直接问AI，效果非常好。"}],"\n"]}],"\n",["$","h2",null,{"children":"参考"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"https://www.cnblogs.com/geek233/p/18791892"}],"\n"]}]]}]

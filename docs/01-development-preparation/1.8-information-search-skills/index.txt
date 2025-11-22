@@ -1,15 +1,15 @@
 1:HL["/_next/static/css/9e4bf6d932073eda.css",{"as":"style"}]
 2:HL["/_next/static/css/9fdfe6c99f25ae04.css",{"as":"style"}]
-0:["CcLp6OwDzlZdKoxT3pZx_",[[["",{"children":["docs",{"children":[["slug","01-development-preparation/1.8-information-search-skills","oc"],{"children":["__PAGE__?{\"slug\":[\"01-development-preparation\",\"1.8-information-search-skills\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9e4bf6d932073eda.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9fdfe6c99f25ae04.css","precedence":"next"}]],"$L4"]]]]
-5:I{"id":8464,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"ThemeProviders","async":false}
-6:I{"id":8440,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"KBarSearchProvider","async":false}
-7:I{"id":6481,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"","async":false}
-8:I{"id":1229,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"","async":false}
-9:I{"id":7767,"chunks":["272:static/chunks/webpack-2cb9ac6e9ccb1c1f.js","216:static/chunks/vendors-34cfadd6b6898e15.js"],"name":"default","async":false}
-a:I{"id":7920,"chunks":["272:static/chunks/webpack-2cb9ac6e9ccb1c1f.js","216:static/chunks/vendors-34cfadd6b6898e15.js"],"name":"default","async":false}
-b:I{"id":6685,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","160:static/chunks/app/not-found-db321bc49fd00234.js"],"name":"","async":false}
-c:I{"id":1928,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","189:static/chunks/app/docs/[[...slug]]/page-bc08ad659d534eb0.js"],"name":"","async":false}
-e:I{"id":1329,"chunks":["216:static/chunks/vendors-34cfadd6b6898e15.js","185:static/chunks/app/layout-21532f0299c2505c.js"],"name":"","async":false}
+0:["WxSaiTKAe0ZRSDhyMun6C",[[["",{"children":["docs",{"children":[["slug","01-development-preparation/1.8-information-search-skills","oc"],{"children":["__PAGE__?{\"slug\":[\"01-development-preparation\",\"1.8-information-search-skills\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9e4bf6d932073eda.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9fdfe6c99f25ae04.css","precedence":"next"}]],"$L4"]]]]
+5:I{"id":8464,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"ThemeProviders","async":false}
+6:I{"id":8440,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"KBarSearchProvider","async":false}
+7:I{"id":6481,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"","async":false}
+8:I{"id":1229,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"","async":false}
+9:I{"id":7767,"chunks":["272:static/chunks/webpack-2cb9ac6e9ccb1c1f.js","216:static/chunks/vendors-8842281dd4cb299e.js"],"name":"default","async":false}
+a:I{"id":7920,"chunks":["272:static/chunks/webpack-2cb9ac6e9ccb1c1f.js","216:static/chunks/vendors-8842281dd4cb299e.js"],"name":"default","async":false}
+b:I{"id":6685,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"","async":false}
+c:I{"id":1928,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","189:static/chunks/app/docs/[[...slug]]/page-99627d753be593de.js"],"name":"","async":false}
+10:I{"id":1329,"chunks":["216:static/chunks/vendors-8842281dd4cb299e.js","185:static/chunks/app/layout-3be1eb8b2a6e8932.js"],"name":"","async":false}
 4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"晓风的博客"}],["$","meta","2",{"name":"description","content":"技术探索与分享"}],["$","link","3",{"rel":"manifest","href":"/static/favicons/site.webmanifest"}],["$","meta","4",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","5",{"name":"robots","content":"index, follow"}],["$","meta","6",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","7",{"rel":"canonical","href":"https://xiaofeng.show/docs/01-development-preparation/1.8-information-search-skills"}],["$","link","8",{"rel":"alternate","type":"application/rss+xml","href":"https://xiaofeng.show/feed.xml"}],["$","meta","9",{"property":"og:title","content":"晓风的博客"}],["$","meta","10",{"property":"og:description","content":"技术探索与分享"}],["$","meta","11",{"property":"og:url","content":"https://xiaofeng.show/docs/01-development-preparation/1.8-information-search-skills"}],["$","meta","12",{"property":"og:site_name","content":"晓风的博客"}],["$","meta","13",{"property":"og:locale","content":"en_US"}],["$","meta","14",{"property":"og:image","content":"https://xiaofeng.show/static/images/twitter-card.png"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"晓风的博客"}],["$","meta","18",{"name":"twitter:description","content":"技术探索与分享"}],["$","meta","19",{"name":"twitter:image","content":"https://xiaofeng.show/static/images/twitter-card.png"}],["$","link","20",{"rel":"icon","href":"/static/favicons/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","21",{"rel":"icon","href":"/static/favicons/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/static/favicons/apple-touch-icon.png","sizes":"76x76","type":"image/png"}],["$","link","23",{"rel":"mask-icon","href":"/static/favicons/safari-pinned-tab.svg"}]]
 d:T1bf9,
 # 1.8 🔍 信息搜索实操秘技
@@ -300,4 +300,1448 @@ topic:react
 3. **提高开发效率**
 4. **建立个人知识体系**
 
-记住，搜索不仅是技术，更是一种思维方式。持续练习和改进你的搜索技能，将为你的开发生涯带来巨大价值。3:[["$","html",null,{"lang":"zh-CN","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.loli.net"}],["$","link",null,{"rel":"preconnect","href":"https://gstatic.loli.net","crossOrigin":""}],["$","link",null,{"href":"https://fonts.loli.net/css2?family=Inter:wght@400;500;700;900&family=Noto+Sans+SC:wght@400;500;700;900&display=swap","rel":"stylesheet"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#fff"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/feed.xml"}]]}],["$","body",null,{"className":"bg-white/90 text-black antialiased dark:bg-[#1B1B1B] dark:text-white transition-colors duration-200","children":["$","$L5",null,{"children":["$","section",null,{"className":"mx-auto max-w-6xl px-3 md:px-4 xl:px-0","children":["$","div",null,{"className":"flex h-screen flex-col justify-between font-sans","children":[["$","$L6",null,{"kbarConfig":{"searchDocumentsPath":"search.json"},"children":[["$","$L7",null,{}],["$","$L8",null,{}],["$","main",null,{"className":"mb-auto","children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":["$","div",null,{"className":"flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6","children":[["$","div",null,{"className":"space-x-2 pb-8 pt-6 md:space-y-5","children":["$","h1",null,{"className":"text-6xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 md:border-r-2 md:px-6 md:text-8xl md:leading-14","children":"404"}]}],["$","div",null,{"className":"max-w-md","children":[["$","p",null,{"className":"mb-4 text-xl font-bold leading-normal md:text-2xl","children":"Sorry we couldn't find this page."}],["$","p",null,{"className":"mb-8","children":"But dont worry, you can find plenty of other things on our homepage."}],["$","$Lb",null,{"href":"/","className":"focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm font-medium leading-5 text-white shadow transition-colors duration-150 hover:bg-blue-700 focus:outline-none dark:hover:bg-blue-500","children":"Back to homepage"}]]}]]}],"notFoundStyles":[],"childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","docs","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","docs","children",["slug","01-development-preparation/1.8-information-search-skills","oc"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":[["$","$Lc",null,{"docsForSidebar":[{"slug":"01-development-preparation/1.0-development-preparation-overview","title":"1.0 开发前期准备","order":1,"url":"/docs/01-development-preparation/1.0-development-preparation-overview"},{"slug":"01-development-preparation/1.1-device-purchasing-guide","title":"1.1 开发设备选购指南","order":2,"url":"/docs/01-development-preparation/1.1-device-purchasing-guide"},{"slug":"01-development-preparation/1.2-essential-accounts","title":"1.2 必备开发账号注册","order":3,"url":"/docs/01-development-preparation/1.2-essential-accounts"},{"slug":"01-development-preparation/1.3-essential-software-list","title":"1.3 必备软件清单","order":4,"url":"/docs/01-development-preparation/1.3-essential-software-list"},{"slug":"01-development-preparation/1.4-browser-extensions","title":"1.4 浏览器插件推荐","order":5,"url":"/docs/01-development-preparation/1.4-browser-extensions"},{"slug":"01-development-preparation/1.5-translation-tools-guide","title":"1.5 翻译工具使用指南","order":6,"url":"/docs/01-development-preparation/1.5-translation-tools-guide"},{"slug":"01-development-preparation/1.6-development-environment-setup","title":"1.6 开发环境配置指南","order":7,"url":"/docs/01-development-preparation/1.6-development-environment-setup"},{"slug":"01-development-preparation/1.7-mac-practical-tutorial","title":"1.7 Mac 实用教程","order":8,"url":"/docs/01-development-preparation/1.7-mac-practical-tutorial"},{"slug":"01-development-preparation/1.8-information-search-skills","title":"1.8 信息搜索实操秘技","order":9,"url":"/docs/01-development-preparation/1.8-information-search-skills"},{"slug":"01-development-preparation/1.9-internet-terminology","title":"1.9 互联网常见术语解释","order":10,"url":"/docs/01-development-preparation/1.9-internet-terminology"},{"slug":"02-ai-tools/2.0-software-tools-tutorial","title":"2.0  软件工具教程","order":6,"url":"/docs/02-ai-tools/2.0-software-tools-tutorial"},{"slug":"02-ai-tools/2.1-raycast-efficiency-launcher","title":"2.1 Raycast: 效率启动器","order":7,"url":"/docs/02-ai-tools/2.1-raycast-efficiency-launcher"},{"slug":"02-ai-tools/2.2-github-desktop","title":"2.2 GitHub Desktop","order":8,"url":"/docs/02-ai-tools/2.2-github-desktop"},{"slug":"02-ai-tools/2.3-figma-ui-design","title":"2.3 Figma: UI设计","order":9,"url":"/docs/02-ai-tools/2.3-figma-ui-design"},{"slug":"02-ai-tools/2.4-glarity-ai-assistant","title":"2.4 Glarity: AI助手","order":10,"url":"/docs/02-ai-tools/2.4-glarity-ai-assistant"},{"slug":"02-ai-tools/2.5-sitesucker-website-download","title":"2.5 SiteSucker: 网站下载","order":11,"url":"/docs/02-ai-tools/2.5-sitesucker-website-download"},{"slug":"02-ai-tools/2.6-easyscraper-web-scraping","title":"2.6 Easy Scraper: 网页采集","order":12,"url":"/docs/02-ai-tools/2.6-easyscraper-web-scraping"},{"slug":"02-ai-tools/2.7-lighthouse-performance-testing","title":"2.7 Lighthouse: 性能检测","order":13,"url":"/docs/02-ai-tools/2.7-lighthouse-performance-testing"},{"slug":"03-programming-basics/3.1-cursor-development-cases","title":"3.1 Cursor开发案例","order":17,"url":"/docs/03-programming-basics/3.1-cursor-development-cases"},{"slug":"03-programming-basics/3.2-cursor-installation-configuration","title":"3.2 Cursor安装和配置","order":18,"url":"/docs/03-programming-basics/3.2-cursor-installation-configuration"},{"slug":"03-programming-basics/3.3-cursor-rules","title":"3.3 Cursor Rules","order":19,"url":"/docs/03-programming-basics/3.3-cursor-rules"},{"slug":"03-programming-basics/3.4-cursor-ai-chat","title":"3.4 Cursor AI 对话(Chat)","order":20,"url":"/docs/03-programming-basics/3.4-cursor-ai-chat"},{"slug":"03-programming-basics/3.5-cursor-code-completion","title":"3.5 Cursor代码补全(Tab)","order":21,"url":"/docs/03-programming-basics/3.5-cursor-code-completion"},{"slug":"03-programming-basics/3.6-cursor-ai-agent","title":"3.6 Cursor AI Agent(⌘ I)","order":22,"url":"/docs/03-programming-basics/3.6-cursor-ai-agent"},{"slug":"03-programming-basics/3.7-cursor-command-palette","title":"3.7 Cursor 命令面板(⌘ K)","order":23,"url":"/docs/03-programming-basics/3.7-cursor-command-palette"},{"slug":"03-programming-basics/3.8-cursor-development-examples","title":"3.8 Cursor 开发案例","order":24,"url":"/docs/03-programming-basics/3.8-cursor-development-examples"},{"slug":"04-advanced-techniques/4.0-advanced-prompt-engineering","title":"4.0 全栈开发指南-概览","order":25,"url":"/docs/04-advanced-techniques/4.0-advanced-prompt-engineering"},{"slug":"04-advanced-techniques/4.1-large-project-architecture","title":"4.1 网站类型","order":26,"url":"/docs/04-advanced-techniques/4.1-large-project-architecture"},{"slug":"04-advanced-techniques/4.10-api-design-integration","title":"4.10 API 开发实战教程","order":36,"url":"/docs/04-advanced-techniques/4.10-api-design-integration"},{"slug":"04-advanced-techniques/4.11-ai-driven-automated-testing","title":"4.11 免费 API 资源","order":37,"url":"/docs/04-advanced-techniques/4.11-ai-driven-automated-testing"},{"slug":"04-advanced-techniques/4.12-cloud-native-development","title":"4.12 域名购买与管理","order":38,"url":"/docs/04-advanced-techniques/4.12-cloud-native-development"},{"slug":"04-advanced-techniques/4.13-machine-learning-integration","title":"4.13 Cloudflare 教程","order":39,"url":"/docs/04-advanced-techniques/4.13-machine-learning-integration"},{"slug":"04-advanced-techniques/4.14-real-time-data-processing","title":"4.14 gh-pages静态网站托管","order":40,"url":"/docs/04-advanced-techniques/4.14-real-time-data-processing"},{"slug":"04-advanced-techniques/4.15-scalable-system-design","title":"4.15 Vercel 部署指南","order":41,"url":"/docs/04-advanced-techniques/4.15-scalable-system-design"},{"slug":"04-advanced-techniques/4.16-internationalization-localization","title":"4.16 企业邮箱教程","order":42,"url":"/docs/04-advanced-techniques/4.16-internationalization-localization"},{"slug":"04-advanced-techniques/4.17-technical-debt-management","title":"4.17 网站数据分析工具","order":43,"url":"/docs/04-advanced-techniques/4.17-technical-debt-management"},{"slug":"04-advanced-techniques/4.2-advanced-code-generation","title":"4.2 网站基础 HTML/CSS/JS","order":27,"url":"/docs/04-advanced-techniques/4.2-advanced-code-generation"},{"slug":"04-advanced-techniques/4.3-fullstack-development","title":"4.3 Tailwind CSS 样式指南","order":28,"url":"/docs/04-advanced-techniques/4.3-fullstack-development"},{"slug":"04-advanced-techniques/4.4-complex-algorithm-implementation","title":"4.4 Markdown 使用指南","order":29,"url":"/docs/04-advanced-techniques/4.4-complex-algorithm-implementation"},{"slug":"04-advanced-techniques/4.5-team-collaboration-skills","title":"4.5 Git & GitHub 使用指南","order":30,"url":"/docs/04-advanced-techniques/4.5-team-collaboration-skills"},{"slug":"04-advanced-techniques/4.6-performance-optimization","title":"4.6 命令行终端基础","order":32,"url":"/docs/04-advanced-techniques/4.6-performance-optimization"},{"slug":"04-advanced-techniques/4.7-secure-coding-practices","title":"4.7 Next.js 开发指南","order":33,"url":"/docs/04-advanced-techniques/4.7-secure-coding-practices"},{"slug":"04-advanced-techniques/4.8-devops-integration","title":"4.8 shadcn/ui 组件教程","order":34,"url":"/docs/04-advanced-techniques/4.8-devops-integration"},{"slug":"04-advanced-techniques/4.9-cross-platform-development","title":"4.9 数据库使用指南","order":35,"url":"/docs/04-advanced-techniques/4.9-cross-platform-development"},{"slug":"05-project-practice/5.0-ai-programming-practice-overview","title":"5.0 实战项目开发-概览","order":36,"url":"/docs/05-project-practice/5.0-ai-programming-practice-overview"},{"slug":"05-project-practice/5.1-personal-blog-development","title":"5.1 项目初始化配置","order":37,"url":"/docs/05-project-practice/5.1-personal-blog-development"},{"slug":"05-project-practice/5.10-wechat-mini-program-development","title":"5.10 产品营销推广","order":46,"url":"/docs/05-project-practice/5.10-wechat-mini-program-development"},{"slug":"05-project-practice/5.2-ecommerce-website-development","title":"5.2 域名与邮箱配置","order":38,"url":"/docs/05-project-practice/5.2-ecommerce-website-development"},{"slug":"05-project-practice/5.3-social-app-development","title":"5.3 产品需求文档规范","order":39,"url":"/docs/05-project-practice/5.3-social-app-development"},{"slug":"05-project-practice/5.4-office-collaboration-tools","title":"5.4 落地页面开发教程","order":40,"url":"/docs/05-project-practice/5.4-office-collaboration-tools"},{"slug":"05-project-practice/5.5-data-visualization-platform","title":"5.5 Stripe支付集成指南","order":41,"url":"/docs/05-project-practice/5.5-data-visualization-platform"},{"slug":"05-project-practice/5.6-mobile-app-development","title":"5.6 核心功能实现指南","order":42,"url":"/docs/05-project-practice/5.6-mobile-app-development"},{"slug":"05-project-practice/5.7-ai-assistant-development","title":"5.7 SEO优化策略","order":43,"url":"/docs/05-project-practice/5.7-ai-assistant-development"},{"slug":"05-project-practice/5.8-game-development-practice","title":"5.8 项目部署流程","order":44,"url":"/docs/05-project-practice/5.8-game-development-practice"},{"slug":"05-project-practice/5.9-saas-platform-development","title":"5.9 域名配置教程","order":45,"url":"/docs/05-project-practice/5.9-saas-platform-development"}],"currentDoc":{"type":"Doc","_id":"docs/01-development-preparation/1.8-information-search-skills","title":"1.8 信息搜索实操秘技","description":"掌握高效信息搜索技巧，提升开发效率","order":9,"slug":"01-development-preparation/1.8-information-search-skills","url":"/docs/01-development-preparation/1.8-information-search-skills","filePath":"/home/runner/work/blog/blog/data/docs/01-development-preparation/1.8-information-search-skills.mdx","toc":[],"_raw":{"sourceFilePath":"/home/runner/work/blog/blog/data/docs/01-development-preparation/1.8-information-search-skills.mdx","sourceFileName":"1.8-information-search-skills.mdx","sourceFileDir":"/home/runner/work/blog/blog/data/docs/01-development-preparation","contentType":"mdx","flattenedPath":"docs/01-development-preparation/1.8-information-search-skills"},"body":{"raw":"$d","code":"return { default: function Content() { return null; } }","compiled":"return { default: function Content() { return null; } }"}},"slug":"01-development-preparation/1.8-information-search-skills"}],null],"segment":"__PAGE__?{\"slug\":[\"01-development-preparation\",\"1.8-information-search-skills\"]}"},"styles":[]}],"segment":["slug","01-development-preparation/1.8-information-search-skills","oc"]},"styles":[]}],"segment":"docs"},"styles":[]}]}],["$","$Le",null,{}]]}],["$","footer",null,{"children":["$","div",null,{"className":"mt-16 flex flex-col items-center","children":[["$","div",null,{"className":"mb-3 flex space-x-4","children":[["$","$Lb",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"mailto:zhangyuliang945@gmail.com","children":[["$","span",null,{"className":"sr-only","children":"mail"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"52 42 88 66","className":"fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","path",null,{"fill":"#4285f4","d":"M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"}],["$","path",null,{"fill":"#34a853","d":"M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"}],["$","path",null,{"fill":"#fbbc04","d":"M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2"}],["$","path",null,{"fill":"#ea4335","d":"M72 74V48l24 18 24-18v26L96 92"}],["$","path",null,{"fill":"#c5221f","d":"M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2"}]]}]]}],["$","$Lb",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/zhangyuliang1994","children":[["$","span",null,{"className":"sr-only","children":"github"}],["$","svg",null,{"viewBox":"0 0 128 128","className":"fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":["$","g",null,{"fill":"#fffff","children":[["$","path",null,{"fillRule":"evenodd","clipRule":"evenodd","d":"M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"}],["$","path",null,{"d":"M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"}]]}]}]]}],null,null,null,null]}],["$","div",null,{"className":"mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400","children":[["$","div",null,{"children":"张晓风"}],["$","div",null,{"children":" • "}],["$","div",null,{"children":"© 2025"}],["$","div",null,{"children":" • "}],["$","$Lb",null,{"href":"/","children":"晓风的博客"}]]}],["$","div",null,{"className":"mb-8 text-sm text-gray-500 dark:text-gray-400","children":["$","a",null,{"href":"https://beian.miit.gov.cn/","className":"hover:text-gray-600 dark:hover:text-gray-300","target":"_blank","rel":"noopener noreferrer","children":"苏ICP备2023046043号"}]}]]}]}]]}]}]}]}]]}],null]
+记住，搜索不仅是技术，更是一种思维方式。持续练习和改进你的搜索技能，将为你的开发生涯带来巨大价值。e:T6c4c,const _jsx = _jsx_runtime.jsx;
+const _jsxs = _jsx_runtime.jsxs;
+const _Fragment = _jsx_runtime.Fragment;
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    h1: "h1",
+    h2: "h2",
+    p: "p",
+    h3: "h3",
+    strong: "strong",
+    a: "a",
+    ul: "ul",
+    li: "li",
+    code: "code",
+    pre: "pre",
+    span: "span",
+    ol: "ol"
+  }, props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.h1, {
+      children: "1.8 🔍 信息搜索实操秘技"
+    }), "\n", _jsx(_components.h2, {
+      children: "信息搜索实操秘技"
+    }), "\n", _jsx(_components.p, {
+      children: "学会搜索，是做互联网的基本技能，如果你每天都在用百度搜索，可以很负责任的说，你永远也成为不了独立开发者。"
+    }), "\n", _jsx(_components.h3, {
+      children: "超级搜索技术，普通人变强的唯一外挂 | 全套宝藏实操秘技"
+    }), "\n", _jsxs(_components.p, {
+      children: ["这里推荐B站up主的一个视频，这个视频介绍了超级搜索技术（信息检索技术），", _jsx(_components.strong, {
+        children: "这个视频很值得认真看完并且跟着实操一遍，终身受益。它是普通人变强的唯一外挂。视频的长度为1小时"
+      }), "，会用搜索技术来满足各种需求是做互联网最基础的能力，即使你可能已经工作了很多年，这个视频里面讲的一些细节技巧你也可能从来都没有用过，学习这些技巧，在你做互联网产品的时候会更高效，更快捷。"]
+    }), "\n", _jsxs(_components.p, {
+      children: ["👉哔哩哔哩：", _jsx(_components.a, {
+        href: "https://www.bilibili.com/video/BV1yw411F7J1/",
+        children: "超级搜索技术，普通人变强的唯一外挂 | 全套宝藏实操秘技"
+      })]
+    }), "\n", _jsxs(_components.p, {
+      children: ["防止视频国内被下架，YouTube 也可以观看: ", _jsx(_components.a, {
+        href: "https://www.youtube.com/watch?v=tiN6T1LewmQ",
+        children: "《搜索技术，普通人变强的唯一外挂。全套详细宝藏教程~》"
+      })]
+    }), "\n", _jsx(_components.h2, {
+      children: "核心搜索引擎选择"
+    }), "\n", _jsx(_components.h3, {
+      children: "1. Google - 首选搜索引擎"
+    }), "\n", _jsx(_components.p, {
+      children: "Google 是全球最强大的搜索引擎，特别适合技术搜索："
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "优势："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "搜索结果准确性高"
+      }), "\n", _jsx(_components.li, {
+        children: "技术资源丰富"
+      }), "\n", _jsx(_components.li, {
+        children: "支持复杂搜索语法"
+      }), "\n", _jsx(_components.li, {
+        children: "实时性好"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "访问方式："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "直接访问：https://www.google.com"
+      }), "\n", _jsx(_components.li, {
+        children: "镜像站点：https://google.com.hk"
+      }), "\n", _jsx(_components.li, {
+        children: "使用科学上网工具"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "2. Bing - 备选搜索引擎"
+    }), "\n", _jsx(_components.p, {
+      children: "微软的搜索引擎，在某些技术领域表现出色："
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "优势："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "集成ChatGPT功能"
+      }), "\n", _jsx(_components.li, {
+        children: "图片搜索优秀"
+      }), "\n", _jsx(_components.li, {
+        children: "开发者友好"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "3. DuckDuckGo - 隐私搜索"
+    }), "\n", _jsx(_components.p, {
+      children: "注重隐私保护的搜索引擎："
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "优势："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "不跟踪用户"
+      }), "\n", _jsx(_components.li, {
+        children: "结果相对客观"
+      }), "\n", _jsx(_components.li, {
+        children: "支持多种搜索功能"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "高级搜索技巧"
+    }), "\n", _jsx(_components.h3, {
+      children: "精确搜索语法"
+    }), "\n", _jsxs(_components.p, {
+      children: ["| 搜索语法 | 功能 | 示例 |\n| --- | --- | --- |\n| ", _jsx(_components.code, {
+        children: "\"关键词\""
+      }), " | 精确匹配 | ", _jsx(_components.code, {
+        children: "\"React useState\""
+      }), " |\n| ", _jsx(_components.code, {
+        children: "site:"
+      }), " | 指定网站搜索 | ", _jsx(_components.code, {
+        children: "site:github.com React"
+      }), " |\n| ", _jsx(_components.code, {
+        children: "filetype:"
+      }), " | 搜索特定文件类型 | ", _jsx(_components.code, {
+        children: "filetype:pdf JavaScript"
+      }), " |\n| ", _jsx(_components.code, {
+        children: "intitle:"
+      }), " | 搜索标题中包含关键词 | ", _jsx(_components.code, {
+        children: "intitle:Vue教程"
+      }), " |\n| ", _jsx(_components.code, {
+        children: "inurl:"
+      }), " | 搜索URL中包含关键词 | ", _jsx(_components.code, {
+        children: "inurl:tutorial Vue"
+      }), " |\n| ", _jsx(_components.code, {
+        children: "-"
+      }), " | 排除关键词 | ", _jsx(_components.code, {
+        children: "React -Angular"
+      }), " |\n| ", _jsx(_components.code, {
+        children: "OR"
+      }), " | 逻辑或搜索 | ", _jsx(_components.code, {
+        children: "React OR Vue"
+      }), " |\n| ", _jsx(_components.code, {
+        children: "*"
+      }), " | 通配符 | ", _jsx(_components.code, {
+        children: "React * hooks"
+      }), " |\n| ", _jsx(_components.code, {
+        children: ".."
+      }), " | 数值范围 | ", _jsx(_components.code, {
+        children: "price 100..500"
+      }), " |"]
+    }), "\n", _jsx(_components.h3, {
+      children: "时间范围搜索"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "工具菜单"
+        }), "：点击\"工具\"选择时间范围"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "过去24小时"
+        }), "：获取最新信息"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "过去一周"
+        }), "：获取近期动态"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "自定义时间"
+        }), "：指定具体时间段"]
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "地区和语言筛选"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "设置地区"
+        }), "：获取本地化结果"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "语言筛选"
+        }), "：选择特定语言的结果"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "翻译功能"
+        }), "：自动翻译外文结果"]
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "技术开发专用搜索"
+    }), "\n", _jsx(_components.h3, {
+      children: "1. 代码搜索平台"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "GitHub搜索"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["仓库搜索：", _jsx(_components.code, {
+          children: "language:JavaScript stars:>1000"
+        })]
+      }), "\n", _jsxs(_components.li, {
+        children: ["代码搜索：", _jsx(_components.code, {
+          children: "function useState language:JavaScript"
+        })]
+      }), "\n", _jsxs(_components.li, {
+        children: ["用户搜索：", _jsx(_components.code, {
+          children: "user:facebook"
+        })]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "Stack Overflow"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["问题搜索：", _jsx(_components.code, {
+          children: "[javascript] [react] useState"
+        })]
+      }), "\n", _jsx(_components.li, {
+        children: "标签筛选：使用相关技术标签"
+      }), "\n", _jsx(_components.li, {
+        children: "按投票排序：获取高质量答案"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "2. 文档和教程搜索"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "官方文档优先"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "框架官网：React, Vue, Angular"
+      }), "\n", _jsx(_components.li, {
+        children: "语言文档：MDN, Python.org"
+      }), "\n", _jsx(_components.li, {
+        children: "云服务文档：AWS, Azure, GCP"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "学习资源平台"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "YouTube：技术教程视频"
+      }), "\n", _jsx(_components.li, {
+        children: "Medium：技术博客文章"
+      }), "\n", _jsx(_components.li, {
+        children: "Dev.to：开发者社区"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "3. 开源项目搜索"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "GitHub高级搜索"
+      })
+    }), "\n", _jsx(_components.pre, {
+      className: "language-js",
+      children: _jsxs(_components.code, {
+        className: "language-js code-highlight",
+        children: [_jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token literal-property property",
+            children: "language"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: ":"
+          }), _jsx(_components.span, {
+            className: "token maybe-class-name",
+            children: "JavaScript"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token literal-property property",
+            children: "stars"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: ":"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: ">"
+          }), _jsx(_components.span, {
+            className: "token number",
+            children: "100"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token literal-property property",
+            children: "created"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: ":"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: ">"
+          }), _jsx(_components.span, {
+            className: "token number",
+            children: "2023"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: "-"
+          }), _jsx(_components.span, {
+            className: "token number",
+            children: "01"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: "-"
+          }), _jsx(_components.span, {
+            className: "token number",
+            children: "01"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token literal-property property",
+            children: "topic"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: ":"
+          }), "react\n"]
+        })]
+      })
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "项目质量评估"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Star数量和趋势"
+      }), "\n", _jsx(_components.li, {
+        children: "最近更新时间"
+      }), "\n", _jsx(_components.li, {
+        children: "Issue处理情况"
+      }), "\n", _jsx(_components.li, {
+        children: "文档完整性"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "特定场景搜索策略"
+    }), "\n", _jsx(_components.h3, {
+      children: "错误调试搜索"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "搜索策略："
+      })
+    }), "\n", _jsxs(_components.ol, {
+      children: ["\n", _jsx(_components.li, {
+        children: "复制完整错误信息"
+      }), "\n", _jsx(_components.li, {
+        children: "去除项目特定信息"
+      }), "\n", _jsx(_components.li, {
+        children: "添加技术栈关键词"
+      }), "\n", _jsx(_components.li, {
+        children: "使用英文搜索"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "示例："
+      })
+    }), "\n", _jsx(_components.pre, {
+      className: "language-js",
+      children: _jsx(_components.code, {
+        className: "language-js code-highlight",
+        children: _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token string",
+            children: "\"Cannot read property 'map' of undefined\""
+          }), " ", _jsx(_components.span, {
+            className: "token maybe-class-name",
+            children: "React"
+          }), "\n"]
+        })
+      })
+    }), "\n", _jsx(_components.h3, {
+      children: "工具和库选择"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "搜索模式："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: _jsx(_components.code, {
+          children: "\"best React libraries 2024\""
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.code, {
+          children: "\"React vs Vue vs Angular comparison\""
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.code, {
+          children: "\"top JavaScript frameworks 2024\""
+        })
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "最佳实践搜索"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "关键词组合："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: _jsx(_components.code, {
+          children: "\"React best practices\""
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.code, {
+          children: "\"JavaScript clean code\""
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.code, {
+          children: "\"Node.js performance optimization\""
+        })
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "信息验证和筛选"
+    }), "\n", _jsx(_components.h3, {
+      children: "信息质量评估"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "来源可信度："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "官方文档 > 知名技术博客 > 个人博客"
+      }), "\n", _jsx(_components.li, {
+        children: "知名开发者 > 普通用户"
+      }), "\n", _jsx(_components.li, {
+        children: "近期更新 > 过时内容"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "内容质量指标："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "代码示例完整性"
+      }), "\n", _jsx(_components.li, {
+        children: "解释清晰程度"
+      }), "\n", _jsx(_components.li, {
+        children: "实用性和可操作性"
+      }), "\n", _jsx(_components.li, {
+        children: "评论和反馈质量"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "交叉验证"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "多源验证："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "对比不同来源的信息"
+      }), "\n", _jsx(_components.li, {
+        children: "查看社区讨论"
+      }), "\n", _jsx(_components.li, {
+        children: "检查官方文档确认"
+      }), "\n", _jsx(_components.li, {
+        children: "实际测试验证"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "搜索工具推荐"
+    }), "\n", _jsx(_components.h3, {
+      children: "浏览器扩展"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "搜索增强："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Infinity：美化新标签页"
+      }), "\n", _jsx(_components.li, {
+        children: "uBlock Origin：屏蔽广告"
+      }), "\n", _jsx(_components.li, {
+        children: "Grammarly：语法检查"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "开发者工具："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Octotree：GitHub代码树"
+      }), "\n", _jsx(_components.li, {
+        children: "JSONView：JSON格式化"
+      }), "\n", _jsx(_components.li, {
+        children: "Wappalyzer：技术栈分析"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "专业搜索工具"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "代码搜索："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Sourcegraph：代码搜索引擎"
+      }), "\n", _jsx(_components.li, {
+        children: "grep.app：GitHub代码搜索"
+      }), "\n", _jsx(_components.li, {
+        children: "SearchCode：开源代码搜索"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "API文档："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Dash (macOS)：离线文档"
+      }), "\n", _jsx(_components.li, {
+        children: "Zeal (Windows/Linux)：离线文档"
+      }), "\n", _jsx(_components.li, {
+        children: "DevDocs：在线文档集合"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "搜索效率提升技巧"
+    }), "\n", _jsx(_components.h3, {
+      children: "快捷键和技巧"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "浏览器快捷键："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.code, {
+          children: "Ctrl/Cmd + T"
+        }), "：新标签页"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.code, {
+          children: "Ctrl/Cmd + L"
+        }), "：定位地址栏"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.code, {
+          children: "Ctrl/Cmd + K"
+        }), "：快速搜索"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.code, {
+          children: "Ctrl/Cmd + W"
+        }), "：关闭标签页"]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "搜索技巧："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "使用书签保存常用搜索"
+      }), "\n", _jsx(_components.li, {
+        children: "设置自定义搜索引擎"
+      }), "\n", _jsx(_components.li, {
+        children: "使用搜索历史记录"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "搜索词优化"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "关键词选择："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "使用技术术语而非通俗词汇"
+      }), "\n", _jsx(_components.li, {
+        children: "包含版本号信息"
+      }), "\n", _jsx(_components.li, {
+        children: "添加时间相关词汇"
+      }), "\n", _jsx(_components.li, {
+        children: "使用英文关键词"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "示例优化："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["普通：", _jsx(_components.code, {
+          children: "网页制作"
+        })]
+      }), "\n", _jsxs(_components.li, {
+        children: ["优化：", _jsx(_components.code, {
+          children: "web development HTML CSS JavaScript 2024"
+        })]
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "信息管理和保存"
+    }), "\n", _jsx(_components.h3, {
+      children: "搜索结果整理"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "保存方式："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "浏览器书签分类"
+      }), "\n", _jsx(_components.li, {
+        children: "笔记应用记录"
+      }), "\n", _jsx(_components.li, {
+        children: "云端文档整理"
+      }), "\n", _jsx(_components.li, {
+        children: "代码片段收藏"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "标签系统："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "按技术栈分类"
+      }), "\n", _jsx(_components.li, {
+        children: "按项目类型分类"
+      }), "\n", _jsx(_components.li, {
+        children: "按紧急程度分类"
+      }), "\n", _jsx(_components.li, {
+        children: "按学习状态分类"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "知识库建设"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "个人知识库："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "常用代码片段"
+      }), "\n", _jsx(_components.li, {
+        children: "问题解决方案"
+      }), "\n", _jsx(_components.li, {
+        children: "学习资源链接"
+      }), "\n", _jsx(_components.li, {
+        children: "工具使用技巧"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "团队知识库："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "项目文档"
+      }), "\n", _jsx(_components.li, {
+        children: "最佳实践"
+      }), "\n", _jsx(_components.li, {
+        children: "常见问题FAQ"
+      }), "\n", _jsx(_components.li, {
+        children: "技术规范"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "持续学习和改进"
+    }), "\n", _jsx(_components.h3, {
+      children: "搜索技能提升"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "定期训练："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "练习复杂搜索语法"
+      }), "\n", _jsx(_components.li, {
+        children: "尝试不同搜索引擎"
+      }), "\n", _jsx(_components.li, {
+        children: "学习新搜索工具"
+      }), "\n", _jsx(_components.li, {
+        children: "关注搜索技巧更新"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "信息素养培养"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "批判性思维："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "质疑信息来源"
+      }), "\n", _jsx(_components.li, {
+        children: "验证信息准确性"
+      }), "\n", _jsx(_components.li, {
+        children: "理解信息时效性"
+      }), "\n", _jsx(_components.li, {
+        children: "识别营销内容"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "学习新技能："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "关注技术趋势"
+      }), "\n", _jsx(_components.li, {
+        children: "学习搜索引擎算法"
+      }), "\n", _jsx(_components.li, {
+        children: "了解信息检索原理"
+      }), "\n", _jsx(_components.li, {
+        children: "掌握数据分析方法"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "总结"
+    }), "\n", _jsx(_components.p, {
+      children: "掌握高效的信息搜索技巧是现代开发者必备的核心技能。通过系统学习和实践这些搜索方法，你将能够："
+    }), "\n", _jsxs(_components.ol, {
+      children: ["\n", _jsx(_components.li, {
+        children: _jsx(_components.strong, {
+          children: "快速定位问题解决方案"
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.strong, {
+          children: "发现最新技术趋势"
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.strong, {
+          children: "提高开发效率"
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.strong, {
+          children: "建立个人知识体系"
+        })
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: "记住，搜索不仅是技术，更是一种思维方式。持续练习和改进你的搜索技能，将为你的开发生涯带来巨大价值。"
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = props.components || ({});
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return { default: MDXContent };f:T6c4c,const _jsx = _jsx_runtime.jsx;
+const _jsxs = _jsx_runtime.jsxs;
+const _Fragment = _jsx_runtime.Fragment;
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    h1: "h1",
+    h2: "h2",
+    p: "p",
+    h3: "h3",
+    strong: "strong",
+    a: "a",
+    ul: "ul",
+    li: "li",
+    code: "code",
+    pre: "pre",
+    span: "span",
+    ol: "ol"
+  }, props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.h1, {
+      children: "1.8 🔍 信息搜索实操秘技"
+    }), "\n", _jsx(_components.h2, {
+      children: "信息搜索实操秘技"
+    }), "\n", _jsx(_components.p, {
+      children: "学会搜索，是做互联网的基本技能，如果你每天都在用百度搜索，可以很负责任的说，你永远也成为不了独立开发者。"
+    }), "\n", _jsx(_components.h3, {
+      children: "超级搜索技术，普通人变强的唯一外挂 | 全套宝藏实操秘技"
+    }), "\n", _jsxs(_components.p, {
+      children: ["这里推荐B站up主的一个视频，这个视频介绍了超级搜索技术（信息检索技术），", _jsx(_components.strong, {
+        children: "这个视频很值得认真看完并且跟着实操一遍，终身受益。它是普通人变强的唯一外挂。视频的长度为1小时"
+      }), "，会用搜索技术来满足各种需求是做互联网最基础的能力，即使你可能已经工作了很多年，这个视频里面讲的一些细节技巧你也可能从来都没有用过，学习这些技巧，在你做互联网产品的时候会更高效，更快捷。"]
+    }), "\n", _jsxs(_components.p, {
+      children: ["👉哔哩哔哩：", _jsx(_components.a, {
+        href: "https://www.bilibili.com/video/BV1yw411F7J1/",
+        children: "超级搜索技术，普通人变强的唯一外挂 | 全套宝藏实操秘技"
+      })]
+    }), "\n", _jsxs(_components.p, {
+      children: ["防止视频国内被下架，YouTube 也可以观看: ", _jsx(_components.a, {
+        href: "https://www.youtube.com/watch?v=tiN6T1LewmQ",
+        children: "《搜索技术，普通人变强的唯一外挂。全套详细宝藏教程~》"
+      })]
+    }), "\n", _jsx(_components.h2, {
+      children: "核心搜索引擎选择"
+    }), "\n", _jsx(_components.h3, {
+      children: "1. Google - 首选搜索引擎"
+    }), "\n", _jsx(_components.p, {
+      children: "Google 是全球最强大的搜索引擎，特别适合技术搜索："
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "优势："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "搜索结果准确性高"
+      }), "\n", _jsx(_components.li, {
+        children: "技术资源丰富"
+      }), "\n", _jsx(_components.li, {
+        children: "支持复杂搜索语法"
+      }), "\n", _jsx(_components.li, {
+        children: "实时性好"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "访问方式："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "直接访问：https://www.google.com"
+      }), "\n", _jsx(_components.li, {
+        children: "镜像站点：https://google.com.hk"
+      }), "\n", _jsx(_components.li, {
+        children: "使用科学上网工具"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "2. Bing - 备选搜索引擎"
+    }), "\n", _jsx(_components.p, {
+      children: "微软的搜索引擎，在某些技术领域表现出色："
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "优势："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "集成ChatGPT功能"
+      }), "\n", _jsx(_components.li, {
+        children: "图片搜索优秀"
+      }), "\n", _jsx(_components.li, {
+        children: "开发者友好"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "3. DuckDuckGo - 隐私搜索"
+    }), "\n", _jsx(_components.p, {
+      children: "注重隐私保护的搜索引擎："
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "优势："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "不跟踪用户"
+      }), "\n", _jsx(_components.li, {
+        children: "结果相对客观"
+      }), "\n", _jsx(_components.li, {
+        children: "支持多种搜索功能"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "高级搜索技巧"
+    }), "\n", _jsx(_components.h3, {
+      children: "精确搜索语法"
+    }), "\n", _jsxs(_components.p, {
+      children: ["| 搜索语法 | 功能 | 示例 |\n| --- | --- | --- |\n| ", _jsx(_components.code, {
+        children: "\"关键词\""
+      }), " | 精确匹配 | ", _jsx(_components.code, {
+        children: "\"React useState\""
+      }), " |\n| ", _jsx(_components.code, {
+        children: "site:"
+      }), " | 指定网站搜索 | ", _jsx(_components.code, {
+        children: "site:github.com React"
+      }), " |\n| ", _jsx(_components.code, {
+        children: "filetype:"
+      }), " | 搜索特定文件类型 | ", _jsx(_components.code, {
+        children: "filetype:pdf JavaScript"
+      }), " |\n| ", _jsx(_components.code, {
+        children: "intitle:"
+      }), " | 搜索标题中包含关键词 | ", _jsx(_components.code, {
+        children: "intitle:Vue教程"
+      }), " |\n| ", _jsx(_components.code, {
+        children: "inurl:"
+      }), " | 搜索URL中包含关键词 | ", _jsx(_components.code, {
+        children: "inurl:tutorial Vue"
+      }), " |\n| ", _jsx(_components.code, {
+        children: "-"
+      }), " | 排除关键词 | ", _jsx(_components.code, {
+        children: "React -Angular"
+      }), " |\n| ", _jsx(_components.code, {
+        children: "OR"
+      }), " | 逻辑或搜索 | ", _jsx(_components.code, {
+        children: "React OR Vue"
+      }), " |\n| ", _jsx(_components.code, {
+        children: "*"
+      }), " | 通配符 | ", _jsx(_components.code, {
+        children: "React * hooks"
+      }), " |\n| ", _jsx(_components.code, {
+        children: ".."
+      }), " | 数值范围 | ", _jsx(_components.code, {
+        children: "price 100..500"
+      }), " |"]
+    }), "\n", _jsx(_components.h3, {
+      children: "时间范围搜索"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "工具菜单"
+        }), "：点击\"工具\"选择时间范围"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "过去24小时"
+        }), "：获取最新信息"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "过去一周"
+        }), "：获取近期动态"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "自定义时间"
+        }), "：指定具体时间段"]
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "地区和语言筛选"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "设置地区"
+        }), "：获取本地化结果"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "语言筛选"
+        }), "：选择特定语言的结果"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "翻译功能"
+        }), "：自动翻译外文结果"]
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "技术开发专用搜索"
+    }), "\n", _jsx(_components.h3, {
+      children: "1. 代码搜索平台"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "GitHub搜索"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["仓库搜索：", _jsx(_components.code, {
+          children: "language:JavaScript stars:>1000"
+        })]
+      }), "\n", _jsxs(_components.li, {
+        children: ["代码搜索：", _jsx(_components.code, {
+          children: "function useState language:JavaScript"
+        })]
+      }), "\n", _jsxs(_components.li, {
+        children: ["用户搜索：", _jsx(_components.code, {
+          children: "user:facebook"
+        })]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "Stack Overflow"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["问题搜索：", _jsx(_components.code, {
+          children: "[javascript] [react] useState"
+        })]
+      }), "\n", _jsx(_components.li, {
+        children: "标签筛选：使用相关技术标签"
+      }), "\n", _jsx(_components.li, {
+        children: "按投票排序：获取高质量答案"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "2. 文档和教程搜索"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "官方文档优先"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "框架官网：React, Vue, Angular"
+      }), "\n", _jsx(_components.li, {
+        children: "语言文档：MDN, Python.org"
+      }), "\n", _jsx(_components.li, {
+        children: "云服务文档：AWS, Azure, GCP"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "学习资源平台"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "YouTube：技术教程视频"
+      }), "\n", _jsx(_components.li, {
+        children: "Medium：技术博客文章"
+      }), "\n", _jsx(_components.li, {
+        children: "Dev.to：开发者社区"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "3. 开源项目搜索"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "GitHub高级搜索"
+      })
+    }), "\n", _jsx(_components.pre, {
+      className: "language-js",
+      children: _jsxs(_components.code, {
+        className: "language-js code-highlight",
+        children: [_jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token literal-property property",
+            children: "language"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: ":"
+          }), _jsx(_components.span, {
+            className: "token maybe-class-name",
+            children: "JavaScript"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token literal-property property",
+            children: "stars"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: ":"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: ">"
+          }), _jsx(_components.span, {
+            className: "token number",
+            children: "100"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token literal-property property",
+            children: "created"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: ":"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: ">"
+          }), _jsx(_components.span, {
+            className: "token number",
+            children: "2023"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: "-"
+          }), _jsx(_components.span, {
+            className: "token number",
+            children: "01"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: "-"
+          }), _jsx(_components.span, {
+            className: "token number",
+            children: "01"
+          }), "\n"]
+        }), _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token literal-property property",
+            children: "topic"
+          }), _jsx(_components.span, {
+            className: "token operator",
+            children: ":"
+          }), "react\n"]
+        })]
+      })
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "项目质量评估"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Star数量和趋势"
+      }), "\n", _jsx(_components.li, {
+        children: "最近更新时间"
+      }), "\n", _jsx(_components.li, {
+        children: "Issue处理情况"
+      }), "\n", _jsx(_components.li, {
+        children: "文档完整性"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "特定场景搜索策略"
+    }), "\n", _jsx(_components.h3, {
+      children: "错误调试搜索"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "搜索策略："
+      })
+    }), "\n", _jsxs(_components.ol, {
+      children: ["\n", _jsx(_components.li, {
+        children: "复制完整错误信息"
+      }), "\n", _jsx(_components.li, {
+        children: "去除项目特定信息"
+      }), "\n", _jsx(_components.li, {
+        children: "添加技术栈关键词"
+      }), "\n", _jsx(_components.li, {
+        children: "使用英文搜索"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "示例："
+      })
+    }), "\n", _jsx(_components.pre, {
+      className: "language-js",
+      children: _jsx(_components.code, {
+        className: "language-js code-highlight",
+        children: _jsxs(_components.span, {
+          className: "code-line",
+          children: [_jsx(_components.span, {
+            className: "token string",
+            children: "\"Cannot read property 'map' of undefined\""
+          }), " ", _jsx(_components.span, {
+            className: "token maybe-class-name",
+            children: "React"
+          }), "\n"]
+        })
+      })
+    }), "\n", _jsx(_components.h3, {
+      children: "工具和库选择"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "搜索模式："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: _jsx(_components.code, {
+          children: "\"best React libraries 2024\""
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.code, {
+          children: "\"React vs Vue vs Angular comparison\""
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.code, {
+          children: "\"top JavaScript frameworks 2024\""
+        })
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "最佳实践搜索"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "关键词组合："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: _jsx(_components.code, {
+          children: "\"React best practices\""
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.code, {
+          children: "\"JavaScript clean code\""
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.code, {
+          children: "\"Node.js performance optimization\""
+        })
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "信息验证和筛选"
+    }), "\n", _jsx(_components.h3, {
+      children: "信息质量评估"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "来源可信度："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "官方文档 > 知名技术博客 > 个人博客"
+      }), "\n", _jsx(_components.li, {
+        children: "知名开发者 > 普通用户"
+      }), "\n", _jsx(_components.li, {
+        children: "近期更新 > 过时内容"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "内容质量指标："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "代码示例完整性"
+      }), "\n", _jsx(_components.li, {
+        children: "解释清晰程度"
+      }), "\n", _jsx(_components.li, {
+        children: "实用性和可操作性"
+      }), "\n", _jsx(_components.li, {
+        children: "评论和反馈质量"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "交叉验证"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "多源验证："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "对比不同来源的信息"
+      }), "\n", _jsx(_components.li, {
+        children: "查看社区讨论"
+      }), "\n", _jsx(_components.li, {
+        children: "检查官方文档确认"
+      }), "\n", _jsx(_components.li, {
+        children: "实际测试验证"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "搜索工具推荐"
+    }), "\n", _jsx(_components.h3, {
+      children: "浏览器扩展"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "搜索增强："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Infinity：美化新标签页"
+      }), "\n", _jsx(_components.li, {
+        children: "uBlock Origin：屏蔽广告"
+      }), "\n", _jsx(_components.li, {
+        children: "Grammarly：语法检查"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "开发者工具："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Octotree：GitHub代码树"
+      }), "\n", _jsx(_components.li, {
+        children: "JSONView：JSON格式化"
+      }), "\n", _jsx(_components.li, {
+        children: "Wappalyzer：技术栈分析"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "专业搜索工具"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "代码搜索："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Sourcegraph：代码搜索引擎"
+      }), "\n", _jsx(_components.li, {
+        children: "grep.app：GitHub代码搜索"
+      }), "\n", _jsx(_components.li, {
+        children: "SearchCode：开源代码搜索"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "API文档："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Dash (macOS)：离线文档"
+      }), "\n", _jsx(_components.li, {
+        children: "Zeal (Windows/Linux)：离线文档"
+      }), "\n", _jsx(_components.li, {
+        children: "DevDocs：在线文档集合"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "搜索效率提升技巧"
+    }), "\n", _jsx(_components.h3, {
+      children: "快捷键和技巧"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "浏览器快捷键："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.code, {
+          children: "Ctrl/Cmd + T"
+        }), "：新标签页"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.code, {
+          children: "Ctrl/Cmd + L"
+        }), "：定位地址栏"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.code, {
+          children: "Ctrl/Cmd + K"
+        }), "：快速搜索"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.code, {
+          children: "Ctrl/Cmd + W"
+        }), "：关闭标签页"]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "搜索技巧："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "使用书签保存常用搜索"
+      }), "\n", _jsx(_components.li, {
+        children: "设置自定义搜索引擎"
+      }), "\n", _jsx(_components.li, {
+        children: "使用搜索历史记录"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "搜索词优化"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "关键词选择："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "使用技术术语而非通俗词汇"
+      }), "\n", _jsx(_components.li, {
+        children: "包含版本号信息"
+      }), "\n", _jsx(_components.li, {
+        children: "添加时间相关词汇"
+      }), "\n", _jsx(_components.li, {
+        children: "使用英文关键词"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "示例优化："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["普通：", _jsx(_components.code, {
+          children: "网页制作"
+        })]
+      }), "\n", _jsxs(_components.li, {
+        children: ["优化：", _jsx(_components.code, {
+          children: "web development HTML CSS JavaScript 2024"
+        })]
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "信息管理和保存"
+    }), "\n", _jsx(_components.h3, {
+      children: "搜索结果整理"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "保存方式："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "浏览器书签分类"
+      }), "\n", _jsx(_components.li, {
+        children: "笔记应用记录"
+      }), "\n", _jsx(_components.li, {
+        children: "云端文档整理"
+      }), "\n", _jsx(_components.li, {
+        children: "代码片段收藏"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "标签系统："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "按技术栈分类"
+      }), "\n", _jsx(_components.li, {
+        children: "按项目类型分类"
+      }), "\n", _jsx(_components.li, {
+        children: "按紧急程度分类"
+      }), "\n", _jsx(_components.li, {
+        children: "按学习状态分类"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "知识库建设"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "个人知识库："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "常用代码片段"
+      }), "\n", _jsx(_components.li, {
+        children: "问题解决方案"
+      }), "\n", _jsx(_components.li, {
+        children: "学习资源链接"
+      }), "\n", _jsx(_components.li, {
+        children: "工具使用技巧"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "团队知识库："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "项目文档"
+      }), "\n", _jsx(_components.li, {
+        children: "最佳实践"
+      }), "\n", _jsx(_components.li, {
+        children: "常见问题FAQ"
+      }), "\n", _jsx(_components.li, {
+        children: "技术规范"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "持续学习和改进"
+    }), "\n", _jsx(_components.h3, {
+      children: "搜索技能提升"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "定期训练："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "练习复杂搜索语法"
+      }), "\n", _jsx(_components.li, {
+        children: "尝试不同搜索引擎"
+      }), "\n", _jsx(_components.li, {
+        children: "学习新搜索工具"
+      }), "\n", _jsx(_components.li, {
+        children: "关注搜索技巧更新"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "信息素养培养"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "批判性思维："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "质疑信息来源"
+      }), "\n", _jsx(_components.li, {
+        children: "验证信息准确性"
+      }), "\n", _jsx(_components.li, {
+        children: "理解信息时效性"
+      }), "\n", _jsx(_components.li, {
+        children: "识别营销内容"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "学习新技能："
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "关注技术趋势"
+      }), "\n", _jsx(_components.li, {
+        children: "学习搜索引擎算法"
+      }), "\n", _jsx(_components.li, {
+        children: "了解信息检索原理"
+      }), "\n", _jsx(_components.li, {
+        children: "掌握数据分析方法"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "总结"
+    }), "\n", _jsx(_components.p, {
+      children: "掌握高效的信息搜索技巧是现代开发者必备的核心技能。通过系统学习和实践这些搜索方法，你将能够："
+    }), "\n", _jsxs(_components.ol, {
+      children: ["\n", _jsx(_components.li, {
+        children: _jsx(_components.strong, {
+          children: "快速定位问题解决方案"
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.strong, {
+          children: "发现最新技术趋势"
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.strong, {
+          children: "提高开发效率"
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.strong, {
+          children: "建立个人知识体系"
+        })
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: "记住，搜索不仅是技术，更是一种思维方式。持续练习和改进你的搜索技能，将为你的开发生涯带来巨大价值。"
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = props.components || ({});
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return { default: MDXContent };3:[["$","html",null,{"lang":"zh-CN","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.loli.net"}],["$","link",null,{"rel":"preconnect","href":"https://gstatic.loli.net","crossOrigin":""}],["$","link",null,{"href":"https://fonts.loli.net/css2?family=Inter:wght@400;500;700;900&family=Noto+Sans+SC:wght@400;500;700;900&display=swap","rel":"stylesheet"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#fff"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/feed.xml"}]]}],["$","body",null,{"className":"bg-white/90 text-black antialiased dark:bg-[#1B1B1B] dark:text-white transition-colors duration-200","children":["$","$L5",null,{"children":["$","section",null,{"className":"mx-auto max-w-6xl px-3 md:px-4 xl:px-0","children":["$","div",null,{"className":"flex h-screen flex-col justify-between font-sans","children":[["$","$L6",null,{"kbarConfig":{"searchDocumentsPath":"search.json"},"children":[["$","$L7",null,{}],["$","$L8",null,{}],["$","main",null,{"className":"mb-auto","children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":["$","div",null,{"className":"flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6","children":[["$","div",null,{"className":"space-x-2 pb-8 pt-6 md:space-y-5","children":["$","h1",null,{"className":"text-6xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 md:border-r-2 md:px-6 md:text-8xl md:leading-14","children":"404"}]}],["$","div",null,{"className":"max-w-md","children":[["$","p",null,{"className":"mb-4 text-xl font-bold leading-normal md:text-2xl","children":"Sorry we couldn't find this page."}],["$","p",null,{"className":"mb-8","children":"But dont worry, you can find plenty of other things on our homepage."}],["$","$Lb",null,{"href":"/","className":"focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm font-medium leading-5 text-white shadow transition-colors duration-150 hover:bg-blue-700 focus:outline-none dark:hover:bg-blue-500","children":"Back to homepage"}]]}]]}],"notFoundStyles":[],"childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","docs","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","docs","children",["slug","01-development-preparation/1.8-information-search-skills","oc"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":[["$","$Lc",null,{"docsForSidebar":[{"slug":"01-development-preparation/1.0-development-preparation-overview","title":"1.0 开发前期准备","order":1,"url":"/docs/01-development-preparation/1.0-development-preparation-overview"},{"slug":"01-development-preparation/1.1-device-purchasing-guide","title":"1.1 开发设备选购指南","order":2,"url":"/docs/01-development-preparation/1.1-device-purchasing-guide"},{"slug":"01-development-preparation/1.2-essential-accounts","title":"1.2 必备开发账号注册","order":3,"url":"/docs/01-development-preparation/1.2-essential-accounts"},{"slug":"01-development-preparation/1.3-essential-software-list","title":"1.3 必备软件清单","order":4,"url":"/docs/01-development-preparation/1.3-essential-software-list"},{"slug":"01-development-preparation/1.4-browser-extensions","title":"1.4 浏览器插件推荐","order":5,"url":"/docs/01-development-preparation/1.4-browser-extensions"},{"slug":"01-development-preparation/1.5-translation-tools-guide","title":"1.5 翻译工具使用指南","order":6,"url":"/docs/01-development-preparation/1.5-translation-tools-guide"},{"slug":"01-development-preparation/1.6-development-environment-setup","title":"1.6 开发环境配置指南","order":7,"url":"/docs/01-development-preparation/1.6-development-environment-setup"},{"slug":"01-development-preparation/1.7-mac-practical-tutorial","title":"1.7 Mac 实用教程","order":8,"url":"/docs/01-development-preparation/1.7-mac-practical-tutorial"},{"slug":"01-development-preparation/1.8-information-search-skills","title":"1.8 信息搜索实操秘技","order":9,"url":"/docs/01-development-preparation/1.8-information-search-skills"},{"slug":"01-development-preparation/1.9-internet-terminology","title":"1.9 互联网常见术语解释","order":10,"url":"/docs/01-development-preparation/1.9-internet-terminology"},{"slug":"02-ai-tools/2.0-software-tools-tutorial","title":"2.0  软件工具教程","order":6,"url":"/docs/02-ai-tools/2.0-software-tools-tutorial"},{"slug":"02-ai-tools/2.1-raycast-efficiency-launcher","title":"2.1 Raycast: 效率启动器","order":7,"url":"/docs/02-ai-tools/2.1-raycast-efficiency-launcher"},{"slug":"02-ai-tools/2.2-github-desktop","title":"2.2 GitHub Desktop","order":8,"url":"/docs/02-ai-tools/2.2-github-desktop"},{"slug":"02-ai-tools/2.3-figma-ui-design","title":"2.3 Figma: UI设计","order":9,"url":"/docs/02-ai-tools/2.3-figma-ui-design"},{"slug":"02-ai-tools/2.4-glarity-ai-assistant","title":"2.4 Glarity: AI助手","order":10,"url":"/docs/02-ai-tools/2.4-glarity-ai-assistant"},{"slug":"02-ai-tools/2.5-sitesucker-website-download","title":"2.5 SiteSucker: 网站下载","order":11,"url":"/docs/02-ai-tools/2.5-sitesucker-website-download"},{"slug":"02-ai-tools/2.6-easyscraper-web-scraping","title":"2.6 Easy Scraper: 网页采集","order":12,"url":"/docs/02-ai-tools/2.6-easyscraper-web-scraping"},{"slug":"02-ai-tools/2.7-lighthouse-performance-testing","title":"2.7 Lighthouse: 性能检测","order":13,"url":"/docs/02-ai-tools/2.7-lighthouse-performance-testing"},{"slug":"03-programming-basics/3.1-cursor-development-cases","title":"3.1 Cursor开发案例","order":17,"url":"/docs/03-programming-basics/3.1-cursor-development-cases"},{"slug":"03-programming-basics/3.2-cursor-installation-configuration","title":"3.2 Cursor安装和配置","order":18,"url":"/docs/03-programming-basics/3.2-cursor-installation-configuration"},{"slug":"03-programming-basics/3.3-cursor-rules","title":"3.3 Cursor Rules","order":19,"url":"/docs/03-programming-basics/3.3-cursor-rules"},{"slug":"03-programming-basics/3.4-cursor-ai-chat","title":"3.4 Cursor AI 对话(Chat)","order":20,"url":"/docs/03-programming-basics/3.4-cursor-ai-chat"},{"slug":"03-programming-basics/3.5-cursor-code-completion","title":"3.5 Cursor代码补全(Tab)","order":21,"url":"/docs/03-programming-basics/3.5-cursor-code-completion"},{"slug":"03-programming-basics/3.6-cursor-ai-agent","title":"3.6 Cursor AI Agent(⌘ I)","order":22,"url":"/docs/03-programming-basics/3.6-cursor-ai-agent"},{"slug":"03-programming-basics/3.7-cursor-command-palette","title":"3.7 Cursor 命令面板(⌘ K)","order":23,"url":"/docs/03-programming-basics/3.7-cursor-command-palette"},{"slug":"03-programming-basics/3.8-cursor-development-examples","title":"3.8 Cursor 开发案例","order":24,"url":"/docs/03-programming-basics/3.8-cursor-development-examples"},{"slug":"04-advanced-techniques/4.0-advanced-prompt-engineering","title":"4.0 全栈开发指南-概览","order":25,"url":"/docs/04-advanced-techniques/4.0-advanced-prompt-engineering"},{"slug":"04-advanced-techniques/4.1-large-project-architecture","title":"4.1 网站类型","order":26,"url":"/docs/04-advanced-techniques/4.1-large-project-architecture"},{"slug":"04-advanced-techniques/4.10-api-design-integration","title":"4.10 API 开发实战教程","order":36,"url":"/docs/04-advanced-techniques/4.10-api-design-integration"},{"slug":"04-advanced-techniques/4.11-ai-driven-automated-testing","title":"4.11 免费 API 资源","order":37,"url":"/docs/04-advanced-techniques/4.11-ai-driven-automated-testing"},{"slug":"04-advanced-techniques/4.12-cloud-native-development","title":"4.12 域名购买与管理","order":38,"url":"/docs/04-advanced-techniques/4.12-cloud-native-development"},{"slug":"04-advanced-techniques/4.13-machine-learning-integration","title":"4.13 Cloudflare 教程","order":39,"url":"/docs/04-advanced-techniques/4.13-machine-learning-integration"},{"slug":"04-advanced-techniques/4.14-real-time-data-processing","title":"4.14 gh-pages静态网站托管","order":40,"url":"/docs/04-advanced-techniques/4.14-real-time-data-processing"},{"slug":"04-advanced-techniques/4.15-scalable-system-design","title":"4.15 Vercel 部署指南","order":41,"url":"/docs/04-advanced-techniques/4.15-scalable-system-design"},{"slug":"04-advanced-techniques/4.16-internationalization-localization","title":"4.16 企业邮箱教程","order":42,"url":"/docs/04-advanced-techniques/4.16-internationalization-localization"},{"slug":"04-advanced-techniques/4.17-technical-debt-management","title":"4.17 网站数据分析工具","order":43,"url":"/docs/04-advanced-techniques/4.17-technical-debt-management"},{"slug":"04-advanced-techniques/4.2-advanced-code-generation","title":"4.2 网站基础 HTML/CSS/JS","order":27,"url":"/docs/04-advanced-techniques/4.2-advanced-code-generation"},{"slug":"04-advanced-techniques/4.3-fullstack-development","title":"4.3 Tailwind CSS 样式指南","order":28,"url":"/docs/04-advanced-techniques/4.3-fullstack-development"},{"slug":"04-advanced-techniques/4.4-complex-algorithm-implementation","title":"4.4 Markdown 使用指南","order":29,"url":"/docs/04-advanced-techniques/4.4-complex-algorithm-implementation"},{"slug":"04-advanced-techniques/4.5-team-collaboration-skills","title":"4.5 Git & GitHub 使用指南","order":30,"url":"/docs/04-advanced-techniques/4.5-team-collaboration-skills"},{"slug":"04-advanced-techniques/4.6-performance-optimization","title":"4.6 命令行终端基础","order":32,"url":"/docs/04-advanced-techniques/4.6-performance-optimization"},{"slug":"04-advanced-techniques/4.7-secure-coding-practices","title":"4.7 Next.js 开发指南","order":33,"url":"/docs/04-advanced-techniques/4.7-secure-coding-practices"},{"slug":"04-advanced-techniques/4.8-devops-integration","title":"4.8 shadcn/ui 组件教程","order":34,"url":"/docs/04-advanced-techniques/4.8-devops-integration"},{"slug":"04-advanced-techniques/4.9-cross-platform-development","title":"4.9 数据库使用指南","order":35,"url":"/docs/04-advanced-techniques/4.9-cross-platform-development"},{"slug":"05-project-practice/5.0-ai-programming-practice-overview","title":"5.0 实战项目开发-概览","order":36,"url":"/docs/05-project-practice/5.0-ai-programming-practice-overview"},{"slug":"05-project-practice/5.1-personal-blog-development","title":"5.1 项目初始化配置","order":37,"url":"/docs/05-project-practice/5.1-personal-blog-development"},{"slug":"05-project-practice/5.10-wechat-mini-program-development","title":"5.10 产品营销推广","order":46,"url":"/docs/05-project-practice/5.10-wechat-mini-program-development"},{"slug":"05-project-practice/5.2-ecommerce-website-development","title":"5.2 域名与邮箱配置","order":38,"url":"/docs/05-project-practice/5.2-ecommerce-website-development"},{"slug":"05-project-practice/5.3-social-app-development","title":"5.3 产品需求文档规范","order":39,"url":"/docs/05-project-practice/5.3-social-app-development"},{"slug":"05-project-practice/5.4-office-collaboration-tools","title":"5.4 落地页面开发教程","order":40,"url":"/docs/05-project-practice/5.4-office-collaboration-tools"},{"slug":"05-project-practice/5.5-data-visualization-platform","title":"5.5 Stripe支付集成指南","order":41,"url":"/docs/05-project-practice/5.5-data-visualization-platform"},{"slug":"05-project-practice/5.6-mobile-app-development","title":"5.6 核心功能实现指南","order":42,"url":"/docs/05-project-practice/5.6-mobile-app-development"},{"slug":"05-project-practice/5.7-ai-assistant-development","title":"5.7 SEO优化策略","order":43,"url":"/docs/05-project-practice/5.7-ai-assistant-development"},{"slug":"05-project-practice/5.8-game-development-practice","title":"5.8 项目部署流程","order":44,"url":"/docs/05-project-practice/5.8-game-development-practice"},{"slug":"05-project-practice/5.9-saas-platform-development","title":"5.9 域名配置教程","order":45,"url":"/docs/05-project-practice/5.9-saas-platform-development"}],"currentDoc":{"type":"Doc","_id":"docs/01-development-preparation/1.8-information-search-skills","title":"1.8 信息搜索实操秘技","description":"掌握高效信息搜索技巧，提升开发效率","order":9,"slug":"01-development-preparation/1.8-information-search-skills","url":"/docs/01-development-preparation/1.8-information-search-skills","filePath":"/home/runner/work/blog/blog/data/docs/01-development-preparation/1.8-information-search-skills.mdx","toc":[],"_raw":{"sourceFilePath":"/home/runner/work/blog/blog/data/docs/01-development-preparation/1.8-information-search-skills.mdx","sourceFileName":"1.8-information-search-skills.mdx","sourceFileDir":"/home/runner/work/blog/blog/data/docs/01-development-preparation","contentType":"mdx","flattenedPath":"docs/01-development-preparation/1.8-information-search-skills"},"body":{"raw":"$d","code":"$e","compiled":"$f"}},"slug":"01-development-preparation/1.8-information-search-skills"}],null],"segment":"__PAGE__?{\"slug\":[\"01-development-preparation\",\"1.8-information-search-skills\"]}"},"styles":[]}],"segment":["slug","01-development-preparation/1.8-information-search-skills","oc"]},"styles":[]}],"segment":"docs"},"styles":[]}]}],["$","$L10",null,{}]]}],["$","footer",null,{"children":["$","div",null,{"className":"mt-16 flex flex-col items-center","children":[["$","div",null,{"className":"mb-3 flex space-x-4","children":[["$","$Lb",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"mailto:zhangyuliang945@gmail.com","children":[["$","span",null,{"className":"sr-only","children":"mail"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"52 42 88 66","className":"fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","path",null,{"fill":"#4285f4","d":"M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"}],["$","path",null,{"fill":"#34a853","d":"M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"}],["$","path",null,{"fill":"#fbbc04","d":"M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2"}],["$","path",null,{"fill":"#ea4335","d":"M72 74V48l24 18 24-18v26L96 92"}],["$","path",null,{"fill":"#c5221f","d":"M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2"}]]}]]}],["$","$Lb",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/zhangyuliang1994","children":[["$","span",null,{"className":"sr-only","children":"github"}],["$","svg",null,{"viewBox":"0 0 128 128","className":"fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":["$","g",null,{"fill":"#fffff","children":[["$","path",null,{"fillRule":"evenodd","clipRule":"evenodd","d":"M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"}],["$","path",null,{"d":"M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"}]]}]}]]}],null,null,null,null]}],["$","div",null,{"className":"mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400","children":[["$","div",null,{"children":"张晓风"}],["$","div",null,{"children":" • "}],["$","div",null,{"children":"© 2025"}],["$","div",null,{"children":" • "}],["$","$Lb",null,{"href":"/","children":"晓风的博客"}]]}],["$","div",null,{"className":"mb-8 text-sm text-gray-500 dark:text-gray-400","children":["$","a",null,{"href":"https://beian.miit.gov.cn/","className":"hover:text-gray-600 dark:hover:text-gray-300","target":"_blank","rel":"noopener noreferrer","children":"苏ICP备2023046043号"}]}]]}]}]]}]}]}]}]]}],null]
