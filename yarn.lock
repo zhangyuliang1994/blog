@@ -2181,7 +2181,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/mdx@npm:^2.0.0, @mdx-js/mdx@npm:^2.3.0":
+"@mdx-js/mdx@npm:^2.0.0":
   version: 2.3.0
   resolution: "@mdx-js/mdx@npm:2.3.0"
   dependencies:
@@ -11392,7 +11392,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tailwind-nextjs-starter-blog@workspace:."
   dependencies:
-    "@mdx-js/mdx": ^2.3.0
+    "@mdx-js/mdx": ^2.0.0
     "@next/bundle-analyzer": 13.4.12
     "@svgr/webpack": ^8.0.1
     "@tailwindcss/forms": ^0.5.4
