@@ -41,6 +41,10 @@ jobs:
           # 可选：如果使用 Umami 分析，在 GitHub Secrets 中配置 NEXT_UMAMI_ID
           # NEXT_UMAMI_ID: ${{ secrets.NEXT_UMAMI_ID }}
 
+      - name: Create .nojekyll file
+        run: touch out/.nojekyll
+        # 创建 .nojekyll 文件，告诉 GitHub Pages 不要使用 Jekyll 处理
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
