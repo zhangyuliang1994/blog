@@ -38,9 +38,6 @@ jobs:
 
       - name: Build static site
         run: yarn export
-        env:
-          # 可选：如果使用 Umami 分析，在 GitHub Secrets 中配置 NEXT_UMAMI_ID
-          # NEXT_UMAMI_ID: ${{ secrets.NEXT_UMAMI_ID }}
         continue-on-error: false
 
       - name: Create .nojekyll file
