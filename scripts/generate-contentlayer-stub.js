@@ -3,6 +3,22 @@ const path = require('path')
 const matter = require('gray-matter')
 const GithubSlugger = require('github-slugger')
 const readingTime = require('reading-time')
+const { compile } = require('@mdx-js/mdx')
+// Remark packages
+const remarkGfm = require('remark-gfm')
+const remarkMath = require('remark-math')
+const {
+  remarkExtractFrontmatter,
+  remarkCodeTitles,
+  remarkImgToJsx,
+  extractTocHeadings,
+} = require('pliny/mdx-plugins/index.js')
+// Rehype packages
+const rehypeSlug = require('rehype-slug')
+const rehypeAutolinkHeadings = require('rehype-autolink-headings')
+const rehypeKatex = require('rehype-katex')
+const rehypePrismPlus = require('rehype-prism-plus')
+const rehypePresetMinify = require('rehype-preset-minify')
 
 // 递归获取目录下所有文件
 function getAllFilesRecursively(dirPath, arrayOfFiles = []) {
@@ -36,15 +52,87 @@ function computePath(filePath, baseDir) {
   return relativePath.replace(/\\/g, '/').replace(/\.mdx?$/, '')
 }
 
-// 生成假的 MDX body（用于静态导出，实际内容会在构建时处理）
-function generateFakeBody(content) {
-  // 返回一个简单的占位符，实际在静态导出时不需要编译 MDX
-  // 注意：code 必须返回一个包含 default 的对象，而不是使用 export default
-  // 因为 getMDXComponent 使用 new Function() 执行代码并期望返回 fn().default
+// 编译 MDX 内容为 JavaScript 代码
+async function compileMDX(mdxContent) {
+  try {
+    // 使用与 contentlayer.config.ts 相同的插件配置
+    const compiled = await compile(mdxContent, {
+      remarkPlugins: [
+        remarkExtractFrontmatter,
+        remarkGfm,
+        remarkCodeTitles,
+        remarkMath,
+        remarkImgToJsx,
+      ],
+      rehypePlugins: [
+        rehypeSlug,
+        rehypeAutolinkHeadings,
+        rehypeKatex,
+        [rehypePrismPlus, { defaultLanguage: 'js', ignoreMissing: true }],
+        rehypePresetMinify,
+      ],
+    })
+    
+    // 将编译后的代码转换为字符串（compile 返回的是 Uint8Array/Buffer）
+    const codeString = Buffer.isBuffer(compiled) 
+      ? compiled.toString('utf-8')
+      : compiled instanceof Uint8Array
+      ? Buffer.from(compiled).toString('utf-8')
+      : String(compiled)
+    
+    // 包装代码，使其返回一个包含 default 的对象
+    // 注意：MDXLayoutRenderer 使用 new Function() 执行代码并期望返回 fn().default
+    // 编译后的 MDX 代码通常使用 export default，我们需要将其转换为 return { default: ... }
+    let wrappedCode = codeString
+    
+    // 如果代码包含 export default，将其转换为 return { default: ... }
+    if (codeString.includes('export default')) {
+      // 提取 default 导出的内容
+      // 匹配 export default function MDXContent(props) { ... }
+      const defaultMatch = codeString.match(/export\s+default\s+function\s+(\w+)\s*\([^)]*\)\s*{([\s\S]*)}/m)
+      if (defaultMatch) {
+        const functionName = defaultMatch[1]
+        const functionBody = defaultMatch[2]
+        wrappedCode = `return { default: function ${functionName}(props) {${functionBody}} }`
+      } else {
+        // 尝试匹配其他格式的 export default
+        // 匹配 export default MDXContent 或 export default (props) => ...
+        const altMatch = codeString.match(/export\s+default\s+([\s\S]+?)(?:\n|$)/)
+        if (altMatch) {
+          const exportValue = altMatch[1].trim()
+          // 如果是一个函数表达式或箭头函数，直接使用
+          if (exportValue.includes('=>') || exportValue.includes('function')) {
+            wrappedCode = `return { default: ${exportValue} }`
+          } else {
+            // 如果是一个变量名，需要包装成函数
+            wrappedCode = `return { default: ${exportValue} }`
+          }
+        } else {
+          // 如果无法匹配，使用原始代码但包装在 return 中
+          wrappedCode = `return { default: (${codeString}) }`
+        }
+      }
+    } else {
+      // 如果没有 export default，直接包装整个代码
+      wrappedCode = `return { default: (${codeString}) }`
+    }
+    
+    return wrappedCode
+  } catch (error) {
+    console.error('Error compiling MDX:', error.message)
+    console.error(error.stack)
+    // 如果编译失败，返回一个空组件而不是抛出错误
+    return `return { default: function Content() { return null; } }`
+  }
+}
+
+// 生成 MDX body（编译 MDX 内容）
+async function generateFakeBody(content) {
+  const compiledCode = await compileMDX(content)
   return {
     raw: content,
-    code: `return { default: function Content() { return null; } }`,
-    compiled: `return { default: function Content() { return null; } }`,
+    code: compiledCode,
+    compiled: compiledCode,
   }
 }
 
@@ -64,7 +152,7 @@ function generateStructuredData(doc, siteMetadata) {
 }
 
 // 处理博客文章
-function processBlogs(dataDir, siteMetadata) {
+async function processBlogs(dataDir, siteMetadata) {
   const blogDir = path.join(dataDir, 'blog')
   if (!fs.existsSync(blogDir)) {
     return []
@@ -73,8 +161,10 @@ function processBlogs(dataDir, siteMetadata) {
   const files = getAllFilesRecursively(blogDir)
   const allBlogs = []
 
-  files.forEach((file) => {
-    if (path.extname(file) === '.mdx' || path.extname(file) === '.md') {
+  // 使用 Promise.all 并行处理所有文件
+  const blogPromises = files
+    .filter((file) => path.extname(file) === '.mdx' || path.extname(file) === '.md')
+    .map(async (file) => {
       try {
         const source = fs.readFileSync(file, 'utf8')
         const { data, content } = matter(source)
@@ -83,64 +173,71 @@ function processBlogs(dataDir, siteMetadata) {
         const slug = computeSlug(file, dataDir)
         const readingTimeData = readingTime(content)
 
-        const blog = {
-        type: 'Blog',
-        _id: flattenedPath,
-        title: data.title || '',
-        date: data.date || new Date().toISOString(),
-        tags: data.tags || [],
-        lastmod: data.lastmod || null,
-        draft: data.draft || false,
-        summary: data.summary || '',
-        description: data.description || '',
-        preview: data.preview || '',
-        categories: data.categories || [],
-        images: data.images || [],
-        authors: data.authors || ['default'],
-        layout: data.layout || 'PostLayout',
-        bibliography: data.bibliography || '',
-        canonicalUrl: data.canonicalUrl || '',
-        password: data.password || '',
-        slug: slug,
-        path: flattenedPath,
-        filePath: file,
-        readingTime: readingTimeData,
-        toc: '', // 在静态导出时不需要 TOC
-        _raw: {
-          sourceFilePath: file,
-          sourceFileName: path.basename(file),
-          sourceFileDir: path.dirname(file),
-          contentType: 'mdx',
-          flattenedPath: flattenedPath,
-        },
-        body: generateFakeBody(content),
-        structuredData: generateStructuredData(
-          {
-            title: data.title,
-            date: data.date,
-            lastmod: data.lastmod,
-            summary: data.summary,
-            images: data.images,
-            authors: data.authors,
-            _raw: { flattenedPath },
-          },
-          siteMetadata
-        ),
-      }
+        // 异步编译 MDX 内容
+        const body = await generateFakeBody(content)
 
-        allBlogs.push(blog)
+        const blog = {
+          type: 'Blog',
+          _id: flattenedPath,
+          title: data.title || '',
+          date: data.date || new Date().toISOString(),
+          tags: data.tags || [],
+          lastmod: data.lastmod || null,
+          draft: data.draft || false,
+          summary: data.summary || '',
+          description: data.description || '',
+          preview: data.preview || '',
+          categories: data.categories || [],
+          images: data.images || [],
+          authors: data.authors || ['default'],
+          layout: data.layout || 'PostLayout',
+          bibliography: data.bibliography || '',
+          canonicalUrl: data.canonicalUrl || '',
+          password: data.password || '',
+          slug: slug,
+          path: flattenedPath,
+          filePath: file,
+          readingTime: readingTimeData,
+          toc: '', // 在静态导出时不需要 TOC
+          _raw: {
+            sourceFilePath: file,
+            sourceFileName: path.basename(file),
+            sourceFileDir: path.dirname(file),
+            contentType: 'mdx',
+            flattenedPath: flattenedPath,
+          },
+          body: body,
+          structuredData: generateStructuredData(
+            {
+              title: data.title,
+              date: data.date,
+              lastmod: data.lastmod,
+              summary: data.summary,
+              images: data.images,
+              authors: data.authors,
+              _raw: { flattenedPath },
+            },
+            siteMetadata
+          ),
+        }
+
+        return blog
       } catch (error) {
         console.error(`Error processing blog file ${file}:`, error.message)
-        // 继续处理其他文件，不中断整个流程
+        // 返回 null，后续会被过滤掉
+        return null
       }
-    }
-  })
+    })
+
+  const results = await Promise.all(blogPromises)
+  // 过滤掉 null 值
+  allBlogs.push(...results.filter((blog) => blog !== null))
 
   return allBlogs
 }
 
 // 处理作者
-function processAuthors(dataDir) {
+async function processAuthors(dataDir) {
   const authorsDir = path.join(dataDir, 'authors')
   if (!fs.existsSync(authorsDir)) {
     return []
@@ -149,8 +246,10 @@ function processAuthors(dataDir) {
   const files = getAllFilesRecursively(authorsDir)
   const allAuthors = []
 
-  files.forEach((file) => {
-    if (path.extname(file) === '.mdx' || path.extname(file) === '.md') {
+  // 使用 Promise.all 并行处理所有文件
+  const authorPromises = files
+    .filter((file) => path.extname(file) === '.mdx' || path.extname(file) === '.md')
+    .map(async (file) => {
       try {
         const source = fs.readFileSync(file, 'utf8')
         const { data, content } = matter(source)
@@ -159,46 +258,53 @@ function processAuthors(dataDir) {
         const slug = path.basename(file, path.extname(file))
         const readingTimeData = readingTime(content)
 
-        const author = {
-        type: 'Authors',
-        _id: flattenedPath,
-        name: data.name || '',
-        avatar: data.avatar || '',
-        occupation: data.occupation || '',
-        company: data.company || '',
-        email: data.email || '',
-        twitter: data.twitter || '',
-        linkedin: data.linkedin || '',
-        github: data.github || '',
-        layout: data.layout || '',
-        slug: slug,
-        path: flattenedPath,
-        filePath: file,
-        readingTime: readingTimeData,
-        toc: '',
-        _raw: {
-          sourceFilePath: file,
-          sourceFileName: path.basename(file),
-          sourceFileDir: path.dirname(file),
-          contentType: 'mdx',
-          flattenedPath: flattenedPath,
-        },
-        body: generateFakeBody(content),
-      }
+        // 异步编译 MDX 内容
+        const body = await generateFakeBody(content)
 
-        allAuthors.push(author)
+        const author = {
+          type: 'Authors',
+          _id: flattenedPath,
+          name: data.name || '',
+          avatar: data.avatar || '',
+          occupation: data.occupation || '',
+          company: data.company || '',
+          email: data.email || '',
+          twitter: data.twitter || '',
+          linkedin: data.linkedin || '',
+          github: data.github || '',
+          layout: data.layout || '',
+          slug: slug,
+          path: flattenedPath,
+          filePath: file,
+          readingTime: readingTimeData,
+          toc: '',
+          _raw: {
+            sourceFilePath: file,
+            sourceFileName: path.basename(file),
+            sourceFileDir: path.dirname(file),
+            contentType: 'mdx',
+            flattenedPath: flattenedPath,
+          },
+          body: body,
+        }
+
+        return author
       } catch (error) {
         console.error(`Error processing author file ${file}:`, error.message)
-        // 继续处理其他文件，不中断整个流程
+        // 返回 null，后续会被过滤掉
+        return null
       }
-    }
-  })
+    })
+
+  const results = await Promise.all(authorPromises)
+  // 过滤掉 null 值
+  allAuthors.push(...results.filter((author) => author !== null))
 
   return allAuthors
 }
 
 // 处理文档
-function processDocs(dataDir) {
+async function processDocs(dataDir) {
   const docsDir = path.join(dataDir, 'docs')
   if (!fs.existsSync(docsDir)) {
     return []
@@ -207,8 +313,10 @@ function processDocs(dataDir) {
   const files = getAllFilesRecursively(docsDir)
   const allDocs = []
 
-  files.forEach((file) => {
-    if (path.extname(file) === '.mdx' || path.extname(file) === '.md') {
+  // 使用 Promise.all 并行处理所有文件
+  const docPromises = files
+    .filter((file) => path.extname(file) === '.mdx' || path.extname(file) === '.md')
+    .map(async (file) => {
       try {
         const source = fs.readFileSync(file, 'utf8')
         const { data, content } = matter(source)
@@ -217,39 +325,46 @@ function processDocs(dataDir) {
         const slug = flattenedPath.replace('docs/', '')
         const url = `/${flattenedPath}`
 
-        const doc = {
-        type: 'Doc',
-        _id: flattenedPath,
-        title: data.title || '',
-        description: data.description || '',
-        order: data.order || 0,
-        slug: slug,
-        url: url,
-        filePath: file,
-        toc: [], // 在静态导出时不需要 TOC
-        _raw: {
-          sourceFilePath: file,
-          sourceFileName: path.basename(file),
-          sourceFileDir: path.dirname(file),
-          contentType: 'mdx',
-          flattenedPath: flattenedPath,
-        },
-        body: generateFakeBody(content),
-      }
+        // 异步编译 MDX 内容
+        const body = await generateFakeBody(content)
 
-        allDocs.push(doc)
+        const doc = {
+          type: 'Doc',
+          _id: flattenedPath,
+          title: data.title || '',
+          description: data.description || '',
+          order: data.order || 0,
+          slug: slug,
+          url: url,
+          filePath: file,
+          toc: [], // 在静态导出时不需要 TOC
+          _raw: {
+            sourceFilePath: file,
+            sourceFileName: path.basename(file),
+            sourceFileDir: path.dirname(file),
+            contentType: 'mdx',
+            flattenedPath: flattenedPath,
+          },
+          body: body,
+        }
+
+        return doc
       } catch (error) {
         console.error(`Error processing doc file ${file}:`, error.message)
-        // 继续处理其他文件，不中断整个流程
+        // 返回 null，后续会被过滤掉
+        return null
       }
-    }
-  })
+    })
+
+  const results = await Promise.all(docPromises)
+  // 过滤掉 null 值
+  allDocs.push(...results.filter((doc) => doc !== null))
 
   return allDocs
 }
 
 // 生成假的 contentlayer/generated 模块
-function generateContentlayerStub() {
+async function generateContentlayerStub() {
   try {
     const root = process.cwd()
     const dataDir = path.join(root, 'data')
@@ -267,10 +382,12 @@ function generateContentlayerStub() {
     
     const siteMetadata = require(siteMetadataPath)
 
-    // 处理所有内容
-    const allBlogs = processBlogs(dataDir, siteMetadata)
-    const allAuthors = processAuthors(dataDir)
-    const allDocs = processDocs(dataDir)
+    // 处理所有内容（现在是异步的）
+    const [allBlogs, allAuthors, allDocs] = await Promise.all([
+      processBlogs(dataDir, siteMetadata),
+      processAuthors(dataDir),
+      processDocs(dataDir),
+    ])
 
     // 创建输出目录
     const outputDir = path.join(root, '.contentlayer-stub', 'generated')
@@ -479,11 +596,13 @@ export const allDocs: Doc[] = ${JSON.stringify(allDocs, null, 2)}
 }
 
 // 主执行逻辑，带错误处理
-try {
-  generateContentlayerStub()
-  process.exit(0)
-} catch (error) {
-  console.error('Fatal error in generate-contentlayer-stub.js:', error.message)
-  process.exit(1)
-}
+;(async () => {
+  try {
+    await generateContentlayerStub()
+    process.exit(0)
+  } catch (error) {
+    console.error('Fatal error in generate-contentlayer-stub.js:', error.message)
+    process.exit(1)
+  }
+})()
 
