@@ -8,7 +8,6 @@ const { compile } = require('@mdx-js/mdx')
 const remarkGfm = require('remark-gfm')
 const remarkMath = require('remark-math')
 const {
-  remarkExtractFrontmatter,
   remarkCodeTitles,
   remarkImgToJsx,
   extractTocHeadings,
@@ -17,7 +16,8 @@ const {
 const rehypeSlug = require('rehype-slug')
 const rehypeAutolinkHeadings = require('rehype-autolink-headings')
 const rehypeKatex = require('rehype-katex')
-const rehypePrismPlus = require('rehype-prism-plus')
+const rehypePrismPlusModule = require('rehype-prism-plus')
+const rehypePrismPlus = rehypePrismPlusModule.default || rehypePrismPlusModule
 const rehypePresetMinify = require('rehype-preset-minify')
 
 // 递归获取目录下所有文件
@@ -53,12 +53,12 @@ function computePath(filePath, baseDir) {
 }
 
 // 编译 MDX 内容为 JavaScript 代码
-async function compileMDX(mdxContent) {
+async function compileMDX(mdxContent, filePath = '') {
   try {
     // 使用与 contentlayer.config.ts 相同的插件配置
+    // 注意：不包含 remarkExtractFrontmatter，因为我们已经用 gray-matter 处理了 frontmatter
     const compiled = await compile(mdxContent, {
       remarkPlugins: [
-        remarkExtractFrontmatter,
         remarkGfm,
         remarkCodeTitles,
         remarkMath,
@@ -137,16 +137,22 @@ async function compileMDX(mdxContent) {
     
     return wrappedCode
   } catch (error) {
-    console.error('Error compiling MDX:', error.message)
-    console.error(error.stack)
-    // 如果编译失败，返回一个空组件而不是抛出错误
-    return `return { default: function Content() { return null; } }`
+    // 改进错误处理：记录详细的错误信息
+    const errorInfo = filePath 
+      ? `Error compiling MDX in file: ${filePath}\n  Error: ${error.message}`
+      : `Error compiling MDX: ${error.message}`
+    console.error(errorInfo)
+    if (error.stack) {
+      console.error('Stack trace:', error.stack)
+    }
+    // 如果编译失败，抛出错误而不是返回空组件，这样可以在处理时知道哪些文件失败了
+    throw new Error(errorInfo)
   }
 }
 
 // 生成 MDX body（编译 MDX 内容）
-async function generateFakeBody(content) {
-  const compiledCode = await compileMDX(content)
+async function generateFakeBody(content, filePath = '') {
+  const compiledCode = await compileMDX(content, filePath)
   return {
     raw: content,
     code: compiledCode,
@@ -192,7 +198,7 @@ async function processBlogs(dataDir, siteMetadata) {
         const readingTimeData = readingTime(content)
 
         // 异步编译 MDX 内容
-        const body = await generateFakeBody(content)
+        const body = await generateFakeBody(content, file)
 
         const blog = {
           type: 'Blog',
@@ -277,7 +283,7 @@ async function processAuthors(dataDir) {
         const readingTimeData = readingTime(content)
 
         // 异步编译 MDX 内容
-        const body = await generateFakeBody(content)
+        const body = await generateFakeBody(content, file)
 
         const author = {
           type: 'Authors',
@@ -344,7 +350,7 @@ async function processDocs(dataDir) {
         const url = `/${flattenedPath}`
 
         // 异步编译 MDX 内容
-        const body = await generateFakeBody(content)
+        const body = await generateFakeBody(content, file)
 
         const doc = {
           type: 'Doc',
@@ -597,13 +603,25 @@ export const allDocs: Doc[] = ${JSON.stringify(allDocs, null, 2)}
       throw new Error('Type definitions missing _id field')
     }
 
+    // 验证至少有一个博客的 body.code 不是空组件
+    const blogsWithContent = allBlogs.filter(blog => {
+      const code = blog.body?.code || ''
+      return code && !code.includes('function Content() { return null; }')
+    })
+    
+    if (blogsWithContent.length === 0) {
+      throw new Error('Validation failed: All blogs have empty body.code. MDX compilation may have failed for all files.')
+    }
+    
     console.log(`Contentlayer stub generated successfully!`)
     console.log(`  - Blogs: ${allBlogs.length}`)
     console.log(`  - Authors: ${allAuthors.length}`)
     console.log(`  - Docs: ${allDocs.length}`)
+    console.log(`  - Blogs with compiled content: ${blogsWithContent.length}/${allBlogs.length}`)
     console.log(`  - Output: ${outputFile}`)
     console.log(`  - File size: ${stats.size} bytes`)
     console.log(`  - Validation: ✓ All types and fields verified`)
+    console.log(`  - Content validation: ✓ ${blogsWithContent.length} blogs have compiled MDX content`)
     
     return true
   } catch (error) {
