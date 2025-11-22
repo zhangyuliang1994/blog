@@ -1,6 +1,7 @@
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
+const path = require('path')
 
 // 根据环境变量决定是否使用Contentlayer
 let withContentlayer = (config) => config
@@ -92,6 +93,15 @@ module.exports = () => {
         test: /\.svg$/,
         use: ['@svgr/webpack'],
       })
+
+      // 当跳过 contentlayer 时，使用假的 generated 模块
+      if (process.env.SKIP_CONTENTLAYER === 'true') {
+        const stubPath = path.resolve(process.cwd(), '.contentlayer-stub', 'generated')
+        config.resolve.alias = {
+          ...config.resolve.alias,
+          'contentlayer/generated': stubPath,
+        }
+      }
 
       // 优化静态导出的包大小
       if (options.isServer === false) {
