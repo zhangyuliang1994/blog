@@ -22,6 +22,39 @@ const layouts = {
   PostBanner,
 }
 
+/**
+ * 修复 contentlayer 生成的代码格式
+ * contentlayer 生成的代码返回 `return Component;`，但 MDXLayoutRenderer 期望 `return { default: Component };`
+ */
+function fixMDXCode(code: string): string {
+  if (!code) return code
+  
+  // 检查是否已经是正确的格式
+  if (/return\s*\{[^}]*default[^}]*\}/.test(code)) {
+    return code
+  }
+  
+  // 如果代码以 `return Component;` 结尾，转换为 `return { default: Component };`
+  // 匹配各种可能的 return 语句格式
+  const returnPattern = /return\s+([^;]+)\s*;?\s*$/
+  const match = code.match(returnPattern)
+  
+  if (match) {
+    const returnValue = match[1].trim()
+    // 替换最后的 return 语句
+    const fixedCode = code.replace(returnPattern, `return { default: ${returnValue} };`)
+    return fixedCode
+  }
+  
+  // 如果没有找到 return 语句，尝试在代码末尾添加
+  // 这种情况应该很少见，但为了安全起见还是处理一下
+  if (!code.includes('return')) {
+    return `${code}\nreturn { default: Component };`
+  }
+  
+  return code
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -135,6 +168,9 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
 
   const Layout = layouts[post.layout || defaultLayout]
 
+  // 修复代码格式以确保 MDXLayoutRenderer 能正确渲染
+  const fixedCode = fixMDXCode(post.body.code)
+
   return (
     <>
       <BlogPostPage
@@ -144,7 +180,7 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
         next={next}
         isProduction={isProduction}
       >
-        <MDXLayoutRenderer code={post.body.code} components={components} toc={post.toc} />
+        <MDXLayoutRenderer code={fixedCode} components={components} toc={post.toc} />
       </BlogPostPage>
     </>
   )
