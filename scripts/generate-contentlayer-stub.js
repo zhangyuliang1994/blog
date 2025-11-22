@@ -85,6 +85,12 @@ async function compileMDX(mdxContent) {
     // 编译后的 MDX 代码通常使用 export default，我们需要将其转换为 return { default: ... }
     let wrappedCode = codeString
     
+    // 首先检查代码是否已经包含正确的 return { default: ... } 格式
+    if (/return\s*\{[^}]*default[^}]*\}/.test(codeString)) {
+      // 代码已经是正确格式，直接返回
+      return codeString
+    }
+    
     // 如果代码包含 export default，将其转换为 return { default: ... }
     if (codeString.includes('export default')) {
       // 提取 default 导出的内容
@@ -112,8 +118,20 @@ async function compileMDX(mdxContent) {
           wrappedCode = `return { default: (${codeString}) }`
         }
       }
+    } else if (/return\s+[^;]+;?\s*$/.test(codeString)) {
+      // 如果代码已经包含 return 语句（但不是 return { default: ... }），需要转换
+      // 匹配 return Component; 或类似的格式
+      const returnMatch = codeString.match(/return\s+([^;]+)\s*;?\s*$/)
+      if (returnMatch) {
+        const returnValue = returnMatch[1].trim()
+        // 替换最后的 return 语句
+        wrappedCode = codeString.replace(/return\s+[^;]+;?\s*$/, `return { default: ${returnValue} };`)
+      } else {
+        // 如果没有匹配到，直接包装整个代码
+        wrappedCode = `return { default: (${codeString}) }`
+      }
     } else {
-      // 如果没有 export default，直接包装整个代码
+      // 如果没有 export default 也没有 return，直接包装整个代码
       wrappedCode = `return { default: (${codeString}) }`
     }
     
