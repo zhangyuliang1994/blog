@@ -12,7 +12,10 @@
     "export-win-safe": "node scripts/generate-search-win.js && node scripts/generate-contentlayer-stub.js && cross-env SKIP_CONTENTLAYER=true next build --no-lint",
     "serve": "next start",
     "analyze": "cross-env ANALYZE=true next build",
-    "lint": "next lint --fix --dir pages --dir app --dir components --dir lib --dir layouts --dir scripts"
+    "lint": "next lint --fix --dir pages --dir app --dir components --dir lib --dir layouts --dir scripts",
+    "type-check": "tsc --noEmit --skipLibCheck",
+    "type-check:watch": "tsc --noEmit --skipLibCheck --watch",
+    "verify": "tsc --noEmit --skipLibCheck --pretty"
   },
   "dependencies": {
     "@next/bundle-analyzer": "13.4.12",

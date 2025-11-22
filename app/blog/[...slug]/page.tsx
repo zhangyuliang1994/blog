@@ -4,7 +4,7 @@ import 'katex/dist/katex.css'
 import PageTitle from '@/components/PageTitle'
 import { components } from '@/components/MDXComponents'
 import { MDXLayoutRenderer } from 'pliny/mdx-components'
-import { sortPosts, coreContent } from 'pliny/utils/contentlayer'
+import { sortPosts, coreContent, CoreContent } from 'pliny/utils/contentlayer'
 import { allBlogs, allAuthors } from 'contentlayer/generated'
 import type { Authors, Blog } from 'contentlayer/generated'
 import PostSimple from '@/layouts/PostSimple'
@@ -37,7 +37,7 @@ export async function generateMetadata({
       return null
     }
     return coreContent(authorResults as Authors)
-  }).filter(Boolean)
+  }).filter((author): author is CoreContent<Authors> => author !== null)
   if (!post) {
     return
   }
@@ -100,7 +100,7 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
       return null
     }
     return coreContent(authorResults as Authors)
-  }).filter(Boolean)
+  }).filter((author): author is CoreContent<Authors> => author !== null)
   const mainContent = coreContent(post)
   const jsonLd = post.structuredData
   jsonLd['author'] = authorDetails.map((author) => {
