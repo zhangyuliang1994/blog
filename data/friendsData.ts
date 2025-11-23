@@ -21,6 +21,11 @@ const friendsData: FriendDataProps[] = [
     description: 'Yuisama 的个人博客，记录技术、生活与思考。',
     url: 'https://blog.yuisama.top:8000/kibou',
   },
+  {
+    name: '晓风的读书笔记',
+    description: '个人读书笔记，记录读后感与思考',
+    url: 'https://zhangyuliang.notion.site/',
+  },
 ]
 
 export default friendsData
